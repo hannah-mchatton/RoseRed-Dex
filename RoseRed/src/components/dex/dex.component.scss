@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+}
+
+.form {
+    font-size: 10px;
+    font-style: italic;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+.name-cell {
+    display: flex;
+    flex-direction: row;
+    height: 106px;
+    align-items: center;
+    gap: 15px;
+
+    font-size: 16px;
+}
+
+.type-cell {
+    width: 100px;
+    height: 106px;
+}

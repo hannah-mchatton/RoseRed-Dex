@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+
+  div {
+    width: 80px;
+    text-align: center;
+
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+  }
+
+  .type-NORMAL {
+    background-color: #a8a77a;
+  }
+  .type-FIRE {
+    background-color: #ee8130;
+  }
+  .type-WATER {
+    background-color: #6390f0;
+  }
+  .type-ELECTRIC {
+    background-color: #f7d02c;
+  }
+  .type-GRASS {
+    background-color: #7ac74c;
+  }
+  .type-ICE {
+    background-color: #96d9d6;
+  }
+  .type-FIGHTING {
+    background-color: #c22e28;
+  }
+  .type-POISON {
+    background-color: #a33ea1;
+  }
+  .type-GROUND {
+    background-color: #e2bf65;
+  }
+  .type-FLYING {
+    background-color: #a98ff3;
+  }
+  .type-PSYCHIC {
+    background-color: #f95587;
+  }
+  .type-BUG {
+    background-color: #a6b91a;
+  }
+  .type-ROCK {
+    background-color: #b6a136;
+  }
+  .type-GHOST {
+    background-color: #735797;
+  }
+  .type-DRAGON {
+    background-color: #6f35fc;
+  }
+  .type-DARK {
+    background-color: #705746;
+  }
+  .type-STEEL {
+    background-color: #b7b7ce;
+  }
+  .type-FAIRY {
+    background-color: #d685ad;
+  }
+}

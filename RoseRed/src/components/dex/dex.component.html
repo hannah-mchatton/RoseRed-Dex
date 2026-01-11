@@ -1,0 +1,92 @@
+<table>
+  <thead>
+    <tr class="header-row">
+      <th style="text-align: center">#</th>
+      <th>Name</th>
+      <th style="text-align: center">Type</th>
+      <th style="text-align: center">Abilities</th>
+      <th style="text-align: center">HP</th>
+      <th style="text-align: center">Atk</th>
+      <th style="text-align: center">Def</th>
+      <th style="text-align: center">SpA</th>
+      <th style="text-align: center">SpD</th>
+      <th style="text-align: center">Spd</th>
+      <th style="text-align: center">BST</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of dex">
+      <td style="text-align: center; width: 50px">
+        {{ p.dexNo.toString().padStart(3, '0') }}
+      </td>
+      <td class="name-cell">
+        <div>
+          <img
+            src="../../../assets/images/{{ p.name }}.png"
+            height="100px"
+            *ngIf="!p.form"
+          />
+          <img
+            src="../../../assets/images/{{ p.name }}-{{ p.form }}.png"
+            height="100px"
+            *ngIf="p.form"
+          />
+        </div>
+        <div *ngIf="p.form">
+          <div>
+            <a
+                routerLink="/pokemon/{{ p.dexNo }}/{{ p.formIndex }}"
+                routerLinkActive="active"
+                ariaCurrentWhenActive="page"
+            >
+                {{ p.getName() }}
+            </a>
+          </div>
+          <div class="form">
+            {{ p.getFormName() }}
+          </div>
+        </div>
+        <div *ngIf="!p.form">
+          <div>
+            <a
+                routerLink="/pokemon/{{ p.dexNo }}"
+                routerLinkActive="active"
+                ariaCurrentWhenActive="page"
+            >
+                {{ p.getName() }}
+            </a>
+          </div>
+        </div>
+      </td>
+      <td class="type-cell" style="text-align: center">
+        <app-type-cell [type1]="p.type1" [type2]="p.type2"></app-type-cell>
+      </td>
+      <td style="text-align: center">
+        <div *ngFor="let ability of p.abilities">
+          {{ getAbilityName(ability) }}
+        </div>
+      </td>
+      <td style="text-align: center; width: 50px">
+        {{ p.hp }}
+      </td>
+      <td style="text-align: center; width: 50px">
+        {{ p.atk }}
+      </td>
+      <td style="text-align: center; width: 50px">
+        {{ p.def }}
+      </td>
+      <td style="text-align: center; width: 50px">
+        {{ p.spa }}
+      </td>
+      <td style="text-align: center; width: 50px">
+        {{ p.spdef }}
+      </td>
+      <td style="text-align: center; width: 50px">
+        {{ p.spd }}
+      </td>
+      <td style="text-align: center; width: 50px">
+        {{ p.bst() }}
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,452 @@
+<a
+  class="back-button"
+  routerLink="/"
+  routerLinkActive="active"
+  ariaCurrentWhenActive="page"
+>
+  <-- Back
+</a>
+
+<div class="wrapper">
+  <div class="header">
+    #{{ pokemon.dexNo.toString().padStart(3, "0") }}: {{ pokemon.getName() }}
+    <span *ngIf="pokemon.form"> - {{ pokemon.getFormName() }} Form</span>
+  </div>
+  <div class="picture">
+    <div>
+      <img
+        src="../../../assets/images/{{ pokemon.name }}.png"
+        height="200px"
+        *ngIf="!pokemon.form"
+      />
+      <img
+        src="../../../assets/images/{{ pokemon.name }}-{{ pokemon.form }}.png"
+        height="200px"
+        *ngIf="pokemon.form"
+      />
+    </div>
+  </div>
+  <div class="types">
+    <div [class]="'type-' + pokemon.type1">{{ pokemon.type1 }}</div>
+    <div [class]="'type-' + pokemon.type2" *ngIf="pokemon.type2">
+      {{ pokemon.type2 }}
+    </div>
+  </div>
+  <div class="matchups">
+    <div class="section-header">Type Matchups</div>
+    <table>
+      <tr>
+        <td>
+          <div class="type-NORMAL">NORMAL</div>
+        </td>
+        <td>
+          <div class="type-FIRE">FIRE</div>
+        </td>
+        <td>
+          <div class="type-WATER">WATER</div>
+        </td>
+        <td>
+          <div class="type-ELECTRIC">ELECTRIC</div>
+        </td>
+        <td>
+          <div class="type-GRASS">GRASS</div>
+        </td>
+        <td>
+          <div class="type-ICE">ICE</div>
+        </td>
+        <td>
+          <div class="type-FIGHTING">FIGHTING</div>
+        </td>
+        <td>
+          <div class="type-POISON">POISON</div>
+        </td>
+        <td>
+          <div class="type-GROUND">POISON</div>
+        </td>
+      </tr>
+      <tr>
+        <td>&times; {{ typeMatchup("NORMAL") }}</td>
+        <td>&times; {{ typeMatchup("FIRE") }}</td>
+        <td>&times; {{ typeMatchup("WATER") }}</td>
+        <td>&times; {{ typeMatchup("ELECTRIC") }}</td>
+        <td>&times; {{ typeMatchup("GRASS") }}</td>
+        <td>&times; {{ typeMatchup("ICE") }}</td>
+        <td>&times; {{ typeMatchup("FIGHTING") }}</td>
+        <td>&times; {{ typeMatchup("POISON") }}</td>
+        <td>&times; {{ typeMatchup("GROUND") }}</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="type-FLYING">FLYING</div>
+        </td>
+        <td>
+          <div class="type-PSYCHIC">PSYCHIC</div>
+        </td>
+        <td>
+          <div class="type-BUG">BUG</div>
+        </td>
+        <td>
+          <div class="type-ROCK">ROCK</div>
+        </td>
+        <td>
+          <div class="type-GHOST">GHOST</div>
+        </td>
+        <td>
+          <div class="type-DRAGON">DRAGON</div>
+        </td>
+        <td>
+          <div class="type-DARK">DARK</div>
+        </td>
+        <td>
+          <div class="type-STEEL">STEEL</div>
+        </td>
+        <td>
+          <div class="type-FAIRY">FAIRY</div>
+        </td>
+      </tr>
+      <tr>
+        <td>&times; {{ typeMatchup("FLYING") }}</td>
+        <td>&times; {{ typeMatchup("PSYCHIC") }}</td>
+        <td>&times; {{ typeMatchup("BUG") }}</td>
+        <td>&times; {{ typeMatchup("ROCK") }}</td>
+        <td>&times; {{ typeMatchup("GHOST") }}</td>
+        <td>&times; {{ typeMatchup("DRAGON") }}</td>
+        <td>&times; {{ typeMatchup("DARK") }}</td>
+        <td>&times; {{ typeMatchup("STEEL") }}</td>
+        <td>&times; {{ typeMatchup("FAIRY") }}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="stats">
+    <div class="section-header">Stats</div>
+    <table>
+      <tr>
+        <th></th>
+        <th></th>
+        <th style="text-align: center">Base</th>
+        <th style="text-align: center">Lv 100</th>
+      </tr>
+      <tr>
+        <td>HP</td>
+        <td class="stat-bar-wrapper">
+          <div
+            class="stat-bar"
+            style.width="{{ getStatBarWidth('HP', pokemon.hp) }}px"
+            style="background-color: rgb({{ getStatBarRed(pokemon.hp) }}, {{
+              getStatBarGreen(pokemon.hp)
+            }}, 0)"
+          ></div>
+        </td>
+        <td style="text-align: center">{{ pokemon.hp }}</td>
+        <td style="text-align: center">{{ level100(pokemon.hp, true) }}</td>
+      </tr>
+      <tr>
+        <td>Atk</td>
+        <td class="stat-bar-wrapper">
+          <div
+            class="stat-bar"
+            style.width="{{ getStatBarWidth('Atk', pokemon.atk) }}px"
+            style="background-color: rgb({{ getStatBarRed(pokemon.atk) }}, {{
+              getStatBarGreen(pokemon.atk)
+            }}, 0)"
+          ></div>
+        </td>
+        <td style="text-align: center">{{ pokemon.atk }}</td>
+        <td style="text-align: center">{{ level100(pokemon.atk) }}</td>
+      </tr>
+      <tr>
+        <td>Def</td>
+        <td class="stat-bar-wrapper">
+          <div
+            class="stat-bar"
+            style.width="{{ getStatBarWidth('Def', pokemon.def) }}px"
+            style="background-color: rgb({{ getStatBarRed(pokemon.def) }}, {{
+              getStatBarGreen(pokemon.def)
+            }}, 0)"
+          ></div>
+        </td>
+        <td style="text-align: center">{{ pokemon.def }}</td>
+        <td style="text-align: center">{{ level100(pokemon.def) }}</td>
+      </tr>
+      <tr>
+        <td>SpA</td>
+        <td class="stat-bar-wrapper">
+          <div
+            class="stat-bar"
+            style.width="{{ getStatBarWidth('SpA', pokemon.spa) }}px"
+            style="background-color: rgb({{ getStatBarRed(pokemon.spa) }}, {{
+              getStatBarGreen(pokemon.spa)
+            }}, 0)"
+          ></div>
+        </td>
+        <td style="text-align: center">{{ pokemon.spa }}</td>
+        <td style="text-align: center">{{ level100(pokemon.spa) }}</td>
+      </tr>
+      <tr>
+        <td>SpD</td>
+        <td class="stat-bar-wrapper">
+          <div
+            class="stat-bar"
+            style.width="{{ getStatBarWidth('SpD', pokemon.spdef) }}px"
+            style="background-color: rgb({{ getStatBarRed(pokemon.spdef) }}, {{
+              getStatBarGreen(pokemon.spdef)
+            }}, 0)"
+          ></div>
+        </td>
+        <td style="text-align: center">{{ pokemon.spdef }}</td>
+        <td style="text-align: center">{{ level100(pokemon.spdef) }}</td>
+      </tr>
+      <tr>
+        <td>Spd</td>
+        <td class="stat-bar-wrapper">
+          <div
+            class="stat-bar"
+            style.width="{{ getStatBarWidth('Spd', pokemon.spd) }}px"
+            style="background-color: rgb({{ getStatBarRed(pokemon.spd) }}, {{
+              getStatBarGreen(pokemon.spd)
+            }}, 0)"
+          ></div>
+        </td>
+        <td style="text-align: center">{{ pokemon.spd }}</td>
+        <td style="text-align: center">{{ level100(pokemon.spd) }}</td>
+      </tr>
+      <tr>
+        <td>BST</td>
+        <td class="stat-bar-wrapper">
+          <div
+            class="stat-bar"
+            style.width="{{ getStatBarWidth('BST', pokemon.bst()) }}px"
+            style="background-color: rgb({{ getStatBarRed(pokemon.bst()) }}, {{
+              getStatBarGreen(pokemon.bst())
+            }}, 0)"
+          ></div>
+        </td>
+        <td style="text-align: center">{{ pokemon.bst() }}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="abilities">
+    <div class="section-header">Abilities</div>
+    <div *ngFor="let ability of pokemon.abilities">
+      <div class="ability-header">
+        {{ getAbilityName(ability) }}
+      </div>
+      <div class="ability-body">
+        {{ getAbilityDesc(ability) }}
+      </div>
+    </div>
+  </div>
+  <div class="evolutions" *ngIf="loaded">
+    <div class="section-header">Evolutions</div>
+
+    <div *ngIf="!evoFirstLink">
+      {{ pokemon.getName() }} is not known to evolve into or from any other
+      Pokemon.
+    </div>
+    <div *ngIf="evoFirstLink" class="evo-wrapper">
+      <div class="evo-level">
+        <div
+          class="evo"
+          [class]="evoFirstLink.pokemon.name + evoFirstLink.pokemon.form"
+        >
+          <img
+            src="../../../assets/images/{{ evoFirstLink.pokemon.name }}.png"
+            height="100px"
+            *ngIf="!evoFirstLink.pokemon.form"
+          />
+          <img
+            src="../../../assets/images/{{ evoFirstLink.pokemon.name }}-{{
+              evoFirstLink.pokemon.form
+            }}.png"
+            height="100px"
+            *ngIf="evoFirstLink.pokemon.form"
+          />
+
+          <a
+            *ngIf="!evoFirstLink.pokemon.form"
+            routerLink="/pokemon/{{ evoFirstLink.pokemon.dexNo }}"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+          >
+            {{ evoFirstLink.pokemon.getName() }}
+          </a>
+          <a
+            *ngIf="evoFirstLink.pokemon.form"
+            routerLink="/pokemon/{{ evoFirstLink.pokemon.dexNo }}/{{
+              evoFirstLink.pokemon.formIndex
+            }}"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+          >
+            {{ evoFirstLink.pokemon.getName() }}
+          </a>
+        </div>
+      </div>
+
+      <div class="evo-level">
+        <div
+          class="evo"
+          [class]="evo1.pokemon.name + evo1.pokemon.form"
+          *ngFor="let evo1 of evoFirstLink.evos"
+        >
+          <img
+            src="../../../assets/images/{{ evo1.pokemon.name }}.png"
+            height="100px"
+            *ngIf="!evo1.pokemon.form"
+          />
+          <img
+            src="../../../assets/images/{{ evo1.pokemon.name }}-{{
+              evo1.pokemon.form
+            }}.png"
+            height="100px"
+            *ngIf="evo1.pokemon.form"
+          />
+
+          <a
+            *ngIf="!evo1.pokemon.form"
+            routerLink="/pokemon/{{ evo1.pokemon.dexNo }}"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+          >
+            {{ evo1.pokemon.getName() }}
+          </a>
+          <a
+            *ngIf="evo1.pokemon.form"
+            routerLink="/pokemon/{{ evo1.pokemon.dexNo }}/{{
+              evo1.pokemon.formIndex
+            }}"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+          >
+            {{ evo1.pokemon.getName() }}
+          </a>
+        </div>
+      </div>
+
+      <div class="evo-level" *ngIf="hasTwoEvos()">
+        <ng-container *ngFor="let evo1 of evoFirstLink.evos">
+          <div
+            class="evo"
+            [class]="evo2.pokemon.name + evo2.pokemon.form"
+            *ngFor="let evo2 of evo1.evos"
+          >
+            <img
+              src="../../../assets/images/{{ evo2.pokemon.name }}.png"
+              height="100px"
+              *ngIf="!evo2.pokemon.form"
+            />
+            <img
+              src="../../../assets/images/{{ evo2.pokemon.name }}-{{
+                evo2.pokemon.form
+              }}.png"
+              height="100px"
+              *ngIf="evo2.pokemon.form"
+            />
+
+            <a
+              *ngIf="!evo2.pokemon.form"
+              routerLink="/pokemon/{{ evo2.pokemon.dexNo }}"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              {{ evo2.pokemon.getName() }}
+            </a>
+            <a
+              *ngIf="evo2.pokemon.form"
+              routerLink="/pokemon/{{ evo2.pokemon.dexNo }}/{{
+                evo2.pokemon.formIndex
+              }}"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              {{ evo2.pokemon.getName() }}
+            </a>
+          </div>
+        </ng-container>
+      </div>
+
+      <div class="evo-level" *ngIf="hasThreeEvos()">
+        <ng-container *ngFor="let evo1 of evoFirstLink.evos">
+          <ng-container *ngFor="let evo2 of evo1.evos">
+            <div
+              class="evo"
+              [class]="evo3.pokemon.name + evo3.pokemon.form"
+              *ngFor="let evo3 of evo2.evos"
+            >
+              <img
+                src="../../../assets/images/{{ evo3.pokemon.name }}.png"
+                height="100px"
+                *ngIf="!evo3.pokemon.form"
+              />
+              <img
+                src="../../../assets/images/{{ evo3.pokemon.name }}-{{
+                  evo3.pokemon.form
+                }}.png"
+                height="100px"
+                *ngIf="evo3.pokemon.form"
+              />
+
+              <a
+                *ngIf="!evo3.pokemon.form"
+                routerLink="/pokemon/{{ evo3.pokemon.dexNo }}"
+                routerLinkActive="active"
+                ariaCurrentWhenActive="page"
+              >
+                {{ evo3.pokemon.getName() }}
+              </a>
+              <a
+                *ngIf="evo3.pokemon.form"
+                routerLink="/pokemon/{{ evo3.pokemon.dexNo }}/{{
+                  evo3.pokemon.formIndex
+                }}"
+                routerLinkActive="active"
+                ariaCurrentWhenActive="page"
+              >
+                {{ evo3.pokemon.getName() }}
+              </a>
+            </div>
+          </ng-container>
+        </ng-container>
+      </div>
+    </div>
+
+    <div class="evo-note" *ngIf="evoNote()">
+      {{ evoNote() }}
+    </div>
+  </div>
+  <div class="forms" *ngIf="pokemon.form">
+    <div class="section-header">Other Forms</div>
+    <div *ngFor="let form of otherForms">
+      <td class="other-form">
+        <div>
+          <img
+            src="../../../assets/images/{{ form.name }}-{{ form.form }}.png"
+            height="100px"
+          />
+        </div>
+        <div *ngIf="form.formIndex == formNo" class="current-form">
+          <div>
+            {{ form.getName() }}
+          </div>
+          <div class="form">
+            {{ form.getFormName() }}
+          </div>
+        </div>
+        <div *ngIf="form.formIndex != formNo">
+          <div>
+            <a
+              routerLink="/pokemon/{{ form.dexNo }}/{{ form.formIndex }}"
+              routerLinkActive="active"
+              ariaCurrentWhenActive="page"
+            >
+              {{ form.getName() }}
+            </a>
+          </div>
+          <div class="form">
+            {{ form.getFormName() }}
+          </div>
+        </div>
+      </td>
+    </div>
+  </div>
+</div>

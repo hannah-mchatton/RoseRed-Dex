@@ -1,0 +1,164 @@
+.back-button {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.wrapper {
+  .header {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .section-header {
+    font-size: 22px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+  }
+  
+  .picture {
+  }
+  .types {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    div {
+      width: 80px;
+      text-align: center;
+
+      padding: 5px;
+      border-radius: 25px;
+      color: white;
+    }
+  }
+  .matchups {
+    td {
+      text-align: center;
+
+      div {
+        width: 80px;
+        text-align: center;
+
+        padding: 5px;
+        border-radius: 25px;
+        color: white;
+      }
+    }
+  }
+  .stats {
+    .stat-bar-wrapper {
+      width: 300px;
+
+      .stat-bar {
+        background-color: black;
+        height: 10px;
+      }
+    }
+  }
+  .abilities {
+    height: 150px;
+    .ability-header {
+      font-size: 18px;
+    }
+  }
+  .evolutions {
+    .evo-wrapper {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-around;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      .evo-level {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        gap: 15px;
+
+        .evo {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .forms {
+    .other-form {
+      display: flex;
+      flex-direction: row;
+      height: 106px;
+      align-items: center;
+      gap: 15px;
+
+      font-size: 16px;
+    }
+    .form {
+      font-size: 10px;
+      font-style: italic;
+    }
+    .current-form {
+      font-style: italic;
+    }
+  }
+}
+
+.type-NORMAL {
+  background-color: #a8a77a;
+}
+.type-FIRE {
+  background-color: #ee8130;
+}
+.type-WATER {
+  background-color: #6390f0;
+}
+.type-ELECTRIC {
+  background-color: #f7d02c;
+}
+.type-GRASS {
+  background-color: #7ac74c;
+}
+.type-ICE {
+  background-color: #96d9d6;
+}
+.type-FIGHTING {
+  background-color: #c22e28;
+}
+.type-POISON {
+  background-color: #a33ea1;
+}
+.type-GROUND {
+  background-color: #e2bf65;
+}
+.type-FLYING {
+  background-color: #a98ff3;
+}
+.type-PSYCHIC {
+  background-color: #f95587;
+}
+.type-BUG {
+  background-color: #a6b91a;
+}
+.type-ROCK {
+  background-color: #b6a136;
+}
+.type-GHOST {
+  background-color: #735797;
+}
+.type-DRAGON {
+  background-color: #6f35fc;
+}
+.type-DARK {
+  background-color: #705746;
+}
+.type-STEEL {
+  background-color: #b7b7ce;
+}
+.type-FAIRY {
+  background-color: #d685ad;
+}
