@@ -1,5 +1,5 @@
 {
-  "name": "adamantine",
+  "name": "rosered",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "electron": "electron ./src/electron.dev",
     "start": "concurrently \"ng serve\" \"node ./src/server.js\"",
-    "publish": "ng build --configuration production --base-href \"https://wiki.adamantine-dnd.org/\" && npx angular-cli-ghpages --dir=dist"
+    "publish": "ng build --configuration production --base-href \"https://hannah-mchatton.github.io/RoseRed-Dex/\" && npx angular-cli-ghpages --dir=dist"
   },
   "private": true,
   "dependencies": {

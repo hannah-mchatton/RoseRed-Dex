@@ -15,12 +15,12 @@
   <div class="picture">
     <div>
       <img
-        src="../../../assets/images/{{ pokemon.name }}.png"
+        src="assets/images/{{ pokemon.name }}.png"
         height="200px"
         *ngIf="!pokemon.form"
       />
       <img
-        src="../../../assets/images/{{ pokemon.name }}-{{ pokemon.form }}.png"
+        src="assets/images/{{ pokemon.name }}-{{ pokemon.form }}.png"
         height="200px"
         *ngIf="pokemon.form"
       />
@@ -250,12 +250,12 @@
           [class]="evoFirstLink.pokemon.name + evoFirstLink.pokemon.form"
         >
           <img
-            src="../../../assets/images/{{ evoFirstLink.pokemon.name }}.png"
+            src="assets/images/{{ evoFirstLink.pokemon.name }}.png"
             height="100px"
             *ngIf="!evoFirstLink.pokemon.form"
           />
           <img
-            src="../../../assets/images/{{ evoFirstLink.pokemon.name }}-{{
+            src="assets/images/{{ evoFirstLink.pokemon.name }}-{{
               evoFirstLink.pokemon.form
             }}.png"
             height="100px"
@@ -290,12 +290,12 @@
           *ngFor="let evo1 of evoFirstLink.evos"
         >
           <img
-            src="../../../assets/images/{{ evo1.pokemon.name }}.png"
+            src="assets/images/{{ evo1.pokemon.name }}.png"
             height="100px"
             *ngIf="!evo1.pokemon.form"
           />
           <img
-            src="../../../assets/images/{{ evo1.pokemon.name }}-{{
+            src="assets/images/{{ evo1.pokemon.name }}-{{
               evo1.pokemon.form
             }}.png"
             height="100px"
@@ -331,12 +331,12 @@
             *ngFor="let evo2 of evo1.evos"
           >
             <img
-              src="../../../assets/images/{{ evo2.pokemon.name }}.png"
+              src="assets/images/{{ evo2.pokemon.name }}.png"
               height="100px"
               *ngIf="!evo2.pokemon.form"
             />
             <img
-              src="../../../assets/images/{{ evo2.pokemon.name }}-{{
+              src="assets/images/{{ evo2.pokemon.name }}-{{
                 evo2.pokemon.form
               }}.png"
               height="100px"
@@ -374,12 +374,12 @@
               *ngFor="let evo3 of evo2.evos"
             >
               <img
-                src="../../../assets/images/{{ evo3.pokemon.name }}.png"
+                src="assets/images/{{ evo3.pokemon.name }}.png"
                 height="100px"
                 *ngIf="!evo3.pokemon.form"
               />
               <img
-                src="../../../assets/images/{{ evo3.pokemon.name }}-{{
+                src="assets/images/{{ evo3.pokemon.name }}-{{
                   evo3.pokemon.form
                 }}.png"
                 height="100px"
@@ -420,7 +420,7 @@
       <td class="other-form">
         <div>
           <img
-            src="../../../assets/images/{{ form.name }}-{{ form.form }}.png"
+            src="assets/images/{{ form.name }}-{{ form.form }}.png"
             height="100px"
           />
         </div>

@@ -1,8 +1,8 @@
 {
-  "name": "adamantine",
-  "productName": "Adamantine Wiki",
+  "name": "rosered",
+  "productName": "RoseRed Dex",
   "version": "1.0.0",
-  "description": "Adamantine Wiki",
+  "description": "RoseRed Dex",
   "main": "electron.prod.js",
   "license": "MIT",
   "dependencies": {

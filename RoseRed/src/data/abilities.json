@@ -565,6 +565,11 @@
     "Description": "Enables moves to hit Ghost-type Pokémon."
   },
   {
+    "Key": "PHANTOMPAIN",
+    "Name": "Phantom Pain",
+    "Description": "Enables moves to hit Normal-type Pokémon."
+  },
+  {
     "Key": "STORMDRAIN",
     "Name": "Storm Drain",
     "Description": "Draws in all Water-type moves to up Sp. Attack."
@@ -1035,6 +1040,11 @@
     "Description": "Normal-type moves become Electric-type and powered."
   },
   {
+    "Key": "FERTILIZE",
+    "Name": "Fertilize",
+    "Description": "Normal-type moves become Grass-type and powered."
+  },
+  {
     "Key": "SURGESURFER",
     "Name": "Surge Surfer",
     "Description": "Doubles Speed on Electric Terrain."
@@ -1413,5 +1423,25 @@
     "Key": "EARTHEATER",
     "Name": "Earth Eater",
     "Description": "Restores HP if hit by a Ground-type move."
+  },
+  {
+    "Key": "PSYCHOSURGE",
+    "Name": "Psycho Surge",
+    "Description": "Boosts Sp. Attack after knocking out any Pokémon. Restores a little HP when withdrawn from battle."
+  },
+  {
+    "Key": "SPIRITCALL",
+    "Name": "Spirit Call",
+    "Description": "Powers up each Pokémon's Dark-type moves. Enables moves to hit Normal-type Pokémon."
+  },
+  {
+    "Key": "SHADOWDANCE",
+    "Name": "Shadow Dance",
+    "Description": "Ups Sp. Atk if a hit makes its HP half or less. Heightens the critical-hit ratios of moves."
+  },
+  {
+    "Key": "WILDGRACE",
+    "Name": "Wild Grace",
+    "Description": "Raises the Pokémon's Sp. Attack stat."
   }
 ]

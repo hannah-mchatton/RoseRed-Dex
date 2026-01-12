@@ -16,8 +16,10 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   }
   @Input()
   set formIndex(formIndex: number) {
-    this.pokemon = this.dataService.getPokemonByForm(this.pokemon.dexNo, formIndex);
-    this.formNo = formIndex;
+    if (formIndex != undefined) {
+      this.pokemon = this.dataService.getPokemonByForm(this.pokemon.dexNo, formIndex);
+      this.formNo = formIndex;
+    }
   }
 
   public dex: number;
@@ -225,6 +227,8 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
       }
       else {
         switch (method) {
+          case "LUCKYPUNCH":
+            return "Use Lucky Punch";
           case "METALCOAT":
             return "Use Metal Coat";
           case "BLACKBELT":
