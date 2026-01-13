@@ -4195,8 +4195,8 @@
     "BST": 510,
     "ABILITY1": "ROCKHEAD",
     "ABILITY2": "SHEERFORCE",
-    "EVOLUTIONS": "CRYSTALNIX",
-    "METHODS": "SHINYSTONE",
+    "EVOLUTIONS": "CRYSTALNIX FACTORNIX",
+    "METHODS": "SHINYSTONE FIRESTONE",
     "FORMINDEX": ""
   },
   {
@@ -4221,6 +4221,26 @@
   },
   {
     "DEX": 138,
+    "NAME": "FACTORNIX",
+    "FORM": "",
+    "CATEGORY": "Foundry Snake",
+    "TYPE1": "STEEL",
+    "TYPE2": "FIRE",
+    "HP": 75,
+    "ATK": 135,
+    "DEF": 165,
+    "SPA": 65,
+    "SPDEF": 55,
+    "SPD": 90,
+    "BST": 585,
+    "ABILITY1": "ROCKHEAD",
+    "ABILITY2": "IMMOLATE",
+    "EVOLUTIONS": "",
+    "METHODS": "",
+    "FORMINDEX": ""
+  },
+  {
+    "DEX": 139,
     "NAME": "DROWZEE",
     "FORM": "",
     "CATEGORY": "Hypnosis",
@@ -4240,7 +4260,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 139,
+    "DEX": 140,
     "NAME": "HYPNO",
     "FORM": "",
     "CATEGORY": "Hypnosis",
@@ -4260,7 +4280,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 140,
+    "DEX": 141,
     "NAME": "KRABBY",
     "FORM": "",
     "CATEGORY": "River Crab",
@@ -4280,7 +4300,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 141,
+    "DEX": 142,
     "NAME": "KINGLER",
     "FORM": "",
     "CATEGORY": "King Crab",
@@ -4300,7 +4320,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 142,
+    "DEX": 143,
     "NAME": "KRAKLAW",
     "FORM": "",
     "CATEGORY": "Monster Crab",
@@ -4320,7 +4340,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 143,
+    "DEX": 144,
     "NAME": "VOLTORB",
     "FORM": "KANTONIAN",
     "CATEGORY": "Pokeball",
@@ -4340,7 +4360,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 143,
+    "DEX": 144,
     "NAME": "VOLTORB",
     "FORM": "HISUIAN",
     "CATEGORY": "Apricorn",
@@ -4360,7 +4380,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 144,
+    "DEX": 145,
     "NAME": "ELECTRODE",
     "FORM": "KANTONIAN",
     "CATEGORY": "Pokeball",
@@ -4380,7 +4400,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 144,
+    "DEX": 145,
     "NAME": "ELECTRODE",
     "FORM": "HISUIAN",
     "CATEGORY": "Apricorn",
@@ -4400,7 +4420,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 145,
+    "DEX": 146,
     "NAME": "EXEGGCUTE",
     "FORM": "",
     "CATEGORY": "Egg",
@@ -4420,7 +4440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 146,
+    "DEX": 147,
     "NAME": "EXEGGUTOR",
     "FORM": "",
     "CATEGORY": "Coconut",
@@ -4440,7 +4460,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 147,
+    "DEX": 148,
     "NAME": "EXEGGNORMOUS",
     "FORM": "",
     "CATEGORY": "Palm",
@@ -4460,7 +4480,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 148,
+    "DEX": 149,
     "NAME": "CUBONE",
     "FORM": "",
     "CATEGORY": "Lonely",
@@ -4480,7 +4500,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 149,
+    "DEX": 150,
     "NAME": "MAROWAK",
     "FORM": "KANTONIAN",
     "CATEGORY": "Bone Keeper",
@@ -4500,7 +4520,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 149,
+    "DEX": 150,
     "NAME": "MAROWAK",
     "FORM": "ALOLAN",
     "CATEGORY": "Fire Dancer",
@@ -4520,7 +4540,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 150,
+    "DEX": 151,
     "NAME": "TYROGUE",
     "FORM": "",
     "CATEGORY": "Trainee",
@@ -4540,7 +4560,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 151,
+    "DEX": 152,
     "NAME": "HITMONLEE",
     "FORM": "",
     "CATEGORY": "Kicking",
@@ -4560,7 +4580,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 152,
+    "DEX": 153,
     "NAME": "HITMONCHAN",
     "FORM": "",
     "CATEGORY": "Punching",
@@ -4580,7 +4600,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 153,
+    "DEX": 154,
     "NAME": "HITMONTOP",
     "FORM": "",
     "CATEGORY": "Handstand",
@@ -4600,7 +4620,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 154,
+    "DEX": 155,
     "NAME": "LICKITUNG",
     "FORM": "",
     "CATEGORY": "Licking",
@@ -4620,7 +4640,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 155,
+    "DEX": 156,
     "NAME": "LICKILICKY",
     "FORM": "",
     "CATEGORY": "Licking",
@@ -4640,7 +4660,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 156,
+    "DEX": 157,
     "NAME": "KOFFING",
     "FORM": "KANTONIAN",
     "CATEGORY": "Poison Gas",
@@ -4660,7 +4680,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 156,
+    "DEX": 157,
     "NAME": "KOFFING",
     "FORM": "HOLONIAN",
     "CATEGORY": "Thunder Clap",
@@ -4680,7 +4700,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 157,
+    "DEX": 158,
     "NAME": "WEEZING",
     "FORM": "KANTONIAN",
     "CATEGORY": "Poison Gas",
@@ -4700,7 +4720,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 157,
+    "DEX": 158,
     "NAME": "WEEZING",
     "FORM": "GALARIAN",
     "CATEGORY": "Smokestack",
@@ -4720,7 +4740,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 157,
+    "DEX": 158,
     "NAME": "WEEZING",
     "FORM": "HOLONIAN",
     "CATEGORY": "Thunder Clap",
@@ -4740,7 +4760,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 158,
+    "DEX": 159,
     "NAME": "RHYHORN",
     "FORM": "",
     "CATEGORY": "Spike Rhino",
@@ -4760,7 +4780,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 159,
+    "DEX": 160,
     "NAME": "RHYDON",
     "FORM": "",
     "CATEGORY": "Drill Rhino",
@@ -4780,7 +4800,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 160,
+    "DEX": 161,
     "NAME": "RHYPERIOR",
     "FORM": "",
     "CATEGORY": "Titan Rhino",
@@ -4800,7 +4820,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 161,
+    "DEX": 162,
     "NAME": "HAPPINY",
     "FORM": "KANTONIAN",
     "CATEGORY": "Playhouse",
@@ -4820,7 +4840,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 161,
+    "DEX": 162,
     "NAME": "HAPPINY",
     "FORM": "HISUIAN",
     "CATEGORY": "Boxing Glove",
@@ -4840,7 +4860,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 162,
+    "DEX": 163,
     "NAME": "CHANSEY",
     "FORM": "KANTONIAN",
     "CATEGORY": "Egg",
@@ -4860,7 +4880,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 162,
+    "DEX": 163,
     "NAME": "CHANSEY",
     "FORM": "HISUIAN",
     "CATEGORY": "Punching",
@@ -4880,7 +4900,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 163,
+    "DEX": 164,
     "NAME": "BLISSEY",
     "FORM": "KANTONIAN",
     "CATEGORY": "Happiness",
@@ -4900,7 +4920,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 163,
+    "DEX": 164,
     "NAME": "BLISSEY",
     "FORM": "HISUIAN",
     "CATEGORY": "Brawler",
@@ -4920,7 +4940,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 164,
+    "DEX": 165,
     "NAME": "TANGELA",
     "FORM": "KANTONIAN",
     "CATEGORY": "Vine",
@@ -4940,7 +4960,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 164,
+    "DEX": 165,
     "NAME": "TANGELA",
     "FORM": "HOLONIAN",
     "CATEGORY": "Tumbleweed",
@@ -4960,7 +4980,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 165,
+    "DEX": 166,
     "NAME": "TANGROWTH",
     "FORM": "KANTONIAN",
     "CATEGORY": "Vine",
@@ -4980,7 +5000,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 165,
+    "DEX": 166,
     "NAME": "TANGROWTH",
     "FORM": "HOLONIAN",
     "CATEGORY": "Tumbleweed",
@@ -5000,7 +5020,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 166,
+    "DEX": 167,
     "NAME": "KANGASKHAN",
     "FORM": "",
     "CATEGORY": "Parent",
@@ -5020,7 +5040,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 167,
+    "DEX": 168,
     "NAME": "KANGKHAGAN",
     "FORM": "",
     "CATEGORY": "Family",
@@ -5040,7 +5060,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 168,
+    "DEX": 169,
     "NAME": "HORSEA",
     "FORM": "",
     "CATEGORY": "Seahorse",
@@ -5060,7 +5080,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 169,
+    "DEX": 170,
     "NAME": "SEADRA",
     "FORM": "",
     "CATEGORY": "Seahorse",
@@ -5080,7 +5100,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 170,
+    "DEX": 171,
     "NAME": "KINGDRA",
     "FORM": "",
     "CATEGORY": "Sea Dragon",
@@ -5100,7 +5120,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 171,
+    "DEX": 172,
     "NAME": "EMPERODRA",
     "FORM": "",
     "CATEGORY": "Sea Dragon",
@@ -5120,7 +5140,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 172,
+    "DEX": 173,
     "NAME": "GOLDEEN",
     "FORM": "",
     "CATEGORY": "Goldfish",
@@ -5140,7 +5160,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 173,
+    "DEX": 174,
     "NAME": "SEAKING",
     "FORM": "",
     "CATEGORY": "Koi",
@@ -5160,7 +5180,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 174,
+    "DEX": 175,
     "NAME": "KAIOSEA",
     "FORM": "",
     "CATEGORY": "Koi",
@@ -5180,7 +5200,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 175,
+    "DEX": 176,
     "NAME": "STARYU",
     "FORM": "",
     "CATEGORY": "Starfish",
@@ -5200,7 +5220,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 176,
+    "DEX": 177,
     "NAME": "STARMIE",
     "FORM": "",
     "CATEGORY": "Mysterious",
@@ -5220,7 +5240,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 177,
+    "DEX": 178,
     "NAME": "STARUUS",
     "FORM": "",
     "CATEGORY": "Otherworldly",
@@ -5240,7 +5260,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 178,
+    "DEX": 179,
     "NAME": "MIMEJR",
     "FORM": "",
     "CATEGORY": "Mime",
@@ -5260,7 +5280,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 179,
+    "DEX": 180,
     "NAME": "MRMIME",
     "FORM": "KANTONIAN",
     "CATEGORY": "Mime",
@@ -5275,12 +5295,12 @@
     "BST": 470,
     "ABILITY1": "SCREENCLEANER",
     "ABILITY2": "FILTER",
-    "EVOLUTIONS": "",
-    "METHODS": "",
+    "EVOLUTIONS": "MRRHYME",
+    "METHODS": "LV42",
     "FORMINDEX": 1
   },
   {
-    "DEX": 179,
+    "DEX": 180,
     "NAME": "MRMIME",
     "FORM": "GALARIAN",
     "CATEGORY": "Mime",
@@ -5300,7 +5320,27 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 180,
+    "DEX": 181,
+    "NAME": "MRRHYME",
+    "FORM": "",
+    "CATEGORY": "Actor",
+    "TYPE1": "PSYCHIC",
+    "TYPE2": "FAIRY",
+    "HP": 90,
+    "ATK": 45,
+    "DEF": 75,
+    "SPA": 110,
+    "SPDEF": 120,
+    "SPD": 90,
+    "BST": 520,
+    "ABILITY1": "SCREENCLEANER",
+    "ABILITY2": "FILTER",
+    "EVOLUTIONS": "",
+    "METHODS": "",
+    "FORMINDEX": ""
+  },
+  {
+    "DEX": 182,
     "NAME": "MRRIME",
     "FORM": "",
     "CATEGORY": "Comedian",
@@ -5320,7 +5360,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 181,
+    "DEX": 183,
     "NAME": "KNAIVER",
     "FORM": "",
     "CATEGORY": "Knife Bug",
@@ -5340,7 +5380,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 182,
+    "DEX": 184,
     "NAME": "SCYTHER",
     "FORM": "",
     "CATEGORY": "Blade Mantis",
@@ -5360,7 +5400,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 183,
+    "DEX": 185,
     "NAME": "SCIZOR",
     "FORM": "",
     "CATEGORY": "Razor Pincer",
@@ -5380,7 +5420,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 184,
+    "DEX": 186,
     "NAME": "XIEAROR",
     "FORM": "",
     "CATEGORY": "Saw Pincer",
@@ -5400,7 +5440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 185,
+    "DEX": 187,
     "NAME": "KLEAVOR",
     "FORM": "",
     "CATEGORY": "Stone Axe",
@@ -5420,7 +5460,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 186,
+    "DEX": 188,
     "NAME": "BLASTOR",
     "FORM": "",
     "CATEGORY": "Iron Exo",
@@ -5440,7 +5480,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 187,
+    "DEX": 189,
     "NAME": "FREEZOR",
     "FORM": "",
     "CATEGORY": "Ice Pincer",
@@ -5460,7 +5500,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 188,
+    "DEX": 190,
     "NAME": "SMOOCHUM",
     "FORM": "",
     "CATEGORY": "Kiss",
@@ -5480,7 +5520,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 189,
+    "DEX": 191,
     "NAME": "JYNX",
     "FORM": "",
     "CATEGORY": "Opera",
@@ -5500,7 +5540,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 190,
+    "DEX": 192,
     "NAME": "SOPRANICE",
     "FORM": "",
     "CATEGORY": "Opera",
@@ -5520,7 +5560,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 191,
+    "DEX": 193,
     "NAME": "ELEKID",
     "FORM": "KANTONIAN",
     "CATEGORY": "Electric",
@@ -5537,10 +5577,10 @@
     "ABILITY2": "IRONFIST",
     "EVOLUTIONS": "ELECTABUZZ-KANTONIAN",
     "METHODS": "LV30",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 191,
+    "DEX": 193,
     "NAME": "ELEKID",
     "FORM": "HOLONIAN",
     "CATEGORY": "Statue",
@@ -5557,10 +5597,10 @@
     "ABILITY2": "SWIFTSWIM",
     "EVOLUTIONS": "ELECTABUZZ-HOLONIAN",
     "METHODS": "LV30",
-    "FORMINDEX": ""
+    "FORMINDEX": 2
   },
   {
-    "DEX": 192,
+    "DEX": 194,
     "NAME": "ELECTABUZZ",
     "FORM": "KANTONIAN",
     "CATEGORY": "Electric",
@@ -5577,10 +5617,10 @@
     "ABILITY2": "IRONFIST",
     "EVOLUTIONS": "ELECTIVIRE-KANTONIAN",
     "METHODS": "ELECTIRIZER",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 192,
+    "DEX": 194,
     "NAME": "ELECTABUZZ",
     "FORM": "HOLONIAN",
     "CATEGORY": "Statue",
@@ -5597,10 +5637,10 @@
     "ABILITY2": "SWIFTSWIM",
     "EVOLUTIONS": "ELECTIVIRE-HOLONIAN",
     "METHODS": "KINGSROCK",
-    "FORMINDEX": ""
+    "FORMINDEX": 2
   },
   {
-    "DEX": 193,
+    "DEX": 195,
     "NAME": "ELECTIVIRE",
     "FORM": "KANTONIAN",
     "CATEGORY": "Thunderbolt",
@@ -5617,10 +5657,10 @@
     "ABILITY2": "IRONFIST",
     "EVOLUTIONS": "",
     "METHODS": "",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 193,
+    "DEX": 195,
     "NAME": "ELECTIVIRE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Gargoyle",
@@ -5637,10 +5677,10 @@
     "ABILITY2": "SWIFTSWIM",
     "EVOLUTIONS": "",
     "METHODS": "",
-    "FORMINDEX": ""
+    "FORMINDEX": 2
   },
   {
-    "DEX": 194,
+    "DEX": 196,
     "NAME": "MAGBY",
     "FORM": "KANTONIAN",
     "CATEGORY": "Live Coal",
@@ -5657,10 +5697,10 @@
     "ABILITY2": "MEGALAUNCHER",
     "EVOLUTIONS": "MAGMAR-KANTONIAN",
     "METHODS": "LV30",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 194,
+    "DEX": 196,
     "NAME": "MAGBY",
     "FORM": "HOLONIAN",
     "CATEGORY": "Snorkel",
@@ -5677,10 +5717,10 @@
     "ABILITY2": "FILTER",
     "EVOLUTIONS": "MAGMAR-HOLONIAN",
     "METHODS": "LV30",
-    "FORMINDEX": ""
+    "FORMINDEX": 2
   },
   {
-    "DEX": 195,
+    "DEX": 197,
     "NAME": "MAGMAR",
     "FORM": "KANTONIAN",
     "CATEGORY": "Spitfire",
@@ -5697,10 +5737,10 @@
     "ABILITY2": "MEGALAUNCHER",
     "EVOLUTIONS": "MAGMORTAR-KANTONIAN",
     "METHODS": "MAGMARIZER",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 195,
+    "DEX": 197,
     "NAME": "MAGMAR",
     "FORM": "HOLONIAN",
     "CATEGORY": "Scuba Diver",
@@ -5717,10 +5757,10 @@
     "ABILITY2": "FILTER",
     "EVOLUTIONS": "MAGMORTAR-HOLONIAN",
     "METHODS": "WATERSTONE",
-    "FORMINDEX": ""
+    "FORMINDEX": 2
   },
   {
-    "DEX": 196,
+    "DEX": 198,
     "NAME": "MAGMORTAR",
     "FORM": "KANTONIAN",
     "CATEGORY": "Blast",
@@ -5737,10 +5777,10 @@
     "ABILITY2": "MEGALAUNCHER",
     "EVOLUTIONS": "",
     "METHODS": "",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 196,
+    "DEX": 198,
     "NAME": "MAGMORTAR",
     "FORM": "HOLONIAN",
     "CATEGORY": "Undersea",
@@ -5757,10 +5797,10 @@
     "ABILITY2": "FILTER",
     "EVOLUTIONS": "",
     "METHODS": "",
-    "FORMINDEX": ""
+    "FORMINDEX": 2
   },
   {
-    "DEX": 197,
+    "DEX": 199,
     "NAME": "PINSIR",
     "FORM": "",
     "CATEGORY": "Stag Beetle",
@@ -5780,7 +5820,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 198,
+    "DEX": 200,
     "NAME": "GRAPKNELL",
     "FORM": "",
     "CATEGORY": "Stag Beetle",
@@ -5800,7 +5840,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 199,
+    "DEX": 201,
     "NAME": "TAUROS",
     "FORM": "RANCH BREED",
     "CATEGORY": "Wild Bull",
@@ -5820,7 +5860,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 199,
+    "DEX": 201,
     "NAME": "TAUROS",
     "FORM": "COMBAT BREED",
     "CATEGORY": "Wild Bull",
@@ -5840,7 +5880,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 199,
+    "DEX": 201,
     "NAME": "TAUROS",
     "FORM": "BLAZE BREED",
     "CATEGORY": "Wild Bull",
@@ -5860,7 +5900,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 199,
+    "DEX": 201,
     "NAME": "TAUROS",
     "FORM": "AQUA BREED",
     "CATEGORY": "Wild Bull",
@@ -5880,7 +5920,7 @@
     "FORMINDEX": 4
   },
   {
-    "DEX": 200,
+    "DEX": 202,
     "NAME": "MAGIKARP",
     "FORM": "",
     "CATEGORY": "Fish",
@@ -5900,7 +5940,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 201,
+    "DEX": 203,
     "NAME": "GYARADOS",
     "FORM": "",
     "CATEGORY": "Atrocious",
@@ -5920,7 +5960,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 202,
+    "DEX": 204,
     "NAME": "GYARADEATH",
     "FORM": "",
     "CATEGORY": "Savage",
@@ -5940,7 +5980,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 203,
+    "DEX": 205,
     "NAME": "LAPRAS",
     "FORM": "",
     "CATEGORY": "Transport",
@@ -5960,7 +6000,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 204,
+    "DEX": 206,
     "NAME": "LOCHLASS",
     "FORM": "",
     "CATEGORY": "Cryptid",
@@ -5980,7 +6020,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 205,
+    "DEX": 207,
     "NAME": "DITTO",
     "FORM": "",
     "CATEGORY": "Transform",
@@ -6000,7 +6040,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 206,
+    "DEX": 208,
     "NAME": "EEVEE",
     "FORM": "",
     "CATEGORY": "Evolution",
@@ -6020,7 +6060,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 207,
+    "DEX": 209,
     "NAME": "VAPOREON",
     "FORM": "",
     "CATEGORY": "Bubble Jet",
@@ -6040,7 +6080,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 208,
+    "DEX": 210,
     "NAME": "JOLTEON",
     "FORM": "",
     "CATEGORY": "Lightning",
@@ -6060,7 +6100,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 209,
+    "DEX": 211,
     "NAME": "FLAREON",
     "FORM": "",
     "CATEGORY": "Flame",
@@ -6080,7 +6120,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 210,
+    "DEX": 212,
     "NAME": "ESPEON",
     "FORM": "",
     "CATEGORY": "Sunlight",
@@ -6100,7 +6140,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 211,
+    "DEX": 213,
     "NAME": "UMBREON",
     "FORM": "",
     "CATEGORY": "Moonlight",
@@ -6120,7 +6160,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 212,
+    "DEX": 214,
     "NAME": "LEAFEON",
     "FORM": "",
     "CATEGORY": "Verdant",
@@ -6140,7 +6180,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 213,
+    "DEX": 215,
     "NAME": "GLACEON",
     "FORM": "",
     "CATEGORY": "Diamond Dust",
@@ -6160,7 +6200,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 214,
+    "DEX": 216,
     "NAME": "SYLVEON",
     "FORM": "",
     "CATEGORY": "Intertwining",
@@ -6180,7 +6220,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 215,
+    "DEX": 217,
     "NAME": "PORYGON",
     "FORM": "",
     "CATEGORY": "Virtual",
@@ -6200,7 +6240,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 216,
+    "DEX": 218,
     "NAME": "PORYGON2",
     "FORM": "",
     "CATEGORY": "Virtual",
@@ -6220,7 +6260,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 217,
+    "DEX": 219,
     "NAME": "PORYGONZ",
     "FORM": "",
     "CATEGORY": "Virtual",
@@ -6240,7 +6280,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 218,
+    "DEX": 220,
     "NAME": "OMANYTE",
     "FORM": "",
     "CATEGORY": "Spiral",
@@ -6260,7 +6300,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 219,
+    "DEX": 221,
     "NAME": "OMASTAR",
     "FORM": "",
     "CATEGORY": "Spiral",
@@ -6280,7 +6320,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 220,
+    "DEX": 222,
     "NAME": "KABUTO",
     "FORM": "",
     "CATEGORY": "Shellfish",
@@ -6300,7 +6340,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 221,
+    "DEX": 223,
     "NAME": "KABUTOPS",
     "FORM": "",
     "CATEGORY": "Shellfish",
@@ -6320,7 +6360,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 222,
+    "DEX": 224,
     "NAME": "TAIHOPS",
     "FORM": "",
     "CATEGORY": "Cannon",
@@ -6340,7 +6380,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 223,
+    "DEX": 225,
     "NAME": "AERODACTYL",
     "FORM": "",
     "CATEGORY": "Pterasaur",
@@ -6360,7 +6400,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 224,
+    "DEX": 226,
     "NAME": "QUETZALCOATL",
     "FORM": "",
     "CATEGORY": "Pterasaur",
@@ -6380,7 +6420,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 225,
+    "DEX": 227,
     "NAME": "MUNCHLAX",
     "FORM": "",
     "CATEGORY": "Big Eater",
@@ -6400,7 +6440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 226,
+    "DEX": 228,
     "NAME": "SNORLAX",
     "FORM": "",
     "CATEGORY": "Sleeping",
@@ -6420,7 +6460,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 227,
+    "DEX": 229,
     "NAME": "TITANILAX",
     "FORM": "",
     "CATEGORY": "Sleeping",
@@ -6440,7 +6480,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 228,
+    "DEX": 230,
     "NAME": "ARTICUNO",
     "FORM": "KANTONIAN",
     "CATEGORY": "Freeze",
@@ -6460,7 +6500,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 228,
+    "DEX": 230,
     "NAME": "ARTICUNO",
     "FORM": "GALARIAN",
     "CATEGORY": "Cruel",
@@ -6480,7 +6520,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 229,
+    "DEX": 231,
     "NAME": "ZAPDOS",
     "FORM": "KANTONIAN",
     "CATEGORY": "Electric",
@@ -6500,7 +6540,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 229,
+    "DEX": 231,
     "NAME": "ZAPDOS",
     "FORM": "GALARIAN",
     "CATEGORY": "Brutal",
@@ -6520,7 +6560,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 230,
+    "DEX": 232,
     "NAME": "MOLTRES",
     "FORM": "KANTONIAN",
     "CATEGORY": "Flame",
@@ -6540,7 +6580,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 230,
+    "DEX": 232,
     "NAME": "MOLTRES",
     "FORM": "GALARIAN",
     "CATEGORY": "Malevolent",
@@ -6560,9 +6600,9 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 231,
+    "DEX": 233,
     "NAME": "DRATINI",
-    "FORM": "",
+    "FORM": "KANTONIAN",
     "CATEGORY": "Dragon",
     "TYPE1": "DRAGON",
     "TYPE2": "WATER",
@@ -6575,14 +6615,34 @@
     "BST": 300,
     "ABILITY1": "SHEDSKIN",
     "ABILITY2": "MULTISCALE",
-    "EVOLUTIONS": "DRAGONAIR",
+    "EVOLUTIONS": "DRAGONAIR-KANTONIAN",
     "METHODS": "LV30",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 232,
+    "DEX": 233,
+    "NAME": "DRATINI",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Dragon",
+    "TYPE1": "ELECTRIC",
+    "TYPE2": "WATER",
+    "HP": 41,
+    "ATK": 50,
+    "DEF": 40,
+    "SPA": 64,
+    "SPDEF": 45,
+    "SPD": 60,
+    "BST": 300,
+    "ABILITY1": "SWIFTSWIM",
+    "ABILITY2": "MULTISCALE",
+    "EVOLUTIONS": "DRAGONAIR-HOLONIAN",
+    "METHODS": "LV30",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 234,
     "NAME": "DRAGONAIR",
-    "FORM": "",
+    "FORM": "KANTONIAN",
     "CATEGORY": "Dragon",
     "TYPE1": "DRAGON",
     "TYPE2": "WATER",
@@ -6595,14 +6655,34 @@
     "BST": 420,
     "ABILITY1": "SHEDSKIN",
     "ABILITY2": "MULTISCALE",
-    "EVOLUTIONS": "DRAGONITE DRAGONACE",
+    "EVOLUTIONS": "DRAGONITE-KANTONIAN DRAGONACE",
     "METHODS": "LV55 KINGSROCK",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 233,
+    "DEX": 234,
+    "NAME": "DRAGONAIR",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Dragon",
+    "TYPE1": "ELECTRIC",
+    "TYPE2": "WATER",
+    "HP": 61,
+    "ATK": 70,
+    "DEF": 60,
+    "SPA": 84,
+    "SPDEF": 65,
+    "SPD": 80,
+    "BST": 420,
+    "ABILITY1": "SWIFTSWIM",
+    "ABILITY2": "MULTISCALE",
+    "EVOLUTIONS": "DRAGONITE-HOLONIAN",
+    "METHODS": "LV55",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 235,
     "NAME": "DRAGONITE",
-    "FORM": "",
+    "FORM": "KANTONIAN",
     "CATEGORY": "Dragon",
     "TYPE1": "DRAGON",
     "TYPE2": "WATER",
@@ -6617,10 +6697,30 @@
     "ABILITY2": "MULTISCALE",
     "EVOLUTIONS": "",
     "METHODS": "",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 234,
+    "DEX": 235,
+    "NAME": "DRAGONITE",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Dragon",
+    "TYPE1": "ELECTRIC",
+    "TYPE2": "WATER",
+    "HP": 91,
+    "ATK": 100,
+    "DEF": 85,
+    "SPA": 134,
+    "SPDEF": 90,
+    "SPD": 100,
+    "BST": 600,
+    "ABILITY1": "SWIFTSWIM",
+    "ABILITY2": "MULTISCALE",
+    "EVOLUTIONS": "",
+    "METHODS": "",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 236,
     "NAME": "DRAGONACE",
     "FORM": "",
     "CATEGORY": "Dragon",
@@ -6640,7 +6740,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 235,
+    "DEX": 237,
     "NAME": "MEWTWO",
     "FORM": "",
     "CATEGORY": "Genetic",
@@ -6660,7 +6760,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 236,
+    "DEX": 238,
     "NAME": "MEW",
     "FORM": "",
     "CATEGORY": "New Species",
@@ -6680,7 +6780,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 237,
+    "DEX": 239,
     "NAME": "CHIKORITA",
     "FORM": "",
     "CATEGORY": "Leaf",
@@ -6700,7 +6800,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 238,
+    "DEX": 240,
     "NAME": "BAYLEEF",
     "FORM": "",
     "CATEGORY": "Leaf",
@@ -6720,7 +6820,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 239,
+    "DEX": 241,
     "NAME": "MEGANIUM",
     "FORM": "",
     "CATEGORY": "Herb",
@@ -6740,7 +6840,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 240,
+    "DEX": 242,
     "NAME": "SAKURASAUR",
     "FORM": "",
     "CATEGORY": "Herb",
@@ -6760,7 +6860,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 241,
+    "DEX": 243,
     "NAME": "CYNDAQUIL",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Fire Mouse",
@@ -6780,7 +6880,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 241,
+    "DEX": 243,
     "NAME": "CYNDAQUIL",
     "FORM": "HOLONIAN",
     "CATEGORY": "Electric Mouse",
@@ -6800,7 +6900,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 242,
+    "DEX": 244,
     "NAME": "QUILAVA",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Volcano",
@@ -6820,7 +6920,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 242,
+    "DEX": 244,
     "NAME": "QUILAVA",
     "FORM": "HOLONIAN",
     "CATEGORY": "Generator",
@@ -6840,7 +6940,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 243,
+    "DEX": 245,
     "NAME": "TYPHLOSION",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Volcano",
@@ -6860,7 +6960,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 243,
+    "DEX": 245,
     "NAME": "TYPHLOSION",
     "FORM": "HISUIAN",
     "CATEGORY": "Ghost Flame",
@@ -6880,7 +6980,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 243,
+    "DEX": 245,
     "NAME": "TYPHLOSION",
     "FORM": "HOLONIAN",
     "CATEGORY": "Generator",
@@ -6900,7 +7000,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 244,
+    "DEX": 246,
     "NAME": "VULKURRICANE",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Volcano",
@@ -6920,7 +7020,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 244,
+    "DEX": 246,
     "NAME": "VULKURRICANE",
     "FORM": "HISUIAN",
     "CATEGORY": "Ghost Flame",
@@ -6940,7 +7040,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 244,
+    "DEX": 246,
     "NAME": "VULKURRICANE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Thundercloud",
@@ -6960,7 +7060,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 245,
+    "DEX": 247,
     "NAME": "TOTODILE",
     "FORM": "",
     "CATEGORY": "Big Jaw",
@@ -6980,7 +7080,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 246,
+    "DEX": 248,
     "NAME": "CROCONAW",
     "FORM": "",
     "CATEGORY": "Big Jaw",
@@ -7000,7 +7100,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 247,
+    "DEX": 249,
     "NAME": "FERALIGATR",
     "FORM": "",
     "CATEGORY": "Big Jaw",
@@ -7020,7 +7120,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 248,
+    "DEX": 250,
     "NAME": "GHARIALASH",
     "FORM": "",
     "CATEGORY": "Big Jaw",
@@ -7040,7 +7140,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 249,
+    "DEX": 251,
     "NAME": "SENTRET",
     "FORM": "",
     "CATEGORY": "Squirrel",
@@ -7060,7 +7160,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 250,
+    "DEX": 252,
     "NAME": "FURRET",
     "FORM": "",
     "CATEGORY": "Ferret",
@@ -7080,7 +7180,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 251,
+    "DEX": 253,
     "NAME": "HOOTHOOT",
     "FORM": "",
     "CATEGORY": "Owl",
@@ -7100,7 +7200,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 252,
+    "DEX": 254,
     "NAME": "NOCTOWL",
     "FORM": "",
     "CATEGORY": "Owl",
@@ -7120,7 +7220,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 253,
+    "DEX": 255,
     "NAME": "PHANTOWL",
     "FORM": "",
     "CATEGORY": "Owl",
@@ -7140,7 +7240,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 254,
+    "DEX": 256,
     "NAME": "LEDYBA",
     "FORM": "",
     "CATEGORY": "Ladybug",
@@ -7160,7 +7260,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 255,
+    "DEX": 257,
     "NAME": "LEDIAN",
     "FORM": "",
     "CATEGORY": "Astronaut",
@@ -7180,7 +7280,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 256,
+    "DEX": 258,
     "NAME": "LEDUSEN",
     "FORM": "",
     "CATEGORY": "Iron Heart",
@@ -7200,7 +7300,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 257,
+    "DEX": 259,
     "NAME": "SPINARAK",
     "FORM": "",
     "CATEGORY": "String Spit",
@@ -7220,7 +7320,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 258,
+    "DEX": 260,
     "NAME": "ARIADOS",
     "FORM": "",
     "CATEGORY": "Spider",
@@ -7240,7 +7340,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 259,
+    "DEX": 261,
     "NAME": "ARACHTRES",
     "FORM": "",
     "CATEGORY": "Spider",
@@ -7260,7 +7360,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 260,
+    "DEX": 262,
     "NAME": "CHINCHOU",
     "FORM": "",
     "CATEGORY": "Angler",
@@ -7280,7 +7380,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 261,
+    "DEX": 263,
     "NAME": "LANTURN",
     "FORM": "",
     "CATEGORY": "Light",
@@ -7300,7 +7400,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 262,
+    "DEX": 264,
     "NAME": "ANGLUMIERE",
     "FORM": "",
     "CATEGORY": "Light",
@@ -7320,7 +7420,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 263,
+    "DEX": 265,
     "NAME": "TOGEPI",
     "FORM": "",
     "CATEGORY": "Spike Ball",
@@ -7340,7 +7440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 264,
+    "DEX": 266,
     "NAME": "TOGETIC",
     "FORM": "",
     "CATEGORY": "Happiness",
@@ -7360,7 +7460,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 265,
+    "DEX": 267,
     "NAME": "TOGEKISS",
     "FORM": "",
     "CATEGORY": "Jubilee",
@@ -7380,7 +7480,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 266,
+    "DEX": 268,
     "NAME": "NATU",
     "FORM": "",
     "CATEGORY": "Tiny Bird",
@@ -7400,7 +7500,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 267,
+    "DEX": 269,
     "NAME": "XATU",
     "FORM": "",
     "CATEGORY": "Mystic",
@@ -7420,7 +7520,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 268,
+    "DEX": 270,
     "NAME": "SIGILYPH",
     "FORM": "",
     "CATEGORY": "Glyph",
@@ -7440,7 +7540,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 269,
+    "DEX": 271,
     "NAME": "MAREEP",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Wool",
@@ -7460,7 +7560,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 269,
+    "DEX": 271,
     "NAME": "MAREEP",
     "FORM": "HOENNIAN",
     "CATEGORY": "Bee",
@@ -7480,7 +7580,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 270,
+    "DEX": 272,
     "NAME": "FLAAFFY",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Wool",
@@ -7500,7 +7600,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 270,
+    "DEX": 272,
     "NAME": "FLAAFFY",
     "FORM": "HOENNIAN",
     "CATEGORY": "Bee",
@@ -7520,7 +7620,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 271,
+    "DEX": 273,
     "NAME": "AMPHAROS",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Light",
@@ -7540,7 +7640,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 271,
+    "DEX": 273,
     "NAME": "AMPHAROS",
     "FORM": "HOENNIAN",
     "CATEGORY": "Wasp",
@@ -7560,7 +7660,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 272,
+    "DEX": 274,
     "NAME": "AMPDRAKON",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Light",
@@ -7580,7 +7680,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 272,
+    "DEX": 274,
     "NAME": "AMPDRAKON",
     "FORM": "HOENNIAN",
     "CATEGORY": "Wasp",
@@ -7600,7 +7700,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 273,
+    "DEX": 275,
     "NAME": "AZURILL",
     "FORM": "",
     "CATEGORY": "Aqua Mouse",
@@ -7620,7 +7720,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 274,
+    "DEX": 276,
     "NAME": "MARILL",
     "FORM": "",
     "CATEGORY": "Aqua Mouse",
@@ -7640,7 +7740,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 275,
+    "DEX": 277,
     "NAME": "AZUMARILL",
     "FORM": "",
     "CATEGORY": "Aqua Rabbit",
@@ -7660,7 +7760,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 276,
+    "DEX": 278,
     "NAME": "BONSLY",
     "FORM": "",
     "CATEGORY": "Bonsai",
@@ -7680,7 +7780,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 277,
+    "DEX": 279,
     "NAME": "SUDOWOODO",
     "FORM": "",
     "CATEGORY": "Imitation",
@@ -7695,12 +7795,12 @@
     "BST": 430,
     "ABILITY1": "STURDY",
     "ABILITY2": "ROCKHEAD",
-    "EVOLUTIONS": "DUELUMBER",
-    "METHODS": "LV35",
+    "EVOLUTIONS": "DUELUMBER TRUELEWOODO",
+    "METHODS": "LV35 LEAFSTONE",
     "FORMINDEX": ""
   },
   {
-    "DEX": 278,
+    "DEX": 280,
     "NAME": "DUELUMBER",
     "FORM": "",
     "CATEGORY": "Imitation",
@@ -7720,7 +7820,27 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 279,
+    "DEX": 281,
+    "NAME": "TRUELEWOODO",
+    "FORM": "",
+    "CATEGORY": "Tree",
+    "TYPE1": "ROCK",
+    "TYPE2": "GRASS",
+    "HP": 100,
+    "ATK": 115,
+    "DEF": 145,
+    "SPA": 35,
+    "SPDEF": 105,
+    "SPD": 20,
+    "BST": 520,
+    "ABILITY1": "STURDY",
+    "ABILITY2": "ANALYTIC",
+    "EVOLUTIONS": "",
+    "METHODS": "",
+    "FORMINDEX": ""
+  },
+  {
+    "DEX": 282,
     "NAME": "HOPPIP",
     "FORM": "",
     "CATEGORY": "Cottonweed",
@@ -7740,7 +7860,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 280,
+    "DEX": 283,
     "NAME": "SKIPLOOM",
     "FORM": "",
     "CATEGORY": "Cottonweed",
@@ -7760,7 +7880,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 281,
+    "DEX": 284,
     "NAME": "JUMPLUFF",
     "FORM": "",
     "CATEGORY": "Cottonweed",
@@ -7780,7 +7900,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 282,
+    "DEX": 285,
     "NAME": "AIPOM",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Long Tail",
@@ -7800,7 +7920,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 282,
+    "DEX": 285,
     "NAME": "AIPOM",
     "FORM": "HOLONIAN",
     "CATEGORY": "Ghost Hand",
@@ -7820,7 +7940,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 283,
+    "DEX": 286,
     "NAME": "AMBIPOM",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Long Tail",
@@ -7840,7 +7960,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 283,
+    "DEX": 286,
     "NAME": "AMBIPOM",
     "FORM": "HOLONIAN",
     "CATEGORY": "Ghost Hand",
@@ -7860,7 +7980,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 284,
+    "DEX": 287,
     "NAME": "SUNKERN",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Seed",
@@ -7880,7 +8000,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 284,
+    "DEX": 287,
     "NAME": "SUNKERN",
     "FORM": "HOLONIAN",
     "CATEGORY": "Oil",
@@ -7900,39 +8020,79 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 285,
+    "DEX": 288,
     "NAME": "SUNFLORA",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Sunflower",
     "TYPE1": "GRASS",
     "TYPE2": "FIRE",
-    "HP": 95,
+    "HP": 75,
     "ATK": 75,
-    "DEF": 85,
-    "SPA": 135,
+    "DEF": 55,
+    "SPA": 105,
     "SPDEF": 85,
-    "SPD": 55,
-    "BST": 530,
+    "SPD": 30,
+    "BST": 425,
     "ABILITY1": "CHLOROPHYLL",
+    "ABILITY2": "SOLARPOWER",
+    "EVOLUTIONS": "SUNHELION-JOHTONIAN",
+    "METHODS": "SOLARBEAM",
+    "FORMINDEX": 1
+  },
+  {
+    "DEX": 288,
+    "NAME": "SUNFLORA",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Sludge",
+    "TYPE1": "POISON",
+    "TYPE2": "FIRE",
+    "HP": 75,
+    "ATK": 75,
+    "DEF": 55,
+    "SPA": 105,
+    "SPDEF": 85,
+    "SPD": 30,
+    "BST": 425,
+    "ABILITY1": "POISONPOINT",
+    "ABILITY2": "ANALYTIC",
+    "EVOLUTIONS": "SUNHELION-HOLONIAN",
+    "METHODS": "OVERHEAT",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 289,
+    "NAME": "SOLHELION",
+    "FORM": "JOHTONIAN",
+    "CATEGORY": "Sunflower",
+    "TYPE1": "GRASS",
+    "TYPE2": "FIRE",
+    "HP": 85,
+    "ATK": 75,
+    "DEF": 80,
+    "SPA": 135,
+    "SPDEF": 105,
+    "SPD": 45,
+    "BST": 525,
+    "ABILITY1": "DROUGHT",
     "ABILITY2": "SOLARPOWER",
     "EVOLUTIONS": "",
     "METHODS": "",
     "FORMINDEX": 1
   },
   {
-    "DEX": 285,
-    "NAME": "SUNFLORA",
+    "DEX": 289,
+    "NAME": "SOLHELION",
     "FORM": "HOLONIAN",
-    "CATEGORY": "Sludge",
+    "CATEGORY": "Blazing",
     "TYPE1": "POISON",
     "TYPE2": "FIRE",
-    "HP": 95,
+    "HP": 85,
     "ATK": 75,
-    "DEF": 85,
+    "DEF": 80,
     "SPA": 135,
-    "SPDEF": 85,
-    "SPD": 55,
-    "BST": 530,
+    "SPDEF": 105,
+    "SPD": 45,
+    "BST": 525,
     "ABILITY1": "POISONPOINT",
     "ABILITY2": "ANALYTIC",
     "EVOLUTIONS": "",
@@ -7940,7 +8100,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 286,
+    "DEX": 290,
     "NAME": "YANMA",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Darner",
@@ -7960,7 +8120,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 286,
+    "DEX": 290,
     "NAME": "YANMA",
     "FORM": "HOLONIAN",
     "CATEGORY": "Leaf Wing",
@@ -7980,7 +8140,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 287,
+    "DEX": 291,
     "NAME": "YANMEGA",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Ogre Darner",
@@ -8000,7 +8160,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 287,
+    "DEX": 291,
     "NAME": "YANMEGA",
     "FORM": "HOLONIAN",
     "CATEGORY": "Leaf Wing",
@@ -8020,7 +8180,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 288,
+    "DEX": 292,
     "NAME": "WOOPER",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Axolotl",
@@ -8040,7 +8200,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 288,
+    "DEX": 292,
     "NAME": "WOOPER",
     "FORM": "PALDEAN",
     "CATEGORY": "Axolotl",
@@ -8060,7 +8220,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 288,
+    "DEX": 292,
     "NAME": "WOOPER",
     "FORM": "HOLONIAN",
     "CATEGORY": "Lantern",
@@ -8080,7 +8240,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 289,
+    "DEX": 293,
     "NAME": "QUAGSIRE",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Salamander",
@@ -8100,7 +8260,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 289,
+    "DEX": 293,
     "NAME": "QUAGSIRE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Halloween",
@@ -8120,7 +8280,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 290,
+    "DEX": 294,
     "NAME": "CLODSIRE",
     "FORM": "",
     "CATEGORY": "Lantern",
@@ -8140,7 +8300,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 291,
+    "DEX": 295,
     "NAME": "MURKROW",
     "FORM": "",
     "CATEGORY": "Darkness",
@@ -8160,7 +8320,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 292,
+    "DEX": 296,
     "NAME": "HONCHKROW",
     "FORM": "",
     "CATEGORY": "Big Boss",
@@ -8180,7 +8340,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 293,
+    "DEX": 297,
     "NAME": "MISDREAVUS",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Screech",
@@ -8200,7 +8360,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 293,
+    "DEX": 297,
     "NAME": "MISDREAVUS",
     "FORM": "HOLONIAN",
     "CATEGORY": "Caroling",
@@ -8220,7 +8380,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 294,
+    "DEX": 298,
     "NAME": "MISMAGIUS",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Magical",
@@ -8240,7 +8400,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 294,
+    "DEX": 298,
     "NAME": "MISMAGIUS",
     "FORM": "HOLONIAN",
     "CATEGORY": "Christmas",
@@ -8260,7 +8420,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 295,
+    "DEX": 299,
     "NAME": "MISMANEOUS",
     "FORM": "",
     "CATEGORY": "Flutter Mane",
@@ -8280,7 +8440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 296,
+    "DEX": 300,
     "NAME": "UNOWN",
     "FORM": "LETTER",
     "CATEGORY": "Symbol",
@@ -8300,7 +8460,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 296,
+    "DEX": 300,
     "NAME": "UNOWN",
     "FORM": "ALPHABET",
     "CATEGORY": "Symbol",
@@ -8320,7 +8480,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 297,
+    "DEX": 301,
     "NAME": "WYNAUT",
     "FORM": "",
     "CATEGORY": "Bright",
@@ -8340,7 +8500,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 298,
+    "DEX": 302,
     "NAME": "WOBBUFFET",
     "FORM": "",
     "CATEGORY": "Patient",
@@ -8360,9 +8520,9 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 299,
+    "DEX": 303,
     "NAME": "GIRAFARIG",
-    "FORM": "",
+    "FORM": "JOHTONIAN",
     "CATEGORY": "Palindrome",
     "TYPE1": "NORMAL",
     "TYPE2": "PSYCHIC",
@@ -8375,12 +8535,32 @@
     "BST": 455,
     "ABILITY1": "STRONGJAW",
     "ABILITY2": "GLUTTONY",
-    "EVOLUTIONS": "GIRAFARIG",
-    "METHODS": "TWINBEAM",
-    "FORMINDEX": ""
+    "EVOLUTIONS": "FARIGIRAF KIRINIRIK-JOHTONIAN",
+    "METHODS": "TWINBEAM CRUNCH",
+    "FORMINDEX": 1
   },
   {
-    "DEX": 300,
+    "DEX": 303,
+    "NAME": "GIRAFARIG",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Palindrome",
+    "TYPE1": "STEEL",
+    "TYPE2": "POISON",
+    "HP": 70,
+    "ATK": 90,
+    "DEF": 80,
+    "SPA": 70,
+    "SPDEF": 75,
+    "SPD": 70,
+    "BST": 455,
+    "ABILITY1": "INTIMIDATE",
+    "ABILITY2": "ANGERPOINT",
+    "EVOLUTIONS": "KIRINIRK-HOLONIAN",
+    "METHODS": "CRUNCH",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 304,
     "NAME": "FARIGIRAF",
     "FORM": "",
     "CATEGORY": "Emordnilap",
@@ -8400,7 +8580,47 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 301,
+    "DEX": 305,
+    "NAME": "KIRINIRIK",
+    "FORM": "JOHTONIAN",
+    "CATEGORY": "Chomp",
+    "TYPE1": "NORMAL",
+    "TYPE2": "DARK",
+    "HP": 120,
+    "ATK": 110,
+    "DEF": 70,
+    "SPA": 80,
+    "SPDEF": 70,
+    "SPD": 90,
+    "BST": 540,
+    "ABILITY1": "STRONGJAW",
+    "ABILITY2": "MOXIE",
+    "EVOLUTIONS": "",
+    "METHODS": "",
+    "FORMINDEX": 1
+  },
+  {
+    "DEX": 305,
+    "NAME": "KIRINIRIK",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Tormented",
+    "TYPE1": "STEEL",
+    "TYPE2": "POISON",
+    "HP": 120,
+    "ATK": 110,
+    "DEF": 85,
+    "SPA": 80,
+    "SPDEF": 85,
+    "SPD": 60,
+    "BST": 540,
+    "ABILITY1": "INTIMIDATE",
+    "ABILITY2": "ANGERPOINT",
+    "EVOLUTIONS": "",
+    "METHODS": "",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 306,
     "NAME": "PINECO",
     "FORM": "",
     "CATEGORY": "Bagworm",
@@ -8420,7 +8640,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 302,
+    "DEX": 307,
     "NAME": "FORRETRESS",
     "FORM": "",
     "CATEGORY": "Bagworm",
@@ -8440,7 +8660,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 303,
+    "DEX": 308,
     "NAME": "DUNSPARCE",
     "FORM": "",
     "CATEGORY": "Land Snake",
@@ -8460,7 +8680,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 304,
+    "DEX": 309,
     "NAME": "DUDUNSPARCE",
     "FORM": "",
     "CATEGORY": "Land Snake",
@@ -8480,7 +8700,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 305,
+    "DEX": 310,
     "NAME": "DUDUDUNSPARCE",
     "FORM": "",
     "CATEGORY": "Land Snake",
@@ -8500,7 +8720,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 306,
+    "DEX": 311,
     "NAME": "GLIGAR",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Fly Scorpion",
@@ -8520,7 +8740,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 306,
+    "DEX": 311,
     "NAME": "GLIGAR",
     "FORM": "HOENNIAN",
     "CATEGORY": "Magma Claw",
@@ -8540,7 +8760,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 307,
+    "DEX": 312,
     "NAME": "GLISCOR",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Fly Scorpion",
@@ -8560,7 +8780,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 307,
+    "DEX": 312,
     "NAME": "GLISCOR",
     "FORM": "HOENNIAN",
     "CATEGORY": "Magma Claw",
@@ -8580,7 +8800,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 308,
+    "DEX": 313,
     "NAME": "SNUBBULL",
     "FORM": "",
     "CATEGORY": "Fairy",
@@ -8600,7 +8820,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 309,
+    "DEX": 314,
     "NAME": "GRANBULL",
     "FORM": "",
     "CATEGORY": "Fairy",
@@ -8620,7 +8840,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 310,
+    "DEX": 315,
     "NAME": "IMPREBULL",
     "FORM": "",
     "CATEGORY": "Fairy",
@@ -8640,7 +8860,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 311,
+    "DEX": 316,
     "NAME": "QWILFISH",
     "FORM": "",
     "CATEGORY": "Pufferfish",
@@ -8660,7 +8880,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 312,
+    "DEX": 317,
     "NAME": "OVERQWIL",
     "FORM": "",
     "CATEGORY": "Pufferfish",
@@ -8680,7 +8900,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 313,
+    "DEX": 318,
     "NAME": "SHUCKLE",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Mold",
@@ -8700,7 +8920,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 313,
+    "DEX": 318,
     "NAME": "SHUCKLE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Punching Bag",
@@ -8720,7 +8940,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 314,
+    "DEX": 319,
     "NAME": "HERACROSS",
     "FORM": "",
     "CATEGORY": "Hercules",
@@ -8740,7 +8960,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 315,
+    "DEX": 320,
     "NAME": "SCARHINO",
     "FORM": "",
     "CATEGORY": "Hercules",
@@ -8760,7 +8980,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 316,
+    "DEX": 321,
     "NAME": "SNEASEL",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Sharp Claw",
@@ -8780,7 +9000,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 316,
+    "DEX": 321,
     "NAME": "SNEASEL",
     "FORM": "HISUIAN",
     "CATEGORY": "Sharp Claw",
@@ -8800,7 +9020,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 317,
+    "DEX": 322,
     "NAME": "WEAVILE",
     "FORM": "",
     "CATEGORY": "Sharp Claw",
@@ -8820,7 +9040,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 318,
+    "DEX": 323,
     "NAME": "SNEASLER",
     "FORM": "",
     "CATEGORY": "Sharp Claw",
@@ -8840,7 +9060,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 319,
+    "DEX": 324,
     "NAME": "TEDDIURSA",
     "FORM": "",
     "CATEGORY": "Little Bear",
@@ -8860,7 +9080,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 320,
+    "DEX": 325,
     "NAME": "URSARING",
     "FORM": "",
     "CATEGORY": "Bear",
@@ -8880,7 +9100,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 321,
+    "DEX": 326,
     "NAME": "URSALUNA",
     "FORM": "FULL MOON",
     "CATEGORY": "Moon Bear",
@@ -8900,7 +9120,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 321,
+    "DEX": 326,
     "NAME": "URSALUNA",
     "FORM": "BLOOD MOON",
     "CATEGORY": "Moon Bear",
@@ -8920,7 +9140,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 322,
+    "DEX": 327,
     "NAME": "SLUGMA",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Lava Slug",
@@ -8940,7 +9160,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 322,
+    "DEX": 327,
     "NAME": "SLUGMA",
     "FORM": "HOENNIAN",
     "CATEGORY": "Relic Slug",
@@ -8960,7 +9180,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 323,
+    "DEX": 328,
     "NAME": "MAGCARGO",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Lava Snail",
@@ -8980,7 +9200,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 323,
+    "DEX": 328,
     "NAME": "MAGCARGO",
     "FORM": "HOENNIAN",
     "CATEGORY": "Relic Snail",
@@ -9000,7 +9220,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 324,
+    "DEX": 329,
     "NAME": "ESCARGINITE",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Lava Snail",
@@ -9020,7 +9240,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 324,
+    "DEX": 329,
     "NAME": "ESCARGINITE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Relic Snail",
@@ -9040,7 +9260,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 325,
+    "DEX": 330,
     "NAME": "SWINUB",
     "FORM": "",
     "CATEGORY": "Pig",
@@ -9060,7 +9280,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 326,
+    "DEX": 331,
     "NAME": "PILOSWINE",
     "FORM": "",
     "CATEGORY": "Swine",
@@ -9080,7 +9300,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 327,
+    "DEX": 332,
     "NAME": "MAMOSWINE",
     "FORM": "",
     "CATEGORY": "Mammoth",
@@ -9100,7 +9320,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 328,
+    "DEX": 333,
     "NAME": "CORSOLA",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Coral",
@@ -9120,7 +9340,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 328,
+    "DEX": 333,
     "NAME": "CORSOLA",
     "FORM": "GALARIAN",
     "CATEGORY": "White Coral",
@@ -9140,7 +9360,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 329,
+    "DEX": 334,
     "NAME": "CURESOLA",
     "FORM": "",
     "CATEGORY": "Life Coral",
@@ -9160,7 +9380,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 330,
+    "DEX": 335,
     "NAME": "CURSOLA",
     "FORM": "",
     "CATEGORY": "Ghost Coral",
@@ -9180,7 +9400,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 331,
+    "DEX": 336,
     "NAME": "REMORAID",
     "FORM": "",
     "CATEGORY": "Revolver",
@@ -9200,7 +9420,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 332,
+    "DEX": 337,
     "NAME": "OCTILLERY",
     "FORM": "",
     "CATEGORY": "Artillery",
@@ -9220,7 +9440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 333,
+    "DEX": 338,
     "NAME": "DELIBIRD",
     "FORM": "",
     "CATEGORY": "Holiday",
@@ -9240,7 +9460,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 334,
+    "DEX": 339,
     "NAME": "DELIBOT",
     "FORM": "",
     "CATEGORY": "Iron Bundle",
@@ -9260,7 +9480,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 335,
+    "DEX": 340,
     "NAME": "MANTYKE",
     "FORM": "",
     "CATEGORY": "Ray",
@@ -9280,7 +9500,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 336,
+    "DEX": 341,
     "NAME": "MANTINE",
     "FORM": "",
     "CATEGORY": "Manta Ray",
@@ -9300,7 +9520,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 337,
+    "DEX": 342,
     "NAME": "SKARMORY",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Armor Bird",
@@ -9320,7 +9540,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 337,
+    "DEX": 342,
     "NAME": "SKARMORY",
     "FORM": "HOENNIAN",
     "CATEGORY": "Flame Bird",
@@ -9340,7 +9560,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 338,
+    "DEX": 343,
     "NAME": "PANZAERO",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Golden Bird",
@@ -9360,7 +9580,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 338,
+    "DEX": 343,
     "NAME": "PANZAERO",
     "FORM": "HOENNIAN",
     "CATEGORY": "Inferno Bird",
@@ -9380,7 +9600,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 339,
+    "DEX": 344,
     "NAME": "HOUNDOUR",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hellhound",
@@ -9400,7 +9620,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 339,
+    "DEX": 344,
     "NAME": "HOUNDOUR",
     "FORM": "HOENNIAN",
     "CATEGORY": "Ghost Hound",
@@ -9420,7 +9640,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 340,
+    "DEX": 345,
     "NAME": "HOUNDOOM",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hellhound",
@@ -9440,7 +9660,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 340,
+    "DEX": 345,
     "NAME": "HOUNDOOM",
     "FORM": "HOENNIAN",
     "CATEGORY": "Ghost Hound",
@@ -9460,7 +9680,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 341,
+    "DEX": 346,
     "NAME": "HOUNDEMON",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hellhound",
@@ -9480,7 +9700,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 341,
+    "DEX": 346,
     "NAME": "HOUNDEMON",
     "FORM": "HOENNIAN",
     "CATEGORY": "Ghost Hound",
@@ -9500,7 +9720,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 342,
+    "DEX": 347,
     "NAME": "PHANPY",
     "FORM": "",
     "CATEGORY": "Long Nose",
@@ -9520,7 +9740,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 343,
+    "DEX": 348,
     "NAME": "DONPHAN",
     "FORM": "",
     "CATEGORY": "Armor",
@@ -9540,7 +9760,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 344,
+    "DEX": 349,
     "NAME": "DONPHIERCE",
     "FORM": "",
     "CATEGORY": "Great Tusk",
@@ -9560,7 +9780,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 345,
+    "DEX": 350,
     "NAME": "AUTONPHAN",
     "FORM": "",
     "CATEGORY": "Iron Treads",
@@ -9580,7 +9800,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 346,
+    "DEX": 351,
     "NAME": "STANTLER",
     "FORM": "",
     "CATEGORY": "Deer",
@@ -9600,7 +9820,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 347,
+    "DEX": 352,
     "NAME": "WYRDEER",
     "FORM": "",
     "CATEGORY": "Wise Deer",
@@ -9620,7 +9840,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 348,
+    "DEX": 353,
     "NAME": "SMEARGLE",
     "FORM": "",
     "CATEGORY": "Painter",
@@ -9640,7 +9860,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 349,
+    "DEX": 354,
     "NAME": "MILTANK",
     "FORM": "",
     "CATEGORY": "Dairy Cow",
@@ -9660,7 +9880,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 350,
+    "DEX": 355,
     "NAME": "RAIKOU",
     "FORM": "REVIVED",
     "CATEGORY": "Thunder",
@@ -9680,7 +9900,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 350,
+    "DEX": 355,
     "NAME": "RAIKOU",
     "FORM": "PRIMAL",
     "CATEGORY": "Raging Bolt",
@@ -9700,7 +9920,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 351,
+    "DEX": 356,
     "NAME": "ENTEI",
     "FORM": "REVIVED",
     "CATEGORY": "Volcano",
@@ -9720,7 +9940,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 351,
+    "DEX": 356,
     "NAME": "ENTEI",
     "FORM": "PRIMAL",
     "CATEGORY": "Gouging Fire",
@@ -9740,7 +9960,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 352,
+    "DEX": 357,
     "NAME": "SUICUNE",
     "FORM": "REVIVED",
     "CATEGORY": "Aurora",
@@ -9760,7 +9980,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 352,
+    "DEX": 357,
     "NAME": "SUICUNE",
     "FORM": "PRIMAL",
     "CATEGORY": "Walking Wake",
@@ -9780,7 +10000,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 353,
+    "DEX": 358,
     "NAME": "LARVITAR",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Rock Skin",
@@ -9800,7 +10020,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 353,
+    "DEX": 358,
     "NAME": "LARVITAR",
     "FORM": "GALARIAN",
     "CATEGORY": "Pilot Light",
@@ -9820,7 +10040,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 354,
+    "DEX": 359,
     "NAME": "PUPITAR",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hard Shell",
@@ -9840,7 +10060,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 354,
+    "DEX": 359,
     "NAME": "PUPITAR",
     "FORM": "GALARIAN",
     "CATEGORY": "Canister",
@@ -9860,7 +10080,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 355,
+    "DEX": 360,
     "NAME": "TYRANITAR",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Kaiju",
@@ -9880,7 +10100,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 355,
+    "DEX": 360,
     "NAME": "TYRANITAR",
     "FORM": "GALARIAN",
     "CATEGORY": "Kaiju",
@@ -9900,7 +10120,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 356,
+    "DEX": 361,
     "NAME": "DESPOTAR",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Kaiju",
@@ -9920,7 +10140,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 356,
+    "DEX": 361,
     "NAME": "DESPOTAR",
     "FORM": "GALARIAN",
     "CATEGORY": "Kaiju",
@@ -9940,7 +10160,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 357,
+    "DEX": 362,
     "NAME": "MECHATYRANT",
     "FORM": "",
     "CATEGORY": "Iron Thorns",
@@ -9960,7 +10180,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 358,
+    "DEX": 363,
     "NAME": "HOOH",
     "FORM": "",
     "CATEGORY": "Rainbow",
@@ -9980,7 +10200,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 359,
+    "DEX": 364,
     "NAME": "LUGIA",
     "FORM": "",
     "CATEGORY": "Diving",
@@ -10000,7 +10220,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 360,
+    "DEX": 365,
     "NAME": "CELEBI",
     "FORM": "",
     "CATEGORY": "Time Travel",
@@ -10020,9 +10240,9 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 361,
+    "DEX": 366,
     "NAME": "TREECKO",
-    "FORM": "",
+    "FORM": "HOENNIAN",
     "CATEGORY": "Wood Gecko",
     "TYPE1": "GRASS",
     "TYPE2": "",
@@ -10035,14 +10255,34 @@
     "BST": 310,
     "ABILITY1": "UNBURDEN",
     "ABILITY2": "TECHNICIAN",
-    "EVOLUTIONS": "GROVYLE",
+    "EVOLUTIONS": "GROVYLE-HOENNIAN",
     "METHODS": "LV16",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 362,
+    "DEX": 366,
+    "NAME": "TREECKO",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Karate Gecko",
+    "TYPE1": "FIGHTING",
+    "TYPE2": "",
+    "HP": 40,
+    "ATK": 45,
+    "DEF": 35,
+    "SPA": 65,
+    "SPDEF": 55,
+    "SPD": 70,
+    "BST": 310,
+    "ABILITY1": "INNERFOCUS",
+    "ABILITY2": "SCRAPPY",
+    "EVOLUTIONS": "GROVYLE-HOLONIAN",
+    "METHODS": "LV16",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 367,
     "NAME": "GROVYLE",
-    "FORM": "",
+    "FORM": "HOENNIAN",
     "CATEGORY": "Wood Gecko",
     "TYPE1": "GRASS",
     "TYPE2": "",
@@ -10055,14 +10295,34 @@
     "BST": 405,
     "ABILITY1": "UNBURDEN",
     "ABILITY2": "TECHNICIAN",
-    "EVOLUTIONS": "SCEPTILE",
+    "EVOLUTIONS": "SCEPTILE-HOENNIAN",
     "METHODS": "LV36",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 363,
+    "DEX": 367,
+    "NAME": "GROVYLE",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Karate Gecko",
+    "TYPE1": "FIGHTING",
+    "TYPE2": "",
+    "HP": 50,
+    "ATK": 65,
+    "DEF": 45,
+    "SPA": 85,
+    "SPDEF": 65,
+    "SPD": 95,
+    "BST": 405,
+    "ABILITY1": "INNERFOCUS",
+    "ABILITY2": "SCRAPPY",
+    "EVOLUTIONS": "SCEPTILE-HOLONIAN",
+    "METHODS": "LV36",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 368,
     "NAME": "SCEPTILE",
-    "FORM": "",
+    "FORM": "HOENNIAN",
     "CATEGORY": "Forest",
     "TYPE1": "GRASS",
     "TYPE2": "DRAGON",
@@ -10075,14 +10335,34 @@
     "BST": 530,
     "ABILITY1": "UNBURDEN",
     "ABILITY2": "TECHNICIAN",
-    "EVOLUTIONS": "SCEPSTIUM",
+    "EVOLUTIONS": "SCEPSTIUM-HOENNIAN",
     "METHODS": "LV50",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 364,
+    "DEX": 368,
+    "NAME": "SCEPTILE",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Black Belt",
+    "TYPE1": "FIGHTING",
+    "TYPE2": "DRAGON",
+    "HP": 70,
+    "ATK": 85,
+    "DEF": 65,
+    "SPA": 105,
+    "SPDEF": 85,
+    "SPD": 120,
+    "BST": 530,
+    "ABILITY1": "INNERFOCUS",
+    "ABILITY2": "SCRAPPY",
+    "EVOLUTIONS": "SCEPSTIUM-HOLONIAN",
+    "METHODS": "LV50",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 369,
     "NAME": "SCEPSTIUM",
-    "FORM": "",
+    "FORM": "HOENNIAN",
     "CATEGORY": "Forest",
     "TYPE1": "GRASS",
     "TYPE2": "DRAGON",
@@ -10097,12 +10377,32 @@
     "ABILITY2": "TECHNICIAN",
     "EVOLUTIONS": "",
     "METHODS": "",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 365,
+    "DEX": 369,
+    "NAME": "SCEPSTIUM",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Grandmaster",
+    "TYPE1": "FIGHTING",
+    "TYPE2": "DRAGON",
+    "HP": 70,
+    "ATK": 85,
+    "DEF": 85,
+    "SPA": 125,
+    "SPDEF": 85,
+    "SPD": 135,
+    "BST": 585,
+    "ABILITY1": "INNERFOCUS",
+    "ABILITY2": "SCRAPPY",
+    "EVOLUTIONS": "",
+    "METHODS": "",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 370,
     "NAME": "TORCHIC",
-    "FORM": "",
+    "FORM": "HOENNIAN",
     "CATEGORY": "Chick",
     "TYPE1": "FIRE",
     "TYPE2": "FLYING",
@@ -10115,14 +10415,34 @@
     "BST": 310,
     "ABILITY1": "SPEEDBOOST",
     "ABILITY2": "STRIKER",
-    "EVOLUTIONS": "COMBUSKEN",
+    "EVOLUTIONS": "COMBUSKEN-HOENNIAN",
     "METHODS": "LV16",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 366,
+    "DEX": 370,
+    "NAME": "TORCHIC",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Prince",
+    "TYPE1": "PSYCHIC",
+    "TYPE2": "FLYING",
+    "HP": 45,
+    "ATK": 70,
+    "DEF": 40,
+    "SPA": 45,
+    "SPDEF": 50,
+    "SPD": 60,
+    "BST": 310,
+    "ABILITY1": "GALEWINGS",
+    "ABILITY2": "KEENEYE",
+    "EVOLUTIONS": "COMBUSKEN-HOLONIAN",
+    "METHODS": "LV16",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 371,
     "NAME": "COMBUSKEN",
-    "FORM": "",
+    "FORM": "HOENNIAN",
     "CATEGORY": "Young Fowl",
     "TYPE1": "FIRE",
     "TYPE2": "FIGHTING",
@@ -10135,14 +10455,34 @@
     "BST": 405,
     "ABILITY1": "SPEEDBOOST",
     "ABILITY2": "STRIKER",
-    "EVOLUTIONS": "BLAZIKEN",
+    "EVOLUTIONS": "BLAZIKEN-HOENNIAN",
     "METHODS": "LV36",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 367,
+    "DEX": 371,
+    "NAME": "COMBUSKEN",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Pharoah",
+    "TYPE1": "PSYCHIC",
+    "TYPE2": "GHOST",
+    "HP": 60,
+    "ATK": 85,
+    "DEF": 60,
+    "SPA": 55,
+    "SPDEF": 60,
+    "SPD": 85,
+    "BST": 405,
+    "ABILITY1": "GALEWINGS",
+    "ABILITY2": "KEENEYE",
+    "EVOLUTIONS": "BLAZIKEN-HOLONIAN",
+    "METHODS": "LV36",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 372,
     "NAME": "BLAZIKEN",
-    "FORM": "",
+    "FORM": "HOENNIAN",
     "CATEGORY": "Rooster",
     "TYPE1": "FIRE",
     "TYPE2": "FIGHTING",
@@ -10155,14 +10495,34 @@
     "BST": 530,
     "ABILITY1": "SPEEDBOOST",
     "ABILITY2": "STRIKER",
-    "EVOLUTIONS": "BLAZIGALLUS",
+    "EVOLUTIONS": "BLAZIGALLUS-HOENNIAN",
     "METHODS": "LV50",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 368,
+    "DEX": 372,
+    "NAME": "BLAZIKEN",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Horus",
+    "TYPE1": "PSYCHIC",
+    "TYPE2": "GHOST",
+    "HP": 80,
+    "ATK": 120,
+    "DEF": 70,
+    "SPA": 80,
+    "SPDEF": 70,
+    "SPD": 110,
+    "BST": 530,
+    "ABILITY1": "GALEWINGS",
+    "ABILITY2": "KEENEYE",
+    "EVOLUTIONS": "BLAZIGALLUS-HOLONIAN",
+    "METHODS": "LV50",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 373,
     "NAME": "BLAZIGALLUS",
-    "FORM": "",
+    "FORM": "HOENNIAN",
     "CATEGORY": "Raging Flames",
     "TYPE1": "FIRE",
     "TYPE2": "FIGHTING",
@@ -10177,10 +10537,30 @@
     "ABILITY2": "STRIKER",
     "EVOLUTIONS": "",
     "METHODS": "",
-    "FORMINDEX": ""
+    "FORMINDEX": 1
   },
   {
-    "DEX": 369,
+    "DEX": 373,
+    "NAME": "BLAZIGALLUS",
+    "FORM": "HOLONIAN",
+    "CATEGORY": "Osiris",
+    "TYPE1": "PSYCHIC",
+    "TYPE2": "GHOST",
+    "HP": 80,
+    "ATK": 140,
+    "DEF": 80,
+    "SPA": 95,
+    "SPDEF": 80,
+    "SPD": 110,
+    "BST": 585,
+    "ABILITY1": "GALEWINGS",
+    "ABILITY2": "KEENEYE",
+    "EVOLUTIONS": "",
+    "METHODS": "",
+    "FORMINDEX": 2
+  },
+  {
+    "DEX": 374,
     "NAME": "MUDKIP",
     "FORM": "",
     "CATEGORY": "Swamp Fish",
@@ -10200,7 +10580,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 370,
+    "DEX": 375,
     "NAME": "MARSHTOMP",
     "FORM": "",
     "CATEGORY": "Swamp Fish",
@@ -10220,7 +10600,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 371,
+    "DEX": 376,
     "NAME": "SWAMPERT",
     "FORM": "",
     "CATEGORY": "Swamp Fish",
@@ -10240,7 +10620,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 372,
+    "DEX": 377,
     "NAME": "SWOLEPERT",
     "FORM": "",
     "CATEGORY": "Buff Fish",
@@ -10260,7 +10640,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 373,
+    "DEX": 378,
     "NAME": "POOCHYENA",
     "FORM": "",
     "CATEGORY": "Hyena",
@@ -10280,7 +10660,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 374,
+    "DEX": 379,
     "NAME": "MIGHTYENA",
     "FORM": "",
     "CATEGORY": "Hyena",
@@ -10300,7 +10680,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 375,
+    "DEX": 380,
     "NAME": "SKULBERUS",
     "FORM": "",
     "CATEGORY": "Cerberus",
@@ -10320,7 +10700,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 376,
+    "DEX": 381,
     "NAME": "ZIGZAGOON",
     "FORM": "HOENNIAN",
     "CATEGORY": "Tiny Raccoon",
@@ -10340,7 +10720,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 376,
+    "DEX": 381,
     "NAME": "ZIGZAGOON",
     "FORM": "GALARIAN",
     "CATEGORY": "Tiny Raccoon",
@@ -10360,7 +10740,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 377,
+    "DEX": 382,
     "NAME": "LINOONE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Rushing",
@@ -10380,7 +10760,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 377,
+    "DEX": 382,
     "NAME": "LINOONE",
     "FORM": "GALARIAN",
     "CATEGORY": "Rushing",
@@ -10400,7 +10780,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 378,
+    "DEX": 383,
     "NAME": "OBSTAGOON",
     "FORM": "HOENNIAN",
     "CATEGORY": "Blocking",
@@ -10420,7 +10800,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 378,
+    "DEX": 383,
     "NAME": "OBSTAGOON",
     "FORM": "GALARIAN",
     "CATEGORY": "Blocking",
@@ -10440,7 +10820,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 379,
+    "DEX": 384,
     "NAME": "WURMPLE",
     "FORM": "",
     "CATEGORY": "Worm",
@@ -10460,7 +10840,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 380,
+    "DEX": 385,
     "NAME": "SILCOON",
     "FORM": "",
     "CATEGORY": "Cocoon",
@@ -10480,7 +10860,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 381,
+    "DEX": 386,
     "NAME": "BEAUTIFLY",
     "FORM": "",
     "CATEGORY": "Butterfly",
@@ -10500,7 +10880,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 382,
+    "DEX": 387,
     "NAME": "CASCOON",
     "FORM": "",
     "CATEGORY": "Cocoon",
@@ -10520,7 +10900,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 383,
+    "DEX": 388,
     "NAME": "DUSTOX",
     "FORM": "",
     "CATEGORY": "Poison Moth",
@@ -10540,7 +10920,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 384,
+    "DEX": 389,
     "NAME": "LOTAD",
     "FORM": "HOENNIAN",
     "CATEGORY": "Water Weed",
@@ -10560,7 +10940,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 384,
+    "DEX": 389,
     "NAME": "LOTAD",
     "FORM": "HOLONIAN",
     "CATEGORY": "Wizard Hat",
@@ -10580,7 +10960,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 385,
+    "DEX": 390,
     "NAME": "LOMBRE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Jolly",
@@ -10600,7 +10980,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 385,
+    "DEX": 390,
     "NAME": "LOMBRE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Apprentice",
@@ -10620,7 +11000,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 386,
+    "DEX": 391,
     "NAME": "LUDICOLO",
     "FORM": "HOENNIAN",
     "CATEGORY": "Carefree",
@@ -10640,7 +11020,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 386,
+    "DEX": 391,
     "NAME": "LUDICOLO",
     "FORM": "HOLONIAN",
     "CATEGORY": "Sorcerer",
@@ -10660,7 +11040,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 387,
+    "DEX": 392,
     "NAME": "SEEDOT",
     "FORM": "HOENNIAN",
     "CATEGORY": "Acorn",
@@ -10680,7 +11060,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 387,
+    "DEX": 392,
     "NAME": "SEEDOT",
     "FORM": "HOLONIAN",
     "CATEGORY": "Lightbulb",
@@ -10700,7 +11080,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 388,
+    "DEX": 393,
     "NAME": "NUZLEAF",
     "FORM": "HOENNIAN",
     "CATEGORY": "Wily",
@@ -10720,7 +11100,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 388,
+    "DEX": 393,
     "NAME": "NUZLEAF",
     "FORM": "HOLONIAN",
     "CATEGORY": "Energetic",
@@ -10740,7 +11120,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 389,
+    "DEX": 394,
     "NAME": "SHIFTRY",
     "FORM": "HOENNIAN",
     "CATEGORY": "Wicked",
@@ -10760,7 +11140,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 389,
+    "DEX": 394,
     "NAME": "SHIFTRY",
     "FORM": "HOLONIAN",
     "CATEGORY": "Discharge",
@@ -10780,7 +11160,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 390,
+    "DEX": 395,
     "NAME": "TAILLOW",
     "FORM": "",
     "CATEGORY": "Tiny Swallow",
@@ -10800,7 +11180,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 391,
+    "DEX": 396,
     "NAME": "SWELLOW",
     "FORM": "",
     "CATEGORY": "Swallow",
@@ -10820,7 +11200,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 392,
+    "DEX": 397,
     "NAME": "WINGULL",
     "FORM": "",
     "CATEGORY": "Seagull",
@@ -10840,7 +11220,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 393,
+    "DEX": 398,
     "NAME": "PELIPPER",
     "FORM": "",
     "CATEGORY": "Pelican",
@@ -10860,7 +11240,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 394,
+    "DEX": 399,
     "NAME": "RALTS",
     "FORM": "HOENNIAN",
     "CATEGORY": "Feeling",
@@ -10880,7 +11260,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 394,
+    "DEX": 399,
     "NAME": "RALTS",
     "FORM": "HOLONIAN",
     "CATEGORY": "Perception",
@@ -10900,7 +11280,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 395,
+    "DEX": 400,
     "NAME": "KIRLIA",
     "FORM": "HOENNIAN",
     "CATEGORY": "Emotion",
@@ -10920,7 +11300,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 395,
+    "DEX": 400,
     "NAME": "KIRLIA",
     "FORM": "HOLONIAN",
     "CATEGORY": "Excitement",
@@ -10940,7 +11320,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 396,
+    "DEX": 401,
     "NAME": "GARDEVOIR",
     "FORM": "HOENNIAN",
     "CATEGORY": "Embrace",
@@ -10960,7 +11340,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 396,
+    "DEX": 401,
     "NAME": "GARDEVOIR",
     "FORM": "HOLONIAN",
     "CATEGORY": "Nuzzle",
@@ -10980,7 +11360,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 397,
+    "DEX": 402,
     "NAME": "SYRIGARDE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Comfort",
@@ -11000,7 +11380,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 397,
+    "DEX": 402,
     "NAME": "SYRIGARDE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Dancer",
@@ -11020,7 +11400,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 398,
+    "DEX": 403,
     "NAME": "GALLADE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Gallant",
@@ -11040,7 +11420,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 398,
+    "DEX": 403,
     "NAME": "GALLADE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Reaction",
@@ -11060,7 +11440,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 399,
+    "DEX": 404,
     "NAME": "VALIABLADE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Steadfast",
@@ -11080,7 +11460,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 399,
+    "DEX": 404,
     "NAME": "VALIABLADE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Reflex",
@@ -11100,7 +11480,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 400,
+    "DEX": 405,
     "NAME": "GARDEVADE",
     "FORM": "",
     "CATEGORY": "Iron Valiant",
@@ -11120,7 +11500,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 401,
+    "DEX": 406,
     "NAME": "SURSKIT",
     "FORM": "",
     "CATEGORY": "Pond Skater",
@@ -11140,7 +11520,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 402,
+    "DEX": 407,
     "NAME": "MASQUERAIN",
     "FORM": "",
     "CATEGORY": "Pond Moth",
@@ -11160,7 +11540,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 403,
+    "DEX": 408,
     "NAME": "SHROOMISH",
     "FORM": "",
     "CATEGORY": "Mushroom",
@@ -11180,7 +11560,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 404,
+    "DEX": 409,
     "NAME": "BRELOOM",
     "FORM": "",
     "CATEGORY": "Mushroom",
@@ -11200,7 +11580,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 405,
+    "DEX": 410,
     "NAME": "CHAPIGNON",
     "FORM": "",
     "CATEGORY": "Mushroom",
@@ -11220,7 +11600,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 406,
+    "DEX": 411,
     "NAME": "SLAKOTH",
     "FORM": "",
     "CATEGORY": "Sloth",
@@ -11240,7 +11620,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 407,
+    "DEX": 412,
     "NAME": "VIGOROTH",
     "FORM": "",
     "CATEGORY": "Wild Sloth",
@@ -11260,7 +11640,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 408,
+    "DEX": 413,
     "NAME": "SLAKING",
     "FORM": "",
     "CATEGORY": "Giant Sloth",
@@ -11280,7 +11660,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 409,
+    "DEX": 414,
     "NAME": "NINCADA",
     "FORM": "",
     "CATEGORY": "Trainee",
@@ -11300,7 +11680,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 410,
+    "DEX": 415,
     "NAME": "NINJASK",
     "FORM": "",
     "CATEGORY": "Ninja",
@@ -11320,7 +11700,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 411,
+    "DEX": 416,
     "NAME": "SHEDINJA",
     "FORM": "",
     "CATEGORY": "Shed",
@@ -11340,7 +11720,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 412,
+    "DEX": 417,
     "NAME": "WHISMUR",
     "FORM": "HOENNIAN",
     "CATEGORY": "Whisper",
@@ -11360,7 +11740,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 412,
+    "DEX": 417,
     "NAME": "WHISMUR",
     "FORM": "UNOVAN",
     "CATEGORY": "Headphone",
@@ -11380,7 +11760,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 413,
+    "DEX": 418,
     "NAME": "LOUDRED",
     "FORM": "HOENNIAN",
     "CATEGORY": "Big Voice",
@@ -11400,7 +11780,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 413,
+    "DEX": 418,
     "NAME": "LOUDRED",
     "FORM": "UNOVAN",
     "CATEGORY": "Metal",
@@ -11420,7 +11800,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 414,
+    "DEX": 419,
     "NAME": "EXPLOUD",
     "FORM": "HOENNIAN",
     "CATEGORY": "Loud Noise",
@@ -11440,7 +11820,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 414,
+    "DEX": 419,
     "NAME": "EXPLOUD",
     "FORM": "UNOVAN",
     "CATEGORY": "Death Metal",
@@ -11460,7 +11840,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 415,
+    "DEX": 420,
     "NAME": "MAKUHITA",
     "FORM": "",
     "CATEGORY": "Guts",
@@ -11480,7 +11860,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 416,
+    "DEX": 421,
     "NAME": "HARIYAMA",
     "FORM": "",
     "CATEGORY": "Sumo",
@@ -11500,7 +11880,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 417,
+    "DEX": 422,
     "NAME": "FUTUYAMA",
     "FORM": "",
     "CATEGORY": "Iron Hands",
@@ -11520,7 +11900,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 418,
+    "DEX": 423,
     "NAME": "NOSEPASS",
     "FORM": "",
     "CATEGORY": "Compass",
@@ -11540,7 +11920,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 419,
+    "DEX": 424,
     "NAME": "PROBOPASS",
     "FORM": "",
     "CATEGORY": "Compass",
@@ -11560,7 +11940,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 420,
+    "DEX": 425,
     "NAME": "SKITTY",
     "FORM": "",
     "CATEGORY": "Kitten",
@@ -11580,7 +11960,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 421,
+    "DEX": 426,
     "NAME": "DELCATTY",
     "FORM": "",
     "CATEGORY": "Prim",
@@ -11600,7 +11980,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 422,
+    "DEX": 427,
     "NAME": "SABLEYE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Darkness",
@@ -11620,7 +12000,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 422,
+    "DEX": 427,
     "NAME": "SABLEYE",
     "FORM": "KALOSIAN",
     "CATEGORY": "Brilliant",
@@ -11640,7 +12020,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 422,
+    "DEX": 427,
     "NAME": "SABLEYE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Magma",
@@ -11660,7 +12040,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 423,
+    "DEX": 428,
     "NAME": "EBONEYE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Darkness",
@@ -11680,7 +12060,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 423,
+    "DEX": 428,
     "NAME": "EBONEYE",
     "FORM": "KALOSIAN",
     "CATEGORY": "Brilliant",
@@ -11700,7 +12080,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 423,
+    "DEX": 428,
     "NAME": "EBONEYE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Magma",
@@ -11720,7 +12100,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 424,
+    "DEX": 429,
     "NAME": "MAWILE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Deceiver",
@@ -11740,7 +12120,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 424,
+    "DEX": 429,
     "NAME": "MAWILE",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Kimono",
@@ -11760,7 +12140,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 424,
+    "DEX": 429,
     "NAME": "MAWILE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Flower",
@@ -11780,7 +12160,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 425,
+    "DEX": 430,
     "NAME": "MYSDIBLE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Deceiver",
@@ -11800,7 +12180,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 425,
+    "DEX": 430,
     "NAME": "MYSDIBLE",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Kimono",
@@ -11820,7 +12200,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 425,
+    "DEX": 430,
     "NAME": "MYSDIBLE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Flower",
@@ -11840,7 +12220,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 426,
+    "DEX": 431,
     "NAME": "ARON",
     "FORM": "",
     "CATEGORY": "Iron Armor",
@@ -11860,7 +12240,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 427,
+    "DEX": 432,
     "NAME": "LAIRON",
     "FORM": "",
     "CATEGORY": "Iron Armor",
@@ -11880,7 +12260,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 428,
+    "DEX": 433,
     "NAME": "AGGRON",
     "FORM": "",
     "CATEGORY": "Iron Armor",
@@ -11900,19 +12280,19 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 429,
+    "DEX": 434,
     "NAME": "FORTRERON",
     "FORM": "",
     "CATEGORY": "Iron Armor",
     "TYPE1": "STEEL",
     "TYPE2": "GROUND",
-    "HP": 70,
+    "HP": 75,
     "ATK": 120,
     "DEF": 215,
     "SPA": 60,
-    "SPDEF": 70,
+    "SPDEF": 80,
     "SPD": 50,
-    "BST": 585,
+    "BST": 600,
     "ABILITY1": "FILTER",
     "ABILITY2": "ROCKHEAD",
     "EVOLUTIONS": "",
@@ -11920,7 +12300,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 430,
+    "DEX": 435,
     "NAME": "MEDITITE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Meditate",
@@ -11940,7 +12320,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 430,
+    "DEX": 435,
     "NAME": "MEDITITE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Satyr",
@@ -11960,7 +12340,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 431,
+    "DEX": 436,
     "NAME": "MEDICHAM",
     "FORM": "HOENNIAN",
     "CATEGORY": "Meditate",
@@ -11980,7 +12360,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 431,
+    "DEX": 436,
     "NAME": "MEDICHAM",
     "FORM": "HOLONIAN",
     "CATEGORY": "Satyr",
@@ -12000,7 +12380,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 432,
+    "DEX": 437,
     "NAME": "MEDICHAKRA",
     "FORM": "HOENNIAN",
     "CATEGORY": "Meditate",
@@ -12020,7 +12400,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 432,
+    "DEX": 437,
     "NAME": "MEDICHAKRA",
     "FORM": "HOLONIAN",
     "CATEGORY": "Satyr",
@@ -12040,7 +12420,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 433,
+    "DEX": 438,
     "NAME": "ELECTRIKE",
     "FORM": "",
     "CATEGORY": "Lightning",
@@ -12060,7 +12440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 434,
+    "DEX": 439,
     "NAME": "MANECTRIC",
     "FORM": "",
     "CATEGORY": "Discharge",
@@ -12080,7 +12460,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 435,
+    "DEX": 440,
     "NAME": "ELECTSPRINT",
     "FORM": "",
     "CATEGORY": "Discharge",
@@ -12100,7 +12480,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 436,
+    "DEX": 441,
     "NAME": "PLUSLE",
     "FORM": "",
     "CATEGORY": "Cheering",
@@ -12120,7 +12500,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 437,
+    "DEX": 442,
     "NAME": "MINUN",
     "FORM": "",
     "CATEGORY": "Cheering",
@@ -12140,7 +12520,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 438,
+    "DEX": 443,
     "NAME": "VOLBEAT",
     "FORM": "",
     "CATEGORY": "Firefly",
@@ -12160,7 +12540,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 439,
+    "DEX": 444,
     "NAME": "ILLUMISE",
     "FORM": "",
     "CATEGORY": "Lightning Bug",
@@ -12180,7 +12560,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 440,
+    "DEX": 445,
     "NAME": "BUDEW",
     "FORM": "",
     "CATEGORY": "Bud",
@@ -12200,7 +12580,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 441,
+    "DEX": 446,
     "NAME": "ROSELIA",
     "FORM": "",
     "CATEGORY": "Thorn",
@@ -12220,7 +12600,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 442,
+    "DEX": 447,
     "NAME": "ROSERADE",
     "FORM": "",
     "CATEGORY": "Bouquet",
@@ -12240,7 +12620,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 443,
+    "DEX": 448,
     "NAME": "HELLEMASQUE",
     "FORM": "",
     "CATEGORY": "Bouquet",
@@ -12260,7 +12640,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 444,
+    "DEX": 449,
     "NAME": "GULPIN",
     "FORM": "",
     "CATEGORY": "Stomach",
@@ -12280,7 +12660,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 445,
+    "DEX": 450,
     "NAME": "SWALOT",
     "FORM": "",
     "CATEGORY": "Poison Bag",
@@ -12300,7 +12680,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 446,
+    "DEX": 451,
     "NAME": "DEVORALL",
     "FORM": "",
     "CATEGORY": "Poison Bag",
@@ -12320,7 +12700,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 447,
+    "DEX": 452,
     "NAME": "CARVANHA",
     "FORM": "",
     "CATEGORY": "Piranha",
@@ -12340,7 +12720,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 448,
+    "DEX": 453,
     "NAME": "SHARPEDO",
     "FORM": "",
     "CATEGORY": "Shark",
@@ -12360,7 +12740,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 449,
+    "DEX": 454,
     "NAME": "SHARMARINE",
     "FORM": "",
     "CATEGORY": "Shark",
@@ -12380,7 +12760,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 450,
+    "DEX": 455,
     "NAME": "WAILMER",
     "FORM": "HOENNIAN",
     "CATEGORY": "Ball Whale",
@@ -12400,7 +12780,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 450,
+    "DEX": 455,
     "NAME": "WAILMER",
     "FORM": "HOLONIAN",
     "CATEGORY": "Sky Whale",
@@ -12420,7 +12800,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 451,
+    "DEX": 456,
     "NAME": "WAILORD",
     "FORM": "HOENNIAN",
     "CATEGORY": "Float Whale",
@@ -12440,7 +12820,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 451,
+    "DEX": 456,
     "NAME": "WAILORD",
     "FORM": "HOLONIAN",
     "CATEGORY": "Blimp Whale",
@@ -12460,7 +12840,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 452,
+    "DEX": 457,
     "NAME": "NUMEL",
     "FORM": "HOENNIAN",
     "CATEGORY": "Numb",
@@ -12480,7 +12860,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 452,
+    "DEX": 457,
     "NAME": "NUMEL",
     "FORM": "HOLONIAN",
     "CATEGORY": "Half-Life",
@@ -12500,7 +12880,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 453,
+    "DEX": 458,
     "NAME": "CAMERUPT",
     "FORM": "HOENNIAN",
     "CATEGORY": "Eruption",
@@ -12520,7 +12900,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 453,
+    "DEX": 458,
     "NAME": "CAMERUPT",
     "FORM": "HOLONIAN",
     "CATEGORY": "Radiation",
@@ -12540,7 +12920,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 454,
+    "DEX": 459,
     "NAME": "CAMELCANO",
     "FORM": "HOENNIAN",
     "CATEGORY": "Eruption",
@@ -12560,7 +12940,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 454,
+    "DEX": 459,
     "NAME": "CAMELCANO",
     "FORM": "HOLONIAN",
     "CATEGORY": "Radiation",
@@ -12580,7 +12960,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 455,
+    "DEX": 460,
     "NAME": "TORKOAL",
     "FORM": "",
     "CATEGORY": "Coal",
@@ -12600,7 +12980,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 456,
+    "DEX": 461,
     "NAME": "TORTEMPLE",
     "FORM": "",
     "CATEGORY": "Coal",
@@ -12620,7 +13000,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 457,
+    "DEX": 462,
     "NAME": "SPOINK",
     "FORM": "",
     "CATEGORY": "Bounce",
@@ -12640,7 +13020,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 458,
+    "DEX": 463,
     "NAME": "GRUMPIG",
     "FORM": "",
     "CATEGORY": "Manipulate",
@@ -12660,7 +13040,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 459,
+    "DEX": 464,
     "NAME": "BOARLOCK",
     "FORM": "",
     "CATEGORY": "Warlock",
@@ -12680,7 +13060,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 460,
+    "DEX": 465,
     "NAME": "SPINDA",
     "FORM": "",
     "CATEGORY": "Spot Panda",
@@ -12700,7 +13080,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 461,
+    "DEX": 466,
     "NAME": "TRAPINCH",
     "FORM": "HOENNIAN",
     "CATEGORY": "Ant Pit",
@@ -12720,7 +13100,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 461,
+    "DEX": 466,
     "NAME": "TRAPINCH",
     "FORM": "SINNOHAN",
     "CATEGORY": "Ant Pit",
@@ -12740,7 +13120,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 462,
+    "DEX": 467,
     "NAME": "VIBRAVA",
     "FORM": "HOENNIAN",
     "CATEGORY": "Vibration",
@@ -12760,7 +13140,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 462,
+    "DEX": 467,
     "NAME": "VIBRAVA",
     "FORM": "SINNOHAN",
     "CATEGORY": "Ice Crystal",
@@ -12780,7 +13160,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 463,
+    "DEX": 468,
     "NAME": "FLYGON",
     "FORM": "HOENNIAN",
     "CATEGORY": "Mystic",
@@ -12800,7 +13180,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 463,
+    "DEX": 468,
     "NAME": "FLYGON",
     "FORM": "SINNOHAN",
     "CATEGORY": "Mystic",
@@ -12820,7 +13200,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 464,
+    "DEX": 469,
     "NAME": "MYSTISTREAM",
     "FORM": "HOENNIAN",
     "CATEGORY": "Mystic",
@@ -12840,7 +13220,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 464,
+    "DEX": 469,
     "NAME": "MYSTISTREAM",
     "FORM": "SINNOHAN",
     "CATEGORY": "Mystic",
@@ -12860,7 +13240,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 465,
+    "DEX": 470,
     "NAME": "CACNEA",
     "FORM": "",
     "CATEGORY": "Cactus",
@@ -12880,7 +13260,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 466,
+    "DEX": 471,
     "NAME": "CACTURNE",
     "FORM": "",
     "CATEGORY": "Scarecrow",
@@ -12900,7 +13280,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 467,
+    "DEX": 472,
     "NAME": "SAGUARUTAL",
     "FORM": "",
     "CATEGORY": "Wanderer",
@@ -12920,7 +13300,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 468,
+    "DEX": 473,
     "NAME": "MARACTUS",
     "FORM": "",
     "CATEGORY": "Maraca",
@@ -12940,7 +13320,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 469,
+    "DEX": 474,
     "NAME": "SAGUARACAS",
     "FORM": "",
     "CATEGORY": "Maraca",
@@ -12960,7 +13340,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 470,
+    "DEX": 475,
     "NAME": "SWABLU",
     "FORM": "",
     "CATEGORY": "Cotton Bird",
@@ -12980,7 +13360,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 471,
+    "DEX": 476,
     "NAME": "ALTARIA",
     "FORM": "",
     "CATEGORY": "Humming",
@@ -13000,7 +13380,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 472,
+    "DEX": 477,
     "NAME": "SOPRARIA",
     "FORM": "",
     "CATEGORY": "Aria",
@@ -13020,7 +13400,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 473,
+    "DEX": 478,
     "NAME": "ZANGOOSE",
     "FORM": "",
     "CATEGORY": "Mongoose",
@@ -13040,7 +13420,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 474,
+    "DEX": 479,
     "NAME": "SEVIPER",
     "FORM": "",
     "CATEGORY": "Blade Snake",
@@ -13060,7 +13440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 475,
+    "DEX": 480,
     "NAME": "MINIOR",
     "FORM": "",
     "CATEGORY": "Meteor",
@@ -13080,7 +13460,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 476,
+    "DEX": 481,
     "NAME": "LUNATONE",
     "FORM": "",
     "CATEGORY": "Meteorite",
@@ -13100,7 +13480,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 477,
+    "DEX": 482,
     "NAME": "SOLROCK",
     "FORM": "",
     "CATEGORY": "Meteorite",
@@ -13120,7 +13500,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 478,
+    "DEX": 483,
     "NAME": "METEORBIT",
     "FORM": "",
     "CATEGORY": "Solar System",
@@ -13140,7 +13520,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 479,
+    "DEX": 484,
     "NAME": "BARBOACH",
     "FORM": "",
     "CATEGORY": "Loach",
@@ -13160,7 +13540,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 480,
+    "DEX": 485,
     "NAME": "WHISCASH",
     "FORM": "",
     "CATEGORY": "Catfish",
@@ -13180,7 +13560,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 481,
+    "DEX": 486,
     "NAME": "CORPHISH",
     "FORM": "",
     "CATEGORY": "Ruffian",
@@ -13200,7 +13580,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 482,
+    "DEX": 487,
     "NAME": "CRAWDAUNT",
     "FORM": "",
     "CATEGORY": "Rogue",
@@ -13220,7 +13600,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 483,
+    "DEX": 488,
     "NAME": "CRAWDAUNTLESS",
     "FORM": "",
     "CATEGORY": "Barbarian",
@@ -13240,7 +13620,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 484,
+    "DEX": 489,
     "NAME": "BALTOY",
     "FORM": "",
     "CATEGORY": "Clay Doll",
@@ -13260,7 +13640,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 485,
+    "DEX": 490,
     "NAME": "CLAYDOL",
     "FORM": "",
     "CATEGORY": "Clay Doll",
@@ -13280,7 +13660,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 486,
+    "DEX": 491,
     "NAME": "LILEEP",
     "FORM": "",
     "CATEGORY": "Sea Lily",
@@ -13300,7 +13680,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 487,
+    "DEX": 492,
     "NAME": "CRADILY",
     "FORM": "",
     "CATEGORY": "Sea Lily",
@@ -13320,7 +13700,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 488,
+    "DEX": 493,
     "NAME": "ANORITH",
     "FORM": "",
     "CATEGORY": "Shrimp",
@@ -13340,7 +13720,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 489,
+    "DEX": 494,
     "NAME": "ARMALDO",
     "FORM": "",
     "CATEGORY": "Plate",
@@ -13360,7 +13740,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 490,
+    "DEX": 495,
     "NAME": "FEEBAS",
     "FORM": "HOENNIAN",
     "CATEGORY": "Fish",
@@ -13380,7 +13760,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 490,
+    "DEX": 495,
     "NAME": "FEEBAS",
     "FORM": "HOLONIAN",
     "CATEGORY": "Bone Fish",
@@ -13400,7 +13780,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 491,
+    "DEX": 496,
     "NAME": "MILOTIC",
     "FORM": "HOENNIAN",
     "CATEGORY": "Tender",
@@ -13420,7 +13800,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 491,
+    "DEX": 496,
     "NAME": "MILOTIC",
     "FORM": "HOLONIAN",
     "CATEGORY": "Haunting",
@@ -13440,7 +13820,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 492,
+    "DEX": 497,
     "NAME": "MILOKAROSS",
     "FORM": "HOENNIAN",
     "CATEGORY": "Tender",
@@ -13460,7 +13840,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 492,
+    "DEX": 497,
     "NAME": "MILOKAROSS",
     "FORM": "HOLONIAN",
     "CATEGORY": "Absolution",
@@ -13480,7 +13860,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 493,
+    "DEX": 498,
     "NAME": "CASTFORM",
     "FORM": "NORMAL",
     "CATEGORY": "Weather",
@@ -13500,7 +13880,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 493,
+    "DEX": 498,
     "NAME": "CASTFORM",
     "FORM": "RAINY",
     "CATEGORY": "Weather",
@@ -13520,7 +13900,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 493,
+    "DEX": 498,
     "NAME": "CASTFORM",
     "FORM": "SANDY",
     "CATEGORY": "Weather",
@@ -13540,7 +13920,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 493,
+    "DEX": 498,
     "NAME": "CASTFORM",
     "FORM": "SNOWY",
     "CATEGORY": "Weather",
@@ -13560,7 +13940,7 @@
     "FORMINDEX": 4
   },
   {
-    "DEX": 493,
+    "DEX": 498,
     "NAME": "CASTFORM",
     "FORM": "SUNNY",
     "CATEGORY": "Weather",
@@ -13580,7 +13960,7 @@
     "FORMINDEX": 5
   },
   {
-    "DEX": 494,
+    "DEX": 499,
     "NAME": "KECLEON",
     "FORM": "",
     "CATEGORY": "Color Swap",
@@ -13600,7 +13980,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 495,
+    "DEX": 500,
     "NAME": "SHUPPET",
     "FORM": "",
     "CATEGORY": "Puppet",
@@ -13620,7 +14000,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 496,
+    "DEX": 501,
     "NAME": "BANETTE",
     "FORM": "",
     "CATEGORY": "Marionette",
@@ -13640,7 +14020,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 497,
+    "DEX": 502,
     "NAME": "VOODOLL",
     "FORM": "",
     "CATEGORY": "Marionette",
@@ -13660,7 +14040,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 498,
+    "DEX": 503,
     "NAME": "DUSKULL",
     "FORM": "",
     "CATEGORY": "Requiem",
@@ -13680,7 +14060,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 499,
+    "DEX": 504,
     "NAME": "DUSCLOPS",
     "FORM": "",
     "CATEGORY": "Beckon",
@@ -13700,7 +14080,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 500,
+    "DEX": 505,
     "NAME": "DUSKNOIR",
     "FORM": "",
     "CATEGORY": "Reaper",
@@ -13720,7 +14100,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 501,
+    "DEX": 506,
     "NAME": "TROPIUS",
     "FORM": "",
     "CATEGORY": "Fruit",
@@ -13740,7 +14120,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 502,
+    "DEX": 507,
     "NAME": "BRONTONANA",
     "FORM": "",
     "CATEGORY": "Fruit",
@@ -13760,7 +14140,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 503,
+    "DEX": 508,
     "NAME": "CHINGLING",
     "FORM": "",
     "CATEGORY": "Bell",
@@ -13780,7 +14160,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 504,
+    "DEX": 509,
     "NAME": "CHIMECHO",
     "FORM": "",
     "CATEGORY": "Wind Chime",
@@ -13800,7 +14180,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 505,
+    "DEX": 510,
     "NAME": "HARMONSIDHE",
     "FORM": "",
     "CATEGORY": "Wind Chime",
@@ -13820,7 +14200,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 506,
+    "DEX": 511,
     "NAME": "ABSOL",
     "FORM": "",
     "CATEGORY": "Disaster",
@@ -13840,7 +14220,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 507,
+    "DEX": 512,
     "NAME": "OMENGEL",
     "FORM": "",
     "CATEGORY": "Omen",
@@ -13860,7 +14240,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 508,
+    "DEX": 513,
     "NAME": "TAISORU",
     "FORM": "",
     "CATEGORY": "Reaper",
@@ -13880,7 +14260,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 509,
+    "DEX": 514,
     "NAME": "SNORUNT",
     "FORM": "HOENNIAN",
     "CATEGORY": "Snow Hat",
@@ -13900,7 +14280,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 509,
+    "DEX": 514,
     "NAME": "SNORUNT",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Dark Hat",
@@ -13920,7 +14300,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 509,
+    "DEX": 514,
     "NAME": "SNORUNT",
     "FORM": "HOLONIAN",
     "CATEGORY": "Fire Hat",
@@ -13940,7 +14320,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 510,
+    "DEX": 515,
     "NAME": "GLALIE",
     "FORM": "HOENNIAN",
     "CATEGORY": "Snow Face",
@@ -13960,7 +14340,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 510,
+    "DEX": 515,
     "NAME": "GLALIE",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Helmet",
@@ -13980,7 +14360,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 510,
+    "DEX": 515,
     "NAME": "GLALIE",
     "FORM": "HOLONIAN",
     "CATEGORY": "Flaming Face",
@@ -14000,7 +14380,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 511,
+    "DEX": 516,
     "NAME": "ONIGLACIER",
     "FORM": "HOENNIAN",
     "CATEGORY": "Oni",
@@ -14020,7 +14400,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 511,
+    "DEX": 516,
     "NAME": "ONIGLACIER",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Demon",
@@ -14040,7 +14420,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 511,
+    "DEX": 516,
     "NAME": "ONIGLACIER",
     "FORM": "HOLONIAN",
     "CATEGORY": "Devil",
@@ -14060,7 +14440,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 512,
+    "DEX": 517,
     "NAME": "FROSLASS",
     "FORM": "HOENNIAN",
     "CATEGORY": "Snow Cloak",
@@ -14080,7 +14460,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 512,
+    "DEX": 517,
     "NAME": "FROSLASS",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Cloak",
@@ -14100,7 +14480,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 512,
+    "DEX": 517,
     "NAME": "FROSLASS",
     "FORM": "HOLONIAN",
     "CATEGORY": "Magma Cloak",
@@ -14120,7 +14500,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 513,
+    "DEX": 518,
     "NAME": "YUKIMONO",
     "FORM": "HOENNIAN",
     "CATEGORY": "Banshee",
@@ -14140,7 +14520,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 513,
+    "DEX": 518,
     "NAME": "YUKIMONO",
     "FORM": "JOHTONIAN",
     "CATEGORY": "Wraith",
@@ -14160,7 +14540,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 513,
+    "DEX": 518,
     "NAME": "YUKIMONO",
     "FORM": "HOLONIAN",
     "CATEGORY": "Witch",
@@ -14180,7 +14560,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 514,
+    "DEX": 519,
     "NAME": "SPHEAL",
     "FORM": "",
     "CATEGORY": "Ball Roll",
@@ -14200,7 +14580,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 515,
+    "DEX": 520,
     "NAME": "SEALEO",
     "FORM": "",
     "CATEGORY": "Seal",
@@ -14220,7 +14600,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 516,
+    "DEX": 521,
     "NAME": "WALREIN",
     "FORM": "",
     "CATEGORY": "Walrus",
@@ -14240,7 +14620,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 517,
+    "DEX": 522,
     "NAME": "CLAMPERL",
     "FORM": "HOENNIAN",
     "CATEGORY": "Clam",
@@ -14260,7 +14640,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 517,
+    "DEX": 522,
     "NAME": "CLAMPERL",
     "FORM": "HOLONIAN",
     "CATEGORY": "Dragon Clam",
@@ -14280,7 +14660,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 518,
+    "DEX": 523,
     "NAME": "HUNTAIL",
     "FORM": "HOENNIAN",
     "CATEGORY": "Gulper",
@@ -14300,7 +14680,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 518,
+    "DEX": 523,
     "NAME": "HUNTAIL",
     "FORM": "HOLONIAN",
     "CATEGORY": "Dragon Eel",
@@ -14320,7 +14700,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 519,
+    "DEX": 524,
     "NAME": "GOREBYSS",
     "FORM": "HOENNIAN",
     "CATEGORY": "Pipefish",
@@ -14340,7 +14720,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 519,
+    "DEX": 524,
     "NAME": "GOREBYSS",
     "FORM": "HOLONIAN",
     "CATEGORY": "Dragon Fish",
@@ -14360,7 +14740,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 520,
+    "DEX": 525,
     "NAME": "RELICANTH",
     "FORM": "",
     "CATEGORY": "Coelacanth",
@@ -14380,7 +14760,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 521,
+    "DEX": 526,
     "NAME": "FOSSILOSTEUS",
     "FORM": "",
     "CATEGORY": "Dunkleosteus",
@@ -14400,7 +14780,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 522,
+    "DEX": 527,
     "NAME": "LUVDISC",
     "FORM": "",
     "CATEGORY": "Heart",
@@ -14420,7 +14800,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 523,
+    "DEX": 528,
     "NAME": "ALOMOMOLA",
     "FORM": "",
     "CATEGORY": "Caring",
@@ -14440,7 +14820,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 524,
+    "DEX": 529,
     "NAME": "BAGON",
     "FORM": "",
     "CATEGORY": "Rock Head",
@@ -14460,7 +14840,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 525,
+    "DEX": 530,
     "NAME": "SHELGON",
     "FORM": "",
     "CATEGORY": "Endurance",
@@ -14480,7 +14860,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 526,
+    "DEX": 531,
     "NAME": "SALAMENCE",
     "FORM": "",
     "CATEGORY": "Dragon",
@@ -14500,7 +14880,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 527,
+    "DEX": 532,
     "NAME": "MEGAMENCE",
     "FORM": "",
     "CATEGORY": "Dragon",
@@ -14520,7 +14900,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 528,
+    "DEX": 533,
     "NAME": "LUNAMENCE",
     "FORM": "",
     "CATEGORY": "Dragon",
@@ -14540,7 +14920,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 529,
+    "DEX": 534,
     "NAME": "BELDUM",
     "FORM": "METALLIC",
     "CATEGORY": "Iron Claw",
@@ -14560,7 +14940,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 529,
+    "DEX": 534,
     "NAME": "BELDUM",
     "FORM": "RUINED",
     "CATEGORY": "Ruined",
@@ -14580,7 +14960,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 529,
+    "DEX": 534,
     "NAME": "BELDUM",
     "FORM": "SPIDER",
     "CATEGORY": "Spiderling",
@@ -14600,7 +14980,7 @@
     "FORMINDEX": 4
   },
   {
-    "DEX": 530,
+    "DEX": 535,
     "NAME": "METANG",
     "FORM": "METALLIC",
     "CATEGORY": "Iron Leg",
@@ -14620,7 +15000,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 530,
+    "DEX": 535,
     "NAME": "METANG",
     "FORM": "RUINED",
     "CATEGORY": "Ruined",
@@ -14640,7 +15020,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 530,
+    "DEX": 535,
     "NAME": "METANG",
     "FORM": "SPIDER",
     "CATEGORY": "Orb Spider",
@@ -14660,7 +15040,7 @@
     "FORMINDEX": 4
   },
   {
-    "DEX": 531,
+    "DEX": 536,
     "NAME": "METAGROSS",
     "FORM": "METALLIC",
     "CATEGORY": "Iron Spider",
@@ -14680,7 +15060,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 531,
+    "DEX": 536,
     "NAME": "METAGROSS",
     "FORM": "RUINED",
     "CATEGORY": "Ruined",
@@ -14700,7 +15080,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 531,
+    "DEX": 536,
     "NAME": "METAGROSS",
     "FORM": "SPIDER",
     "CATEGORY": "Giant Spider",
@@ -14720,7 +15100,7 @@
     "FORMINDEX": 4
   },
   {
-    "DEX": 532,
+    "DEX": 537,
     "NAME": "ANTIKYTHERA",
     "FORM": "METALLIC",
     "CATEGORY": "Iron Titan",
@@ -14740,7 +15120,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 532,
+    "DEX": 537,
     "NAME": "ANTIKYTHERA",
     "FORM": "RUINED",
     "CATEGORY": "Ancient",
@@ -14760,7 +15140,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 532,
+    "DEX": 537,
     "NAME": "ANTIKYTHERA",
     "FORM": "CRYSTAL",
     "CATEGORY": "Crystallized",
@@ -14780,7 +15160,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 532,
+    "DEX": 537,
     "NAME": "ANTIKYTHERA",
     "FORM": "SPIDER",
     "CATEGORY": "Terror Spider",
@@ -14800,7 +15180,7 @@
     "FORMINDEX": 4
   },
   {
-    "DEX": 533,
+    "DEX": 538,
     "NAME": "REGIROCK",
     "FORM": "",
     "CATEGORY": "Rock Peak",
@@ -14820,7 +15200,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 534,
+    "DEX": 539,
     "NAME": "REGICE",
     "FORM": "",
     "CATEGORY": "Iceberg",
@@ -14840,7 +15220,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 535,
+    "DEX": 540,
     "NAME": "REGISTEEL",
     "FORM": "",
     "CATEGORY": "Adamant",
@@ -14860,7 +15240,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 536,
+    "DEX": 541,
     "NAME": "REGILEKI",
     "FORM": "",
     "CATEGORY": "Electron",
@@ -14880,7 +15260,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 537,
+    "DEX": 542,
     "NAME": "REGIDRAGO",
     "FORM": "",
     "CATEGORY": "Dragon Orb",
@@ -14900,7 +15280,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 538,
+    "DEX": 543,
     "NAME": "REGIDUNE",
     "FORM": "",
     "CATEGORY": "Desert",
@@ -14920,7 +15300,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 539,
+    "DEX": 544,
     "NAME": "REGIWAVE",
     "FORM": "",
     "CATEGORY": "Ocean",
@@ -14940,7 +15320,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 540,
+    "DEX": 545,
     "NAME": "REGIFORGE",
     "FORM": "",
     "CATEGORY": "Forgefire",
@@ -14960,7 +15340,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 541,
+    "DEX": 546,
     "NAME": "REGIGIGAS",
     "FORM": "",
     "CATEGORY": "Colossal",
@@ -14980,7 +15360,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 542,
+    "DEX": 547,
     "NAME": "LATIAS",
     "FORM": "",
     "CATEGORY": "Eon",
@@ -15000,7 +15380,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 543,
+    "DEX": 548,
     "NAME": "LATIOS",
     "FORM": "",
     "CATEGORY": "Eon",
@@ -15020,7 +15400,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 544,
+    "DEX": 549,
     "NAME": "GROUDON",
     "FORM": "",
     "CATEGORY": "Continent",
@@ -15040,7 +15420,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 545,
+    "DEX": 550,
     "NAME": "KYOGRE",
     "FORM": "",
     "CATEGORY": "Sea Basin",
@@ -15060,7 +15440,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 546,
+    "DEX": 551,
     "NAME": "RAYQUAZA",
     "FORM": "",
     "CATEGORY": "Sky High",
@@ -15080,7 +15460,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 547,
+    "DEX": 552,
     "NAME": "JIRACHI",
     "FORM": "",
     "CATEGORY": "Wish",
@@ -15100,7 +15480,7 @@
     "FORMINDEX": ""
   },
   {
-    "DEX": 548,
+    "DEX": 553,
     "NAME": "DEOXYS",
     "FORM": "NORMAL",
     "CATEGORY": "DNA",
@@ -15120,7 +15500,7 @@
     "FORMINDEX": 1
   },
   {
-    "DEX": 548,
+    "DEX": 553,
     "NAME": "DEOXYS",
     "FORM": "ATTACK",
     "CATEGORY": "DNA",
@@ -15140,7 +15520,7 @@
     "FORMINDEX": 2
   },
   {
-    "DEX": 548,
+    "DEX": 553,
     "NAME": "DEOXYS",
     "FORM": "DEFENSE",
     "CATEGORY": "DNA",
@@ -15160,7 +15540,7 @@
     "FORMINDEX": 3
   },
   {
-    "DEX": 548,
+    "DEX": 553,
     "NAME": "DEOXYS",
     "FORM": "SPEED",
     "CATEGORY": "DNA",
@@ -15180,7 +15560,7 @@
     "FORMINDEX": 4
   },
   {
-    "DEX": 549,
+    "DEX": 554,
     "NAME": "MISSINGNO",
     "FORM": "",
     "CATEGORY": "Glitch",

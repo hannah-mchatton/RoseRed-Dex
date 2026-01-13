@@ -5,6 +5,7 @@ import abilities from '../data/abilities.json';
 export class Pokemon {
   dexNo: number;
   name: string;
+  category: string;
   form: string;
   formIndex: number;
   type1: string;
@@ -23,6 +24,7 @@ export class Pokemon {
   constructor(dataPokemon: any) {
     this.dexNo = dataPokemon.DEX;
     this.name = dataPokemon.NAME;
+    this.category = dataPokemon.CATEGORY,
     this.form = dataPokemon.FORM;
     this.formIndex = dataPokemon.FORMINDEX;
     this.type1 = dataPokemon.TYPE1;
@@ -72,6 +74,8 @@ export class Pokemon {
         return 'Mime Jr.';
       case 'MRMIME':
         return 'Mr. Mime';
+      case 'MRRHYME':
+        return 'Mr. Rhyme';
       case 'MRRIME':
         return 'Mr. Rime';
       case 'PORYGONZ':

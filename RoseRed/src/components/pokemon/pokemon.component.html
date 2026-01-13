@@ -12,6 +12,9 @@
     #{{ pokemon.dexNo.toString().padStart(3, "0") }}: {{ pokemon.getName() }}
     <span *ngIf="pokemon.form"> - {{ pokemon.getFormName() }} Form</span>
   </div>
+  <div class="category">
+    {{ pokemon.category }} Pokemon
+  </div>
   <div class="picture">
     <div>
       <img
