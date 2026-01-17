@@ -262,15 +262,17 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
           case "REMORAID":
             return "Level up w/ Remoraid in Party";
           case "SHEDINJA":
-            return "Level 20 special";
+            return "Special";
           case "METEORBIT":
-            return "Level 50 fusion";
+            return "Level 50 Fusion";
           case "DEEPSEATOOTH":
             return "Use Deep Sea Tooth";
           case "DEEPSEASCALE":
             return "Use Deep Sea Scale";
           default:
-            return "Level up knowing " + method;
+            let moveName = this.dataService.getMoveName(method);
+            if (moveName) return "Level up knowing " + moveName;
+            return method;
         }
       }
     }

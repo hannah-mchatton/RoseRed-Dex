@@ -1,11 +1,13 @@
 import { Injectable } from '@angular/core';
 import dex from '../data/dex.json';
 import abilities from '../data/abilities.json';
+import moves from '../data/moves.json';
 
 export class Pokemon {
   dexNo: number;
   name: string;
   category: string;
+  dexEntry: string;
   form: string;
   formIndex: number;
   type1: string;
@@ -25,6 +27,7 @@ export class Pokemon {
     this.dexNo = dataPokemon.DEX;
     this.name = dataPokemon.NAME;
     this.category = dataPokemon.CATEGORY,
+    this.dexEntry = dataPokemon.POKEDEX,
     this.form = dataPokemon.FORM;
     this.formIndex = dataPokemon.FORMINDEX;
     this.type1 = dataPokemon.TYPE1;
@@ -254,6 +257,10 @@ export class DataService {
 
   public getAbilityDesc(key) {
     return abilities.find((a) => a.Key == key)?.Description;
+  }
+
+  public getMoveName(key) {
+    return moves.find((a) => a.key == key)?.name;
   }
 
   public getPokemonByDexNo(dexNo: number) {
