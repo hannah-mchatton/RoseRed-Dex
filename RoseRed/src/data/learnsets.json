@@ -1,0 +1,7292 @@
+[
+  {
+    "NAME": "BULBASAUR",
+    "DEX": 1,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": {
+      "1": ["TACKLE", "GROWL"],
+      "3": ["VINEWHIP"],
+      "5": ["ACID"],
+      "7": ["GROWTH"],
+      "9": ["LEECHSEED"],
+      "13": ["POISONPOWDER", "SLEEPPOWDER"],
+      "15": ["VENOSHOCK"],
+      "19": ["LEAFTORNADO"],
+      "21": ["SWEETSCENT"],
+      "25": ["MUDBOMB"],
+      "27": ["SLUDGEBOMB"],
+      "31": ["SYNTHESIS"],
+      "33": ["PETALBLIZZARD"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BULBASAUR",
+    "DEX": 1,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": {
+      "1": ["TACKLE", "GROWL"],
+      "3": ["FAIRYWIND"],
+      "5": ["HYPNOBLAST"],
+      "7": ["GROWTH"],
+      "9": ["LEECHSEED"],
+      "13": ["MAGICPOWDER"],
+      "15": ["PSYBEAM"],
+      "19": ["HOCUSPOCUS"],
+      "21": ["SWEETSCENT"],
+      "25": ["MEGADRAIN"],
+      "27": ["EERIESPELL"],
+      "31": ["FLORALHEALING"],
+      "33": ["MOONBLAST"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "IVYSAUR",
+    "DEX": 2,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "IVYSAUR",
+    "DEX": 2,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VENUSAUR",
+    "DEX": 3,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VENUSAUR",
+    "DEX": 3,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TROPISAUR",
+    "DEX": 4,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TROPISAUR",
+    "DEX": 4,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHARMANDER",
+    "DEX": 5,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": {
+      "1": ["SCRATCH", "GROWL"],
+      "3": ["EMBER"],
+      "5": ["SANDSPRAY"],
+      "7": ["SMOKESCREEN"],
+      "13": ["METALCLAW"],
+      "16": ["DRAGONRAGE"],
+      "19": ["BITE"],
+      "25": ["FLAMEBURST"],
+      "28": ["DRAGONBREATH"],
+      "34": ["SLASH"],
+      "37": ["FLAMETHROWER"],
+      "43": ["SCORCHINGSANDS"],
+      "46": ["FIREBLAST"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHARMANDER",
+    "DEX": 5,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": {
+      "1": ["SCRATCH", "GROWL"],
+      "3": ["SPOOK"],
+      "5": ["DARKGLEAM"],
+      "7": ["SPITE"],
+      "13": ["SINGE"],
+      "16": ["DRAGONRAGE"],
+      "19": ["SHADOWSNEAK"],
+      "25": ["HEX"],
+      "28": ["DRAGONBREATH"],
+      "34": ["SLASH"],
+      "37": ["TERRIFY"],
+      "43": ["DARKPULSE"],
+      "46": ["ASTRALBARRAGE"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHARMELEON",
+    "DEX": 6,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHARMELEON",
+    "DEX": 6,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHARIZARD",
+    "DEX": 7,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHARIZARD",
+    "DEX": 7,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHARWYRM",
+    "DEX": 8,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHARWYRM",
+    "DEX": 8,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SQUIRTLE",
+    "DEX": 9,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": {
+      "1": ["TACKLE", "TAILWAG"],
+      "3": ["WATERGUN"],
+      "5": ["DULLLIGHT"],
+      "7": ["WITHDRAW"],
+      "13": ["ICYWIND"],
+      "16": ["BITE"],
+      "18": ["PROTECT"],
+      "20": ["RAPIDSPIN"],
+      "22": ["AURORABEAM"],
+      "25": ["WATERPULSE"],
+      "28": ["IRONDEFENSE"],
+      "31": ["FLASHCANNON"],
+      "34": ["ICEBEAM"],
+      "37": ["RAINDANCE"],
+      "40": ["HYDROPUMP"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SQUIRTLE",
+    "DEX": 9,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": {
+      "1": ["TACKLE", "TAILWAG"],
+      "3": ["MEANLOOK"],
+      "5": ["AURASTRIKE"],
+      "7": ["WITHDRAW"],
+      "13": ["MAGNETBLAST"],
+      "16": ["OMINOUSWIND"],
+      "18": ["PROTECT"],
+      "20": ["RAPIDSPIN"],
+      "22": ["AURAFORCE"],
+      "25": ["CHEAPSHOT"],
+      "28": ["IRONDEFENSE"],
+      "31": ["AURASPHERE"],
+      "34": ["DARKPULSE"],
+      "37": ["METALSOUND"],
+      "40": ["FOCUSBLAST"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WARTORTLE",
+    "DEX": 10,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WARTORTLE",
+    "DEX": 10,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLASTOISE",
+    "DEX": 11,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLASTOISE",
+    "DEX": 11,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TORTONOUGHT",
+    "DEX": 12,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TORTONOUGHT",
+    "DEX": 12,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CATERPIE",
+    "DEX": 13,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "METAPOD",
+    "DEX": 14,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BUTTERFREE",
+    "DEX": 15,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PAPILLUSION",
+    "DEX": 16,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WEEDLE",
+    "DEX": 17,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WEEDLE",
+    "DEX": 17,
+    "FORM": "SINNOHAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KAKUNA",
+    "DEX": 18,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KAKUNA",
+    "DEX": 18,
+    "FORM": "SINNOHAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BEEDRILL",
+    "DEX": 19,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BEEDRILL",
+    "DEX": 19,
+    "FORM": "SINNOHAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DARTADRILL",
+    "DEX": 20,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DARTADRILL",
+    "DEX": 20,
+    "FORM": "SINNOHAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIDGEY",
+    "DEX": 21,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIDGEY",
+    "DEX": 21,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIDGEOTTO",
+    "DEX": 22,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIDGEOTTO",
+    "DEX": 22,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIDGEOT",
+    "DEX": 23,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIDGEOT",
+    "DEX": 23,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIDGAERO",
+    "DEX": 24,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIDGAERO",
+    "DEX": 24,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RATTATA",
+    "DEX": 25,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RATTATA",
+    "DEX": 25,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RATICATE",
+    "DEX": 26,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RATICATE",
+    "DEX": 26,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SPEAROW",
+    "DEX": 27,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FEAROW",
+    "DEX": 28,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EKANS",
+    "DEX": 29,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARBOK",
+    "DEX": 30,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ADNOKANA",
+    "DEX": 31,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PICHU",
+    "DEX": 32,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PICHU",
+    "DEX": 32,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIKACHU",
+    "DEX": 33,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PIKACHU",
+    "DEX": 33,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RAICHU",
+    "DEX": 34,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RAICHU",
+    "DEX": 34,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RAICHU",
+    "DEX": 34,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SANDSHREW",
+    "DEX": 35,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SANDSHREW",
+    "DEX": 35,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SANDSLASH",
+    "DEX": 36,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SANDSLASH",
+    "DEX": 36,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NIDORANF",
+    "DEX": 37,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NIDORINA",
+    "DEX": 38,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NIDOQUEEN",
+    "DEX": 39,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NIDOREGAL",
+    "DEX": 40,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NIDORANM",
+    "DEX": 41,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NIDORINO",
+    "DEX": 42,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NIDOKING",
+    "DEX": 43,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NIDOREX",
+    "DEX": 44,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLEFFA",
+    "DEX": 45,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLEFFA",
+    "DEX": 45,
+    "FORM": "KALOSIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLEFAIRY",
+    "DEX": 46,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLEFAIRY",
+    "DEX": 46,
+    "FORM": "KALOSIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLEFABLE",
+    "DEX": 47,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLEFABLE",
+    "DEX": 47,
+    "FORM": "KALOSIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLEFANTASI",
+    "DEX": 48,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLEFANTASI",
+    "DEX": 48,
+    "FORM": "KALOSIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VULPIX",
+    "DEX": 49,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VULPIX",
+    "DEX": 49,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NINETALES",
+    "DEX": 50,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NINETALES",
+    "DEX": 50,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "IGGLYBUFF",
+    "DEX": 51,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "JIGGLYPUFF",
+    "DEX": 52,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WIGGLYTUFF",
+    "DEX": 53,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BIGGLYRUFF",
+    "DEX": 54,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ZUBAT",
+    "DEX": 55,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOLBAT",
+    "DEX": 56,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CROBAT",
+    "DEX": 57,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VISIBAT",
+    "DEX": 58,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ODDISH",
+    "DEX": 59,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLOOM",
+    "DEX": 60,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VILEPLUME",
+    "DEX": 61,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BELLOSSOM",
+    "DEX": 62,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PARAS",
+    "DEX": 63,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PARASECT",
+    "DEX": 64,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SECTASITE",
+    "DEX": 65,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VENONAT",
+    "DEX": 66,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VENOMOTH",
+    "DEX": 67,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DIGLETT",
+    "DEX": 68,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DIGLETT",
+    "DEX": 68,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DIGLETT",
+    "DEX": 68,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WIGLETT",
+    "DEX": 69,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUGTRIO",
+    "DEX": 70,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUGTRIO",
+    "DEX": 70,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUGTRIO",
+    "DEX": 70,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WUGTRIO",
+    "DEX": 71,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEOWTH",
+    "DEX": 72,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEOWTH",
+    "DEX": 72,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEOWTH",
+    "DEX": 72,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PERSIAN",
+    "DEX": 73,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PERSIAN",
+    "DEX": 73,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PERRSERKER",
+    "DEX": 74,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PSYDUCK",
+    "DEX": 75,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PSYDUCK",
+    "DEX": 75,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOLDUCK",
+    "DEX": 76,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOLDUCK",
+    "DEX": 76,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MANKEY",
+    "DEX": 77,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PRIMEAPE",
+    "DEX": 78,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANNIHILAPE",
+    "DEX": 79,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GROWLITHE",
+    "DEX": 80,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GROWLITHE",
+    "DEX": 80,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GROWLITHE",
+    "DEX": 80,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GROWLITHE",
+    "DEX": 80,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARCANINE",
+    "DEX": 81,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARCANINE",
+    "DEX": 81,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARCANINE",
+    "DEX": 81,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARCANINE",
+    "DEX": 81,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "POLIWAG",
+    "DEX": 82,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "POLIWHIRL",
+    "DEX": 83,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "POLIWRATH",
+    "DEX": 84,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "POLITOED",
+    "DEX": 85,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ABRA",
+    "DEX": 86,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ABRA",
+    "DEX": 86,
+    "FORM": "ORRAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KADABRA",
+    "DEX": 87,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KADABRA",
+    "DEX": 87,
+    "FORM": "ORRAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ALAKAZAM",
+    "DEX": 88,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ALAKAZAM",
+    "DEX": 88,
+    "FORM": "ORRAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SIMSALABIM",
+    "DEX": 89,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SIMSALABIM",
+    "DEX": 89,
+    "FORM": "ORRAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MACHOP",
+    "DEX": 90,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MACHOP",
+    "DEX": 90,
+    "FORM": "UNOVAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MACHOKE",
+    "DEX": 91,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MACHOKE",
+    "DEX": 91,
+    "FORM": "UNOVAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MACHAMP",
+    "DEX": 92,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MACHAMP",
+    "DEX": 92,
+    "FORM": "UNOVAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MACHITAN",
+    "DEX": 93,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MACHITAN",
+    "DEX": 93,
+    "FORM": "UNOVAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BELLSPROUT",
+    "DEX": 94,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WEEPINBELL",
+    "DEX": 95,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VICTREEBEL",
+    "DEX": 96,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TERRIBEL",
+    "DEX": 97,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TENTACOOL",
+    "DEX": 98,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TOEDSCOOL",
+    "DEX": 99,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TENTACRUEL",
+    "DEX": 100,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TOEDSCRUEL",
+    "DEX": 101,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GEODUDE",
+    "DEX": 102,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GEODUDE",
+    "DEX": 102,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GEODUDE",
+    "DEX": 102,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRAVELER",
+    "DEX": 103,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRAVELER",
+    "DEX": 103,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRAVELER",
+    "DEX": 103,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOLEM",
+    "DEX": 104,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOLEM",
+    "DEX": 104,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOLEM",
+    "DEX": 104,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PONYTA",
+    "DEX": 105,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PONYTA",
+    "DEX": 105,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RAPIDASH",
+    "DEX": 106,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RAPIDASH",
+    "DEX": 106,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KNIGHTMARE",
+    "DEX": 107,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PEGASTALLION",
+    "DEX": 108,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWPOKE",
+    "DEX": 109,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWPOKE",
+    "DEX": 109,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWBRO",
+    "DEX": 110,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWBRO",
+    "DEX": 110,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWKNIGHT",
+    "DEX": 111,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWZOOKA",
+    "DEX": 112,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWKING",
+    "DEX": 113,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWKING",
+    "DEX": 113,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWSENSEI",
+    "DEX": 114,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLOWCEROR",
+    "DEX": 115,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGNEMITE",
+    "DEX": 116,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGNETON",
+    "DEX": 117,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGNEZONE",
+    "DEX": 118,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGNEROCK",
+    "DEX": 119,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FARFETCHD",
+    "DEX": 120,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SIRFETCHD",
+    "DEX": 121,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DODUO",
+    "DEX": 122,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DODUO",
+    "DEX": 122,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DODUO",
+    "DEX": 122,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DODRIO",
+    "DEX": 123,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DODRIO",
+    "DEX": 123,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DODRIO",
+    "DEX": 123,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SEEL",
+    "DEX": 124,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SEEL",
+    "DEX": 124,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DEWGONG",
+    "DEX": 125,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DEWGONG",
+    "DEX": 125,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MANNATEA",
+    "DEX": 126,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MANNATEA",
+    "DEX": 126,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRIMER",
+    "DEX": 127,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRIMER",
+    "DEX": 127,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRIMER",
+    "DEX": 127,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MUK",
+    "DEX": 128,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MUK",
+    "DEX": 128,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MUK",
+    "DEX": 128,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHELLDER",
+    "DEX": 129,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLOYSTER",
+    "DEX": 130,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GASTLY",
+    "DEX": 131,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HAUNTER",
+    "DEX": 132,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GENGAR",
+    "DEX": 133,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ECTOPHASMA",
+    "DEX": 134,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ONIX",
+    "DEX": 135,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "STEELIX",
+    "DEX": 136,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CRYSTALNIX",
+    "DEX": 137,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FACTORNIX",
+    "DEX": 138,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DROWZEE",
+    "DEX": 139,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HYPNO",
+    "DEX": 140,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KRABBY",
+    "DEX": 141,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KINGLER",
+    "DEX": 142,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KRAKLAW",
+    "DEX": 143,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VOLTORB",
+    "DEX": 144,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VOLTORB",
+    "DEX": 144,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELECTRODE",
+    "DEX": 145,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELECTRODE",
+    "DEX": 145,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EXEGGCUTE",
+    "DEX": 146,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EXEGGUTOR",
+    "DEX": 147,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EXEGGNORMOUS",
+    "DEX": 148,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CUBONE",
+    "DEX": 149,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAROWAK",
+    "DEX": 150,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAROWAK",
+    "DEX": 150,
+    "FORM": "ALOLAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TYROGUE",
+    "DEX": 151,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HITMONLEE",
+    "DEX": 152,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HITMONCHAN",
+    "DEX": 153,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HITMONTOP",
+    "DEX": 154,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LICKITUNG",
+    "DEX": 155,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LICKILICKY",
+    "DEX": 156,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KOFFING",
+    "DEX": 157,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KOFFING",
+    "DEX": 157,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WEEZING",
+    "DEX": 158,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WEEZING",
+    "DEX": 158,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WEEZING",
+    "DEX": 158,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RHYHORN",
+    "DEX": 159,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RHYDON",
+    "DEX": 160,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RHYPERIOR",
+    "DEX": 161,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HAPPINY",
+    "DEX": 162,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HAPPINY",
+    "DEX": 162,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHANSEY",
+    "DEX": 163,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHANSEY",
+    "DEX": 163,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLISSEY",
+    "DEX": 164,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLISSEY",
+    "DEX": 164,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TANGELA",
+    "DEX": 165,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TANGELA",
+    "DEX": 165,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TANGROWTH",
+    "DEX": 166,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TANGROWTH",
+    "DEX": 166,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KANGASKHAN",
+    "DEX": 167,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KANGKHAGAN",
+    "DEX": 168,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HORSEA",
+    "DEX": 169,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SEADRA",
+    "DEX": 170,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KINGDRA",
+    "DEX": 171,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EMPERODRA",
+    "DEX": 172,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOLDEEN",
+    "DEX": 173,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SEAKING",
+    "DEX": 174,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KAIOSEA",
+    "DEX": 175,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "STARYU",
+    "DEX": 176,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "STARMIE",
+    "DEX": 177,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "STARUUS",
+    "DEX": 178,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MIMEJR",
+    "DEX": 179,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MRMIME",
+    "DEX": 180,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MRMIME",
+    "DEX": 180,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MRRHYME",
+    "DEX": 181,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MRRIME",
+    "DEX": 182,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KNAIVER",
+    "DEX": 183,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SCYTHER",
+    "DEX": 184,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SCIZOR",
+    "DEX": 185,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "XIEAROR",
+    "DEX": 186,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KLEAVOR",
+    "DEX": 187,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLASTOR",
+    "DEX": 188,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FREEZOR",
+    "DEX": 189,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SMOOCHUM",
+    "DEX": 190,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "JYNX",
+    "DEX": 191,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SOPRANICE",
+    "DEX": 192,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELEKID",
+    "DEX": 193,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELEKID",
+    "DEX": 193,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELECTABUZZ",
+    "DEX": 194,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELECTABUZZ",
+    "DEX": 194,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELECTIVIRE",
+    "DEX": 195,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELECTIVIRE",
+    "DEX": 195,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGBY",
+    "DEX": 196,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGBY",
+    "DEX": 196,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGMAR",
+    "DEX": 197,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGMAR",
+    "DEX": 197,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGMORTAR",
+    "DEX": 198,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGMORTAR",
+    "DEX": 198,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PINSIR",
+    "DEX": 199,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRAPKNELL",
+    "DEX": 200,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TAUROS",
+    "DEX": 201,
+    "FORM": "RANCH BREED",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TAUROS",
+    "DEX": 201,
+    "FORM": "COMBAT BREED",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TAUROS",
+    "DEX": 201,
+    "FORM": "BLAZE BREED",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TAUROS",
+    "DEX": 201,
+    "FORM": "AQUA BREED",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGIKARP",
+    "DEX": 202,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": {
+      "1": ["HOP"],
+      "15": ["TACKLE"],
+      "25": ["FLAIL"],
+      "40": ["FACADE"],
+      "50": ["SPLASH"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GYARADOS",
+    "DEX": 203,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GYARADEATH",
+    "DEX": 204,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LAPRAS",
+    "DEX": 205,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LOCHLASS",
+    "DEX": 206,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DITTO",
+    "DEX": 207,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": ["TRANSFORM"] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EEVEE",
+    "DEX": 208,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VAPOREON",
+    "DEX": 209,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "JOLTEON",
+    "DEX": 210,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FLAREON",
+    "DEX": 211,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ESPEON",
+    "DEX": 212,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "UMBREON",
+    "DEX": 213,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LEAFEON",
+    "DEX": 214,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLACEON",
+    "DEX": 215,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SYLVEON",
+    "DEX": 216,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PORYGON",
+    "DEX": 217,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PORYGON2",
+    "DEX": 218,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PORYGONZ",
+    "DEX": 219,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "OMANYTE",
+    "DEX": 220,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "OMASTAR",
+    "DEX": 221,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KABUTO",
+    "DEX": 222,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KABUTOPS",
+    "DEX": 223,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TAIHOPS",
+    "DEX": 224,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AERODACTYL",
+    "DEX": 225,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "QUETZALCOATL",
+    "DEX": 226,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MUNCHLAX",
+    "DEX": 227,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SNORLAX",
+    "DEX": 228,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TITANILAX",
+    "DEX": 229,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARTICUNO",
+    "DEX": 230,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARTICUNO",
+    "DEX": 230,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ZAPDOS",
+    "DEX": 231,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ZAPDOS",
+    "DEX": 231,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MOLTRES",
+    "DEX": 232,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MOLTRES",
+    "DEX": 232,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DRATINI",
+    "DEX": 233,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DRATINI",
+    "DEX": 233,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DRAGONAIR",
+    "DEX": 234,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DRAGONAIR",
+    "DEX": 234,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DRAGONITE",
+    "DEX": 235,
+    "FORM": "KANTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DRAGONITE",
+    "DEX": 235,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DRAGONACE",
+    "DEX": 236,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEWTWO",
+    "DEX": 237,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEW",
+    "DEX": 238,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHIKORITA",
+    "DEX": 239,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BAYLEEF",
+    "DEX": 240,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEGANIUM",
+    "DEX": 241,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SAKURASAUR",
+    "DEX": 242,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CYNDAQUIL",
+    "DEX": 243,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CYNDAQUIL",
+    "DEX": 243,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "QUILAVA",
+    "DEX": 244,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "QUILAVA",
+    "DEX": 244,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TYPHLOSION",
+    "DEX": 245,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TYPHLOSION",
+    "DEX": 245,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TYPHLOSION",
+    "DEX": 245,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VULKURRICANE",
+    "DEX": 246,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VULKURRICANE",
+    "DEX": 246,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VULKURRICANE",
+    "DEX": 246,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TOTODILE",
+    "DEX": 247,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CROCONAW",
+    "DEX": 248,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FERALIGATR",
+    "DEX": 249,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GHARIALASH",
+    "DEX": 250,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SENTRET",
+    "DEX": 251,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FURRET",
+    "DEX": 252,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOOTHOOT",
+    "DEX": 253,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NOCTOWL",
+    "DEX": 254,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PHANTOWL",
+    "DEX": 255,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LEDYBA",
+    "DEX": 256,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LEDIAN",
+    "DEX": 257,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LEDUSEN",
+    "DEX": 258,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SPINARAK",
+    "DEX": 259,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARIADOS",
+    "DEX": 260,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARACHTRES",
+    "DEX": 261,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHINCHOU",
+    "DEX": 262,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LANTURN",
+    "DEX": 263,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANGLUMIERE",
+    "DEX": 264,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TOGEPI",
+    "DEX": 265,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TOGETIC",
+    "DEX": 266,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TOGEKISS",
+    "DEX": 267,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NATU",
+    "DEX": 268,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "XATU",
+    "DEX": 269,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SIGILYPH",
+    "DEX": 270,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAREEP",
+    "DEX": 271,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAREEP",
+    "DEX": 271,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FLAAFFY",
+    "DEX": 272,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FLAAFFY",
+    "DEX": 272,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AMPHAROS",
+    "DEX": 273,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AMPHAROS",
+    "DEX": 273,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AMPDRAKON",
+    "DEX": 274,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AMPDRAKON",
+    "DEX": 274,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AZURILL",
+    "DEX": 275,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AZURILL",
+    "DEX": 275,
+    "FORM": "KASKADIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MARILL",
+    "DEX": 276,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MARILL",
+    "DEX": 276,
+    "FORM": "KASKADIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AZUMARILL",
+    "DEX": 277,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AZUMARILL",
+    "DEX": 277,
+    "FORM": "KASKADIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BONSLY",
+    "DEX": 278,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SUDOWOODO",
+    "DEX": 279,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUELUMBER",
+    "DEX": 280,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TRUELEWOODO",
+    "DEX": 281,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOPPIP",
+    "DEX": 282,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SKIPLOOM",
+    "DEX": 283,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "JUMPLUFF",
+    "DEX": 284,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AIPOM",
+    "DEX": 285,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AIPOM",
+    "DEX": 285,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AMBIPOM",
+    "DEX": 286,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AMBIPOM",
+    "DEX": 286,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SUNKERN",
+    "DEX": 287,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SUNKERN",
+    "DEX": 287,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SUNFLORA",
+    "DEX": 288,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SUNFLORA",
+    "DEX": 288,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SOLHELION",
+    "DEX": 289,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SOLHELION",
+    "DEX": 289,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YANMA",
+    "DEX": 290,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YANMA",
+    "DEX": 290,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YANMEGA",
+    "DEX": 291,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YANMEGA",
+    "DEX": 291,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WOOPER",
+    "DEX": 292,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WOOPER",
+    "DEX": 292,
+    "FORM": "PALDEAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WOOPER",
+    "DEX": 292,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "QUAGSIRE",
+    "DEX": 293,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "QUAGSIRE",
+    "DEX": 293,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLODSIRE",
+    "DEX": 294,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MURKROW",
+    "DEX": 295,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HONCHKROW",
+    "DEX": 296,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MISDREAVUS",
+    "DEX": 297,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MISDREAVUS",
+    "DEX": 297,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MISMAGIUS",
+    "DEX": 298,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MISMAGIUS",
+    "DEX": 298,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MISMANEOUS",
+    "DEX": 299,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "UNOWN",
+    "DEX": 300,
+    "FORM": "LETTER",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "UNOWN",
+    "DEX": 300,
+    "FORM": "ALPHABET",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WYNAUT",
+    "DEX": 301,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WOBBUFFET",
+    "DEX": 302,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GIRAFARIG",
+    "DEX": 303,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GIRAFARIG",
+    "DEX": 303,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FARIGIRAF",
+    "DEX": 304,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KIRINIRIK",
+    "DEX": 305,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KIRINIRIK",
+    "DEX": 305,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PINECO",
+    "DEX": 306,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FORRETRESS",
+    "DEX": 307,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUNSPARCE",
+    "DEX": 308,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUDUNSPARCE",
+    "DEX": 309,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUDUDUNSPARCE",
+    "DEX": 310,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLIGAR",
+    "DEX": 311,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLIGAR",
+    "DEX": 311,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLISCOR",
+    "DEX": 312,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLISCOR",
+    "DEX": 312,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SNUBBULL",
+    "DEX": 313,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRANBULL",
+    "DEX": 314,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "IMPREBULL",
+    "DEX": 315,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "QWILFISH",
+    "DEX": 316,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "OVERQWIL",
+    "DEX": 317,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHUCKLE",
+    "DEX": 318,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHUCKLE",
+    "DEX": 318,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HERACROSS",
+    "DEX": 319,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SCARHINO",
+    "DEX": 320,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SNEASEL",
+    "DEX": 321,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SNEASEL",
+    "DEX": 321,
+    "FORM": "HISUIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WEAVILE",
+    "DEX": 322,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SNEASLER",
+    "DEX": 323,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TEDDIURSA",
+    "DEX": 324,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "URSARING",
+    "DEX": 325,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "URSALUNA",
+    "DEX": 326,
+    "FORM": "FULL MOON",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "URSALUNA",
+    "DEX": 326,
+    "FORM": "BLOOD MOON",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLUGMA",
+    "DEX": 327,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLUGMA",
+    "DEX": 327,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGCARGO",
+    "DEX": 328,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAGCARGO",
+    "DEX": 328,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ESCARGINITE",
+    "DEX": 329,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ESCARGINITE",
+    "DEX": 329,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SWINUB",
+    "DEX": 330,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PILOSWINE",
+    "DEX": 331,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAMOSWINE",
+    "DEX": 332,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CORSOLA",
+    "DEX": 333,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CORSOLA",
+    "DEX": 333,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CURESOLA",
+    "DEX": 334,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CURSOLA",
+    "DEX": 335,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REMORAID",
+    "DEX": 336,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REMORAID",
+    "DEX": 336,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "OCTILLERY",
+    "DEX": 337,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "OCTILLERY",
+    "DEX": 337,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DELIBIRD",
+    "DEX": 338,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DELIBOT",
+    "DEX": 339,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MANTYKE",
+    "DEX": 340,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MANTINE",
+    "DEX": 341,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SKARMORY",
+    "DEX": 342,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SKARMORY",
+    "DEX": 342,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PANZAERO",
+    "DEX": 343,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PANZAERO",
+    "DEX": 343,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOUNDOUR",
+    "DEX": 344,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOUNDOUR",
+    "DEX": 344,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOUNDOOM",
+    "DEX": 345,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOUNDOOM",
+    "DEX": 345,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOUNDEMON",
+    "DEX": 346,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOUNDEMON",
+    "DEX": 346,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PHANPY",
+    "DEX": 347,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DONPHAN",
+    "DEX": 348,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DONPHIERCE",
+    "DEX": 349,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AUTONPHAN",
+    "DEX": 350,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "STANTLER",
+    "DEX": 351,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WYRDEER",
+    "DEX": 352,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SMEARGLE",
+    "DEX": 353,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MILTANK",
+    "DEX": 354,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RAIKOU",
+    "DEX": 355,
+    "FORM": "REVIVED",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RAIKOU",
+    "DEX": 355,
+    "FORM": "PRIMAL",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ENTEI",
+    "DEX": 356,
+    "FORM": "REVIVED",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ENTEI",
+    "DEX": 356,
+    "FORM": "PRIMAL",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SUICUNE",
+    "DEX": 357,
+    "FORM": "REVIVED",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SUICUNE",
+    "DEX": 357,
+    "FORM": "PRIMAL",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LARVITAR",
+    "DEX": 358,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LARVITAR",
+    "DEX": 358,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PUPITAR",
+    "DEX": 359,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PUPITAR",
+    "DEX": 359,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TYRANITAR",
+    "DEX": 360,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TYRANITAR",
+    "DEX": 360,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DESPOTAR",
+    "DEX": 361,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DESPOTAR",
+    "DEX": 361,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MECHATYRANT",
+    "DEX": 362,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HOOH",
+    "DEX": 363,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LUGIA",
+    "DEX": 364,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CELEBI",
+    "DEX": 365,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TREECKO",
+    "DEX": 366,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TREECKO",
+    "DEX": 366,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GROVYLE",
+    "DEX": 367,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GROVYLE",
+    "DEX": 367,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SCEPTILE",
+    "DEX": 368,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SCEPTILE",
+    "DEX": 368,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SCEPSTIUM",
+    "DEX": 369,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SCEPSTIUM",
+    "DEX": 369,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TORCHIC",
+    "DEX": 370,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TORCHIC",
+    "DEX": 370,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "COMBUSKEN",
+    "DEX": 371,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "COMBUSKEN",
+    "DEX": 371,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLAZIKEN",
+    "DEX": 372,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLAZIKEN",
+    "DEX": 372,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLAZIGALLUS",
+    "DEX": 373,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BLAZIGALLUS",
+    "DEX": 373,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MUDKIP",
+    "DEX": 374,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MARSHTOMP",
+    "DEX": 375,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SWAMPERT",
+    "DEX": 376,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SWOLEPERT",
+    "DEX": 377,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "POOCHYENA",
+    "DEX": 378,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MIGHTYENA",
+    "DEX": 379,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SKULBERUS",
+    "DEX": 380,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ZIGZAGOON",
+    "DEX": 381,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ZIGZAGOON",
+    "DEX": 381,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LINOONE",
+    "DEX": 382,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LINOONE",
+    "DEX": 382,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "OBSTAGOON",
+    "DEX": 383,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "OBSTAGOON",
+    "DEX": 383,
+    "FORM": "GALARIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WURMPLE",
+    "DEX": 384,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SILCOON",
+    "DEX": 385,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BEAUTIFLY",
+    "DEX": 386,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CASCOON",
+    "DEX": 387,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUSTOX",
+    "DEX": 388,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LOTAD",
+    "DEX": 389,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LOTAD",
+    "DEX": 389,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LOMBRE",
+    "DEX": 390,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LOMBRE",
+    "DEX": 390,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LUDICOLO",
+    "DEX": 391,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LUDICOLO",
+    "DEX": 391,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SEEDOT",
+    "DEX": 392,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SEEDOT",
+    "DEX": 392,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NUZLEAF",
+    "DEX": 393,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NUZLEAF",
+    "DEX": 393,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHIFTRY",
+    "DEX": 394,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHIFTRY",
+    "DEX": 394,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TAILLOW",
+    "DEX": 395,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SWELLOW",
+    "DEX": 396,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WINGULL",
+    "DEX": 397,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PELIPPER",
+    "DEX": 398,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RALTS",
+    "DEX": 399,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RALTS",
+    "DEX": 399,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KIRLIA",
+    "DEX": 400,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KIRLIA",
+    "DEX": 400,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GARDEVOIR",
+    "DEX": 401,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GARDEVOIR",
+    "DEX": 401,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SYRIGARDE",
+    "DEX": 402,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SYRIGARDE",
+    "DEX": 402,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GALLADE",
+    "DEX": 403,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GALLADE",
+    "DEX": 403,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VALIABLADE",
+    "DEX": 404,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VALIABLADE",
+    "DEX": 404,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GARDEVADE",
+    "DEX": 405,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SURSKIT",
+    "DEX": 406,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MASQUERAIN",
+    "DEX": 407,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHROOMISH",
+    "DEX": 408,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BRELOOM",
+    "DEX": 409,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHAPIGNON",
+    "DEX": 410,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLAKOTH",
+    "DEX": 411,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VIGOROTH",
+    "DEX": 412,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SLAKING",
+    "DEX": 413,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NINCADA",
+    "DEX": 414,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NINJASK",
+    "DEX": 415,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHEDINJA",
+    "DEX": 416,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WHISMUR",
+    "DEX": 417,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WHISMUR",
+    "DEX": 417,
+    "FORM": "UNOVAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LOUDRED",
+    "DEX": 418,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LOUDRED",
+    "DEX": 418,
+    "FORM": "UNOVAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EXPLOUD",
+    "DEX": 419,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EXPLOUD",
+    "DEX": 419,
+    "FORM": "UNOVAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAKUHITA",
+    "DEX": 420,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HARIYAMA",
+    "DEX": 421,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FUTUYAMA",
+    "DEX": 422,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NOSEPASS",
+    "DEX": 423,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PROBOPASS",
+    "DEX": 424,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SKITTY",
+    "DEX": 425,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DELCATTY",
+    "DEX": 426,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SABLEYE",
+    "DEX": 427,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SABLEYE",
+    "DEX": 427,
+    "FORM": "KALOSIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SABLEYE",
+    "DEX": 427,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EBONEYE",
+    "DEX": 428,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EBONEYE",
+    "DEX": 428,
+    "FORM": "KALOSIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "EBONEYE",
+    "DEX": 428,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAWILE",
+    "DEX": 429,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAWILE",
+    "DEX": 429,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MAWILE",
+    "DEX": 429,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MYSDIBLE",
+    "DEX": 430,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MYSDIBLE",
+    "DEX": 430,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MYSDIBLE",
+    "DEX": 430,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARON",
+    "DEX": 431,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LAIRON",
+    "DEX": 432,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "AGGRON",
+    "DEX": 433,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FORTRERON",
+    "DEX": 434,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEDITITE",
+    "DEX": 435,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEDITITE",
+    "DEX": 435,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEDICHAM",
+    "DEX": 436,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEDICHAM",
+    "DEX": 436,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEDICHAKRA",
+    "DEX": 437,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEDICHAKRA",
+    "DEX": 437,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELECTRIKE",
+    "DEX": 438,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MANECTRIC",
+    "DEX": 439,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ELECTSPRINT",
+    "DEX": 440,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "PLUSLE",
+    "DEX": 441,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "POSIPI",
+    "DEX": 442,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MINUN",
+    "DEX": 443,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NEGAPI",
+    "DEX": 444,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VOLBEAT",
+    "DEX": 445,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ILLUMISE",
+    "DEX": 446,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BUDEW",
+    "DEX": 447,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ROSELIA",
+    "DEX": 448,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ROSERADE",
+    "DEX": 449,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HELLEMASQUE",
+    "DEX": 450,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GULPIN",
+    "DEX": 451,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SWALOT",
+    "DEX": 452,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DEVORALL",
+    "DEX": 453,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CARVANHA",
+    "DEX": 454,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHARPEDO",
+    "DEX": 455,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHARMARINE",
+    "DEX": 456,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WAILMER",
+    "DEX": 457,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WAILMER",
+    "DEX": 457,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WAILORD",
+    "DEX": 458,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WAILORD",
+    "DEX": 458,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NUMEL",
+    "DEX": 459,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "NUMEL",
+    "DEX": 459,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CAMERUPT",
+    "DEX": 460,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CAMERUPT",
+    "DEX": 460,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CAMELCANO",
+    "DEX": 461,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CAMELCANO",
+    "DEX": 461,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TORKOAL",
+    "DEX": 462,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TORTEMPLE",
+    "DEX": 463,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SPOINK",
+    "DEX": 464,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GRUMPIG",
+    "DEX": 465,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BOARLOCK",
+    "DEX": 466,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SPINDA",
+    "DEX": 467,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TRAPINCH",
+    "DEX": 468,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TRAPINCH",
+    "DEX": 468,
+    "FORM": "SINNOHAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VIBRAVA",
+    "DEX": 469,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VIBRAVA",
+    "DEX": 469,
+    "FORM": "SINNOHAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FLYGON",
+    "DEX": 470,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FLYGON",
+    "DEX": 470,
+    "FORM": "SINNOHAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MYSTISTREAM",
+    "DEX": 471,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MYSTISTREAM",
+    "DEX": 471,
+    "FORM": "SINNOHAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CACNEA",
+    "DEX": 472,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CACTURNE",
+    "DEX": 473,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SAGUARUTAL",
+    "DEX": 474,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MARACTUS",
+    "DEX": 475,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SAGUARACAS",
+    "DEX": 476,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SWABLU",
+    "DEX": 477,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ALTARIA",
+    "DEX": 478,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SOPRARIA",
+    "DEX": 479,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ZANGOOSE",
+    "DEX": 480,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SEVIPER",
+    "DEX": 481,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MINIOR",
+    "DEX": 482,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LUNATONE",
+    "DEX": 483,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SOLROCK",
+    "DEX": 484,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "METEORBIT",
+    "DEX": 485,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BARBOACH",
+    "DEX": 486,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WHISCASH",
+    "DEX": 487,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CORPHISH",
+    "DEX": 488,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CRAWDAUNT",
+    "DEX": 489,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CRAWDAUNTLESS",
+    "DEX": 490,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BALTOY",
+    "DEX": 491,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLAYDOL",
+    "DEX": 492,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LILEEP",
+    "DEX": 493,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CRADILY",
+    "DEX": 494,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANORITH",
+    "DEX": 495,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ARMALDO",
+    "DEX": 496,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FEEBAS",
+    "DEX": 497,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": {
+      "1": ["HOP"],
+      "15": ["TACKLE"],
+      "25": ["FLAIL"],
+      "40": ["FACADE"],
+      "50": ["SPLASH"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FEEBAS",
+    "DEX": 497,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": {
+      "1": ["HOP"],
+      "15": ["TACKLE"],
+      "25": ["FLAIL"],
+      "40": ["FACADE"],
+      "50": ["SPLASH"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MILOTIC",
+    "DEX": 498,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MILOTIC",
+    "DEX": 498,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MILOKAROSS",
+    "DEX": 499,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MILOKAROSS",
+    "DEX": 499,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CASTFORM",
+    "DEX": 500,
+    "FORM": "NORMAL",
+    "FORMINDEX": 1,
+    "levelUp": {
+      "1": ["CLOUDYDAY"],
+      "5": ["THUNDERSHOCK"],
+      "10": ["WATERGUN", "SANDSPRAY", "POWDERSNOW", "SINGE"],
+      "15": ["AIRCUTTER"],
+      "20": ["RAINDANCE", "SANDSTORM", "HAIL", "SUNNYDAY"],
+      "25": ["WEATHERBALL"],
+      "30": ["THUNDERBOLT"],
+      "35": ["SURF", "EARTHPOWER", "GLACIATE", "HEATWAVE"],
+      "40": ["AIRSLASH"],
+      "45": ["HYDROPUMP", "SANDSEARSTORM", "BLIZZARD", "OVERHEAT"],
+      "50": ["THUNDER"],
+      "55": ["HURRICANE"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CASTFORM",
+    "DEX": 500,
+    "FORM": "RAINY",
+    "FORMINDEX": 2,
+    "levelUp": {
+      "1": ["CLOUDYDAY"],
+      "5": ["THUNDERSHOCK"],
+      "10": ["WATERGUN", "SANDSPRAY", "POWDERSNOW", "SINGE"],
+      "15": ["AIRCUTTER"],
+      "20": ["RAINDANCE", "SANDSTORM", "HAIL", "SUNNYDAY"],
+      "25": ["WEATHERBALL"],
+      "30": ["THUNDERBOLT"],
+      "35": ["SURF", "EARTHPOWER", "GLACIATE", "HEATWAVE"],
+      "40": ["AIRSLASH"],
+      "45": ["HYDROPUMP", "SANDSEARSTORM", "BLIZZARD", "OVERHEAT"],
+      "50": ["THUNDER"],
+      "55": ["HURRICANE"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CASTFORM",
+    "DEX": 500,
+    "FORM": "SANDY",
+    "FORMINDEX": 3,
+    "levelUp": {
+      "1": ["CLOUDYDAY"],
+      "5": ["THUNDERSHOCK"],
+      "10": ["WATERGUN", "SANDSPRAY", "POWDERSNOW", "SINGE"],
+      "15": ["AIRCUTTER"],
+      "20": ["RAINDANCE", "SANDSTORM", "HAIL", "SUNNYDAY"],
+      "25": ["WEATHERBALL"],
+      "30": ["THUNDERBOLT"],
+      "35": ["SURF", "EARTHPOWER", "GLACIATE", "HEATWAVE"],
+      "40": ["AIRSLASH"],
+      "45": ["HYDROPUMP", "SANDSEARSTORM", "BLIZZARD", "OVERHEAT"],
+      "50": ["THUNDER"],
+      "55": ["HURRICANE"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CASTFORM",
+    "DEX": 500,
+    "FORM": "SNOWY",
+    "FORMINDEX": 4,
+    "levelUp": {
+      "1": ["CLOUDYDAY"],
+      "5": ["THUNDERSHOCK"],
+      "10": ["WATERGUN", "SANDSPRAY", "POWDERSNOW", "SINGE"],
+      "15": ["AIRCUTTER"],
+      "20": ["RAINDANCE", "SANDSTORM", "HAIL", "SUNNYDAY"],
+      "25": ["WEATHERBALL"],
+      "30": ["THUNDERBOLT"],
+      "35": ["SURF", "EARTHPOWER", "GLACIATE", "HEATWAVE"],
+      "40": ["AIRSLASH"],
+      "45": ["HYDROPUMP", "SANDSEARSTORM", "BLIZZARD", "OVERHEAT"],
+      "50": ["THUNDER"],
+      "55": ["HURRICANE"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CASTFORM",
+    "DEX": 500,
+    "FORM": "SUNNY",
+    "FORMINDEX": 5,
+    "levelUp": {
+      "1": ["CLOUDYDAY"],
+      "5": ["THUNDERSHOCK"],
+      "10": ["WATERGUN", "SANDSPRAY", "POWDERSNOW", "SINGE"],
+      "15": ["AIRCUTTER"],
+      "20": ["RAINDANCE", "SANDSTORM", "HAIL", "SUNNYDAY"],
+      "25": ["WEATHERBALL"],
+      "30": ["THUNDERBOLT"],
+      "35": ["SURF", "EARTHPOWER", "GLACIATE", "HEATWAVE"],
+      "40": ["AIRSLASH"],
+      "45": ["HYDROPUMP", "SANDSEARSTORM", "BLIZZARD", "OVERHEAT"],
+      "50": ["THUNDER"],
+      "55": ["HURRICANE"]
+    },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KECLEON",
+    "DEX": 501,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHUPPET",
+    "DEX": 502,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BANETTE",
+    "DEX": 503,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "VOODOLL",
+    "DEX": 504,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUSKULL",
+    "DEX": 505,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUSCLOPS",
+    "DEX": 506,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DUSKNOIR",
+    "DEX": 507,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TROPIUS",
+    "DEX": 508,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BRONTONANA",
+    "DEX": 509,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHINGLING",
+    "DEX": 510,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CHIMECHO",
+    "DEX": 511,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HARMONSIDHE",
+    "DEX": 512,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ABSOL",
+    "DEX": 513,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "OMENGEL",
+    "DEX": 514,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "TAISORU",
+    "DEX": 515,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SNORUNT",
+    "DEX": 516,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SNORUNT",
+    "DEX": 516,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SNORUNT",
+    "DEX": 516,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLALIE",
+    "DEX": 517,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLALIE",
+    "DEX": 517,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GLALIE",
+    "DEX": 517,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ONIGLACIER",
+    "DEX": 518,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ONIGLACIER",
+    "DEX": 518,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ONIGLACIER",
+    "DEX": 518,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FROSLASS",
+    "DEX": 519,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FROSLASS",
+    "DEX": 519,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FROSLASS",
+    "DEX": 519,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YUKIMONO",
+    "DEX": 520,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YUKIMONO",
+    "DEX": 520,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YUKIMONO",
+    "DEX": 520,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SPHEAL",
+    "DEX": 521,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SEALEO",
+    "DEX": 522,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "WALREIN",
+    "DEX": 523,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLAMPERL",
+    "DEX": 524,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "CLAMPERL",
+    "DEX": 524,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HUNTAIL",
+    "DEX": 525,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "HUNTAIL",
+    "DEX": 525,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOREBYSS",
+    "DEX": 526,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOREBYSS",
+    "DEX": 526,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RELICANTH",
+    "DEX": 527,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FOSSILOSTEUS",
+    "DEX": 528,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LUVDISC",
+    "DEX": 529,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ALOMOMOLA",
+    "DEX": 530,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BAGON",
+    "DEX": 531,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SHELGON",
+    "DEX": 532,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "SALAMENCE",
+    "DEX": 533,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MEGAMENCE",
+    "DEX": 534,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LUNAMENCE",
+    "DEX": 535,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BELDUM",
+    "DEX": 536,
+    "FORM": "METALLIC",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BELDUM",
+    "DEX": 536,
+    "FORM": "RUINED",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "BELDUM",
+    "DEX": 536,
+    "FORM": "SPIDER",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "METANG",
+    "DEX": 537,
+    "FORM": "METALLIC",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "METANG",
+    "DEX": 537,
+    "FORM": "RUINED",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "METANG",
+    "DEX": 537,
+    "FORM": "SPIDER",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "METAGROSS",
+    "DEX": 538,
+    "FORM": "METALLIC",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "METAGROSS",
+    "DEX": 538,
+    "FORM": "RUINED",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "METAGROSS",
+    "DEX": 538,
+    "FORM": "SPIDER",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANTIKYTHERA",
+    "DEX": 539,
+    "FORM": "METALLIC",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANTIKYTHERA",
+    "DEX": 539,
+    "FORM": "RUINED",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANTIKYTHERA",
+    "DEX": 539,
+    "FORM": "CRYSTAL",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANTIKYTHERA",
+    "DEX": 539,
+    "FORM": "SPIDER",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGIROCK",
+    "DEX": 540,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGICE",
+    "DEX": 541,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGISTEEL",
+    "DEX": 542,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGILEKI",
+    "DEX": 543,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGIDRAGO",
+    "DEX": 544,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGIDUNE",
+    "DEX": 545,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGIWAVE",
+    "DEX": 546,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGIFORGE",
+    "DEX": 547,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "REGIGIGAS",
+    "DEX": 548,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LATIAS",
+    "DEX": 549,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "LATIOS",
+    "DEX": 550,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GROUDON",
+    "DEX": 551,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "KYOGRE",
+    "DEX": 552,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "RAYQUAZA",
+    "DEX": 553,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "JIRACHI",
+    "DEX": 554,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DEOXYS",
+    "DEX": 555,
+    "FORM": "NORMAL",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DEOXYS",
+    "DEX": 555,
+    "FORM": "ATTACK",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DEOXYS",
+    "DEX": 555,
+    "FORM": "DEFENSE",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DEOXYS",
+    "DEX": 555,
+    "FORM": "SPEED",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "MISSINGNO",
+    "DEX": 556,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  }
+]

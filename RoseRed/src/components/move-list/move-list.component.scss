@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+tr:hover {
+  background-color: lightgray;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.type {
+  div {
+    width: 80px;
+    text-align: center;
+
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+  }
+}

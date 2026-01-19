@@ -35,7 +35,7 @@
         <div *ngIf="p.form">
           <div>
             <a
-                routerLink="/pokemon/{{ p.dexNo }}/{{ p.formIndex }}"
+                routerLink="/dex/pokemon/{{ p.dexNo }}/{{ p.formIndex }}"
                 routerLinkActive="active"
                 ariaCurrentWhenActive="page"
             >
@@ -49,7 +49,7 @@
         <div *ngIf="!p.form">
           <div>
             <a
-                routerLink="/pokemon/{{ p.dexNo }}"
+                routerLink="/dex/pokemon/{{ p.dexNo }}"
                 routerLinkActive="active"
                 ariaCurrentWhenActive="page"
             >

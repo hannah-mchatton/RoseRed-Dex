@@ -1,12 +1,3 @@
-<a
-  class="back-button"
-  routerLink="/"
-  routerLinkActive="active"
-  ariaCurrentWhenActive="page"
->
-  <-- Back
-</a>
-
 <div class="wrapper">
   <div class="header">
     #{{ pokemon.dexNo.toString().padStart(3, "0") }}: {{ pokemon.getName() }}
@@ -270,7 +261,7 @@
 
           <a
             *ngIf="!evoFirstLink.pokemon.form"
-            routerLink="/pokemon/{{ evoFirstLink.pokemon.dexNo }}"
+            routerLink="/dex/pokemon/{{ evoFirstLink.pokemon.dexNo }}"
             routerLinkActive="active"
             ariaCurrentWhenActive="page"
           >
@@ -278,7 +269,7 @@
           </a>
           <a
             *ngIf="evoFirstLink.pokemon.form"
-            routerLink="/pokemon/{{ evoFirstLink.pokemon.dexNo }}/{{
+            routerLink="/dex/pokemon/{{ evoFirstLink.pokemon.dexNo }}/{{
               evoFirstLink.pokemon.formIndex
             }}"
             routerLinkActive="active"
@@ -310,7 +301,7 @@
 
           <a
             *ngIf="!evo1.pokemon.form"
-            routerLink="/pokemon/{{ evo1.pokemon.dexNo }}"
+            routerLink="/dex/pokemon/{{ evo1.pokemon.dexNo }}"
             routerLinkActive="active"
             ariaCurrentWhenActive="page"
           >
@@ -318,7 +309,7 @@
           </a>
           <a
             *ngIf="evo1.pokemon.form"
-            routerLink="/pokemon/{{ evo1.pokemon.dexNo }}/{{
+            routerLink="/dex/pokemon/{{ evo1.pokemon.dexNo }}/{{
               evo1.pokemon.formIndex
             }}"
             routerLinkActive="active"
@@ -351,7 +342,7 @@
 
             <a
               *ngIf="!evo2.pokemon.form"
-              routerLink="/pokemon/{{ evo2.pokemon.dexNo }}"
+              routerLink="/dex/pokemon/{{ evo2.pokemon.dexNo }}"
               routerLinkActive="active"
               ariaCurrentWhenActive="page"
             >
@@ -359,7 +350,7 @@
             </a>
             <a
               *ngIf="evo2.pokemon.form"
-              routerLink="/pokemon/{{ evo2.pokemon.dexNo }}/{{
+              routerLink="/dex/pokemon/{{ evo2.pokemon.dexNo }}/{{
                 evo2.pokemon.formIndex
               }}"
               routerLinkActive="active"
@@ -394,7 +385,7 @@
 
               <a
                 *ngIf="!evo3.pokemon.form"
-                routerLink="/pokemon/{{ evo3.pokemon.dexNo }}"
+                routerLink="/dex/pokemon/{{ evo3.pokemon.dexNo }}"
                 routerLinkActive="active"
                 ariaCurrentWhenActive="page"
               >
@@ -402,7 +393,7 @@
               </a>
               <a
                 *ngIf="evo3.pokemon.form"
-                routerLink="/pokemon/{{ evo3.pokemon.dexNo }}/{{
+                routerLink="/dex/pokemon/{{ evo3.pokemon.dexNo }}/{{
                   evo3.pokemon.formIndex
                 }}"
                 routerLinkActive="active"
@@ -419,6 +410,79 @@
     <div class="evo-note" *ngIf="evoNote()">
       {{ evoNote() }}
     </div>
+  </div>
+  <div class="moves">
+    <div class="section-header">Moves</div>
+    <table>
+      <tr>
+        <th style="text-align: center;">Lv</th>
+        <th>Move</th>
+        <th>Type</th>
+        <th style="text-align: center;">Category</th>
+        <th style="text-align: center;">Power</th>
+        <th style="text-align: center;">Acc.</th>
+        <th style="text-align: center;">PP</th>
+        <th style="text-align: center;">Eff %</th>
+        <th>Description</th>
+      </tr>
+      <tr *ngFor="let move of pokemon.moves">
+        <td style="text-align: center;">{{ move.level }}</td>
+        <td class="name">{{ move.move.name }}</td>
+        <td class="type">
+            <div [class]="'type-' + move.move.type">
+                <ng-container *ngIf="move.move.type != 'ZZZ'">
+                    {{ move.move.type }}
+                </ng-container>
+                <ng-container *ngIf="move.move.type == 'ZZZ'">
+                    ???
+                </ng-container>
+            </div>
+        </td>
+        <td style="text-align: center;">
+            <img
+                src="assets/{{ move.move.category }}.png"
+                width="50px"
+            />
+        </td>
+        <td style="text-align: center;">
+            <ng-container *ngIf="move.move.power && move.move.power != 1">
+                {{ move.move.power }}
+                <ng-container *ngIf="move.move.autoCrit">
+                    ({{ move.move.averagePower() }})
+                </ng-container>
+                <ng-container *ngIf="move.move.hitTwo">
+                    &times; 2 ({{ move.move.averagePower() }})
+                </ng-container>
+                <ng-container *ngIf="move.move.hitThree">
+                    &times; 3 ({{ move.move.averagePower() }})
+                </ng-container>
+                <ng-container *ngIf="move.move.hitTwoToFive">
+                    &times; 2-5 ({{ move.move.averagePower() }})
+                </ng-container>
+            </ng-container>
+            <ng-container *ngIf="!move.move.power || move.move.power == 1">
+                -
+            </ng-container>
+        </td>
+        <td style="text-align: center;">
+            <ng-container *ngIf="move.move.accuracy">
+                {{ move.move.accuracy }}%
+            </ng-container>
+            <ng-container *ngIf="!move.move.accuracy">
+                -
+            </ng-container>
+        </td>
+        <td style="text-align: center;">
+            {{ move.move.totalPP }}
+        </td>
+        <td style="text-align: center;">
+            <ng-container *ngIf="move.move.effectChance && move.move.effectChance != 100">
+                {{ move.move.effectChance }}%
+            </ng-container>
+        </td>
+        <td>{{ move.move.description }}</td>
+    </tr>
+    </table>
   </div>
   <div class="forms" *ngIf="pokemon.form">
     <div class="section-header">Other Forms</div>
@@ -441,7 +505,7 @@
         <div *ngIf="form.formIndex != formNo">
           <div>
             <a
-              routerLink="/pokemon/{{ form.dexNo }}/{{ form.formIndex }}"
+              routerLink="/dex/pokemon/{{ form.dexNo }}/{{ form.formIndex }}"
               routerLinkActive="active"
               ariaCurrentWhenActive="page"
             >

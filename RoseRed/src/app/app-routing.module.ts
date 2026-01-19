@@ -10,21 +10,32 @@ import {
   withComponentInputBinding,
 } from '@angular/router';
 import { DexComponent } from 'src/components/dex/dex.component';
+import { MoveListComponent } from 'src/components/move-list/move-list.component';
 import { PokemonComponent } from 'src/components/pokemon/pokemon.component';
 
 const routes: Routes = [
   {
     path: '',
+    redirectTo: 'dex',
+    pathMatch: 'full',
+  },
+  {
+    path: 'dex',
     component: DexComponent
   },
   {
-    path: 'pokemon/:dexNo',
+    path: 'dex/pokemon/:dexNo',
     component: PokemonComponent
   },
   {
-    path: 'pokemon/:dexNo/:formIndex',
+    path: 'dex/pokemon/:dexNo/:formIndex',
     component: PokemonComponent
-  }
+  },
+
+  {
+    path: 'moves',
+    component: MoveListComponent
+  },
 ];
 
 @NgModule({

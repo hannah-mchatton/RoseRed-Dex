@@ -15,7 +15,7 @@
     border-bottom: 1px solid black;
     padding: 5px;
   }
-  
+
   .picture {
   }
   .types {
@@ -85,6 +85,32 @@
           justify-content: flex-start;
           align-items: center;
         }
+      }
+    }
+  }
+  .moves {
+    table {
+      width: 100%;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      background-color: white;
+    }
+
+    tr:hover {
+      background-color: lightgray;
+    }
+
+    .type {
+      div {
+        width: 80px;
+        text-align: center;
+
+        padding: 5px;
+        border-radius: 25px;
+        color: white;
       }
     }
   }

@@ -8,6 +8,7 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PokemonComponent } from './pokemon/pokemon.component';
+import { MoveListComponent } from './move-list/move-list.component';
 
 
 
@@ -15,7 +16,8 @@ import { PokemonComponent } from './pokemon/pokemon.component';
   declarations: [
     DexComponent,
     TypeCellComponent,
-    PokemonComponent
+    PokemonComponent,
+    MoveListComponent
   ],
   imports: [
     CommonModule,

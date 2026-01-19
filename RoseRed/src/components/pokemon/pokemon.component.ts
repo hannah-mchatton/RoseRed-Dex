@@ -1,5 +1,6 @@
 import { AfterViewInit, ChangeDetectorRef, Component, Input, OnDestroy, OnInit } from '@angular/core';
-import { DataService, Pokemon, PokemonEvolution } from 'src/services/data.service';
+import { DataService } from 'src/services/data.service';
+import { Pokemon, PokemonEvolution } from 'src/services/models';
 
 declare var LeaderLine: any;
 

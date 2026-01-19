@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DataService } from 'src/services/data.service';
+import { Pokemon } from 'src/services/models';
 
 @Component({
   selector: 'app-dex',
@@ -7,7 +8,7 @@ import { DataService } from 'src/services/data.service';
   styleUrls: ['./dex.component.scss'],
 })
 export class DexComponent implements OnInit {
-  public dex = [];
+  public dex: Pokemon[] = [];
 
   constructor(private dataService: DataService) {}
 
