@@ -6954,7 +6954,7 @@
   },
   {
     "key": "TRICKORTREAT",
-    "name": "Trick",
+    "name": "Trick-or-Treat",
     "type": "GHOST",
     "description": "The user takes the target trick-or-treating. This adds Ghost type to the target's type.",
     "category": "Status",
@@ -14123,6 +14123,23 @@
     "highCrit": "",
     "effectChance": "",
     "functionCode": "LowerTargetSpeed1MakeTargetWeakerToFire",
+    "priority": "",
+    "spread": ""
+  },
+  {
+    "key": "MEDUSARAY",
+    "name": "Medusa Ray",
+    "type": "ROCK",
+    "description": "The user glares and petrifies the foe. This adds Rock type to the target's type.",
+    "category": "Status",
+    "power": "",
+    "accuracy": 100,
+    "totalPP": 20,
+    "flags": [],
+    "contact": "",
+    "highCrit": "",
+    "effectChance": "",
+    "functionCode": "AddRockTypeToTarget",
     "priority": "",
     "spread": ""
   },
