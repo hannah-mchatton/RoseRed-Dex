@@ -10,6 +10,7 @@ import {
   withComponentInputBinding,
 } from '@angular/router';
 import { DexComponent } from 'src/components/dex/dex.component';
+import { MapComponent } from 'src/components/map/map.component';
 import { MoveListComponent } from 'src/components/move-list/move-list.component';
 import { PokemonComponent } from 'src/components/pokemon/pokemon.component';
 
@@ -35,6 +36,11 @@ const routes: Routes = [
   {
     path: 'moves',
     component: MoveListComponent
+  },
+
+  {
+    path: 'map',
+    component: MapComponent
   },
 ];
 

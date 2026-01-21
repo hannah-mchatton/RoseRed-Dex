@@ -1,0 +1,15 @@
+.text-box {
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+    width: 450px;
+    height: 100px;
+    padding: 10px;
+    border-top-left-radius: 25px;
+
+    .sub-text {
+        font-size: 20px;
+    }
+}

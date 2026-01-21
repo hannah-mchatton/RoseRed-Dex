@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { MoveListComponent } from './move-list/move-list.component';
+import { MapComponent } from './map/map.component';
 
 
 
@@ -17,7 +18,8 @@ import { MoveListComponent } from './move-list/move-list.component';
     DexComponent,
     TypeCellComponent,
     PokemonComponent,
-    MoveListComponent
+    MoveListComponent,
+    MapComponent
   ],
   imports: [
     CommonModule,
