@@ -23,6 +23,9 @@ export class Pokemon {
   type2: string;
   abilities: string[];
 
+  height: number;
+  weight: number;
+
   hp: number;
   atk: number;
   def: number;
@@ -51,6 +54,9 @@ export class Pokemon {
     this.spdef = dataPokemon.SPDEF;
     this.spd = dataPokemon.SPD;
 
+    this.height = dataPokemon.HEIGHT;
+    this.weight = dataPokemon.WEIGHT;
+
     this.evolutions = [];
     let dataEvolutions = dataPokemon.EVOLUTIONS.split(' ');
     let dataEvolutionMethods = dataPokemon.METHODS.split(' ');
@@ -71,6 +77,34 @@ export class Pokemon {
 
   public bst() {
     return this.hp + this.atk + this.def + this.spa + this.spdef + this.spd;
+  }
+
+  public getHeight(unit = 'i') {
+    switch(unit) {
+      case 'i':
+        let imperialHeight = this.height / 0.3048;
+        let feet = Math.floor(imperialHeight);
+        let inches = Math.round((imperialHeight - feet) / 0.08333);
+        if (inches >= 12) {
+          inches -= 12;
+          feet += 1;
+        }
+        return `${feet}'${inches}"`
+      case 'm':
+        return `${this.height}m`;
+      default:
+        return `-1`;
+    }
+  }
+  public getWeight(unit = 'i') {
+    switch(unit) {
+      case 'i':
+        return `${Math.round((this.weight * 2.2) * 10) / 10}lbs`
+      case 'm':
+        return `${this.weight}kg`;
+      default:
+        return `-1`;
+    }
   }
 
   private toTitleCase(str) {

@@ -6,6 +6,10 @@
   <div class="category">
     {{ pokemon.category }} Pokemon
   </div>
+  <div class="measurements">
+    {{ pokemon.getHeight('i') }}
+    {{ pokemon.getWeight('i') }}
+  </div>
   <div class="dex">
     {{ pokemon.dexEntry }}
   </div>
