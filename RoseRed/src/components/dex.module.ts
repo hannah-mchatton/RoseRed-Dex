@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { MoveListComponent } from './move-list/move-list.component';
 import { MapComponent } from './map/map.component';
+import { LocationComponent } from './location/location.component';
 
 
 
@@ -19,7 +20,8 @@ import { MapComponent } from './map/map.component';
     TypeCellComponent,
     PokemonComponent,
     MoveListComponent,
-    MapComponent
+    MapComponent,
+    LocationComponent
   ],
   imports: [
     CommonModule,

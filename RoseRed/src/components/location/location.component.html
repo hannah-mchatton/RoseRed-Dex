@@ -1,0 +1,40 @@
+<div class="header">{{ location.name }}</div>
+
+<div class="relationships">
+  <div class="north" *ngIf="location.N">
+    <div class="relation-header">North</div>
+    <div *ngFor="let r of location.N">
+      <a routerLink="/map/{{ r }}">{{ getLocationName(r) }}</a>
+    </div>
+  </div>
+  <div class="south" *ngIf="location.S">
+    <div class="relation-header">South</div>
+    <div *ngFor="let r of location.S">
+      <a routerLink="/map/{{ r }}">{{ getLocationName(r) }}</a>
+    </div>
+  </div>
+  <div class="east" *ngIf="location.E">
+    <div class="relation-header">East</div>
+    <div *ngFor="let r of location.E">
+      <a routerLink="/map/{{ r }}">{{ getLocationName(r) }}</a>
+    </div>
+  </div>
+  <div class="west" *ngIf="location.W">
+    <div class="relation-header">West</div>
+    <div *ngFor="let r of location.W">
+      <a routerLink="/map/{{ r }}">{{ getLocationName(r) }}</a>
+    </div>
+  </div>
+  <div class="access" *ngIf="location.A">
+    <div class="relation-header">Access To</div>
+    <div *ngFor="let r of location.A">
+      <a routerLink="/map/{{ r }}">{{ getLocationName(r) }}</a>
+    </div>
+  </div>
+</div>
+
+<div class="sub-locations" *ngIf="location.subLocations">
+  <div class="sub-location" *ngFor="let l of location.subLocations">
+    <div class="sub-header">{{ l.name }}</div>
+  </div>
+</div>

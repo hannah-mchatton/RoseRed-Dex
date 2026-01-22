@@ -1,0 +1,1238 @@
+[
+  {
+    "key": "PALLETTOWN",
+    "name": "Pallet Town",
+    "N": ["VIRIDIANROAD"],
+    "S": ["PALLETBAY"]
+  },
+  {
+    "key": "VIRIDIANROAD",
+    "name": "Viridian Road",
+    "N": ["VIRIDIANCITY"],
+    "W": ["PALLETGROVE"],
+    "S": ["PALLETTOWN"]
+  },
+  { "key": "PALLETGROVE", "name": "Pallet Grove" },
+  {
+    "key": "VIRIDIANCITY",
+    "name": "Viridian City",
+    "subLocations": [
+      { "name": "Viridian Gym" },
+      { "name": "Trainer's School" }
+    ],
+    "S": ["VIRIDIANROAD"],
+    "N": ["WINDINGWAY"],
+    "W": ["CHALLENGERSAPPROACH"],
+    "E": ["VIRIDIANRIVER"]
+  },
+  {
+    "key": "WINDINGWAY",
+    "name": "Winding Way",
+    "S": ["VIRIDIANCITY"],
+    "N": ["PEWTERCITY"],
+    "A": ["VIRIDIANFOREST", "DIGLETTSTUNNEL"]
+  },
+  {
+    "key": "VIRIDIANFOREST",
+    "name": "Viridian Forest",
+    "subLocations": [{ "name": "Forest" }, { "name": "Cemetary" }],
+    "N": ["WINDINGWAY"],
+    "S": ["WINDINGWAY"]
+  },
+  {
+    "key": "PEWTERCITY",
+    "name": "Pewter City",
+    "subLocations": [{ "name": "Pewter Gym" }],
+    "S": ["WINDINGWAY"],
+    "N": ["ANCIENTPATH"],
+    "E": ["CRATERPASS"]
+  },
+  {
+    "key": "ANCIENTPATH",
+    "name": "Ancient Path",
+    "S": ["PEWTERCITY"],
+    "N": ["RUINEDCITY"]
+  },
+  { "key": "RUINEDCITY", "name": "Ruined City", "S": ["ANCIENTPATH"] },
+  {
+    "key": "CRATERPASS",
+    "name": "Crater Pass",
+    "E": ["MTMOON"],
+    "W": ["PEWTERCITY"],
+    "S": ["VIRIDIANRIVER"]
+  },
+  {
+    "key": "VIRIDIANRIVER",
+    "name": "Viridian River",
+    "N": ["CRATERPASS"],
+    "W": ["VIRIDIANCITY"],
+    "E": ["CELADONSUBURBS"]
+  },
+  {
+    "key": "MTMOON",
+    "name": "Mt. Moon",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "Summit" }
+    ],
+    "W": ["CRATERPASS"],
+    "E": ["MOUNTAINDESCENT"]
+  },
+  {
+    "key": "MOUNTAINDESCENT",
+    "name": "Mountain Descent",
+    "W": ["MTMOON"],
+    "E": ["CERULEANCITY"],
+    "A": ["NATUREPRESERVE", "CERULEANCAVE"]
+  },
+  {
+    "key": "NATUREPRESERVE",
+    "name": "Nature Preserve",
+    "W": ["MOUNTAINDESCENT"]
+  },
+  {
+    "key": "CERULEANCAVE",
+    "name": "Cerulean Cave",
+    "subLocations": [{ "name": "1F" }, { "name": "2F" }, { "name": "B1F" }],
+    "A": ["MOUNTAINDESCENT"]
+  },
+  {
+    "key": "CERULEANCITY",
+    "name": "Cerulean City",
+    "subLocations": [{ "name": "Cerulean Gym" }],
+    "W": ["MOUNTAINDESCENT"],
+    "E": ["ROCKYROAD"],
+    "N": ["NUGGETBRIDGE"],
+    "S": ["PLACIDWAY"]
+  },
+  {
+    "key": "NUGGETBRIDGE",
+    "name": "Nugget Bridge",
+    "S": ["CERULEANCITY"],
+    "N": ["CERULEANCAPE"]
+  },
+  {
+    "key": "CERULEANCAPE",
+    "name": "Cerulean Cape",
+    "S": ["NUGGETBRIDGE"],
+    "N": ["PALEREACH"],
+    "A": ["CERULEANRUINS"]
+  },
+  { "key": "CERULEANRUINS", "name": "Cerulean Ruins", "A": ["CERULEANCAPE"] },
+  {
+    "key": "PALEREACH",
+    "name": "Pale Reach",
+    "S": ["CERULEANCAPE"],
+    "A": ["TUNDRATEMPLE"]
+  },
+  {
+    "key": "TUNDRATEMPLE",
+    "name": "Tundra Temple",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "B3F" },
+      { "name": "B4F" },
+      { "name": "B5F", "static": [{"key": "REGIGIGAS", "level": 70}] }
+    ],
+    "A": ["PALEREACH"]
+  },
+  {
+    "key": "ROCKYROAD",
+    "name": "Rocky Road",
+    "W": ["CERULEANCITY"],
+    "E": ["LAVENDERCANAL"]
+  },
+  {
+    "key": "ROCKTUNNEL",
+    "name": "Rock Tunnel",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "Rock Peak Ruins", "static": [{"key": "REGIROCK", "level": 40}] }
+    ],
+    "A": ["LAVENDERCANAL"]
+  },
+  {
+    "key": "LAVENDERCANAL",
+    "name": "Lavender Canal",
+    "W": ["ROCKYROAD"],
+    "S": ["LAVENDERTOWN"],
+    "A": ["ROCKTUNNEL", "POWERPLANT"]
+  },
+  { "key": "POWERPLANT", "name": "Power Plant", "A": ["LAVENDERCANAL"] },
+  {
+    "key": "LAVENDERTOWN",
+    "name": "Lavender Town",
+    "N": ["LAVENDERCANAL"],
+    "S": ["SILENCEBRIDGE"],
+    "W": ["FARMERSPATH"],
+    "A": ["POKEMONTOWER"]
+  },
+  {
+    "key": "POKEMONTOWER",
+    "name": "Pokemon Tower",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "4F" },
+      { "name": "5F" },
+      { "name": "6F" },
+      { "name": "7F" }
+    ],
+    "A": ["LAVENDERTOWN"]
+  },
+  {
+    "key": "PLACIDWAY",
+    "name": "Placid Way",
+    "N": ["CERULEANCITY"],
+    "S": ["SAFFRONCITY"],
+    "A": ["UNDERGROUNDPATHNS"]
+  },
+  {
+    "key": "SAFFRONCITY",
+    "name": "Saffron City",
+    "subLocations": [{ "name": "Saffron Gym" }, { "name": "Fighting Dojo" }],
+    "N": ["PLACIDWAY"],
+    "S": ["VERMILLIONROAD"],
+    "E": ["FARMERSPATH"],
+    "W": ["SAFFRONPARK"],
+    "A": ["SILPHCO", "GOLDENRODCITY"]
+  },
+  {
+    "key": "SILPHCO",
+    "name": "Silph Co.",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "4F" },
+      { "name": "5F" },
+      { "name": "6F" },
+      { "name": "7F" },
+      { "name": "8F" },
+      { "name": "9F" },
+      { "name": "10F" },
+      { "name": "11F" }
+    ],
+    "A": ["SAFFRONCITY"]
+  },
+  {
+    "key": "FARMERSPATH",
+    "name": "Farmer's Path",
+    "W": ["SAFFRONCITY"],
+    "E": ["LAVENDERTOWN"],
+    "A": ["UNDERGROUNDPATHEW"]
+  },
+  {
+    "key": "SAFFRONPARK",
+    "name": "Saffron Park",
+    "W": ["CELADONCITY"],
+    "E": ["SAFFRONCITY"]
+  },
+  {
+    "key": "CELADONCITY",
+    "name": "Celadon City",
+    "subLocations": [{ "name": "Celadon Gym" }],
+    "W": ["CELADONSUBURBS"],
+    "E": ["SAFFRONPARK"],
+    "S": ["TERRAROAD"],
+    "A": ["CELADONUNDERGROUND"]
+  },
+  {
+    "key": "CELADONUNDERGROUND",
+    "name": "Celadon Underground",
+    "subLocations": [{ "name": "Celadon Sewers" }],
+    "A": ["CELADONCITY", "UNDERGROUNDPATHEW", "TEAMROCKETHIDEOUT"]
+  },
+  {
+    "key": "TEAMROCKETHIDEOUT",
+    "name": "Team Rocket Hideout",
+    "subLocations": [
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "B3F" },
+      { "name": "B4F" }
+    ],
+    "A": ["CELADONUNDERGROUND"]
+  },
+  {
+    "key": "TERRAROAD",
+    "name": "Terra Road",
+    "N": ["CELADONCITY"],
+    "S": ["TERRACOTTATOWN"],
+    "A": ["FOUNTAINHEADCAVE"]
+  },
+  {
+    "key": "FOUNTAINHEADCAVE",
+    "name": "Fountainhead Cave",
+    "subLocations": [{ "name": "1F" }, { "name": "B1F" }],
+    "A": ["TERRAROAD"]
+  },
+  { "key": "TERRACOTTATOWN", "name": "Terracotta Town", "N": ["TERRAROAD"] },
+  {
+    "key": "CELADONSUBURBS",
+    "name": "Celadon Suburbs",
+    "E": ["CELADONCITY"],
+    "W": ["VIRIDIANRIVER"],
+    "S": ["CYCLINGROAD"]
+  },
+  {
+    "key": "CYCLINGROAD",
+    "name": "Cycling Road",
+    "N": ["CELADONSUBURBS"],
+    "E": ["TRAINERSDRAWBRIDGE"]
+  },
+  {
+    "key": "TRAINERSDRAWBRIDGE",
+    "name": "Trainer's Drawbridge",
+    "W": ["CYCLINGROAD"],
+    "E": ["FUCHSIACITY"]
+  },
+  {
+    "key": "VERMILLIONROAD",
+    "name": "Vermillion Road",
+    "N": ["SAFFRONCITY"],
+    "S": ["VERMILLIONCITY"],
+    "A": ["UNDERGROUNDPATHNS"]
+  },
+  {
+    "key": "UNDERGROUNDPATHEW",
+    "name": "Underground Path (E/W)",
+    "subLocations": [
+      { "name": "1F - Celadon Side" },
+      { "name": "1F - Lavender Side" },
+      { "name": "B1F" }
+    ],
+    "E": ["CELADONUNDERGROUND"],
+    "W": ["FARMERSPATH"]
+  },
+  {
+    "key": "UNDERGROUNDPATHNS",
+    "name": "Underground Path (N/S)",
+    "subLocations": [
+      { "name": "1F - Cerulean Side" },
+      { "name": "1F - Vermillion Side" },
+      { "name": "B1F" }
+    ],
+    "N": ["PLACIDWAY"],
+    "S": ["VERMILLIONROAD"]
+  },
+  {
+    "key": "VERMILLIONCITY",
+    "name": "Vermillion City",
+    "subLocations": [{ "name": "Vermillion Gym" }],
+    "N": ["VERMILLIONROAD"],
+    "E": ["VERMILLIONMEADOW"],
+    "A": ["SSANNE", "OLIVINECITY", "BIRTHISLAND", "FARAWAYISLAND"]
+  },
+  {
+    "key": "SSANNE",
+    "name": "SS Anne",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "Deck" },
+      { "name": "2F" },
+      { "name": "B1F" },
+      { "name": "Kitchen" }
+    ],
+    "A": ["VERMILLIONCITY"]
+  },
+  {
+    "key": "VERMILLIONMEADOW",
+    "name": "Vermillion Meadow",
+    "W": ["VERMILLIONCITY"],
+    "E": ["SILENCEBRIDGE"],
+    "A": ["DIGLETTSTUNNEL"]
+  },
+  {
+    "key": "DIGLETTSTUNNEL",
+    "name": "Diglett's Tunnel",
+    "subLocations": [
+      { "name": "1F - Pewter Side" },
+      { "name": "1F - Vermillion Side" },
+      { "name": "B1F" }
+    ],
+    "S": ["VERMILLIONMEADOW"],
+    "N": ["WINDINGWAY"]
+  },
+  {
+    "key": "SILENCEBRIDGE",
+    "name": "Silence Bridge",
+    "N": ["LAVENDERTOWN"],
+    "S": ["COASTALPARK"],
+    "W": ["VERMILLIONMEADOW"],
+    "A": ["FISHERSHIDEAWAY"]
+  },
+  {
+    "key": "FISHERSHIDEAWAY",
+    "name": "Fisher's Hideaway",
+    "A": ["SILENCEBRIDGE"]
+  },
+  {
+    "key": "COASTALPARK",
+    "name": "Coastal Park",
+    "N": ["SILENCEBRIDGE"],
+    "W": ["VILLAGEROAD"]
+  },
+  {
+    "key": "VILLAGEROAD",
+    "name": "Village Road",
+    "E": ["COASTALPARK"],
+    "W": ["FUCHSIACITY"],
+    "A": ["NINJAHIDEOUT"]
+  },
+  { "key": "NINJAHIDEOUT", "name": "Ninja Hideout", "A": ["VILLAGEROAD"] },
+  {
+    "key": "FUCHSIACITY",
+    "name": "Fuchsia City",
+    "subLocations": [{ "name": "Fuchsia Gym" }],
+    "E": ["VILLAGEROAD"],
+    "W": ["TRAINERSDRAWBRIDGE"],
+    "N": ["SAFARIZONE"],
+    "S": ["FUCHSIABAY"]
+  },
+  {
+    "key": "SAFARIZONE",
+    "name": "Safari Zone",
+    "subLocations": [
+      { "name": "Plains" },
+      { "name": "Meadow" },
+      { "name": "Savannah" },
+      { "name": "Peak" },
+      { "name": "Rocky Beach" },
+      { "name": "Wetland" },
+      { "name": "Forest" },
+      { "name": "Swamp" },
+      { "name": "Marshland" },
+      { "name": "Wasteland" },
+      { "name": "Mountain" },
+      { "name": "Desert" }
+    ],
+    "S": ["FUCHSIACITY"]
+  },
+  {
+    "key": "FUCHSIABAY",
+    "name": "Fuchsia Bay",
+    "N": ["FUCHSIACITY"],
+    "S": ["SEABREEZEWAY"]
+  },
+  {
+    "key": "SEABREEZEWAY",
+    "name": "Seabreeze Way",
+    "E": ["FUCHSIABAY"],
+    "W": ["CINNABARISLAND"],
+    "S": ["OFFSHOREROAD"],
+    "A": ["SEAFOAMISLANDS"]
+  },
+  {
+    "key": "SEAFOAMISLANDS",
+    "name": "Seafoam Islands",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "B3F" },
+      { "name": "B4F" },
+      { "name": "Iceberg Ruins", "static": [{"key": "REGICE", "level": 40}] }
+    ],
+    "A": ["SEABREEZEWAY"]
+  },
+  {
+    "key": "CINNABARISLAND",
+    "name": "Cinnabar Island",
+    "subLocations": [{ "name": "Cinnabar Gym" }],
+    "E": ["SEABREEZEWAY"],
+    "N": ["PALLETBAY"],
+    "A": ["POKEMONMANSION", "MTCINNABAR"]
+  },
+  {
+    "key": "POKEMONMANSION",
+    "name": "Pokemon Mansion",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "B1F" },
+      { "name": "Laboratory" }
+    ],
+    "A": ["CINNABARISLAND"]
+  },
+  {
+    "key": "MTCINNABAR",
+    "name": "Mt. Cinnabar",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "Hot Springs" }
+    ],
+    "A": ["CINNABARISLAND"]
+  },
+  {
+    "key": "PALLETBAY",
+    "name": "Pallet Bay",
+    "N": ["PALLETTOWN"],
+    "S": ["CINNABARISLAND"]
+  },
+  {
+    "key": "CHALLENGERSAPPROACH",
+    "name": "Challenger's Approach",
+    "E": ["VIRIDIANCITY"],
+    "S": ["CREMINITOWN"],
+    "N": ["VICTORYROAD"]
+  },
+  {
+    "key": "VICTORYROAD",
+    "name": "Victory Road",
+    "S": ["CHALLENGERSAPPROACH"],
+    "W": ["MTSILVERJOHTO"],
+    "N": ["MTSILVERKANTO"]
+  },
+  {
+    "key": "MTSILVERKANTO",
+    "name": "Mt. Silver",
+    "subLocations": [
+      { "name": "1F - Kanto" },
+      { "name": "2F - Kanto" },
+      { "name": "3F - Kanto" }
+    ],
+    "S": ["VICTORYROAD"],
+    "N": ["INDIGOCITY"]
+  },
+  {
+    "key": "MTSILVERJOHTO",
+    "name": "Mt. Silver",
+    "subLocations": [
+      { "name": "Outside" },
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "4F" },
+      { "name": "5F" },
+      { "name": "Mountainside" },
+      { "name": "High Mountainside" },
+      { "name": "Summit" }
+    ],
+    "E": ["VICTORYROAD"]
+  },
+  {
+    "key": "INDIGOCITY",
+    "name": "Indigo City",
+    "subLocations": [{ "name": "Pokemon League" }],
+    "S": ["MTSILVERKANTO"]
+  },
+  {
+    "key": "CREMINITOWN",
+    "name": "Cremini Town",
+    "N": ["CHALLENGERSAPPROACH"],
+    "W": ["NEWJOURNEYROAD"]
+  },
+  {
+    "key": "NEWJOURNEYROAD",
+    "name": "New Journey Road",
+    "E": ["CREMINITOWN"],
+    "W": ["NEWBARKTOWN"],
+    "A": ["TOHJOFALLS"]
+  },
+  { "key": "TOHJOFALLS", "name": "Tohjo Falls", "A": ["NEWJOURNEYROAD"] },
+  {
+    "key": "NEWBARKTOWN",
+    "name": "New Bark Town",
+    "E": ["NEWJOURNEYROAD"],
+    "W": ["PETRICHORWAY"]
+  },
+  {
+    "key": "PETRICHORWAY",
+    "name": "Petrichor Way",
+    "E": ["NEWBARKTOWN"],
+    "W": ["CHERRYGROVECITY"],
+    "N": ["HOMEBOUNDSWITCHBACK"],
+    "A": ["BLUEMOONFALLS"]
+  },
+  { "key": "BLUEMOONFALLS", "name": "Blue Moon Falls", "S": ["PETRICHORWAY"] },
+  {
+    "key": "CHERRYGROVECITY",
+    "name": "Cherrygrove City",
+    "E": ["PETRICHORWAY"],
+    "N": ["BLOSSOMROAD"]
+  },
+  {
+    "key": "BLOSSOMROAD",
+    "name": "Blossom Road",
+    "S": ["CHERRYGROVECITY"],
+    "N": ["VIOLETCITY"],
+    "A": ["DARKCAVE"]
+  },
+  {
+    "key": "DARKCAVE",
+    "name": "Dark Cave",
+    "A": ["BLOSSOMROAD", "HOMEBOUNDSWITCHBACK", "MOUNTAINROAD"]
+  },
+  {
+    "key": "VIOLETCITY",
+    "name": "Violet City",
+    "subLocations": [{ "name": "Violet Gym" }],
+    "A": ["SPROUTTOWER"],
+    "E": ["BLOSSOMROAD"],
+    "W": ["OVERGROWNROAD"],
+    "S": ["RUINSOFALPH"]
+  },
+  {
+    "key": "SPROUTTOWER",
+    "name": "Sprout Tower",
+    "subLocations": [{ "name": "1F" }, { "name": "2F" }, { "name": "3F" }],
+    "A": ["VIOLETCITY"]
+  },
+  {
+    "key": "OVERGROWNROAD",
+    "name": "Overgrown Road",
+    "E": ["VIOLETCITY"],
+    "W": ["NATIONALPARK"],
+    "S": ["RUINSOFALPH"],
+    "N": ["TRADITIONROAD"]
+  },
+  {
+    "key": "NATIONALPARK",
+    "name": "National Park",
+    "E": ["OVERGROWNROAD"],
+    "S": ["BRILLIANTCOAST"]
+  },
+  {
+    "key": "RUINSOFALPH",
+    "name": "Ruins of Alph",
+    "N": ["VIOLETCITY", "OVERGROWNROAD"],
+    "S": ["SUNFLOWERROAD"]
+  },
+  {
+    "key": "SUNFLOWERROAD",
+    "name": "Sunflower Road",
+    "N": ["RUINSOFALPH"],
+    "S": ["BLOOMINGTOWN"]
+  },
+  {
+    "key": "BLOOMINGTOWN",
+    "name": "Blooming Town",
+    "N": ["SUNFLOWERROAD"],
+    "S": ["UNIONROAD"]
+  },
+  {
+    "key": "UNIONROAD",
+    "name": "Union Road",
+    "S": ["UNIONCAVE"],
+    "N": ["BLOOMINGTOWN"]
+  },
+  {
+    "key": "UNIONCAVE",
+    "name": "Union Cave",
+    "subLocations": [{ "name": "1F" }, { "name": "B1F" }, { "name": "B2F" }],
+    "N": ["UNIONROAD"],
+    "W": ["TORRENTIALPATH"]
+  },
+  {
+    "key": "TORRENTIALPATH",
+    "name": "Torrential Path",
+    "E": ["UNIONCAVE"],
+    "W": ["AZALEATOWN"]
+  },
+  {
+    "key": "AZALEATOWN",
+    "name": "Azalea Town",
+    "subLocations": [{ "name": "Azalea Gym" }],
+    "E": ["TORRENTIALPATH"],
+    "W": ["ILEXFOREST"],
+    "A": ["SLOWPOKEWELL"]
+  },
+  {
+    "key": "SLOWPOKEWELL",
+    "name": "Slowpoke Well",
+    "subLocations": [{ "name": "1F" }, { "name": "B1F" }],
+    "A": ["AZALEATOWN"]
+  },
+  {
+    "key": "ILEXFOREST",
+    "name": "Ilex Forest",
+    "E": ["AZALEATOWN"],
+    "N": ["GOLDENRODROAD"]
+  },
+  {
+    "key": "GOLDENRODROAD",
+    "name": "Goldenrod Road",
+    "S": ["ILEXFOREST"],
+    "N": ["GOLDENRODCITY"]
+  },
+  {
+    "key": "GOLDENRODCITY",
+    "name": "Goldenrod City",
+    "subLocations": [{ "name": "Goldenrod Gym" }],
+    "S": ["GOLDENRODROAD"],
+    "N": ["BRILLIANTCOAST"],
+    "A": ["RADIOTOWER", "GOLDENRODUNDERGROUND", "SAFFRONCITY"]
+  },
+  {
+    "key": "RADIOTOWER",
+    "name": "Radio Tower",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "4F" },
+      { "name": "5F" },
+      { "name": "6F" }
+    ],
+    "A": ["GOLDENRODCITY"]
+  },
+  {
+    "key": "GOLDENRODUNDERGROUND",
+    "name": "Goldenrod Underground",
+    "subLocations": [
+      { "name": "Tunnel" },
+      { "name": "Dept. Store B1F" },
+      { "name": "Dept. Store B2F" },
+      { "name": "Electro Charge Ruins", "static": [{"key": "REGILEKI", "level": 40}] }
+    ],
+    "A": ["GOLDENRODCITY"]
+  },
+  {
+    "key": "BRILLIANTCOAST",
+    "name": "Brilliant Coast",
+    "S": ["GOLDENRODCITY"],
+    "N": ["OVERGROWNROAD"]
+  },
+  {
+    "key": "TRADITIONROAD",
+    "name": "Tradition Road",
+    "S": ["OVERGROWNROAD"],
+    "N": ["ECRUTEAKCITY"]
+  },
+  {
+    "key": "ECRUTEAKCITY",
+    "name": "Ecruteak City",
+    "subLocations": [{ "name": "Ecruteak Gym" }],
+    "S": ["TRADITIONROAD"],
+    "W": ["AUTUMNALPATH"],
+    "E": ["MORTARSLOPES"],
+    "A": ["BELLTOWER", "BURNEDTOWER"]
+  },
+  {
+    "key": "BELLTOWER",
+    "name": "Bell Tower",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "4F" },
+      { "name": "5F" },
+      { "name": "6F" },
+      { "name": "7F" },
+      { "name": "8F" },
+      { "name": "9F" },
+      { "name": "10F" },
+      { "name": "Roof" }
+    ],
+    "A": ["ECRUTEAKCITY"]
+  },
+  {
+    "key": "BURNEDTOWER",
+    "name": "Burned Tower",
+    "subLocations": [{ "name": "1F" }, { "name": "B1F" }],
+    "A": ["ECRUTEAKCITY"]
+  },
+  {
+    "key": "MORTARSLOPES",
+    "name": "Mortar Slopes",
+    "W": ["ECRUTEAKCITY"],
+    "E": ["MAHOGANYTOWN"],
+    "N": ["MTMORTAR"]
+  },
+  {
+    "key": "MTMORTAR",
+    "name": "Mt. Mortar",
+    "subLocations": [
+      { "name": "1F - 1" },
+      { "name": "1F - 2" },
+      { "name": "1F - 3" },
+      { "name": "B1F" },
+      { "name": "Red Hot Ruins", "static": [{"key": "REGIFORGE", "level": 40}] }
+    ],
+    "S": ["MORTARSLOPES"]
+  },
+  {
+    "key": "MAHOGANYTOWN",
+    "name": "Mahogany Town",
+    "subLocations": [{ "name": "Mahogany Gym" }],
+    "N": ["RAGESAPPROACH"],
+    "W": ["MORTARSLOPES"],
+    "E": ["SPRINGTIDEPATH"],
+    "A": ["TEAMROCKETHQ"]
+  },
+  {
+    "key": "TEAMROCKETHQ",
+    "name": "Team Rocket HQ",
+    "subLocations": [{ "name": "B1F" }, { "name": "B2F" }, { "name": "B3F" }],
+    "A": ["MAHOGANYTOWN"]
+  },
+  {
+    "key": "RAGESAPPROACH",
+    "name": "Rage's Approach",
+    "S": ["MAHOGANYTOWN"],
+    "N": ["LAKEOFRAGE"]
+  },
+  { "key": "LAKEOFRAGE", "name": "Lake of Rage", "S": ["RAGESAPPROACH"] },
+  {
+    "key": "SPRINGTIDEPATH",
+    "name": "Springtide Path",
+    "W": ["MAHOGANYTOWN"],
+    "E": ["BLACKTHORNCITY"],
+    "A": ["ICECAVE"]
+  },
+  {
+    "key": "ICECAVE",
+    "name": "Ice Cave",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "B3F" }
+    ],
+    "A": ["SPRINGTIDEPATH"]
+  },
+  {
+    "key": "BLACKTHORNCITY",
+    "name": "Blackthorn City",
+    "subLocations": [{ "name": "Blackthorn Gym" }],
+    "E": ["SPRINGTIDEPATH"],
+    "S": ["MOUNTAINPATH"],
+    "A": ["DRAGONSDEN"]
+  },
+  {
+    "key": "DRAGONSDEN",
+    "name": "Dragon's Den",
+    "S": ["BLACKTHORNCITY"],
+    "N": ["WYRMREACH"]
+  },
+  {
+    "key": "WYRMREACH",
+    "name": "Wyrmreach",
+    "subLocations": [{ "name": "Dragon Orb Ruins", "static": [{"key": "REGIDRAGO", "level": 40}] }],
+    "S": ["DRAGONSDEN"]
+  },
+  {
+    "key": "MOUNTAINROAD",
+    "name": "Mountain Road",
+    "N": ["BLACKTHORNCITY"],
+    "S": ["HOMEBOUNDSWITCHBACK"],
+    "A": ["DARKCAVE"]
+  },
+  {
+    "key": "HOMEBOUNDSWITCHBACK",
+    "name": "Homebound Switchback",
+    "N": ["MOUNTAINROAD"],
+    "S": ["PETRICHORWAY"],
+    "A": ["DARKCAVE"]
+  },
+  {
+    "key": "AUTUMNALPATH",
+    "name": "Autumnal Path",
+    "E": ["ECRUTEAKCITY"],
+    "W": ["BREEZYPLAINS"],
+    "S": ["OLIVINECITY"]
+  },
+  {
+    "key": "BREEZYPLAINS",
+    "name": "Breezy Plains",
+    "E": ["AUTUMNALPATH", "OLIVINECITY"],
+    "S": ["BREAKERWAY"],
+    "A": ["POKEATHELONDOME"]
+  },
+  {
+    "key": "POKEATHELONDOME",
+    "name": "Pokeathelon Dome",
+    "A": ["BREEZYPLAINS"]
+  },
+  {
+    "key": "OLIVINECITY",
+    "name": "Olivine City",
+    "subLocations": [{ "name": "Olivine Gym" }],
+    "N": ["AUTUMNALPATH"],
+    "W": ["BREEZYPLAINS"],
+    "S": ["BREAKERWAY"],
+    "A": ["VERMILLIONCITY", "SHININGLIGHTHOUSE", "BIRTHISLAND", "FARAWAYISLAND"]
+  },
+  {
+    "key": "SHININGLIGHTHOUSE",
+    "name": "Shining Lighthouse",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "4F" },
+      { "name": "5F" },
+      { "name": "6F" },
+      { "name": "Roof" }
+    ],
+    "A": ["OLIVINECITY"]
+  },
+  {
+    "key": "BREAKERWAY",
+    "name": "Breaker Way",
+    "N": ["OLIVINECITY", "BREEZYPLAINS"],
+    "S": ["WHIRLISLANDS"]
+  },
+  {
+    "key": "WHIRLISLANDS",
+    "name": "Whirl Islands",
+    "N": ["BREAKERWAY"],
+    "S": ["WHIRLPOOLWAY"],
+    "A": ["BLUEPOINTISLE"],
+    "W": ["CIANWOODCITY"]
+  },
+  {
+    "key": "BLUEPOINTISLE",
+    "name": "Blue Point Isle",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "B3F" }
+    ],
+    "A": ["WHIRLISLANDS"]
+  },
+  {
+    "key": "CIANWOODCITY",
+    "name": "Cianwood City",
+    "subLocations": [{ "name": "Cianwood Gym" }],
+    "E": ["WHIRLISLANDS"],
+    "W": ["CLIFFSEDGEPATH"]
+  },
+  {
+    "key": "CLIFFSEDGEPATH",
+    "name": "Cliffsedge Path",
+    "E": ["CIANWOODCITY"],
+    "W": ["SKYBREAKTOWER"],
+    "A": ["CLIFFCAVE"]
+  },
+  {
+    "key": "CLIFFCAVE",
+    "name": "Cliff Cave",
+    "subLocations": [{ "name": "1F" }, { "name": "2F" }, { "name": "B1F" }],
+    "A": ["CLIFFSEDGEPATH"]
+  },
+  {
+    "key": "SKYBREAKTOWER",
+    "name": "Skybreak Tower",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "4F" },
+      { "name": "5F" },
+      { "name": "Roof" }
+    ],
+    "E": ["CLIFFSEDGEPATH"]
+  },
+  {
+    "key": "WHIRLPOOLWAY",
+    "name": "Whirlpool Way",
+    "N": ["WHIRLISLANDS"],
+    "S": ["ALTOMARE"]
+  },
+  {
+    "key": "ALTOMARE",
+    "name": "Alto Mare",
+    "N": ["WHIRLPOOLWAY"],
+    "E": ["PROSPECTORSPATH"]
+  },
+  {
+    "key": "PROSPECTORSPATH",
+    "name": "Prospector's Path",
+    "W": ["ALTOMARE"],
+    "S": ["OUTCASTISLE"]
+  },
+  {
+    "key": "OUTCASTISLE",
+    "name": "Outcast Isle",
+    "N": ["PROSPECTORSPATH"],
+    "S": ["WANDERERSWAY"],
+    "A": ["ALTERINGCAVE"]
+  },
+  { "key": "ALTERINGCAVE", "name": "Altering Cave", "A": ["OUTCASTISLE"] },
+  {
+    "key": "WANDERERSWAY",
+    "name": "Wanderer's Way",
+    "N": ["OUTCASTISLE"],
+    "E": ["GREENGROVEISLE"]
+  },
+  {
+    "key": "GREENGROVEISLE",
+    "name": "Greengrove Isle",
+    "W": ["WANDERERSWAY"],
+    "S": ["WATERPATH"],
+    "A": ["PATTERNBUSH"]
+  },
+  { "key": "PATTERNBUSH", "name": "Pattern Bush", "A": ["GREENGROVEISLE"] },
+  {
+    "key": "WATERPATH",
+    "name": "Water Path",
+    "N": ["GREENGROVEISLE"],
+    "W": ["FORTUNEISLAND"],
+    "S": ["RUINVALLEY"],
+    "E": ["WATERLABYRINTH"]
+  },
+  { "key": "FORTUNEISLAND", "name": "Fortune Island", "E": ["WATERPATH"] },
+  {
+    "key": "RUINVALLEY",
+    "name": "Ruin Valley",
+    "subLocations": [{ "name": "Iron Head Ruins", "static": [{"key": "REGISTEEL", "level": 40}] }],
+    "N": ["WATERPATH"],
+    "S": ["QUESTROAD"],
+    "A": ["DOTTEDHOLE"]
+  },
+  {
+    "key": "DOTTEDHOLE",
+    "name": "Dotted Hole",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "B3F" },
+      { "name": "B4F" },
+      { "name": "B5F" }
+    ],
+    "A": ["RUINVALLEY"]
+  },
+  {
+    "key": "QUESTROAD",
+    "name": "Quest Road",
+    "N": ["RUINVALLEY"],
+    "S": ["WARRIORSCHANNEL"]
+  },
+  {
+    "key": "WARRIORSCHANNEL",
+    "name": "Warrior's Channel",
+    "E": ["QUESTROAD"],
+    "N": ["BATTLEFRONTIER"],
+    "S": ["QUESTISLAND"]
+  },
+  {
+    "key": "BATTLEFRONTIER",
+    "name": "Battle Frontier",
+    "subLocations": [
+      { "name": "Battle Factory" },
+      { "name": "Battle Arena" },
+      { "name": "Battle Dome" },
+      { "name": "Battle Pike" },
+      { "name": "Battle Palace" },
+      { "name": "Battle Pyramid" },
+      { "name": "Battle Tower" },
+      { "name": "Battle Arcade" },
+      { "name": "Battle Castle" },
+      { "name": "Battle Hall" },
+      { "name": "Battle Subway" }
+    ],
+    "S": ["WARRIORSCHANNEL"]
+  },
+  {
+    "key": "QUESTISLAND",
+    "name": "Quest Island",
+    "N": ["WARRIORSCHANNEL"],
+    "S": ["SEVAULTCANYON"]
+  },
+  {
+    "key": "SEVAULTCANYON",
+    "name": "Sevault Canyon",
+    "subLocations": [{ "name": "Sand Strewn Ruins", "static": [{"key": "REGIDUNE", "level": 40}] }],
+    "N": ["QUESTISLAND"],
+    "S": ["TANOBYRUINS"]
+  },
+  {
+    "key": "TANOBYRUINS",
+    "name": "Tanoby Ruins",
+    "subLocations": [
+      { "name": "Outside" },
+      { "name": "Monean Chamber" },
+      { "name": "Liptoo Chamber" },
+      { "name": "Weepeth Chamber" },
+      { "name": "Dilford Chamber" },
+      { "name": "Scufib Chamber" },
+      { "name": "Rixy Chamber" },
+      { "name": "Viapois Chamber" }
+    ],
+    "N": ["SEVAULTCANYON"]
+  },
+  {
+    "key": "WATERLABYRINTH",
+    "name": "Water Labyrinth",
+    "E": ["RESORTGORGEOUS"],
+    "W": ["NEWBORNISLE"],
+    "S": ["CHRONOISLAND"],
+    "N": ["WATERPATH"]
+  },
+  {
+    "key": "RESORTGORGEOUS",
+    "name": "Resort Gorgeous",
+    "W": ["WATERLABYRINTH"]
+  },
+  { "key": "NEWBORNISLE", "name": "Newborn Isle", "E": ["WATERLABYRINTH"] },
+  {
+    "key": "CHRONOISLAND",
+    "name": "Chrono Island",
+    "N": ["WATERLABYRINTH"],
+    "E": ["ETERNALMEADOW"]
+  },
+  {
+    "key": "ETERNALMEADOW",
+    "name": "Eternal Meadow",
+    "W": ["CHRONOISLAND"],
+    "E": ["ABYSSALSPAN"],
+    "A": ["ROCKETWAREHOUSE"]
+  },
+  {
+    "key": "ROCKETWAREHOUSE",
+    "name": "Rocket Warehouse",
+    "A": ["ETERNALMEADOW"]
+  },
+  {
+    "key": "ABYSSALSPAN",
+    "name": "Abyssal Span",
+    "W": ["ETERNALMEADOW"],
+    "N": ["BRINEROAD"],
+    "S": ["ICYSEA"],
+    "A": ["OCEANICABYSS"]
+  },
+  {
+    "key": "OCEANICABYSS",
+    "name": "Oceanic Abyss",
+    "subLocations": [{ "name": "Deep Sea Ruins", "static": [{"key": "REGIWAVE", "level": 40}] }],
+    "A": ["ABYSSALSPAN"]
+  },
+  {
+    "key": "ICYSEA",
+    "name": "Icy Sea",
+    "N": ["ABYSSALSPAN"],
+    "S": ["FLOEISLAND"]
+  },
+  {
+    "key": "FLOEISLAND",
+    "name": "Floe Island",
+    "N": ["ICYSEA"],
+    "A": ["ICEFALLCAVE"]
+  },
+  {
+    "key": "ICEFALLCAVE",
+    "name": "Icefall Cave",
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "B3F" }
+    ],
+    "A": ["FLOEISLAND"]
+  },
+  {
+    "key": "BRINEROAD",
+    "name": "Brine Road",
+    "W": ["ABYSSALSPAN"],
+    "E": ["TREASUREBEACH"],
+    "S": ["CAPEBRINK"],
+    "A": ["SHIPWRECK"]
+  },
+  { "key": "SHIPWRECK", "name": "Shipwreck", "A": ["BRINEROAD"] },
+  {
+    "key": "CAPEBRINK",
+    "name": "Cape Brink",
+    "N": ["BRINEROAD"],
+    "S": ["BOONISLAND"]
+  },
+  {
+    "key": "BOONISLAND",
+    "name": "Boon Island",
+    "N": ["CAPEBRINK"],
+    "S": ["PARTNERSPATH"]
+  },
+  {
+    "key": "PARTNERSPATH",
+    "name": "Partner's Path",
+    "N": ["BOONISLAND"],
+    "E": ["COMPANIONISLE"]
+  },
+  { "key": "COMPANIONISLE", "name": "Companion Isle", "W": ["PARTNERSPATH"] },
+  {
+    "key": "TREASUREBEACH",
+    "name": "Treasure Beach",
+    "E": ["BONDWAY"],
+    "W": ["BRINEROAD"],
+    "N": ["KNOTISLAND"]
+  },
+  {
+    "key": "BONDWAY",
+    "name": "Bond Way",
+    "W": ["TREASUREBEACH"],
+    "S": ["BONDBRIDGE"]
+  },
+  {
+    "key": "BONDBRIDGE",
+    "name": "Bond Bridge",
+    "N": ["BONDWAY"],
+    "W": ["BERRYFOREST"],
+    "E": ["ANCESTORSROAD"]
+  },
+  { "key": "BERRYFOREST", "name": "Berry Forest", "E": ["BONDBRIDGE"] },
+  {
+    "key": "ANCESTORSROAD",
+    "name": "Ancestor's Road",
+    "W": ["BONDBRIDGE"],
+    "E": ["KINISLAND"]
+  },
+  {
+    "key": "KINISLAND",
+    "name": "Kin Island",
+    "W": ["ANCESTORSROAD"],
+    "S": ["GILDEDPATH"]
+  },
+  { "key": "GILDEDPATH", "name": "Gilded Path", "N": ["KINISLAND"] },
+  {
+    "key": "KNOTISLAND",
+    "name": "Knot Island",
+    "S": ["TREASUREBEACH"],
+    "N": ["KINDLEROAD"]
+  },
+  {
+    "key": "KINDLEROAD",
+    "name": "Kindle Road",
+    "S": ["KNOTISLAND"],
+    "N": ["MTEMBER"],
+    "A": ["HOTSPRINGS"]
+  },
+  { "key": "HOTSPRINGS", "name": "Hot Springs", "A": ["KINDLEROAD"] },
+  {
+    "key": "MTEMBER",
+    "name": "Mt. Ember",
+    "subLocations": [
+      { "name": "Outside" },
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "3F" },
+      { "name": "Summit" },
+      { "name": "B1F" },
+      { "name": "B2F" },
+      { "name": "B3F" },
+      { "name": "B4F" },
+      { "name": "B5F" }
+    ],
+    "S": ["KINDLEROAD"],
+    "N": ["OFFSHOREROAD"]
+  },
+  {
+    "key": "OFFSHOREROAD",
+    "name": "Offshore Road",
+    "S": ["MTEMBER"],
+    "N": ["SEABREEZEWAY"]
+  }
+]

@@ -3,6 +3,7 @@ import dex from '../data/dex.json';
 import abilities from '../data/abilities.json';
 import learnsets from '../data/learnsets.json';
 import moves from '../data/moves.json';
+import locations from '../data/locations.json';
 import { Move, Pokemon, PokemonEvolution } from './models';
 
 @Injectable({
@@ -247,5 +248,9 @@ export class DataService {
 
   public getMoveName(key) {
     return this.getMoves().find((a) => a.key == key)?.name;
+  }
+
+  public getLocation(key) {
+    return locations.find(l => l.key == key);
   }
 }
