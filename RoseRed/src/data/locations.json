@@ -3,7 +3,12 @@
     "key": "PALLETTOWN",
     "name": "Pallet Town",
     "N": ["VIRIDIANROAD"],
-    "S": ["PALLETBAY"]
+    "S": ["PALLETBAY"],
+    "static": [
+      { "key": "BULBASAUR-KANTONIAN", "level": 5 },
+      { "key": "CHARMANDER-KANTONIAN", "level": 5 },
+      { "key": "SQUIRTLE-KANTONIAN", "level": 5 }
+    ]
   },
   {
     "key": "VIRIDIANROAD",
@@ -45,7 +50,14 @@
     "subLocations": [{ "name": "Pewter Gym" }],
     "S": ["WINDINGWAY"],
     "N": ["ANCIENTPATH"],
-    "E": ["CRATERPASS"]
+    "E": ["CRATERPASS"],
+    "static": [
+      { "key": "OMANYTE", "level": 5 },
+      { "key": "KABUTO", "level": 5 },
+      { "key": "ANORITH", "level": 5 },
+      { "key": "LILEEP", "level": 5 },
+      { "key": "AERODACTYL", "level": 5 }
+    ]
   },
   {
     "key": "ANCIENTPATH",
@@ -77,7 +89,10 @@
       { "name": "B2F" },
       { "name": "2F" },
       { "name": "3F" },
-      { "name": "Summit" }
+      {
+        "name": "Summit",
+        "static": [{ "key": "ARTICUNO-KANTONIAN", "level": 50 }]
+      }
     ],
     "W": ["CRATERPASS"],
     "E": ["MOUNTAINDESCENT"]
@@ -97,7 +112,11 @@
   {
     "key": "CERULEANCAVE",
     "name": "Cerulean Cave",
-    "subLocations": [{ "name": "1F" }, { "name": "2F" }, { "name": "B1F" }],
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "2F" },
+      { "name": "B1F", "static": [{ "key": "MEWTWO", "level": 70 }] }
+    ],
     "A": ["MOUNTAINDESCENT"]
   },
   {
@@ -120,7 +139,8 @@
     "name": "Cerulean Cape",
     "S": ["NUGGETBRIDGE"],
     "N": ["PALEREACH"],
-    "A": ["CERULEANRUINS"]
+    "A": ["CERULEANRUINS"],
+    "static": [{ "key": "UNOWN-ALPHABET", "level": 30 }]
   },
   { "key": "CERULEANRUINS", "name": "Cerulean Ruins", "A": ["CERULEANCAPE"] },
   {
@@ -138,7 +158,7 @@
       { "name": "B2F" },
       { "name": "B3F" },
       { "name": "B4F" },
-      { "name": "B5F", "static": [{"key": "REGIGIGAS", "level": 70}] }
+      { "name": "B5F", "static": [{ "key": "REGIGIGAS", "level": 70 }] }
     ],
     "A": ["PALEREACH"]
   },
@@ -154,7 +174,10 @@
     "subLocations": [
       { "name": "1F" },
       { "name": "B1F" },
-      { "name": "Rock Peak Ruins", "static": [{"key": "REGIROCK", "level": 40}] }
+      {
+        "name": "Rock Peak Ruins",
+        "static": [{ "key": "REGIROCK", "level": 40 }]
+      }
     ],
     "A": ["LAVENDERCANAL"]
   },
@@ -165,7 +188,12 @@
     "S": ["LAVENDERTOWN"],
     "A": ["ROCKTUNNEL", "POWERPLANT"]
   },
-  { "key": "POWERPLANT", "name": "Power Plant", "A": ["LAVENDERCANAL"] },
+  {
+    "key": "POWERPLANT",
+    "name": "Power Plant",
+    "A": ["LAVENDERCANAL"],
+    "static": [{ "key": "ZAPDOS-KANTONIAN", "level": 50 }]
+  },
   {
     "key": "LAVENDERTOWN",
     "name": "Lavender Town",
@@ -203,7 +231,12 @@
     "S": ["VERMILLIONROAD"],
     "E": ["FARMERSPATH"],
     "W": ["SAFFRONPARK"],
-    "A": ["SILPHCO", "GOLDENRODCITY"]
+    "A": ["SILPHCO", "GOLDENRODCITY"],
+    "static": [
+      { "key": "HITMONCHAN", "level": 30 },
+      { "key": "HITMONLEE", "level": 30 },
+      { "key": "HITMONTOP", "level": 30 }
+    ]
   },
   {
     "key": "SILPHCO",
@@ -287,7 +320,8 @@
     "key": "CYCLINGROAD",
     "name": "Cycling Road",
     "N": ["CELADONSUBURBS"],
-    "E": ["TRAINERSDRAWBRIDGE"]
+    "E": ["TRAINERSDRAWBRIDGE"],
+    "static": [{ "key": "ZAPDOS-GALARIAN", "level": 50 }]
   },
   {
     "key": "TRAINERSDRAWBRIDGE",
@@ -440,7 +474,7 @@
       { "name": "B2F" },
       { "name": "B3F" },
       { "name": "B4F" },
-      { "name": "Iceberg Ruins", "static": [{"key": "REGICE", "level": 40}] }
+      { "name": "Iceberg Ruins", "static": [{ "key": "REGICE", "level": 40 }] }
     ],
     "A": ["SEABREEZEWAY"]
   },
@@ -470,7 +504,7 @@
     "subLocations": [
       { "name": "1F" },
       { "name": "B1F" },
-      { "name": "B2F" },
+      { "name": "B2F", "static": [{ "key": "GROUDON", "level": 70 }] },
       { "name": "Hot Springs" }
     ],
     "A": ["CINNABARISLAND"]
@@ -501,7 +535,10 @@
     "subLocations": [
       { "name": "1F - Kanto" },
       { "name": "2F - Kanto" },
-      { "name": "3F - Kanto" }
+      {
+        "name": "3F - Kanto",
+        "static": [{ "key": "MOLTRES-GALARIAN", "level": 50 }]
+      }
     ],
     "S": ["VICTORYROAD"],
     "N": ["INDIGOCITY"]
@@ -659,7 +696,8 @@
     "key": "ILEXFOREST",
     "name": "Ilex Forest",
     "E": ["AZALEATOWN"],
-    "N": ["GOLDENRODROAD"]
+    "N": ["GOLDENRODROAD"],
+    "static": [{ "key": "CELEBI", "level": 50 }]
   },
   {
     "key": "GOLDENRODROAD",
@@ -695,7 +733,10 @@
       { "name": "Tunnel" },
       { "name": "Dept. Store B1F" },
       { "name": "Dept. Store B2F" },
-      { "name": "Electro Charge Ruins", "static": [{"key": "REGILEKI", "level": 40}] }
+      {
+        "name": "Electro Charge Ruins",
+        "static": [{ "key": "REGILEKI", "level": 40 }]
+      }
     ],
     "A": ["GOLDENRODCITY"]
   },
@@ -734,14 +775,17 @@
       { "name": "8F" },
       { "name": "9F" },
       { "name": "10F" },
-      { "name": "Roof" }
+      { "name": "Roof", "static": [{ "key": "HOOH", "level": 70 }] }
     ],
     "A": ["ECRUTEAKCITY"]
   },
   {
     "key": "BURNEDTOWER",
     "name": "Burned Tower",
-    "subLocations": [{ "name": "1F" }, { "name": "B1F" }],
+    "subLocations": [
+      { "name": "1F" },
+      { "name": "B1F", "static": [{ "key": "ENTEI-REVIVED", "level": 50 }] }
+    ],
     "A": ["ECRUTEAKCITY"]
   },
   {
@@ -759,7 +803,10 @@
       { "name": "1F - 2" },
       { "name": "1F - 3" },
       { "name": "B1F" },
-      { "name": "Red Hot Ruins", "static": [{"key": "REGIFORGE", "level": 40}] }
+      {
+        "name": "Red Hot Ruins",
+        "static": [{ "key": "REGIFORGE", "level": 40 }]
+      }
     ],
     "S": ["MORTARSLOPES"]
   },
@@ -784,7 +831,12 @@
     "S": ["MAHOGANYTOWN"],
     "N": ["LAKEOFRAGE"]
   },
-  { "key": "LAKEOFRAGE", "name": "Lake of Rage", "S": ["RAGESAPPROACH"] },
+  {
+    "key": "LAKEOFRAGE",
+    "name": "Lake of Rage",
+    "S": ["RAGESAPPROACH"],
+    "static": [{ "key": "GYARADEATH-JOHTONIAN", "level": 50 }]
+  },
   {
     "key": "SPRINGTIDEPATH",
     "name": "Springtide Path",
@@ -820,7 +872,12 @@
   {
     "key": "WYRMREACH",
     "name": "Wyrmreach",
-    "subLocations": [{ "name": "Dragon Orb Ruins", "static": [{"key": "REGIDRAGO", "level": 40}] }],
+    "subLocations": [
+      {
+        "name": "Dragon Orb Ruins",
+        "static": [{ "key": "REGIDRAGO", "level": 40 }]
+      }
+    ],
     "S": ["DRAGONSDEN"]
   },
   {
@@ -875,7 +932,7 @@
       { "name": "4F" },
       { "name": "5F" },
       { "name": "6F" },
-      { "name": "Roof" }
+      { "name": "Roof", "static": [{ "key": "RAIKOU-REVIVED", "level": 50 }] }
     ],
     "A": ["OLIVINECITY"]
   },
@@ -900,7 +957,7 @@
       { "name": "1F" },
       { "name": "B1F" },
       { "name": "B2F" },
-      { "name": "B3F" }
+      { "name": "B3F", "static": [{ "key": "LUGIA", "level": 70 }] }
     ],
     "A": ["WHIRLISLANDS"]
   },
@@ -909,7 +966,8 @@
     "name": "Cianwood City",
     "subLocations": [{ "name": "Cianwood Gym" }],
     "E": ["WHIRLISLANDS"],
-    "W": ["CLIFFSEDGEPATH"]
+    "W": ["CLIFFSEDGEPATH"],
+    "static": [{ "key": "SUICUNE-REVIVED", "level": 50 }]
   },
   {
     "key": "CLIFFSEDGEPATH",
@@ -933,7 +991,7 @@
       { "name": "3F" },
       { "name": "4F" },
       { "name": "5F" },
-      { "name": "Roof" }
+      { "name": "Roof", "static": [{ "key": "RAYQUAZA", "level": 70 }] }
     ],
     "E": ["CLIFFSEDGEPATH"]
   },
@@ -989,7 +1047,12 @@
   {
     "key": "RUINVALLEY",
     "name": "Ruin Valley",
-    "subLocations": [{ "name": "Iron Head Ruins", "static": [{"key": "REGISTEEL", "level": 40}] }],
+    "subLocations": [
+      {
+        "name": "Iron Head Ruins",
+        "static": [{ "key": "REGISTEEL", "level": 40 }]
+      }
+    ],
     "N": ["WATERPATH"],
     "S": ["QUESTROAD"],
     "A": ["DOTTEDHOLE"]
@@ -1036,7 +1099,8 @@
       { "name": "Battle Hall" },
       { "name": "Battle Subway" }
     ],
-    "S": ["WARRIORSCHANNEL"]
+    "S": ["WARRIORSCHANNEL"],
+    "static": [{ "key": "MISSINGNO", "level": 50 }]
   },
   {
     "key": "QUESTISLAND",
@@ -1047,7 +1111,12 @@
   {
     "key": "SEVAULTCANYON",
     "name": "Sevault Canyon",
-    "subLocations": [{ "name": "Sand Strewn Ruins", "static": [{"key": "REGIDUNE", "level": 40}] }],
+    "subLocations": [
+      {
+        "name": "Sand Strewn Ruins",
+        "static": [{ "key": "REGIDUNE", "level": 40 }]
+      }
+    ],
     "N": ["QUESTISLAND"],
     "S": ["TANOBYRUINS"]
   },
@@ -1109,7 +1178,12 @@
   {
     "key": "OCEANICABYSS",
     "name": "Oceanic Abyss",
-    "subLocations": [{ "name": "Deep Sea Ruins", "static": [{"key": "REGIWAVE", "level": 40}] }],
+    "subLocations": [
+      {
+        "name": "Deep Sea Ruins",
+        "static": [{ "key": "REGIWAVE", "level": 40 }]
+      }
+    ],
     "A": ["ABYSSALSPAN"]
   },
   {
@@ -1131,7 +1205,7 @@
       { "name": "1F" },
       { "name": "B1F" },
       { "name": "B2F" },
-      { "name": "B3F" }
+      { "name": "B3F", "static": [{ "key": "KYOGRE", "level": 70 }] }
     ],
     "A": ["FLOEISLAND"]
   },
@@ -1143,7 +1217,12 @@
     "S": ["CAPEBRINK"],
     "A": ["SHIPWRECK"]
   },
-  { "key": "SHIPWRECK", "name": "Shipwreck", "A": ["BRINEROAD"] },
+  {
+    "key": "SHIPWRECK",
+    "name": "Shipwreck",
+    "A": ["BRINEROAD"],
+    "static": [{ "key": "ARTICUNO-GALARIAN", "level": 50 }]
+  },
   {
     "key": "CAPEBRINK",
     "name": "Cape Brink",
@@ -1219,7 +1298,10 @@
       { "name": "1F" },
       { "name": "2F" },
       { "name": "3F" },
-      { "name": "Summit" },
+      {
+        "name": "Summit",
+        "static": [{ "key": "MOLTRES-KANTONIAN", "level": 50 }]
+      },
       { "name": "B1F" },
       { "name": "B2F" },
       { "name": "B3F" },
@@ -1234,5 +1316,17 @@
     "name": "Offshore Road",
     "S": ["MTEMBER"],
     "N": ["SEABREEZEWAY"]
+  },
+  {
+    "key": "BIRTHISLAND",
+    "name": "Birth Island",
+    "A": ["OLIVINECITY", "VERMILLIONCITY"],
+    "static": [{ "key": "DEOXYS", "level": 50 }]
+  },
+  {
+    "key": "FARAWAYISLAND",
+    "name": "Faraway Island",
+    "A": ["OLIVINECITY", "VERMILLIONCITY"],
+    "static": [{ "key": "MEW", "level": 50 }]
   }
 ]
