@@ -47,6 +47,7 @@ export class DataService {
       WATER: 0.5,
       ICE: 0.5,
       POISON: 0.5,
+      FAIRY: 0.5,
       FIRE: 2,
       FIGHTING: 2,
       ROCK: 2,

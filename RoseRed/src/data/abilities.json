@@ -612,7 +612,7 @@
   {
     "Key": "FLOWERGIFT",
     "Name": "Flower Gift",
-    "Description": "Powers up party Pokémon when it is sunny."
+    "Description": "Reduces damage done to allies. Gives priority to a healing move. Protects against attacks that limit move choices."
   },
   {
     "Key": "BADDREAMS",
@@ -1380,6 +1380,21 @@
     "Description": "Boosts Sp. Attack after knocking out any Pokémon."
   },
   {
+    "Key": "BLAZINGSOUL",
+    "Name": "Blazing Soul",
+    "Description": "Boosts Sp. Attack after knocking out any Pokémon. Contact with the Pokémon may burn the attacker. Fire-type moves gain priority when its HP is full."
+  },
+  {
+    "Key": "CURSEDFLAME",
+    "Name": "Cursed Flame",
+    "Description": "Boosts Sp. Attack after knocking out any Pokémon. May disable a move used on the Pokémon. Passes through the foe's barrier and strikes."
+  },
+  {
+    "Key": "SUPERCELL",
+    "Name": "Supercell",
+    "Description": "Boosts Sp. Attack after knocking out any Pokémon. The Pokémon makes it thunderstorm if it appears in battle."
+  },
+  {
     "Key": "GOODASGOLD",
     "Name": "Good as Gold",
     "Description": "A body of pure; solid gold gives the Pokémon full immunity to other Pokémon's status moves."
@@ -1427,17 +1442,52 @@
   {
     "Key": "PSYCHOSURGE",
     "Name": "Psycho Surge",
-    "Description": "Boosts Sp. Attack after knocking out any Pokémon. Restores a little HP when withdrawn from battle."
+    "Description": "Boosts Sp. Attack after knocking out any Pokémon. Restores a little HP and all status problems when withdrawn from battle."
   },
   {
     "Key": "SPIRITCALL",
     "Name": "Spirit Call",
-    "Description": "Powers up each Pokémon's Dark-type moves. Enables moves to hit Normal-type Pokémon."
+    "Description": "Powers up each Pokémon's Dark-type moves. Ignores type immunities."
   },
   {
     "Key": "SHADOWDANCE",
     "Name": "Shadow Dance",
-    "Description": "Ups Sp. Atk if a hit makes its HP half or less. Heightens the critical-hit ratios of moves."
+    "Description": "Powers up blasting moves. Ups Sp. Atk if a hit makes its HP half or less. Heightens the critical-hit ratios of moves."
+  },
+  {
+    "Key": "KAIJUMAW",
+    "Name": "Kaiju Maw",
+    "Description": "Lowers the foe's Attack and Sp. Attack stat. Boosts the power of biting moves."
+  },
+  {
+    "Key": "TAILMISSILE",
+    "Name": "Tail Missile",
+    "Description": "Raises Speed if a held item is used. Powers up the Pokémon's weaker moves. Uses moves without making contact with the target."
+  },
+  {
+    "Key": "MARTIALARTIST",
+    "Name": "Martial Artist",
+    "Description": "Ensures attacks by the Pokémon land. Enables moves to hit Ghost-type Pokémon."
+  },
+  {
+    "Key": "BLAZINGBLITZ",
+    "Name": "Blazing Blitz",
+    "Description": "Its Speed stat is gradually boosted. Powers up punching and kicking moves."
+  },
+  {
+    "Key": "PHAROAHSGRACE",
+    "Name": "Pharoah's Grace",
+    "Description": "Flying-type moves gain priority when its HP is full. Prevents other Pokémon from lowering accuracy. The Pokémon only takes damage from attacks."
+  },
+  {
+    "Key": "SWAMPSWIMMER",
+    "Name": "Swamp Swimmer",
+    "Description": "Boosts the Pokémon's Speed in rain. Ups resistance to Fire- and Ice-type moves. Restores a little HP when withdrawn from battle."
+  },
+  {
+    "Key": "TOXINSURGE",
+    "Name": "Toxin Surge",
+    "Description": "Boosts the Pokémon's Speed in rain. Contact with the Pokémon may poison the attacker. Restores HP if the Pokémon is poisoned."
   },
   {
     "Key": "WILDGRACE",
