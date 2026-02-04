@@ -35,6 +35,8 @@ export class Pokemon {
 
   evolutions: PokemonEvolution[];
   moves: PokemonMove[];
+  tms: string[];
+  eggMoves: string[];
 
   constructor(dataPokemon: any, learnset: any) {
     this.dexNo = dataPokemon.DEX;
@@ -73,6 +75,9 @@ export class Pokemon {
         this.moves.push(new PokemonMove(level, move))
       }
     }
+
+    this.tms = learnset.tms;
+    this.eggMoves = learnset.eggMoves;
   }
 
   public bst() {
@@ -145,6 +150,10 @@ export class Pokemon {
 
   public getFormName() {
     return this.toTitleCase(this.form);
+  }
+
+  public hasMove(key: string): boolean {
+    return this.moves.some(m => m.move.key == key) || this.tms.includes(key) || this.eggMoves.includes(key);
   }
 }
 

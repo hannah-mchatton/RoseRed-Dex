@@ -35,6 +35,8 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
 
   public loaded = false;
 
+  public tmList = [];
+
   constructor(private dataService: DataService, private changeRef: ChangeDetectorRef) {}
 
   public ngOnInit(): void {
@@ -45,6 +47,7 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
     }
 
     this.evoFirstLink = this.getEvoChain();
+    this.tmList = this.dataService.getTMs();
 
     this.loaded = true;
     this.changeRef.detectChanges();

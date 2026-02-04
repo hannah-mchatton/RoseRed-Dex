@@ -87,15 +87,36 @@
       }
     }
   }
-  .moves {
+  .moves, .tms {
     table {
       width: 100%;
     }
 
-    th {
-      position: sticky;
-      top: 0;
-      background-color: white;
+    th {     
+      &:nth-child(1) {
+        width: 60px;
+      }
+      &:nth-child(2) {
+        width: 200px;
+      }
+      &:nth-child(3) {
+        width: 85px;
+      }
+      &:nth-child(4) {
+        width: 55px;
+      }
+      &:nth-child(5) {
+        width: 50px;
+      }
+      &:nth-child(6) {
+        width: 50px;
+      }
+      &:nth-child(7) {
+        width: 50px;
+      }
+      &:nth-child(8) {
+        width: 50px;
+      }
     }
 
     tr:hover {
