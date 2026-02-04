@@ -4,6 +4,7 @@ import abilities from '../data/abilities.json';
 import learnsets from '../data/learnsets.json';
 import moves from '../data/moves.json';
 import locations from '../data/locations.json';
+import tms from '../data/tm.json';
 import { Move, Pokemon, PokemonEvolution } from './models';
 
 @Injectable({
@@ -139,18 +140,21 @@ export class DataService {
 
   public getDex() {
     return dex.map((p) => {
-
       return new Pokemon(p, this.getLearnset(p.DEX, p.FORMINDEX));
     });
   }
 
   private getLearnset(dexNo, formIndex) {
-    let learnset = JSON.parse(JSON.stringify(learnsets.find(l => l.DEX == dexNo && l.FORMINDEX == formIndex)));
+    let learnset = JSON.parse(
+      JSON.stringify(
+        learnsets.find((l) => l.DEX == dexNo && l.FORMINDEX == formIndex),
+      ),
+    );
     if (learnset) {
       for (let level of Object.keys(learnset.levelUp)) {
         for (let i = 0; i < learnset.levelUp[level].length; i++) {
           let move = learnset.levelUp[level][i];
-          learnset.levelUp[level][i] = moves.find(m => m.key == move);
+          learnset.levelUp[level][i] = moves.find((m) => m.key == move);
         }
       }
 
@@ -231,20 +235,36 @@ export class DataService {
     return type1Matchup * type2Matchup;
   }
 
-  public getMoves() {
-    let cmp = function(a, b) {
-        if (a > b) return +1;
-        if (a < b) return -1;
-        return 0;
-    }
+  public getMoves(): Move[] {
+    let cmp = function (a, b) {
+      if (a > b) return +1;
+      if (a < b) return -1;
+      return 0;
+    };
 
     return moves
       .map((m) => {
         return new Move(m);
       })
       .sort((a, b) => {
-        return cmp(a.type, b.type) || cmp(a.category, b.category) || cmp(b.averagePower(), a.averagePower()) || cmp(a.name, b.name);
+        return (
+          cmp(a.type, b.type) ||
+          cmp(a.category, b.category) ||
+          cmp(b.averagePower(), a.averagePower()) ||
+          cmp(a.name, b.name)
+        );
       });
+  }
+
+  public getMove(key: string): Move {
+    return this.getMoves().find((m) => m.key == key);
+  }
+
+  public getTMs() {
+    return tms.map((tm) => {
+      tm.move = this.getMove(tm.move);
+      return tm;
+    });
   }
 
   public getMoveName(key) {
@@ -252,6 +272,6 @@ export class DataService {
   }
 
   public getLocation(key) {
-    return locations.find(l => l.key == key);
+    return locations.find((l) => l.key == key);
   }
 }

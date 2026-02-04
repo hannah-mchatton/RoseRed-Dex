@@ -391,6 +391,23 @@
     "spread": ""
   },
   {
+    "key": "SIGNALBEAM",
+    "name": "Signal Beam",
+    "type": "BUG",
+    "description": "The user attacks by firiing a bioluminescent beam at the target. It may also confuse the target.",
+    "category": "Special",
+    "power": 75,
+    "accuracy": 100,
+    "totalPP": 25,
+    "flags": ["Beam"],
+    "contact": "",
+    "highCrit": "",
+    "effectChance": 10,
+    "functionCode": "ConfuseTarget",
+    "priority": "",
+    "spread": ""
+  },
+  {
     "key": "LUMINESENCE",
     "name": "Luminesence",
     "type": "BUG",
@@ -4726,10 +4743,10 @@
     "spread": ""
   },
   {
-    "key": "BLASTBURN",
-    "name": "Blast Burn",
+    "key": "INFERNOOVERDRIVE",
+    "name": "Inferno Overdrive",
     "type": "FIRE",
-    "description": "The target is razed by a fiery explosion. The user must rest on the next turn, however.",
+    "description": "The user slams into the target in a fiery explosion. The user must rest on the next turn, however.",
     "category": "Physical",
     "power": 150,
     "accuracy": 90,
@@ -7361,10 +7378,10 @@
     "spread": ""
   },
   {
-    "key": "FRENZYPLANT",
-    "name": "Frenzy Plant",
+    "key": "BLOOMDOOM",
+    "name": "Bloom Doom",
     "type": "GRASS",
-    "description": "The user slams the target with an enormous tree. The user can't move on the next turn.",
+    "description": "The user collects energy from plants then uses it to strike the target. The user can't move on the next turn.",
     "category": "Special",
     "power": 150,
     "accuracy": 90,
@@ -15011,10 +15028,10 @@
     "spread": ""
   },
   {
-    "key": "HYDROCANNON",
-    "name": "Hydro Cannon",
+    "key": "HYDROVORTEX",
+    "name": "Hydro Vortex",
     "type": "WATER",
-    "description": "The target is hit with a watery blast. The user must rest on the next turn, however.",
+    "description": "The user stirs up a maelstrom and whips the target about. The user must rest on the next turn, however.",
     "category": "Physical",
     "power": 150,
     "accuracy": 90,

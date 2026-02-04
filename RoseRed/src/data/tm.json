@@ -1,0 +1,1177 @@
+[
+  {
+    "number": 1,
+    "move": "TAKEDOWN",
+    "location": ""
+  },
+  {
+    "number": 2,
+    "move": "CHARM",
+    "location": ""
+  },
+  {
+    "number": 3,
+    "move": "FAKETEARS",
+    "location": ""
+  },
+  {
+    "number": 4,
+    "move": "AGILITY",
+    "location": ""
+  },
+  {
+    "number": 5,
+    "move": "MUDSLAP",
+    "location": ""
+  },
+  {
+    "number": 6,
+    "move": "SCARYFACE",
+    "location": ""
+  },
+  {
+    "number": 7,
+    "move": "PROTECT",
+    "location": ""
+  },
+  {
+    "number": 8,
+    "move": "FIREFANG",
+    "location": ""
+  },
+  {
+    "number": 9,
+    "move": "THUNDERFANG",
+    "location": ""
+  },
+  {
+    "number": 10,
+    "move": "ICEFANG",
+    "location": ""
+  },
+  {
+    "number": 11,
+    "move": "WATERPULSE",
+    "location": ""
+  },
+  {
+    "number": 12,
+    "move": "LOWKICK",
+    "location": ""
+  },
+  {
+    "number": 13,
+    "move": "ACIDSPRAY",
+    "location": ""
+  },
+  {
+    "number": 14,
+    "move": "ACROBATICS",
+    "location": ""
+  },
+  {
+    "number": 15,
+    "move": "STRUGGLEBUG",
+    "location": ""
+  },
+  {
+    "number": 16,
+    "move": "PSYBEAM",
+    "location": ""
+  },
+  {
+    "number": 17,
+    "move": "CONFUSERAY",
+    "location": ""
+  },
+  {
+    "number": 18,
+    "move": "THIEF",
+    "location": ""
+  },
+  {
+    "number": 19,
+    "move": "DISARMINGVOICE",
+    "location": ""
+  },
+  {
+    "number": 20,
+    "move": "TRAILBLAZE",
+    "location": ""
+  },
+  {
+    "number": 21,
+    "move": "POUNCE",
+    "location": ""
+  },
+  {
+    "number": 22,
+    "move": "CHILLINGWATER",
+    "location": ""
+  },
+  {
+    "number": 23,
+    "move": "CHARGEBEAM",
+    "location": ""
+  },
+  {
+    "number": 24,
+    "move": "FIRESPIN",
+    "location": ""
+  },
+  {
+    "number": 25,
+    "move": "FACADE",
+    "location": ""
+  },
+  {
+    "number": 26,
+    "move": "POISONTAIL",
+    "location": ""
+  },
+  {
+    "number": 27,
+    "move": "AERIALACE",
+    "location": ""
+  },
+  {
+    "number": 28,
+    "move": "BULLDOZE",
+    "location": ""
+  },
+  {
+    "number": 29,
+    "move": "HEX",
+    "location": ""
+  },
+  {
+    "number": 30,
+    "move": "SNARL",
+    "location": ""
+  },
+  {
+    "number": 31,
+    "move": "METALCLAW",
+    "location": ""
+  },
+  {
+    "number": 32,
+    "move": "SWIFT",
+    "location": ""
+  },
+  {
+    "number": 33,
+    "move": "MAGICALLEAF",
+    "location": ""
+  },
+  {
+    "number": 34,
+    "move": "ICYWIND",
+    "location": ""
+  },
+  {
+    "number": 35,
+    "move": "MUDSHOT",
+    "location": ""
+  },
+  {
+    "number": 36,
+    "move": "ROCKTOMB",
+    "location": ""
+  },
+  {
+    "number": 37,
+    "move": "DRAININGKISS",
+    "location": ""
+  },
+  {
+    "number": 38,
+    "move": "FLAMECHARGE",
+    "location": ""
+  },
+  {
+    "number": 39,
+    "move": "LOWSWEEP",
+    "location": ""
+  },
+  {
+    "number": 40,
+    "move": "AIRCUTTER",
+    "location": ""
+  },
+  {
+    "number": 41,
+    "move": "STOREDPOWER",
+    "location": ""
+  },
+  {
+    "number": 42,
+    "move": "NIGHTSHADE",
+    "location": ""
+  },
+  {
+    "number": 43,
+    "move": "FLING",
+    "location": ""
+  },
+  {
+    "number": 44,
+    "move": "DRAGONTAIL",
+    "location": ""
+  },
+  {
+    "number": 45,
+    "move": "VENOSHOCK",
+    "location": ""
+  },
+  {
+    "number": 46,
+    "move": "AVALANCHE",
+    "location": ""
+  },
+  {
+    "number": 47,
+    "move": "ENDURE",
+    "location": ""
+  },
+  {
+    "number": 48,
+    "move": "VOLTSWITCH",
+    "location": ""
+  },
+  {
+    "number": 49,
+    "move": "SUNNYDAY",
+    "location": ""
+  },
+  {
+    "number": 50,
+    "move": "RAINDANCE",
+    "location": ""
+  },
+  {
+    "number": 51,
+    "move": "SANDSTORM",
+    "location": ""
+  },
+  {
+    "number": 52,
+    "move": "HAIL",
+    "location": ""
+  },
+  {
+    "number": 53,
+    "move": "SMARTSTRIKE",
+    "location": ""
+  },
+  {
+    "number": 54,
+    "move": "PSYSHOCK",
+    "location": ""
+  },
+  {
+    "number": 55,
+    "move": "DIG",
+    "location": ""
+  },
+  {
+    "number": 56,
+    "move": "BULLETSEED",
+    "location": ""
+  },
+  {
+    "number": 57,
+    "move": "FALSESWIPE",
+    "location": ""
+  },
+  {
+    "number": 58,
+    "move": "BRICKBREAK",
+    "location": ""
+  },
+  {
+    "number": 59,
+    "move": "ZENHEADBUTT",
+    "location": ""
+  },
+  {
+    "number": 60,
+    "move": "UTURN",
+    "location": ""
+  },
+  {
+    "number": 61,
+    "move": "SHADOWCLAW",
+    "location": ""
+  },
+  {
+    "number": 62,
+    "move": "FOULPLAY",
+    "location": ""
+  },
+  {
+    "number": 63,
+    "move": "PSYCHICFANGS",
+    "location": ""
+  },
+  {
+    "number": 64,
+    "move": "BULKUP",
+    "location": ""
+  },
+  {
+    "number": 65,
+    "move": "AIRSLASH",
+    "location": ""
+  },
+  {
+    "number": 66,
+    "move": "BODYSLAM",
+    "location": ""
+  },
+  {
+    "number": 67,
+    "move": "FIREPUNCH",
+    "location": ""
+  },
+  {
+    "number": 68,
+    "move": "THUNDERPUNCH",
+    "location": ""
+  },
+  {
+    "number": 69,
+    "move": "ICEPUNCH",
+    "location": ""
+  },
+  {
+    "number": 70,
+    "move": "SLEEPTALK",
+    "location": ""
+  },
+  {
+    "number": 71,
+    "move": "SEEDBOMB",
+    "location": ""
+  },
+  {
+    "number": 72,
+    "move": "ELECTROBALL",
+    "location": ""
+  },
+  {
+    "number": 73,
+    "move": "DRAINPUNCH",
+    "location": ""
+  },
+  {
+    "number": 74,
+    "move": "REFLECT",
+    "location": ""
+  },
+  {
+    "number": 75,
+    "move": "LIGHTSCREEN",
+    "location": ""
+  },
+  {
+    "number": 76,
+    "move": "ROCKBLAST",
+    "location": ""
+  },
+  {
+    "number": 77,
+    "move": "WHIRLPOOL",
+    "location": ""
+  },
+  {
+    "number": 78,
+    "move": "DRAGONCLAW",
+    "location": ""
+  },
+  {
+    "number": 79,
+    "move": "DAZZLINGGLEAM",
+    "location": ""
+  },
+  {
+    "number": 80,
+    "move": "METRONOME",
+    "location": ""
+  },
+  {
+    "number": 81,
+    "move": "GRASSKNOT",
+    "location": ""
+  },
+  {
+    "number": 82,
+    "move": "THUNDERWAVE",
+    "location": ""
+  },
+  {
+    "number": 83,
+    "move": "POISONJAB",
+    "location": ""
+  },
+  {
+    "number": 84,
+    "move": "STOMPINGTANTRUM",
+    "location": ""
+  },
+  {
+    "number": 85,
+    "move": "REST",
+    "location": ""
+  },
+  {
+    "number": 86,
+    "move": "ROCKSLIDE",
+    "location": ""
+  },
+  {
+    "number": 87,
+    "move": "TAUNT",
+    "location": ""
+  },
+  {
+    "number": 88,
+    "move": "SWORDSDANCE",
+    "location": ""
+  },
+  {
+    "number": 89,
+    "move": "BODYPRESS",
+    "location": ""
+  },
+  {
+    "number": 90,
+    "move": "SPIKES",
+    "location": ""
+  },
+  {
+    "number": 91,
+    "move": "TOXICSPIKES",
+    "location": ""
+  },
+  {
+    "number": 92,
+    "move": "IMPRISON",
+    "location": ""
+  },
+  {
+    "number": 93,
+    "move": "FLASHCANNON",
+    "location": ""
+  },
+  {
+    "number": 94,
+    "move": "DARKPULSE",
+    "location": ""
+  },
+  {
+    "number": 95,
+    "move": "LEECHLIFE",
+    "location": ""
+  },
+  {
+    "number": 96,
+    "move": "EERIEIMPULSE",
+    "location": ""
+  },
+  {
+    "number": 97,
+    "move": "FLY",
+    "location": ""
+  },
+  {
+    "number": 98,
+    "move": "SKILLSWAP",
+    "location": ""
+  },
+  {
+    "number": 99,
+    "move": "IRONHEAD",
+    "location": ""
+  },
+  {
+    "number": 100,
+    "move": "DRAGONDANCE",
+    "location": ""
+  },
+  {
+    "number": 101,
+    "move": "MYTHICDANCE",
+    "location": ""
+  },
+  {
+    "number": 102,
+    "move": "POWERGEM",
+    "location": ""
+  },
+  {
+    "number": 103,
+    "move": "GUNKSHOT",
+    "location": ""
+  },
+  {
+    "number": 104,
+    "move": "SUBSTITUTE",
+    "location": ""
+  },
+  {
+    "number": 105,
+    "move": "IRONDEFENSE",
+    "location": ""
+  },
+  {
+    "number": 106,
+    "move": "XSCISSOR",
+    "location": ""
+  },
+  {
+    "number": 107,
+    "move": "DRILLRUN",
+    "location": ""
+  },
+  {
+    "number": 108,
+    "move": "WILLOWISP",
+    "location": ""
+  },
+  {
+    "number": 109,
+    "move": "CRUNCH",
+    "location": ""
+  },
+  {
+    "number": 110,
+    "move": "TRICK",
+    "location": ""
+  },
+  {
+    "number": 111,
+    "move": "LIQUIDATION",
+    "location": ""
+  },
+  {
+    "number": 112,
+    "move": "GIGADRAIN",
+    "location": ""
+  },
+  {
+    "number": 113,
+    "move": "AURASPHERE",
+    "location": ""
+  },
+  {
+    "number": 114,
+    "move": "TAILWIND",
+    "location": ""
+  },
+  {
+    "number": 115,
+    "move": "SHADOWBALL",
+    "location": ""
+  },
+  {
+    "number": 116,
+    "move": "DRAGONPULSE",
+    "location": ""
+  },
+  {
+    "number": 117,
+    "move": "STEALTHROCK",
+    "location": ""
+  },
+  {
+    "number": 118,
+    "move": "CALTROPS",
+    "location": ""
+  },
+  {
+    "number": 119,
+    "move": "HYPERVOICE",
+    "location": ""
+  },
+  {
+    "number": 120,
+    "move": "HEATWAVE",
+    "location": ""
+  },
+  {
+    "number": 121,
+    "move": "ENERGYBALL",
+    "location": ""
+  },
+  {
+    "number": 122,
+    "move": "PSYCHIC",
+    "location": ""
+  },
+  {
+    "number": 123,
+    "move": "HEAVYSLAM",
+    "location": ""
+  },
+  {
+    "number": 124,
+    "move": "ENCORE",
+    "location": ""
+  },
+  {
+    "number": 125,
+    "move": "SURF",
+    "location": ""
+  },
+  {
+    "number": 126,
+    "move": "ICESPINNER",
+    "location": ""
+  },
+  {
+    "number": 127,
+    "move": "FLAMETHROWER",
+    "location": ""
+  },
+  {
+    "number": 128,
+    "move": "THUNDERBOLT",
+    "location": ""
+  },
+  {
+    "number": 129,
+    "move": "PLAYROUGH",
+    "location": ""
+  },
+  {
+    "number": 130,
+    "move": "AMNESIA",
+    "location": ""
+  },
+  {
+    "number": 131,
+    "move": "CALMMIND",
+    "location": ""
+  },
+  {
+    "number": 132,
+    "move": "HELPINGHAND",
+    "location": ""
+  },
+  {
+    "number": 133,
+    "move": "POLLENPUFF",
+    "location": ""
+  },
+  {
+    "number": 134,
+    "move": "BATONPASS",
+    "location": ""
+  },
+  {
+    "number": 135,
+    "move": "EARTHPOWER",
+    "location": ""
+  },
+  {
+    "number": 136,
+    "move": "REVERSAL",
+    "location": ""
+  },
+  {
+    "number": 137,
+    "move": "ICEBEAM",
+    "location": ""
+  },
+  {
+    "number": 138,
+    "move": "ELECTRICTERRAIN",
+    "location": ""
+  },
+  {
+    "number": 139,
+    "move": "GRASSYTERRAIN",
+    "location": ""
+  },
+  {
+    "number": 140,
+    "move": "PSYCHICTERRAIN",
+    "location": ""
+  },
+  {
+    "number": 141,
+    "move": "MISTYTERRAIN",
+    "location": ""
+  },
+  {
+    "number": 142,
+    "move": "NASTYPLOT",
+    "location": ""
+  },
+  {
+    "number": 143,
+    "move": "FIREBLAST",
+    "location": ""
+  },
+  {
+    "number": 144,
+    "move": "HYDROPUMP",
+    "location": ""
+  },
+  {
+    "number": 145,
+    "move": "BLIZZARD",
+    "location": ""
+  },
+  {
+    "number": 146,
+    "move": "FIREPLEDGE",
+    "location": ""
+  },
+  {
+    "number": 147,
+    "move": "WATERPLEDGE",
+    "location": ""
+  },
+  {
+    "number": 148,
+    "move": "GRASSPLEDGE",
+    "location": ""
+  },
+  {
+    "number": 149,
+    "move": "WILDCHARGE",
+    "location": ""
+  },
+  {
+    "number": 150,
+    "move": "SLUDGEBOMB",
+    "location": ""
+  },
+  {
+    "number": 151,
+    "move": "EARTHQUAKE",
+    "location": ""
+  },
+  {
+    "number": 152,
+    "move": "STONEEDGE",
+    "location": ""
+  },
+  {
+    "number": 153,
+    "move": "PHANTOMFORCE",
+    "location": ""
+  },
+  {
+    "number": 154,
+    "move": "GIGAIMPACT",
+    "location": ""
+  },
+  {
+    "number": 155,
+    "move": "INFERNOOVERDRIVE",
+    "location": ""
+  },
+  {
+    "number": 156,
+    "move": "BLASTBURN",
+    "location": ""
+  },
+  {
+    "number": 157,
+    "move": "HYDROVORTEX",
+    "location": ""
+  },
+  {
+    "number": 158,
+    "move": "HYDROCANNON",
+    "location": ""
+  },
+  {
+    "number": 159,
+    "move": "FRENZYPLANT",
+    "location": ""
+  },
+  {
+    "number": 160,
+    "move": "BLOOMDOOM",
+    "location": ""
+  },
+  {
+    "number": 161,
+    "move": "OUTRAGE",
+    "location": ""
+  },
+  {
+    "number": 162,
+    "move": "BERSERK",
+    "location": ""
+  },
+  {
+    "number": 163,
+    "move": "OVERHEAT",
+    "location": ""
+  },
+  {
+    "number": 164,
+    "move": "FOCUSBLAST",
+    "location": ""
+  },
+  {
+    "number": 165,
+    "move": "LEAFSTORM",
+    "location": ""
+  },
+  {
+    "number": 166,
+    "move": "HURRICANE",
+    "location": ""
+  },
+  {
+    "number": 167,
+    "move": "TRICKROOM",
+    "location": ""
+  },
+  {
+    "number": 168,
+    "move": "BUGBUZZ",
+    "location": ""
+  },
+  {
+    "number": 169,
+    "move": "HYPERBEAM",
+    "location": ""
+  },
+  {
+    "number": 170,
+    "move": "BRAVEBIRD",
+    "location": ""
+  },
+  {
+    "number": 171,
+    "move": "FLAREBLITZ",
+    "location": ""
+  },
+  {
+    "number": 172,
+    "move": "THUNDER",
+    "location": ""
+  },
+  {
+    "number": 173,
+    "move": "CLOSECOMBAT",
+    "location": ""
+  },
+  {
+    "number": 174,
+    "move": "SOLARBEAM",
+    "location": ""
+  },
+  {
+    "number": 175,
+    "move": "DRACOMETEOR",
+    "location": ""
+  },
+  {
+    "number": 176,
+    "move": "STEELBEAM",
+    "location": ""
+  },
+  {
+    "number": 177,
+    "move": "TRIATTACK",
+    "location": ""
+  },
+  {
+    "number": 178,
+    "move": "ROAR",
+    "location": ""
+  },
+  {
+    "number": 179,
+    "move": "CHARGE",
+    "location": ""
+  },
+  {
+    "number": 180,
+    "move": "HAZE",
+    "location": ""
+  },
+  {
+    "number": 181,
+    "move": "TOXIC",
+    "location": ""
+  },
+  {
+    "number": 182,
+    "move": "SANDTOMB",
+    "location": ""
+  },
+  {
+    "number": 183,
+    "move": "SPITE",
+    "location": ""
+  },
+  {
+    "number": 184,
+    "move": "GRAVITY",
+    "location": ""
+  },
+  {
+    "number": 185,
+    "move": "SMACKDOWN",
+    "location": ""
+  },
+  {
+    "number": 186,
+    "move": "GYROBALL",
+    "location": ""
+  },
+  {
+    "number": 187,
+    "move": "KNOCKOFF",
+    "location": ""
+  },
+  {
+    "number": 188,
+    "move": "BUGBITE",
+    "location": ""
+  },
+  {
+    "number": 189,
+    "move": "SUPERFANG",
+    "location": ""
+  },
+  {
+    "number": 190,
+    "move": "VACUUMWAVE",
+    "location": ""
+  },
+  {
+    "number": 191,
+    "move": "LUNGE",
+    "location": ""
+  },
+  {
+    "number": 192,
+    "move": "HIGHHORSEPOWER",
+    "location": ""
+  },
+  {
+    "number": 193,
+    "move": "ICICLESPEAR",
+    "location": ""
+  },
+  {
+    "number": 194,
+    "move": "SCALD",
+    "location": ""
+  },
+  {
+    "number": 195,
+    "move": "HEATCRASH",
+    "location": ""
+  },
+  {
+    "number": 196,
+    "move": "SOLARBLADE",
+    "location": ""
+  },
+  {
+    "number": 197,
+    "move": "UPROAR",
+    "location": ""
+  },
+  {
+    "number": 198,
+    "move": "FOCUSPUNCH",
+    "location": ""
+  },
+  {
+    "number": 199,
+    "move": "WEATHERBALL",
+    "location": ""
+  },
+  {
+    "number": 200,
+    "move": "GRASSYGLIDE",
+    "location": ""
+  },
+  {
+    "number": 201,
+    "move": "BURNINGJEALOUSY",
+    "location": ""
+  },
+  {
+    "number": 202,
+    "move": "FLIPTURN",
+    "location": ""
+  },
+  {
+    "number": 203,
+    "move": "DUALWINGBEAT",
+    "location": ""
+  },
+  {
+    "number": 204,
+    "move": "POLTERGEIST",
+    "location": ""
+  },
+  {
+    "number": 205,
+    "move": "LASHOUT",
+    "location": ""
+  },
+  {
+    "number": 206,
+    "move": "SCALESHOT",
+    "location": ""
+  },
+  {
+    "number": 207,
+    "move": "MISTYEXPLOSION",
+    "location": ""
+  },
+  {
+    "number": 208,
+    "move": "PAINSPLIT",
+    "location": ""
+  },
+  {
+    "number": 209,
+    "move": "PSYCHUP",
+    "location": ""
+  },
+  {
+    "number": 210,
+    "move": "DOUBLEEDGE",
+    "location": ""
+  },
+  {
+    "number": 211,
+    "move": "ENDEAVOR",
+    "location": ""
+  },
+  {
+    "number": 212,
+    "move": "PETALBLIZZARD",
+    "location": ""
+  },
+  {
+    "number": 213,
+    "move": "TEMPERFLARE",
+    "location": ""
+  },
+  {
+    "number": 214,
+    "move": "WHIRLPOOL",
+    "location": ""
+  },
+  {
+    "number": 215,
+    "move": "MUDDYWATER",
+    "location": ""
+  },
+  {
+    "number": 216,
+    "move": "SUPERCELLSLAM",
+    "location": ""
+  },
+  {
+    "number": 217,
+    "move": "ELECTROWEB",
+    "location": ""
+  },
+  {
+    "number": 218,
+    "move": "TRIPLEAXEL",
+    "location": ""
+  },
+  {
+    "number": 219,
+    "move": "COACHING",
+    "location": ""
+  },
+  {
+    "number": 220,
+    "move": "SLUDGEWAVE",
+    "location": ""
+  },
+  {
+    "number": 221,
+    "move": "SCORCHINGSANDS",
+    "location": ""
+  },
+  {
+    "number": 222,
+    "move": "FEATHERDANCE",
+    "location": ""
+  },
+  {
+    "number": 223,
+    "move": "FUTURESIGHT",
+    "location": ""
+  },
+  {
+    "number": 224,
+    "move": "EXPANDINGFORCE",
+    "location": ""
+  },
+  {
+    "number": 225,
+    "move": "SKITTERSMACK",
+    "location": ""
+  },
+  {
+    "number": 226,
+    "move": "METEORBEAM",
+    "location": ""
+  },
+  {
+    "number": 227,
+    "move": "THROATCHOP",
+    "location": ""
+  },
+  {
+    "number": 228,
+    "move": "BREAKINGSWIPE",
+    "location": ""
+  },
+  {
+    "number": 229,
+    "move": "METALSOUND",
+    "location": ""
+  },
+  {
+    "number": 230,
+    "move": "CURSE",
+    "location": ""
+  },
+  {
+    "number": 231,
+    "move": "STORMTHROW",
+    "location": ""
+  },
+  {
+    "number": 232,
+    "move": "FAKEOUT",
+    "location": ""
+  },
+  {
+    "number": 233,
+    "move": "ALLURINGVOICE",
+    "location": ""
+  },
+  {
+    "number": 234,
+    "move": "PSYCHICNOISE",
+    "location": ""
+  },
+  {
+    "number": 235,
+    "move": "UPPERHAND",
+    "location": ""
+  }
+]

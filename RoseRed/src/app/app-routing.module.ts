@@ -14,6 +14,7 @@ import { LocationComponent } from 'src/components/location/location.component';
 import { MapComponent } from 'src/components/map/map.component';
 import { MoveListComponent } from 'src/components/move-list/move-list.component';
 import { PokemonComponent } from 'src/components/pokemon/pokemon.component';
+import { TmListComponent } from 'src/components/tm-list/tm-list.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path: 'moves',
     component: MoveListComponent
+  },
+  {
+    path: 'tms',
+    component: TmListComponent
   },
 
   {

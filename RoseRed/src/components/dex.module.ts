@@ -11,6 +11,7 @@ import { PokemonComponent } from './pokemon/pokemon.component';
 import { MoveListComponent } from './move-list/move-list.component';
 import { MapComponent } from './map/map.component';
 import { LocationComponent } from './location/location.component';
+import { TmListComponent } from './tm-list/tm-list.component';
 
 
 
@@ -21,7 +22,8 @@ import { LocationComponent } from './location/location.component';
     PokemonComponent,
     MoveListComponent,
     MapComponent,
-    LocationComponent
+    LocationComponent,
+    TmListComponent
   ],
   imports: [
     CommonModule,
