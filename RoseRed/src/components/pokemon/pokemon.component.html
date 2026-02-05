@@ -503,7 +503,7 @@
         <th>Description</th>
       </tr>
       <ng-container *ngFor="let tm of tmList">
-        <tr *ngIf="pokemon.hasMove(tm.move?.key) || pokemon.name == 'Mew'">
+        <tr *ngIf="pokemon.hasMove(tm.move?.key) || (pokemon.name == 'MEW') || (pokemon.name == 'SMEARGLE')">
           <td style="text-align: center;">TM{{ tm.number | number: '3.0' }}</td>
           <td class="name">{{ tm.move.name }}</td>
           <td class="type">

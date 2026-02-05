@@ -7398,7 +7398,7 @@
     "key": "LEAFSTORM",
     "name": "Leaf Storm",
     "type": "GRASS",
-    "description": "A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.",
+    "description": "A storm of sharp leaves is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.",
     "category": "Special",
     "power": 130,
     "accuracy": 90,
@@ -10251,8 +10251,8 @@
     "spread": true
   },
   {
-    "key": "JUDGMENT",
-    "name": "Judgment",
+    "key": "JUDGEMENT",
+    "name": "Judgement",
     "type": "NORMAL",
     "description": "The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.",
     "category": "Special",
