@@ -14,6 +14,24 @@ export class DexComponent implements OnInit {
 
   public ngOnInit(): void {
     this.dex = this.dataService.getDex();
+
+    let animFlag = false;
+    window.setInterval(() => {
+      let icons = document.getElementsByClassName('box-icon')
+
+      if (animFlag) {
+        for (let i = 0; i < icons.length; i++) {
+          icons[i].className = 'box-icon other-frame'
+        }
+      }
+      else {
+        for (let i = 0; i < icons.length; i++) {
+          icons[i].className = 'box-icon'
+        }
+      }
+
+      animFlag = !animFlag;
+    }, 500)
   }
 
   public getAbilityName(key) {

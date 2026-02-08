@@ -1,4 +1,11 @@
-import { AfterViewInit, ChangeDetectorRef, Component, Input, OnDestroy, OnInit } from '@angular/core';
+import {
+  AfterViewInit,
+  ChangeDetectorRef,
+  Component,
+  Input,
+  OnDestroy,
+  OnInit,
+} from '@angular/core';
 import { DataService } from 'src/services/data.service';
 import { Pokemon, PokemonEvolution } from 'src/services/models';
 
@@ -7,7 +14,7 @@ declare var LeaderLine: any;
 @Component({
   selector: 'app-pokemon',
   templateUrl: './pokemon.component.html',
-  styleUrls: ['./pokemon.component.scss']
+  styleUrls: ['./pokemon.component.scss'],
 })
 export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input()
@@ -18,10 +25,67 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input()
   set formIndex(formIndex: number) {
     if (formIndex != undefined) {
-      this.pokemon = this.dataService.getPokemonByForm(this.pokemon.dexNo, formIndex);
+      this.pokemon = this.dataService.getPokemonByForm(
+        this.pokemon.dexNo,
+        formIndex,
+      );
       this.formNo = formIndex;
     }
   }
+
+  // TMs that every pokemon learns
+  public universalTms: string[] = [
+    'CHARM',
+    'AGILITY',
+    'PROTECT',
+    'FACADE',
+    'ENDURE',
+    'SLEEPTALK',
+    'REST',
+    'SUBSTITUTE',
+    'ENCORE',
+    'HELPINGHAND',
+    'BATONPASS',
+    'GIGAIMPACT',
+    'HYPERBEAM',
+    'ROAR',
+    'TOXIC',
+    'ENDEAVOR',
+  ];
+  // Pokemon that generally can't learn TMs at all, so ignore the universal ones
+  public ignoreUniversal: string[] = [
+    'CATERPIE',
+    'METAPOD',
+    'WEEDLE',
+    'KAKUNA',
+    'PICHU',
+    'CLEFFA',
+    'IGGLYBUFF',
+    'TYROGUE',
+    'HAPPINY',
+    'MIMEJR',
+    'KNAIVER',
+    'SMOOCHUM',
+    'ELEKID',
+    'MAGBY',
+    'MAGIKARP',
+    'DITTO',
+    'MUNCHLAX',
+    'TOGEPI',
+    'AZURILL',
+    'BONSLY',
+    'UNOWN',
+    'WYNAUT',
+    'WOBBUFFET',
+    'WURMPLE',
+    'SILCOON',
+    'CASCOON',
+    'BUDEW',
+    'FEEBAS',
+    'CHINGLING',
+    'CLAMPERL',
+    'BELDUM',
+  ];
 
   public dex: number;
   public formNo: number;
@@ -37,7 +101,10 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
 
   public tmList = [];
 
-  constructor(private dataService: DataService, private changeRef: ChangeDetectorRef) {}
+  constructor(
+    private dataService: DataService,
+    private changeRef: ChangeDetectorRef,
+  ) {}
 
   public ngOnInit(): void {
     this.loaded = false;
@@ -56,10 +123,14 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   public ngAfterViewInit(): void {
     if (this.evoFirstLink) {
       setTimeout(() => {
-        let layer1Element = document.getElementsByClassName(this.evoFirstLink.pokemon.name + this.evoFirstLink.pokemon.form)[0];
+        let layer1Element = document.getElementsByClassName(
+          this.evoFirstLink.pokemon.name + this.evoFirstLink.pokemon.form,
+        )[0];
 
         for (let evo1 of this.evoFirstLink.evos) {
-          let layer2Elements = document.getElementsByClassName(evo1.pokemon.name + evo1.pokemon.form);
+          let layer2Elements = document.getElementsByClassName(
+            evo1.pokemon.name + evo1.pokemon.form,
+          );
           if (layer2Elements.length > 1) {
             for (let i = 0; i < layer2Elements.length; i++) {
               if (i) {
@@ -67,9 +138,11 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
               }
             }
           }
-          
+
           for (let evo2 of evo1.evos) {
-            let layer3Elements = document.getElementsByClassName(evo2.pokemon.name + evo2.pokemon.form);
+            let layer3Elements = document.getElementsByClassName(
+              evo2.pokemon.name + evo2.pokemon.form,
+            );
             if (layer3Elements.length > 1) {
               for (let i = 0; i < layer3Elements.length; i++) {
                 if (i) {
@@ -79,7 +152,9 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
             }
 
             for (let evo3 of evo2.evos) {
-              let layer4Elements = document.getElementsByClassName(evo3.pokemon.name + evo3.pokemon.form);
+              let layer4Elements = document.getElementsByClassName(
+                evo3.pokemon.name + evo3.pokemon.form,
+              );
               if (layer4Elements.length > 1) {
                 for (let i = 0; i < layer4Elements.length; i++) {
                   if (i) {
@@ -95,28 +170,46 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
           this.evoFirstLink.evos.forEach((evo1, index1) => {
             let method1 = this.evoFirstLink.methods[index1];
 
-            let layer2Elements = document.getElementsByClassName(evo1.pokemon.name + evo1.pokemon.form);      
-            let line = new LeaderLine(layer1Element, layer2Elements[0], {color: 'gray'});
-            line.middleLabel = new LeaderLine.pathLabel(this.getEvoMethodText(method1));
+            let layer2Elements = document.getElementsByClassName(
+              evo1.pokemon.name + evo1.pokemon.form,
+            );
+            let line = new LeaderLine(layer1Element, layer2Elements[0], {
+              color: 'gray',
+            });
+            line.middleLabel = new LeaderLine.pathLabel(
+              this.getEvoMethodText(method1),
+            );
             this.lines.push(line);
 
             evo1.evos.forEach((evo2, index2) => {
               let method2 = evo1.methods[index2];
 
-              let layer3Elements = document.getElementsByClassName(evo2.pokemon.name + evo2.pokemon.form);
-              line = new LeaderLine(layer2Elements[0], layer3Elements[0], {color: 'gray'});
-              line.middleLabel = new LeaderLine.pathLabel(this.getEvoMethodText(method2));
+              let layer3Elements = document.getElementsByClassName(
+                evo2.pokemon.name + evo2.pokemon.form,
+              );
+              line = new LeaderLine(layer2Elements[0], layer3Elements[0], {
+                color: 'gray',
+              });
+              line.middleLabel = new LeaderLine.pathLabel(
+                this.getEvoMethodText(method2),
+              );
               this.lines.push(line);
 
               evo2.evos.forEach((evo3, index3) => {
                 let method3 = evo2.methods[index3];
 
-                let layer4Elements = document.getElementsByClassName(evo3.pokemon.name + evo3.pokemon.form);
-                line = new LeaderLine(layer3Elements[0], layer4Elements[0], {color: 'gray'});
-                line.middleLabel = new LeaderLine.pathLabel(this.getEvoMethodText(method3));
+                let layer4Elements = document.getElementsByClassName(
+                  evo3.pokemon.name + evo3.pokemon.form,
+                );
+                line = new LeaderLine(layer3Elements[0], layer4Elements[0], {
+                  color: 'gray',
+                });
+                line.middleLabel = new LeaderLine.pathLabel(
+                  this.getEvoMethodText(method3),
+                );
                 this.lines.push(line);
-              })
-            })
+              });
+            });
           });
         }, 500);
       }, 500);
@@ -124,7 +217,7 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   public ngOnDestroy(): void {
-    this.lines.forEach(l => l.remove());
+    this.lines.forEach((l) => l.remove());
   }
 
   public getStatBarWidth(stat: string, statValue: number) {
@@ -135,10 +228,10 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   public getStatBarRed(statValue: number) {
-    return 511-3*statValue;
+    return 511 - 3 * statValue;
   }
   public getStatBarGreen(statValue: number) {
-    return 3*statValue;
+    return 3 * statValue;
   }
 
   public getAbilityName(key: string) {
@@ -158,14 +251,17 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
         if (nextPrevos.length == 0) {
           first = prevos[0];
           break;
-        }
-        else {
+        } else {
           prevos = nextPrevos;
         }
       }
     }
 
-    if (first.evolutions.length == 0 || first.evolutions[0] == undefined || first.evolutions[0].into == "") {
+    if (
+      first.evolutions.length == 0 ||
+      first.evolutions[0] == undefined ||
+      first.evolutions[0].into == ''
+    ) {
       return;
     }
 
@@ -176,11 +272,13 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   public hasTwoEvos() {
-    return this.evoFirstLink.evos.some(e => e.evos.length != 0);
+    return this.evoFirstLink.evos.some((e) => e.evos.length != 0);
   }
 
   public hasThreeEvos() {
-    return this.evoFirstLink.evos.some(e => e.evos.length != 0 && e.evos.some(e1 => e1.evos.length));
+    return this.evoFirstLink.evos.some(
+      (e) => e.evos.length != 0 && e.evos.some((e1) => e1.evos.length),
+    );
   }
 
   public getPrevos(dexNo: number, formIndex: number) {
@@ -189,7 +287,7 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   public getEvos(evoLink: EvoChainLink, evolutions: PokemonEvolution[]) {
     let evos = this.dataService.getEvos(evolutions);
 
-    if (evos.length == 0 || evos[0] == undefined || evos[0].into == "") {
+    if (evos.length == 0 || evos[0] == undefined || evos[0].into == '') {
       return;
     }
 
@@ -206,76 +304,76 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   public getEvoMethodText(method: string) {
-    if (method.startsWith("LV")) {
-      if (method.includes("-")) {
-        if (method.includes("DAY")) {
-          return "Level " + method.split("V")[1].split("-")[0] + " during daytime";
+    if (method.startsWith('LV')) {
+      if (method.includes('-')) {
+        if (method.includes('DAY')) {
+          return (
+            'Level ' + method.split('V')[1].split('-')[0] + ' during daytime'
+          );
+        } else if (method.includes('NIGHT')) {
+          return (
+            'Level ' + method.split('V')[1].split('-')[0] + ' during nighttime'
+          );
+        } else if (method.includes('FEMALE')) {
+          return 'Level ' + method.split('V')[1].split('-')[0] + ' ♀';
+        } else if (method.includes('MALE')) {
+          return 'Level ' + method.split('V')[1].split('-')[0] + ' ♂';
         }
-        else if (method.includes("NIGHT")) {
-          return "Level " + method.split("V")[1].split("-")[0] + " during nighttime";
-        }
-        else if (method.includes("FEMALE")) {
-          return "Level " + method.split("V")[1].split("-")[0] + " ♀";
-        }
-        else if (method.includes("MALE")) {
-          return "Level " + method.split("V")[1].split("-")[0] + " ♂";
-        }
+      } else {
+        return 'Level ' + method.split('V')[1];
       }
-      else {
-        return "Level " + method.split("V")[1];
-      }
-    }
-    else {
-      if (method.includes("STONE")) {
-        return "Use " + this.toTitleCase(method.replace("STONE", "")) + " Stone";
-      }
-      else {
+    } else {
+      if (method.includes('STONE')) {
+        return (
+          'Use ' + this.toTitleCase(method.replace('STONE', '')) + ' Stone'
+        );
+      } else {
         switch (method) {
-          case "LUCKYPUNCH":
-            return "Use Lucky Punch";
-          case "METALCOAT":
-            return "Use Metal Coat";
-          case "BLACKBELT":
-            return "Use Black Belt";
-          case "UPGRADE":
-            return "Use Up-Grade";
-          case "DUBIOUSDISC":
-            return "Use Dubious Disc";
-          case "KINGSROCK":
+          case 'LUCKYPUNCH':
+            return 'Use Lucky Punch';
+          case 'METALCOAT':
+            return 'Use Metal Coat';
+          case 'BLACKBELT':
+            return 'Use Black Belt';
+          case 'UPGRADE':
+            return 'Use Up-Grade';
+          case 'DUBIOUSDISC':
+            return 'Use Dubious Disc';
+          case 'KINGSROCK':
             return "Use King's Rock";
-          case "PRISMSCALE":
-            return "Use Prism Scale";
-          case "DRAGONSCALE":
-            return "Use Dragon Scale";
-          case "HAPPINESS":
-            return "Level up w/ High Friendship";
-          case "PROTECTOR":
-            return "Use Protector";
-          case "ELECTERIZER":
-            return "Use Electerizer";
-          case "MAGMARIZER":
-            return "Use Magmarizer";
-          case "FRIGIDIZER":
-            return "Use Frigidizer";
-          case "REAPERCLOTH":
-            return "Use Reaper Cloth";
-          case "RAZORFANG":
-            return "Use Razor Fang";
-          case "RAZORCLAW":
-            return "Use Razor Claw";
-          case "REMORAID":
-            return "Level up w/ Remoraid in Party";
-          case "SHEDINJA":
-            return "Special";
-          case "METEORBIT":
-            return "Level 50 Fusion";
-          case "DEEPSEATOOTH":
-            return "Use Deep Sea Tooth";
-          case "DEEPSEASCALE":
-            return "Use Deep Sea Scale";
+          case 'PRISMSCALE':
+            return 'Use Prism Scale';
+          case 'DRAGONSCALE':
+            return 'Use Dragon Scale';
+          case 'HAPPINESS':
+            return 'Level up w/ High Friendship';
+          case 'PROTECTOR':
+            return 'Use Protector';
+          case 'ELECTERIZER':
+            return 'Use Electerizer';
+          case 'MAGMARIZER':
+            return 'Use Magmarizer';
+          case 'FRIGIDIZER':
+            return 'Use Frigidizer';
+          case 'REAPERCLOTH':
+            return 'Use Reaper Cloth';
+          case 'RAZORFANG':
+            return 'Use Razor Fang';
+          case 'RAZORCLAW':
+            return 'Use Razor Claw';
+          case 'REMORAID':
+            return 'Level up w/ Remoraid in Party';
+          case 'SHEDINJA':
+            return 'Special';
+          case 'METEORBIT':
+            return 'Level 50 Fusion';
+          case 'DEEPSEATOOTH':
+            return 'Use Deep Sea Tooth';
+          case 'DEEPSEASCALE':
+            return 'Use Deep Sea Scale';
           default:
             let moveName = this.dataService.getMoveName(method);
-            if (moveName) return "Level up knowing " + moveName;
+            if (moveName) return 'Level up knowing ' + moveName;
             return method;
         }
       }
@@ -283,31 +381,35 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   public evoNote() {
-    if (["NINCADA", "NINJASK", "SHEDINJA"].includes(this.pokemon.name)) {
-      return "Upon a Nincada's evolution into Ninjask, if you have a free slot in your party and an extra Pokeball in your bag, a Shedinja will be created."
-    }
-    else if (["MINIOR", "SOLROCK", "LUNATONE", "METEORBIT"].includes(this.pokemon.name)) {
-      return "Upon a Solrock or Lunatone reaching level 50, if you also have the other evolved form as well as three Minior in your party, they will fuse and evolve into Meteorbit."
+    if (['NINCADA', 'NINJASK', 'SHEDINJA'].includes(this.pokemon.name)) {
+      return "Upon a Nincada's evolution into Ninjask, if you have a free slot in your party and an extra Pokeball in your bag, a Shedinja will be created.";
+    } else if (
+      ['MINIOR', 'SOLROCK', 'LUNATONE', 'METEORBIT'].includes(this.pokemon.name)
+    ) {
+      return 'Upon a Solrock or Lunatone reaching level 50, if you also have the other evolved form as well as three Minior in your party, they will fuse and evolve into Meteorbit.';
     }
   }
 
   public typeMatchup(attackingType: string) {
-    return this.dataService.getTypeMatchup(this.pokemon.type1, this.pokemon.type2, attackingType);
+    return this.dataService.getTypeMatchup(
+      this.pokemon.type1,
+      this.pokemon.type2,
+      attackingType,
+    );
   }
 
   public level100(statValue: number, hp: boolean = false) {
     if (hp) {
-      return (2*statValue+15+Math.floor(126/4))+100+10;
-    }
-    else {
-      return (2*statValue+15+Math.floor(126/4))+5;
+      return 2 * statValue + 15 + Math.floor(126 / 4) + 100 + 10;
+    } else {
+      return 2 * statValue + 15 + Math.floor(126 / 4) + 5;
     }
   }
 
   private toTitleCase(str) {
     return str.replace(
       /\w\S*/g,
-      text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
+      (text) => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase(),
     );
   }
 }

@@ -3,12 +3,10 @@
     #{{ pokemon.dexNo.toString().padStart(3, "0") }}: {{ pokemon.getName() }}
     <span *ngIf="pokemon.form"> - {{ pokemon.getFormName() }} Form</span>
   </div>
-  <div class="category">
-    {{ pokemon.category }} Pokemon
-  </div>
+  <div class="category">{{ pokemon.category }} Pokemon</div>
   <div class="measurements">
-    {{ pokemon.getHeight('i') }}
-    {{ pokemon.getWeight('i') }}
+    {{ pokemon.getHeight("i") }}
+    {{ pokemon.getWeight("i") }}
   </div>
   <div class="dex">
     {{ pokemon.dexEntry }}
@@ -419,144 +417,142 @@
     <div class="section-header">Level-Up Moves</div>
     <table>
       <tr>
-        <th style="text-align: center;">Lv</th>
+        <th style="text-align: center">Lv</th>
         <th>Move</th>
         <th>Type</th>
-        <th style="text-align: center;">Category</th>
-        <th style="text-align: center;">Power</th>
-        <th style="text-align: center;">Acc.</th>
-        <th style="text-align: center;">PP</th>
-        <th style="text-align: center;">Eff %</th>
+        <th style="text-align: center">Category</th>
+        <th style="text-align: center">Power</th>
+        <th style="text-align: center">Acc.</th>
+        <th style="text-align: center">PP</th>
+        <th style="text-align: center">Eff %</th>
         <th>Description</th>
       </tr>
       <tr *ngFor="let move of pokemon.moves">
-        <td style="text-align: center;">{{ move.level }}</td>
+        <td style="text-align: center">{{ move.level }}</td>
         <td class="name">{{ move.move.name }}</td>
         <td class="type">
-            <div [class]="'type-' + move.move.type">
-                <ng-container *ngIf="move.move.type != 'ZZZ'">
-                    {{ move.move.type }}
-                </ng-container>
-                <ng-container *ngIf="move.move.type == 'ZZZ'">
-                    ???
-                </ng-container>
-            </div>
-        </td>
-        <td style="text-align: center;">
-            <img
-                src="assets/{{ move.move.category }}.png"
-                width="50px"
-            />
-        </td>
-        <td style="text-align: center;">
-            <ng-container *ngIf="move.move.power && move.move.power != 1">
-                {{ move.move.power }}
-                <ng-container *ngIf="move.move.autoCrit">
-                    ({{ move.move.averagePower() }})
-                </ng-container>
-                <ng-container *ngIf="move.move.hitTwo">
-                    &times; 2 ({{ move.move.averagePower() }})
-                </ng-container>
-                <ng-container *ngIf="move.move.hitThree">
-                    &times; 3 ({{ move.move.averagePower() }})
-                </ng-container>
-                <ng-container *ngIf="move.move.hitTwoToFive">
-                    &times; 2-5 ({{ move.move.averagePower() }})
-                </ng-container>
+          <div [class]="'type-' + move.move.type">
+            <ng-container *ngIf="move.move.type != 'ZZZ'">
+              {{ move.move.type }}
             </ng-container>
-            <ng-container *ngIf="!move.move.power || move.move.power == 1">
-                -
-            </ng-container>
+            <ng-container *ngIf="move.move.type == 'ZZZ'"> ??? </ng-container>
+          </div>
         </td>
-        <td style="text-align: center;">
-            <ng-container *ngIf="move.move.accuracy">
-                {{ move.move.accuracy }}%
-            </ng-container>
-            <ng-container *ngIf="!move.move.accuracy">
-                -
-            </ng-container>
+        <td style="text-align: center">
+          <img src="assets/{{ move.move.category }}.png" width="50px" />
         </td>
-        <td style="text-align: center;">
-            {{ move.move.totalPP }}
-        </td>
-        <td style="text-align: center;">
-            <ng-container *ngIf="move.move.effectChance && move.move.effectChance != 100">
-                {{ move.move.effectChance }}%
+        <td style="text-align: center">
+          <ng-container *ngIf="move.move.power && move.move.power != 1">
+            {{ move.move.power }}
+            <ng-container *ngIf="move.move.autoCrit">
+              ({{ move.move.averagePower() }})
             </ng-container>
+            <ng-container *ngIf="move.move.hitTwo">
+              &times; 2 ({{ move.move.averagePower() }})
+            </ng-container>
+            <ng-container *ngIf="move.move.hitThree">
+              &times; 3 ({{ move.move.averagePower() }})
+            </ng-container>
+            <ng-container *ngIf="move.move.hitTwoToFive">
+              &times; 2-5 ({{ move.move.averagePower() }})
+            </ng-container>
+          </ng-container>
+          <ng-container *ngIf="!move.move.power || move.move.power == 1">
+            -
+          </ng-container>
+        </td>
+        <td style="text-align: center">
+          <ng-container *ngIf="move.move.accuracy">
+            {{ move.move.accuracy }}%
+          </ng-container>
+          <ng-container *ngIf="!move.move.accuracy"> - </ng-container>
+        </td>
+        <td style="text-align: center">
+          {{ move.move.totalPP }}
+        </td>
+        <td style="text-align: center">
+          <ng-container
+            *ngIf="move.move.effectChance && move.move.effectChance != 100"
+          >
+            {{ move.move.effectChance }}%
+          </ng-container>
         </td>
         <td>{{ move.move.description }}</td>
-    </tr>
+      </tr>
     </table>
   </div>
   <div class="tms">
     <div class="section-header">TMs</div>
     <table>
       <tr>
-        <th style="text-align: center;">#</th>
+        <th style="text-align: center">#</th>
         <th>Move</th>
         <th>Type</th>
-        <th style="text-align: center;">Category</th>
-        <th style="text-align: center;">Power</th>
-        <th style="text-align: center;">Acc.</th>
-        <th style="text-align: center;">PP</th>
-        <th style="text-align: center;">Eff %</th>
+        <th style="text-align: center">Category</th>
+        <th style="text-align: center">Power</th>
+        <th style="text-align: center">Acc.</th>
+        <th style="text-align: center">PP</th>
+        <th style="text-align: center">Eff %</th>
         <th>Description</th>
       </tr>
       <ng-container *ngFor="let tm of tmList">
-        <tr *ngIf="pokemon.hasMove(tm.move?.key) || (pokemon.name == 'MEW') || (pokemon.name == 'SMEARGLE')">
-          <td style="text-align: center;">TM{{ tm.number | number: '3.0' }}</td>
+        <tr
+          *ngIf="
+            pokemon.hasMove(tm.move?.key) ||
+            pokemon.name == 'MEW' ||
+            pokemon.name == 'SMEARGLE' ||
+            (universalTms.includes(tm.move?.key) &&
+              !ignoreUniversal.includes(pokemon.name))
+          "
+        >
+          <td style="text-align: center">TM{{ tm.number | number: "3.0" }}</td>
           <td class="name">{{ tm.move.name }}</td>
           <td class="type">
-              <div [class]="'type-' + tm.move.type">
-                  <ng-container *ngIf="tm.move.type != 'ZZZ'">
-                      {{ tm.move.type }}
-                  </ng-container>
-                  <ng-container *ngIf="tm.move.type == 'ZZZ'">
-                      ???
-                  </ng-container>
-              </div>
-          </td>
-          <td style="text-align: center;">
-              <img
-                  src="assets/{{ tm.move.category }}.png"
-                  width="50px"
-              />
-          </td>
-          <td style="text-align: center;">
-              <ng-container *ngIf="tm.move.power && tm.move.power != 1">
-                  {{ tm.move.power }}
-                  <ng-container *ngIf="tm.move.autoCrit">
-                      ({{ tm.move.averagePower() }})
-                  </ng-container>
-                  <ng-container *ngIf="tm.move.hitTwo">
-                      &times; 2 ({{ tm.move.averagePower() }})
-                  </ng-container>
-                  <ng-container *ngIf="tm.move.hitThree">
-                      &times; 3 ({{ tm.move.averagePower() }})
-                  </ng-container>
-                  <ng-container *ngIf="tm.move.hitTwoToFive">
-                      &times; 2-5 ({{ tm.move.averagePower() }})
-                  </ng-container>
+            <div [class]="'type-' + tm.move.type">
+              <ng-container *ngIf="tm.move.type != 'ZZZ'">
+                {{ tm.move.type }}
               </ng-container>
-              <ng-container *ngIf="!tm.move.power || tm.move.power == 1">
-                  -
-              </ng-container>
+              <ng-container *ngIf="tm.move.type == 'ZZZ'"> ??? </ng-container>
+            </div>
           </td>
-          <td style="text-align: center;">
-              <ng-container *ngIf="tm.move.accuracy">
-                  {{ tm.move.accuracy }}%
-              </ng-container>
-              <ng-container *ngIf="!tm.move.accuracy">
-                  -
-              </ng-container>
+          <td style="text-align: center">
+            <img src="assets/{{ tm.move.category }}.png" width="50px" />
           </td>
-          <td style="text-align: center;">
-              {{ tm.move.totalPP }}
-          </td>
-          <td style="text-align: center;">
-              <ng-container *ngIf="tm.move.effectChance && tm.move.effectChance != 100">
-                  {{ tm.move.effectChance }}%
+          <td style="text-align: center">
+            <ng-container *ngIf="tm.move.power && tm.move.power != 1">
+              {{ tm.move.power }}
+              <ng-container *ngIf="tm.move.autoCrit">
+                ({{ tm.move.averagePower() }})
               </ng-container>
+              <ng-container *ngIf="tm.move.hitTwo">
+                &times; 2 ({{ tm.move.averagePower() }})
+              </ng-container>
+              <ng-container *ngIf="tm.move.hitThree">
+                &times; 3 ({{ tm.move.averagePower() }})
+              </ng-container>
+              <ng-container *ngIf="tm.move.hitTwoToFive">
+                &times; 2-5 ({{ tm.move.averagePower() }})
+              </ng-container>
+            </ng-container>
+            <ng-container *ngIf="!tm.move.power || tm.move.power == 1">
+              -
+            </ng-container>
+          </td>
+          <td style="text-align: center">
+            <ng-container *ngIf="tm.move.accuracy">
+              {{ tm.move.accuracy }}%
+            </ng-container>
+            <ng-container *ngIf="!tm.move.accuracy"> - </ng-container>
+          </td>
+          <td style="text-align: center">
+            {{ tm.move.totalPP }}
+          </td>
+          <td style="text-align: center">
+            <ng-container
+              *ngIf="tm.move.effectChance && tm.move.effectChance != 100"
+            >
+              {{ tm.move.effectChance }}%
+            </ng-container>
           </td>
           <td>{{ tm.move.description }}</td>
         </tr>

@@ -10173,7 +10173,7 @@
     "SPDEF": 110,
     "SPD": 76,
     "BST": 455,
-    "ABILITY1": "INTIMIDATE",
+    "ABILITY1": "STALL",
     "ABILITY2": "TECHNICIAN",
     "EVOLUTIONS": "KAPORERER",
     "METHODS": "BLACKBELT",
@@ -10213,7 +10213,7 @@
     "SPDEF": 130,
     "SPD": 86,
     "BST": 455,
-    "ABILITY1": "INTIMIDATE",
+    "ABILITY1": "STALL",
     "ABILITY2": "TECHNICIAN",
     "EVOLUTIONS": "",
     "METHODS": "",
@@ -15694,7 +15694,7 @@
     "SPD": 70,
     "BST": 280,
     "ABILITY1": "RUNAWAY",
-    "ABILITY2": "KEENEYE",
+    "ABILITY2": "FURCOAT",
     "EVOLUTIONS": "FURRET",
     "METHODS": "LV15",
     "FORMINDEX": "",
@@ -15734,7 +15734,7 @@
     "SPD": 105,
     "BST": 450,
     "ABILITY1": "RUNAWAY",
-    "ABILITY2": "KEENEYE",
+    "ABILITY2": "FURCOAT",
     "EVOLUTIONS": "",
     "METHODS": "",
     "FORMINDEX": "",
@@ -18573,10 +18573,10 @@
     "SPDEF": 70,
     "SPD": 85,
     "BST": 455,
-    "ABILITY1": "STRONGJAW",
+    "ABILITY1": "SAPSIPPER",
     "ABILITY2": "GLUTTONY",
-    "EVOLUTIONS": "FARIGIRAF KIRINIRIK-JOHTONIAN",
-    "METHODS": "TWINBEAM CRUNCH",
+    "EVOLUTIONS": "FARIGIRAF",
+    "METHODS": "TWINBEAM",
     "FORMINDEX": 1,
     "GENDERRATIO": "Female50Percent",
     "GROWTHRATE": "M",
@@ -18603,20 +18603,20 @@
     "NAME": "GIRAFARIG",
     "DEX": 321,
     "FORM": "HOLONIAN",
-    "CATEGORY": "Palindrome",
+    "CATEGORY": "Insult",
     "TYPE1": "STEEL",
-    "TYPE2": "POISON",
-    "HP": 70,
-    "ATK": 90,
+    "TYPE2": "GHOST",
+    "HP": 60,
+    "ATK": 70,
     "DEF": 80,
-    "SPA": 70,
-    "SPDEF": 75,
-    "SPD": 70,
+    "SPA": 100,
+    "SPDEF": 105,
+    "SPD": 40,
     "BST": 455,
     "ABILITY1": "INTIMIDATE",
-    "ABILITY2": "ANGERPOINT",
-    "EVOLUTIONS": "KIRINIRK-HOLONIAN",
-    "METHODS": "CRUNCH",
+    "ABILITY2": "OBLIVIOUS",
+    "EVOLUTIONS": "FARIGIRAF-HOLONIAN",
+    "METHODS": "TERRIFY",
     "FORMINDEX": 2,
     "GENDERRATIO": "Female50Percent",
     "GROWTHRATE": "M",
@@ -18642,7 +18642,7 @@
   {
     "NAME": "FARIGIRAF",
     "DEX": 322,
-    "FORM": "",
+    "FORM": "JOHTONIAN",
     "CATEGORY": "Emordnilap",
     "TYPE1": "NORMAL",
     "TYPE2": "PSYCHIC",
@@ -18653,11 +18653,11 @@
     "SPDEF": 85,
     "SPD": 60,
     "BST": 540,
-    "ABILITY1": "STRONGJAW",
-    "ABILITY2": "GLUTTONY",
+    "ABILITY1": "SAPSIPPER",
+    "ABILITY2": "DAZZLING",
     "EVOLUTIONS": "",
     "METHODS": "",
-    "FORMINDEX": "",
+    "FORMINDEX": 1,
     "GENDERRATIO": "Female50Percent",
     "GROWTHRATE": "M",
     "BASEEXP": 260,
@@ -18680,61 +18680,21 @@
     "LEGENDARY": ""
   },
   {
-    "NAME": "KIRINIRIK",
-    "DEX": 323,
-    "FORM": "JOHTONIAN",
-    "CATEGORY": "Chomp",
-    "TYPE1": "NORMAL",
-    "TYPE2": "DARK",
-    "HP": 120,
-    "ATK": 110,
-    "DEF": 70,
-    "SPA": 80,
-    "SPDEF": 70,
-    "SPD": 90,
-    "BST": 540,
-    "ABILITY1": "STRONGJAW",
-    "ABILITY2": "MOXIE",
-    "EVOLUTIONS": "",
-    "METHODS": "",
-    "FORMINDEX": 1,
-    "GENDERRATIO": "Female50Percent",
-    "GROWTHRATE": "M",
-    "BASEEXP": 260,
-    "EVS": "ATK3",
-    "CATCHRATE": 45,
-    "HAPPINESS": 50,
-    "EGGGROUP1": "FIELD",
-    "EGGGROUP2": "",
-    "HATCHSTEPS": 1280,
-    "HEIGHT": 1.5,
-    "WEIGHT": 315,
-    "COLOR": "YELLOW",
-    "SHAPE": "QUADRUPED",
-    "HABITAT": "GRASSLAND",
-    "WILDITEMCOMMON": "",
-    "WILDITEMUNCOMMON": "",
-    "WILDITEMRARE": "",
-    "INHERITFORM": "",
-    "POKEDEX": "Its tail also has a small brain. It bites to repel any foe trying to sneak up on it from behind. Its increased size sometimes results in Kirinirk being pulled around by it.",
-    "LEGENDARY": ""
-  },
-  {
-    "NAME": "KIRINIRIK",
-    "DEX": 323,
+    "NAME": "FARIGIRAF",
+    "DEX": 322,
     "FORM": "HOLONIAN",
     "CATEGORY": "Tormented",
     "TYPE1": "STEEL",
-    "TYPE2": "POISON",
-    "HP": 120,
-    "ATK": 110,
+    "TYPE2": "GHOST",
+    "HP": 100,
+    "ATK": 80,
     "DEF": 85,
-    "SPA": 80,
-    "SPDEF": 85,
-    "SPD": 60,
+    "SPA": 120,
+    "SPDEF": 115,
+    "SPD": 40,
     "BST": 540,
     "ABILITY1": "INTIMIDATE",
-    "ABILITY2": "ANGERPOINT",
+    "ABILITY2": "OBLIVIOUS",
     "EVOLUTIONS": "",
     "METHODS": "",
     "FORMINDEX": 2,
@@ -18761,7 +18721,7 @@
   },
   {
     "NAME": "PINECO",
-    "DEX": 324,
+    "DEX": 323,
     "FORM": "",
     "CATEGORY": "Bagworm",
     "TYPE1": "BUG",
@@ -18801,7 +18761,7 @@
   },
   {
     "NAME": "FORRETRESS",
-    "DEX": 325,
+    "DEX": 324,
     "FORM": "",
     "CATEGORY": "Bagworm",
     "TYPE1": "BUG",
@@ -18841,16 +18801,16 @@
   },
   {
     "NAME": "DUNSPARCE",
-    "DEX": 326,
+    "DEX": 325,
     "FORM": "",
     "CATEGORY": "Land Snake",
     "TYPE1": "NORMAL",
     "TYPE2": "GROUND",
-    "HP": 100,
+    "HP": 70,
     "ATK": 70,
-    "DEF": 80,
-    "SPA": 65,
-    "SPDEF": 75,
+    "DEF": 70,
+    "SPA": 55,
+    "SPDEF": 65,
     "SPD": 45,
     "BST": 435,
     "ABILITY1": "SERENEGRACE",
@@ -18881,17 +18841,17 @@
   },
   {
     "NAME": "DUDUNSPARCE",
-    "DEX": 327,
+    "DEX": 326,
     "FORM": "",
     "CATEGORY": "Land Snake",
     "TYPE1": "NORMAL",
     "TYPE2": "GROUND",
-    "HP": 125,
-    "ATK": 100,
+    "HP": 85,
+    "ATK": 90,
     "DEF": 80,
-    "SPA": 85,
+    "SPA": 65,
     "SPDEF": 75,
-    "SPD": 55,
+    "SPD": 50,
     "BST": 520,
     "ABILITY1": "SERENEGRACE",
     "ABILITY2": "RATTLED",
@@ -18921,7 +18881,7 @@
   },
   {
     "NAME": "DUDUDUNSPARCE",
-    "DEX": 328,
+    "DEX": 327,
     "FORM": "",
     "CATEGORY": "Land Snake",
     "TYPE1": "NORMAL",
@@ -18961,7 +18921,7 @@
   },
   {
     "NAME": "GLIGAR",
-    "DEX": 329,
+    "DEX": 328,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Fly Scorpion",
     "TYPE1": "GROUND",
@@ -19001,7 +18961,7 @@
   },
   {
     "NAME": "GLIGAR",
-    "DEX": 329,
+    "DEX": 328,
     "FORM": "HOENNIAN",
     "CATEGORY": "Magma Claw",
     "TYPE1": "POISON",
@@ -19041,7 +19001,7 @@
   },
   {
     "NAME": "GLISCOR",
-    "DEX": 330,
+    "DEX": 329,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Fly Scorpion",
     "TYPE1": "GROUND",
@@ -19081,7 +19041,7 @@
   },
   {
     "NAME": "GLISCOR",
-    "DEX": 330,
+    "DEX": 329,
     "FORM": "HOENNIAN",
     "CATEGORY": "Magma Claw",
     "TYPE1": "POISON",
@@ -19121,13 +19081,13 @@
   },
   {
     "NAME": "SNUBBULL",
-    "DEX": 331,
+    "DEX": 330,
     "FORM": "",
-    "CATEGORY": "Fairy",
+    "CATEGORY": "Puppy",
     "TYPE1": "FAIRY",
     "TYPE2": "GROUND",
     "HP": 60,
-    "ATK": 90,
+    "ATK": 60,
     "DEF": 50,
     "SPA": 40,
     "SPDEF": 40,
@@ -19161,17 +19121,17 @@
   },
   {
     "NAME": "GRANBULL",
-    "DEX": 332,
+    "DEX": 331,
     "FORM": "",
-    "CATEGORY": "Fairy",
+    "CATEGORY": "Bulldog",
     "TYPE1": "FAIRY",
     "TYPE2": "GROUND",
     "HP": 90,
-    "ATK": 130,
-    "DEF": 80,
+    "ATK": 100,
+    "DEF": 90,
     "SPA": 60,
-    "SPDEF": 60,
-    "SPD": 75,
+    "SPDEF": 70,
+    "SPD": 55,
     "BST": 495,
     "ABILITY1": "INTIMIDATE",
     "ABILITY2": "STRONGJAW",
@@ -19201,16 +19161,16 @@
   },
   {
     "NAME": "IMPREBULL",
-    "DEX": 333,
+    "DEX": 332,
     "FORM": "",
-    "CATEGORY": "Fairy",
+    "CATEGORY": "Bulldog",
     "TYPE1": "FAIRY",
     "TYPE2": "GROUND",
-    "HP": 90,
-    "ATK": 160,
+    "HP": 120,
+    "ATK": 130,
     "DEF": 135,
     "SPA": 70,
-    "SPDEF": 105,
+    "SPDEF": 110,
     "SPD": 35,
     "BST": 595,
     "ABILITY1": "INTIMIDATE",
@@ -19241,7 +19201,7 @@
   },
   {
     "NAME": "QWILFISH",
-    "DEX": 334,
+    "DEX": 333,
     "FORM": "",
     "CATEGORY": "Pufferfish",
     "TYPE1": "DARK",
@@ -19281,7 +19241,7 @@
   },
   {
     "NAME": "OVERQWIL",
-    "DEX": 335,
+    "DEX": 334,
     "FORM": "",
     "CATEGORY": "Pufferfish",
     "TYPE1": "DARK",
@@ -19321,7 +19281,7 @@
   },
   {
     "NAME": "SHUCKLE",
-    "DEX": 336,
+    "DEX": 335,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Mold",
     "TYPE1": "BUG",
@@ -19361,7 +19321,7 @@
   },
   {
     "NAME": "SHUCKLE",
-    "DEX": 336,
+    "DEX": 335,
     "FORM": "HOLONIAN",
     "CATEGORY": "Punching Bag",
     "TYPE1": "FIGHTING",
@@ -19401,7 +19361,7 @@
   },
   {
     "NAME": "HERACROSS",
-    "DEX": 337,
+    "DEX": 336,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hercules",
     "TYPE1": "BUG",
@@ -19441,7 +19401,7 @@
   },
   {
     "NAME": "HERACROSS",
-    "DEX": 337,
+    "DEX": 336,
     "FORM": "KALOSIAN",
     "CATEGORY": "Pitaya",
     "TYPE1": "GRASS",
@@ -19481,7 +19441,7 @@
   },
   {
     "NAME": "SCARHINO",
-    "DEX": 338,
+    "DEX": 337,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hercules",
     "TYPE1": "BUG",
@@ -19521,7 +19481,7 @@
   },
   {
     "NAME": "SCARHINO",
-    "DEX": 338,
+    "DEX": 337,
     "FORM": "KALOSIAN",
     "CATEGORY": "Pitaya",
     "TYPE1": "GRASS",
@@ -19561,7 +19521,7 @@
   },
   {
     "NAME": "SNEASEL",
-    "DEX": 339,
+    "DEX": 338,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Sharp Claw",
     "TYPE1": "DARK",
@@ -19601,7 +19561,7 @@
   },
   {
     "NAME": "SNEASEL",
-    "DEX": 339,
+    "DEX": 338,
     "FORM": "HISUIAN",
     "CATEGORY": "Sharp Claw",
     "TYPE1": "FIGHTING",
@@ -19641,7 +19601,7 @@
   },
   {
     "NAME": "WEAVILE",
-    "DEX": 340,
+    "DEX": 339,
     "FORM": "",
     "CATEGORY": "Sharp Claw",
     "TYPE1": "DARK",
@@ -19656,7 +19616,7 @@
     "ABILITY1": "PRESSURE",
     "ABILITY2": "TECHNICIAN",
     "EVOLUTIONS": "DEMORET",
-    "METHODS": "DARKEDGE",
+    "METHODS": "NIGHTSLASH",
     "FORMINDEX": "",
     "GENDERRATIO": "Female50Percent",
     "GROWTHRATE": "P",
@@ -19681,7 +19641,7 @@
   },
   {
     "NAME": "SNEASLER",
-    "DEX": 341,
+    "DEX": 340,
     "FORM": "",
     "CATEGORY": "Sharp Claw",
     "TYPE1": "FIGHTING",
@@ -19721,7 +19681,7 @@
   },
   {
     "NAME": "DEMORET",
-    "DEX": 342,
+    "DEX": 341,
     "FORM": "",
     "CATEGORY": "Sharp Claw",
     "TYPE1": "DARK",
@@ -19761,7 +19721,7 @@
   },
   {
     "NAME": "FARFURREX",
-    "DEX": 343,
+    "DEX": 342,
     "FORM": "",
     "CATEGORY": "Sharp Claw",
     "TYPE1": "FIGHTING",
@@ -19801,7 +19761,7 @@
   },
   {
     "NAME": "TEDDIURSA",
-    "DEX": 344,
+    "DEX": 343,
     "FORM": "",
     "CATEGORY": "Little Bear",
     "TYPE1": "NORMAL",
@@ -19813,7 +19773,7 @@
     "SPDEF": 50,
     "SPD": 40,
     "BST": 330,
-    "ABILITY1": "PICKUP",
+    "ABILITY1": "HONEYGATHER",
     "ABILITY2": "QUICKFEET",
     "EVOLUTIONS": "URSARING",
     "METHODS": "LV30",
@@ -19841,7 +19801,7 @@
   },
   {
     "NAME": "URSARING",
-    "DEX": 345,
+    "DEX": 344,
     "FORM": "",
     "CATEGORY": "Bear",
     "TYPE1": "NORMAL",
@@ -19881,7 +19841,7 @@
   },
   {
     "NAME": "URSALUNA",
-    "DEX": 346,
+    "DEX": 345,
     "FORM": "FULL MOON",
     "CATEGORY": "Moon Bear",
     "TYPE1": "NORMAL",
@@ -19921,7 +19881,7 @@
   },
   {
     "NAME": "URSALUNA",
-    "DEX": 346,
+    "DEX": 345,
     "FORM": "BLOOD MOON",
     "CATEGORY": "Moon Bear",
     "TYPE1": "GHOST",
@@ -19961,7 +19921,7 @@
   },
   {
     "NAME": "SLUGMA",
-    "DEX": 347,
+    "DEX": 346,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Lava Slug",
     "TYPE1": "FIRE",
@@ -20001,7 +19961,7 @@
   },
   {
     "NAME": "SLUGMA",
-    "DEX": 347,
+    "DEX": 346,
     "FORM": "HOENNIAN",
     "CATEGORY": "Relic Slug",
     "TYPE1": "GRASS",
@@ -20041,7 +20001,7 @@
   },
   {
     "NAME": "MAGCARGO",
-    "DEX": 348,
+    "DEX": 347,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Lava Snail",
     "TYPE1": "FIRE",
@@ -20081,7 +20041,7 @@
   },
   {
     "NAME": "MAGCARGO",
-    "DEX": 348,
+    "DEX": 347,
     "FORM": "HOENNIAN",
     "CATEGORY": "Relic Snail",
     "TYPE1": "GRASS",
@@ -20121,7 +20081,7 @@
   },
   {
     "NAME": "ESCARGINITE",
-    "DEX": 349,
+    "DEX": 348,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Lava Snail",
     "TYPE1": "FIRE",
@@ -20161,7 +20121,7 @@
   },
   {
     "NAME": "ESCARGINITE",
-    "DEX": 349,
+    "DEX": 348,
     "FORM": "HOENNIAN",
     "CATEGORY": "Relic Snail",
     "TYPE1": "GRASS",
@@ -20201,7 +20161,7 @@
   },
   {
     "NAME": "SWINUB",
-    "DEX": 350,
+    "DEX": 349,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Pig",
     "TYPE1": "ICE",
@@ -20241,7 +20201,7 @@
   },
   {
     "NAME": "SWINUB",
-    "DEX": 350,
+    "DEX": 349,
     "FORM": "HOENNIAN",
     "CATEGORY": "Pig Bush",
     "TYPE1": "GRASS",
@@ -20281,7 +20241,7 @@
   },
   {
     "NAME": "PILOSWINE",
-    "DEX": 351,
+    "DEX": 350,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Swine",
     "TYPE1": "ICE",
@@ -20296,7 +20256,7 @@
     "ABILITY1": "THICKFAT",
     "ABILITY2": "SNOWCLOAK",
     "EVOLUTIONS": "MAMOSWINE-JOHTONIAN",
-    "METHODS": "ANCIENTPOWER",
+    "METHODS": "ICICLECRASH",
     "FORMINDEX": 1,
     "GENDERRATIO": "Female50Percent",
     "GROWTHRATE": "S",
@@ -20321,7 +20281,7 @@
   },
   {
     "NAME": "PILOSWINE",
-    "DEX": 351,
+    "DEX": 350,
     "FORM": "HOENNIAN",
     "CATEGORY": "Swine Bush",
     "TYPE1": "GRASS",
@@ -20336,7 +20296,7 @@
     "ABILITY1": "THICKFAT",
     "ABILITY2": "GRASSYSURGE",
     "EVOLUTIONS": "MAMOSWINE-HOENNIAN",
-    "METHODS": "ANCIENTPOWER",
+    "METHODS": "GRAVAPPLE",
     "FORMINDEX": 2,
     "GENDERRATIO": "Female50Percent",
     "GROWTHRATE": "S",
@@ -20361,7 +20321,7 @@
   },
   {
     "NAME": "MAMOSWINE",
-    "DEX": 352,
+    "DEX": 351,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Mammoth",
     "TYPE1": "ICE",
@@ -20401,7 +20361,7 @@
   },
   {
     "NAME": "MAMOSWINE",
-    "DEX": 352,
+    "DEX": 351,
     "FORM": "HOENNIAN",
     "CATEGORY": "Mammoth Bush",
     "TYPE1": "GRASS",
@@ -20441,7 +20401,7 @@
   },
   {
     "NAME": "CORSOLA",
-    "DEX": 353,
+    "DEX": 352,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Coral",
     "TYPE1": "WATER",
@@ -20481,7 +20441,7 @@
   },
   {
     "NAME": "CORSOLA",
-    "DEX": 353,
+    "DEX": 352,
     "FORM": "GALARIAN",
     "CATEGORY": "White Coral",
     "TYPE1": "GHOST",
@@ -20521,7 +20481,7 @@
   },
   {
     "NAME": "CURESOLA",
-    "DEX": 354,
+    "DEX": 353,
     "FORM": "",
     "CATEGORY": "Life Coral",
     "TYPE1": "WATER",
@@ -20561,7 +20521,7 @@
   },
   {
     "NAME": "CURSOLA",
-    "DEX": 355,
+    "DEX": 354,
     "FORM": "",
     "CATEGORY": "Ghost Coral",
     "TYPE1": "GHOST",
@@ -20601,7 +20561,7 @@
   },
   {
     "NAME": "REMORAID",
-    "DEX": 356,
+    "DEX": 355,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Revolver",
     "TYPE1": "WATER",
@@ -20641,7 +20601,7 @@
   },
   {
     "NAME": "REMORAID",
-    "DEX": 356,
+    "DEX": 355,
     "FORM": "HOLONIAN",
     "CATEGORY": "Flamethrower",
     "TYPE1": "FIRE",
@@ -20681,7 +20641,7 @@
   },
   {
     "NAME": "OCTILLERY",
-    "DEX": 357,
+    "DEX": 356,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Artillery",
     "TYPE1": "WATER",
@@ -20721,7 +20681,7 @@
   },
   {
     "NAME": "OCTILLERY",
-    "DEX": 357,
+    "DEX": 356,
     "FORM": "HOLONIAN",
     "CATEGORY": "Napalm",
     "TYPE1": "FIRE",
@@ -20761,7 +20721,7 @@
   },
   {
     "NAME": "DELIBIRD",
-    "DEX": 358,
+    "DEX": 357,
     "FORM": "",
     "CATEGORY": "Holiday",
     "TYPE1": "ICE",
@@ -20801,7 +20761,7 @@
   },
   {
     "NAME": "CLAUSIBIRD",
-    "DEX": 359,
+    "DEX": 358,
     "FORM": "",
     "CATEGORY": "Santa",
     "TYPE1": "ICE",
@@ -20841,7 +20801,7 @@
   },
   {
     "NAME": "KRAMPIRD",
-    "DEX": 360,
+    "DEX": 359,
     "FORM": "",
     "CATEGORY": "Krampus",
     "TYPE1": "ICE",
@@ -20881,7 +20841,7 @@
   },
   {
     "NAME": "DELIBOT",
-    "DEX": 361,
+    "DEX": 360,
     "FORM": "",
     "CATEGORY": "Iron Bundle",
     "TYPE1": "ICE",
@@ -20921,7 +20881,7 @@
   },
   {
     "NAME": "MANTYKE",
-    "DEX": 362,
+    "DEX": 361,
     "FORM": "",
     "CATEGORY": "Ray",
     "TYPE1": "WATER",
@@ -20961,7 +20921,7 @@
   },
   {
     "NAME": "MANTINE",
-    "DEX": 363,
+    "DEX": 362,
     "FORM": "",
     "CATEGORY": "Manta Ray",
     "TYPE1": "WATER",
@@ -21001,7 +20961,7 @@
   },
   {
     "NAME": "SKARMORY",
-    "DEX": 364,
+    "DEX": 363,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Armor Bird",
     "TYPE1": "STEEL",
@@ -21041,7 +21001,7 @@
   },
   {
     "NAME": "SKARMORY",
-    "DEX": 364,
+    "DEX": 363,
     "FORM": "HOENNIAN",
     "CATEGORY": "Flame Bird",
     "TYPE1": "STEEL",
@@ -21081,7 +21041,7 @@
   },
   {
     "NAME": "PANZAERO",
-    "DEX": 365,
+    "DEX": 364,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Golden Bird",
     "TYPE1": "STEEL",
@@ -21121,7 +21081,7 @@
   },
   {
     "NAME": "PANZAERO",
-    "DEX": 365,
+    "DEX": 364,
     "FORM": "HOENNIAN",
     "CATEGORY": "Inferno Bird",
     "TYPE1": "STEEL",
@@ -21161,7 +21121,7 @@
   },
   {
     "NAME": "HOUNDOUR",
-    "DEX": 366,
+    "DEX": 365,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hellhound",
     "TYPE1": "DARK",
@@ -21201,7 +21161,7 @@
   },
   {
     "NAME": "HOUNDOUR",
-    "DEX": 366,
+    "DEX": 365,
     "FORM": "HOENNIAN",
     "CATEGORY": "Ghost Hound",
     "TYPE1": "GHOST",
@@ -21241,7 +21201,7 @@
   },
   {
     "NAME": "HOUNDOOM",
-    "DEX": 367,
+    "DEX": 366,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hellhound",
     "TYPE1": "DARK",
@@ -21281,7 +21241,7 @@
   },
   {
     "NAME": "HOUNDOOM",
-    "DEX": 367,
+    "DEX": 366,
     "FORM": "HOENNIAN",
     "CATEGORY": "Ghost Hound",
     "TYPE1": "GHOST",
@@ -21321,7 +21281,7 @@
   },
   {
     "NAME": "HOUNDEMON",
-    "DEX": 368,
+    "DEX": 367,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hellhound",
     "TYPE1": "DARK",
@@ -21361,7 +21321,7 @@
   },
   {
     "NAME": "HOUNDEMON",
-    "DEX": 368,
+    "DEX": 367,
     "FORM": "HOENNIAN",
     "CATEGORY": "Ghost Hound",
     "TYPE1": "GHOST",
@@ -21401,7 +21361,7 @@
   },
   {
     "NAME": "PHANPY",
-    "DEX": 369,
+    "DEX": 368,
     "FORM": "",
     "CATEGORY": "Long Nose",
     "TYPE1": "GROUND",
@@ -21441,7 +21401,7 @@
   },
   {
     "NAME": "DONPHAN",
-    "DEX": 370,
+    "DEX": 369,
     "FORM": "",
     "CATEGORY": "Armor",
     "TYPE1": "GROUND",
@@ -21481,7 +21441,7 @@
   },
   {
     "NAME": "DONPHIERCE",
-    "DEX": 371,
+    "DEX": 370,
     "FORM": "",
     "CATEGORY": "Great Tusk",
     "TYPE1": "GROUND",
@@ -21521,7 +21481,7 @@
   },
   {
     "NAME": "AUTONPHAN",
-    "DEX": 372,
+    "DEX": 371,
     "FORM": "",
     "CATEGORY": "Iron Treads",
     "TYPE1": "GROUND",
@@ -21561,7 +21521,7 @@
   },
   {
     "NAME": "STANTLER",
-    "DEX": 373,
+    "DEX": 372,
     "FORM": "",
     "CATEGORY": "Deer",
     "TYPE1": "NORMAL",
@@ -21601,7 +21561,7 @@
   },
   {
     "NAME": "WYRDEER",
-    "DEX": 374,
+    "DEX": 373,
     "FORM": "",
     "CATEGORY": "Wise Deer",
     "TYPE1": "NORMAL",
@@ -21641,7 +21601,7 @@
   },
   {
     "NAME": "SMEARGLE",
-    "DEX": 375,
+    "DEX": 374,
     "FORM": "",
     "CATEGORY": "Painter",
     "TYPE1": "NORMAL",
@@ -21681,7 +21641,7 @@
   },
   {
     "NAME": "MILTANK",
-    "DEX": 376,
+    "DEX": 375,
     "FORM": "",
     "CATEGORY": "Dairy Cow",
     "TYPE1": "NORMAL",
@@ -21721,7 +21681,7 @@
   },
   {
     "NAME": "RAIKOU",
-    "DEX": 377,
+    "DEX": 376,
     "FORM": "REVIVED",
     "CATEGORY": "Thunder",
     "TYPE1": "ELECTRIC",
@@ -21761,7 +21721,7 @@
   },
   {
     "NAME": "RAIKOU",
-    "DEX": 377,
+    "DEX": 376,
     "FORM": "PRIMAL",
     "CATEGORY": "Raging Bolt",
     "TYPE1": "ELECTRIC",
@@ -21801,7 +21761,7 @@
   },
   {
     "NAME": "ENTEI",
-    "DEX": 378,
+    "DEX": 377,
     "FORM": "REVIVED",
     "CATEGORY": "Volcano",
     "TYPE1": "FIRE",
@@ -21841,7 +21801,7 @@
   },
   {
     "NAME": "ENTEI",
-    "DEX": 378,
+    "DEX": 377,
     "FORM": "PRIMAL",
     "CATEGORY": "Gouging Fire",
     "TYPE1": "FIRE",
@@ -21881,7 +21841,7 @@
   },
   {
     "NAME": "SUICUNE",
-    "DEX": 379,
+    "DEX": 378,
     "FORM": "REVIVED",
     "CATEGORY": "Aurora",
     "TYPE1": "WATER",
@@ -21921,7 +21881,7 @@
   },
   {
     "NAME": "SUICUNE",
-    "DEX": 379,
+    "DEX": 378,
     "FORM": "PRIMAL",
     "CATEGORY": "Walking Wake",
     "TYPE1": "WATER",
@@ -21961,7 +21921,7 @@
   },
   {
     "NAME": "LARVITAR",
-    "DEX": 380,
+    "DEX": 379,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Rock Skin",
     "TYPE1": "ROCK",
@@ -22001,7 +21961,7 @@
   },
   {
     "NAME": "LARVITAR",
-    "DEX": 380,
+    "DEX": 379,
     "FORM": "GALARIAN",
     "CATEGORY": "Pilot Light",
     "TYPE1": "STEEL",
@@ -22041,7 +22001,7 @@
   },
   {
     "NAME": "PUPITAR",
-    "DEX": 381,
+    "DEX": 380,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Hard Shell",
     "TYPE1": "ROCK",
@@ -22081,7 +22041,7 @@
   },
   {
     "NAME": "PUPITAR",
-    "DEX": 381,
+    "DEX": 380,
     "FORM": "GALARIAN",
     "CATEGORY": "Canister",
     "TYPE1": "STEEL",
@@ -22121,7 +22081,7 @@
   },
   {
     "NAME": "TYRANITAR",
-    "DEX": 382,
+    "DEX": 381,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Kaiju",
     "TYPE1": "ROCK",
@@ -22161,7 +22121,7 @@
   },
   {
     "NAME": "TYRANITAR",
-    "DEX": 382,
+    "DEX": 381,
     "FORM": "GALARIAN",
     "CATEGORY": "Kaiju",
     "TYPE1": "STEEL",
@@ -22201,7 +22161,7 @@
   },
   {
     "NAME": "DESPOTAR",
-    "DEX": 383,
+    "DEX": 382,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Kaiju",
     "TYPE1": "ROCK",
@@ -22241,7 +22201,7 @@
   },
   {
     "NAME": "DESPOTAR",
-    "DEX": 383,
+    "DEX": 382,
     "FORM": "GALARIAN",
     "CATEGORY": "Kaiju",
     "TYPE1": "STEEL",
@@ -22281,7 +22241,7 @@
   },
   {
     "NAME": "MECHATYRANT",
-    "DEX": 384,
+    "DEX": 383,
     "FORM": "",
     "CATEGORY": "Iron Thorns",
     "TYPE1": "ROCK",
@@ -22321,7 +22281,7 @@
   },
   {
     "NAME": "HOOH",
-    "DEX": 385,
+    "DEX": 384,
     "FORM": "",
     "CATEGORY": "Rainbow",
     "TYPE1": "FIRE",
@@ -22361,7 +22321,7 @@
   },
   {
     "NAME": "LUGIA",
-    "DEX": 386,
+    "DEX": 385,
     "FORM": "PURIFIED",
     "CATEGORY": "Diving",
     "TYPE1": "WATER",
@@ -22401,7 +22361,7 @@
   },
   {
     "NAME": "LUGIA",
-    "DEX": 386,
+    "DEX": 385,
     "FORM": "SHADOW",
     "CATEGORY": "Shadow",
     "TYPE1": "WATER",
@@ -22441,7 +22401,7 @@
   },
   {
     "NAME": "CELEBI",
-    "DEX": 387,
+    "DEX": 386,
     "FORM": "",
     "CATEGORY": "Time Travel",
     "TYPE1": "FAIRY",
@@ -22481,7 +22441,7 @@
   },
   {
     "NAME": "TREECKO",
-    "DEX": 388,
+    "DEX": 387,
     "FORM": "HOENNIAN",
     "CATEGORY": "Wood Gecko",
     "TYPE1": "GRASS",
@@ -22521,7 +22481,7 @@
   },
   {
     "NAME": "TREECKO",
-    "DEX": 388,
+    "DEX": 387,
     "FORM": "HOLONIAN",
     "CATEGORY": "Karate Gecko",
     "TYPE1": "FIGHTING",
@@ -22561,7 +22521,7 @@
   },
   {
     "NAME": "GROVYLE",
-    "DEX": 389,
+    "DEX": 388,
     "FORM": "HOENNIAN",
     "CATEGORY": "Wood Gecko",
     "TYPE1": "GRASS",
@@ -22601,7 +22561,7 @@
   },
   {
     "NAME": "GROVYLE",
-    "DEX": 389,
+    "DEX": 388,
     "FORM": "HOLONIAN",
     "CATEGORY": "Karate Gecko",
     "TYPE1": "FIGHTING",
@@ -22641,7 +22601,7 @@
   },
   {
     "NAME": "SCEPTILE",
-    "DEX": 390,
+    "DEX": 389,
     "FORM": "HOENNIAN",
     "CATEGORY": "Forest",
     "TYPE1": "GRASS",
@@ -22681,7 +22641,7 @@
   },
   {
     "NAME": "SCEPTILE",
-    "DEX": 390,
+    "DEX": 389,
     "FORM": "HOLONIAN",
     "CATEGORY": "Black Belt",
     "TYPE1": "FIGHTING",
@@ -22721,7 +22681,7 @@
   },
   {
     "NAME": "SCEPSTIUM",
-    "DEX": 391,
+    "DEX": 390,
     "FORM": "HOENNIAN",
     "CATEGORY": "Forest",
     "TYPE1": "GRASS",
@@ -22761,7 +22721,7 @@
   },
   {
     "NAME": "SCEPSTIUM",
-    "DEX": 391,
+    "DEX": 390,
     "FORM": "HOLONIAN",
     "CATEGORY": "Grandmaster",
     "TYPE1": "FIGHTING",
@@ -22801,7 +22761,7 @@
   },
   {
     "NAME": "TORCHIC",
-    "DEX": 392,
+    "DEX": 391,
     "FORM": "HOENNIAN",
     "CATEGORY": "Chick",
     "TYPE1": "FIRE",
@@ -22841,7 +22801,7 @@
   },
   {
     "NAME": "TORCHIC",
-    "DEX": 392,
+    "DEX": 391,
     "FORM": "HOLONIAN",
     "CATEGORY": "Prince",
     "TYPE1": "PSYCHIC",
@@ -22881,7 +22841,7 @@
   },
   {
     "NAME": "COMBUSKEN",
-    "DEX": 393,
+    "DEX": 392,
     "FORM": "HOENNIAN",
     "CATEGORY": "Young Fowl",
     "TYPE1": "FIRE",
@@ -22921,7 +22881,7 @@
   },
   {
     "NAME": "COMBUSKEN",
-    "DEX": 393,
+    "DEX": 392,
     "FORM": "HOLONIAN",
     "CATEGORY": "Pharoah",
     "TYPE1": "PSYCHIC",
@@ -22961,7 +22921,7 @@
   },
   {
     "NAME": "BLAZIKEN",
-    "DEX": 394,
+    "DEX": 393,
     "FORM": "HOENNIAN",
     "CATEGORY": "Rooster",
     "TYPE1": "FIRE",
@@ -23001,7 +22961,7 @@
   },
   {
     "NAME": "BLAZIKEN",
-    "DEX": 394,
+    "DEX": 393,
     "FORM": "HOLONIAN",
     "CATEGORY": "Horus",
     "TYPE1": "PSYCHIC",
@@ -23041,7 +23001,7 @@
   },
   {
     "NAME": "BLAZIGALLUS",
-    "DEX": 395,
+    "DEX": 394,
     "FORM": "HOENNIAN",
     "CATEGORY": "Raging Flames",
     "TYPE1": "FIRE",
@@ -23081,7 +23041,7 @@
   },
   {
     "NAME": "BLAZIGALLUS",
-    "DEX": 395,
+    "DEX": 394,
     "FORM": "HOLONIAN",
     "CATEGORY": "Osiris",
     "TYPE1": "PSYCHIC",
@@ -23121,7 +23081,7 @@
   },
   {
     "NAME": "MUDKIP",
-    "DEX": 396,
+    "DEX": 395,
     "FORM": "HOENNIAN",
     "CATEGORY": "Swamp Fish",
     "TYPE1": "WATER",
@@ -23161,7 +23121,7 @@
   },
   {
     "NAME": "MUDKIP",
-    "DEX": 396,
+    "DEX": 395,
     "FORM": "SINNOHAN",
     "CATEGORY": "Swamp Fish",
     "TYPE1": "GRASS",
@@ -23201,7 +23161,7 @@
   },
   {
     "NAME": "MARSHTOMP",
-    "DEX": 397,
+    "DEX": 396,
     "FORM": "HOENNIAN",
     "CATEGORY": "Swamp Fish",
     "TYPE1": "WATER",
@@ -23241,7 +23201,7 @@
   },
   {
     "NAME": "MARSHTOMP",
-    "DEX": 397,
+    "DEX": 396,
     "FORM": "SINNOHAN",
     "CATEGORY": "Swamp Fish",
     "TYPE1": "GRASS",
@@ -23281,7 +23241,7 @@
   },
   {
     "NAME": "SWAMPERT",
-    "DEX": 398,
+    "DEX": 397,
     "FORM": "HOENNIAN",
     "CATEGORY": "Swamp Fish",
     "TYPE1": "WATER",
@@ -23321,7 +23281,7 @@
   },
   {
     "NAME": "SWAMPERT",
-    "DEX": 398,
+    "DEX": 397,
     "FORM": "SINNOHAN",
     "CATEGORY": "Swamp Fish",
     "TYPE1": "GRASS",
@@ -23361,7 +23321,7 @@
   },
   {
     "NAME": "SWOLEPERT",
-    "DEX": 399,
+    "DEX": 398,
     "FORM": "HOENNIAN",
     "CATEGORY": "Buff Fish",
     "TYPE1": "WATER",
@@ -23401,7 +23361,7 @@
   },
   {
     "NAME": "SWOLEPERT",
-    "DEX": 399,
+    "DEX": 398,
     "FORM": "SINNOHAN",
     "CATEGORY": "Buff Fish",
     "TYPE1": "GRASS",
@@ -23441,7 +23401,7 @@
   },
   {
     "NAME": "POOCHYENA",
-    "DEX": 400,
+    "DEX": 399,
     "FORM": "",
     "CATEGORY": "Hyena",
     "TYPE1": "DARK",
@@ -23481,7 +23441,7 @@
   },
   {
     "NAME": "MIGHTYENA",
-    "DEX": 401,
+    "DEX": 400,
     "FORM": "",
     "CATEGORY": "Hyena",
     "TYPE1": "DARK",
@@ -23521,7 +23481,7 @@
   },
   {
     "NAME": "SKULBERUS",
-    "DEX": 402,
+    "DEX": 401,
     "FORM": "",
     "CATEGORY": "Cerberus",
     "TYPE1": "DARK",
@@ -23561,7 +23521,7 @@
   },
   {
     "NAME": "ZIGZAGOON",
-    "DEX": 403,
+    "DEX": 402,
     "FORM": "HOENNIAN",
     "CATEGORY": "Tiny Raccoon",
     "TYPE1": "NORMAL",
@@ -23601,7 +23561,7 @@
   },
   {
     "NAME": "ZIGZAGOON",
-    "DEX": 403,
+    "DEX": 402,
     "FORM": "GALARIAN",
     "CATEGORY": "Tiny Raccoon",
     "TYPE1": "DARK",
@@ -23641,7 +23601,7 @@
   },
   {
     "NAME": "LINOONE",
-    "DEX": 404,
+    "DEX": 403,
     "FORM": "HOENNIAN",
     "CATEGORY": "Rushing",
     "TYPE1": "NORMAL",
@@ -23681,7 +23641,7 @@
   },
   {
     "NAME": "LINOONE",
-    "DEX": 404,
+    "DEX": 403,
     "FORM": "GALARIAN",
     "CATEGORY": "Rushing",
     "TYPE1": "DARK",
@@ -23721,7 +23681,7 @@
   },
   {
     "NAME": "OBSTAGOON",
-    "DEX": 405,
+    "DEX": 404,
     "FORM": "HOENNIAN",
     "CATEGORY": "Blocking",
     "TYPE1": "NORMAL",
@@ -23761,7 +23721,7 @@
   },
   {
     "NAME": "OBSTAGOON",
-    "DEX": 405,
+    "DEX": 404,
     "FORM": "GALARIAN",
     "CATEGORY": "Blocking",
     "TYPE1": "DARK",
@@ -23801,7 +23761,7 @@
   },
   {
     "NAME": "WURMPLE",
-    "DEX": 406,
+    "DEX": 405,
     "FORM": "",
     "CATEGORY": "Worm",
     "TYPE1": "BUG",
@@ -23841,7 +23801,7 @@
   },
   {
     "NAME": "SILCOON",
-    "DEX": 407,
+    "DEX": 406,
     "FORM": "",
     "CATEGORY": "Cocoon",
     "TYPE1": "BUG",
@@ -23881,7 +23841,7 @@
   },
   {
     "NAME": "BEAUTIFLY",
-    "DEX": 408,
+    "DEX": 407,
     "FORM": "",
     "CATEGORY": "Butterfly",
     "TYPE1": "BUG",
@@ -23921,7 +23881,7 @@
   },
   {
     "NAME": "CASCOON",
-    "DEX": 409,
+    "DEX": 408,
     "FORM": "",
     "CATEGORY": "Cocoon",
     "TYPE1": "BUG",
@@ -23961,7 +23921,7 @@
   },
   {
     "NAME": "DUSTOX",
-    "DEX": 410,
+    "DEX": 409,
     "FORM": "",
     "CATEGORY": "Poison Moth",
     "TYPE1": "BUG",
@@ -24001,7 +23961,7 @@
   },
   {
     "NAME": "LOTAD",
-    "DEX": 411,
+    "DEX": 410,
     "FORM": "HOENNIAN",
     "CATEGORY": "Water Weed",
     "TYPE1": "WATER",
@@ -24041,7 +24001,7 @@
   },
   {
     "NAME": "LOTAD",
-    "DEX": 411,
+    "DEX": 410,
     "FORM": "HOLONIAN",
     "CATEGORY": "Wizard Hat",
     "TYPE1": "WATER",
@@ -24081,7 +24041,7 @@
   },
   {
     "NAME": "LOMBRE",
-    "DEX": 412,
+    "DEX": 411,
     "FORM": "HOENNIAN",
     "CATEGORY": "Jolly",
     "TYPE1": "WATER",
@@ -24121,7 +24081,7 @@
   },
   {
     "NAME": "LOMBRE",
-    "DEX": 412,
+    "DEX": 411,
     "FORM": "HOLONIAN",
     "CATEGORY": "Apprentice",
     "TYPE1": "WATER",
@@ -24161,7 +24121,7 @@
   },
   {
     "NAME": "LUDICOLO",
-    "DEX": 413,
+    "DEX": 412,
     "FORM": "HOENNIAN",
     "CATEGORY": "Carefree",
     "TYPE1": "WATER",
@@ -24201,7 +24161,7 @@
   },
   {
     "NAME": "LUDICOLO",
-    "DEX": 413,
+    "DEX": 412,
     "FORM": "HOLONIAN",
     "CATEGORY": "Sorcerer",
     "TYPE1": "WATER",
@@ -24241,7 +24201,7 @@
   },
   {
     "NAME": "SEEDOT",
-    "DEX": 414,
+    "DEX": 413,
     "FORM": "HOENNIAN",
     "CATEGORY": "Acorn",
     "TYPE1": "GRASS",
@@ -24281,7 +24241,7 @@
   },
   {
     "NAME": "SEEDOT",
-    "DEX": 414,
+    "DEX": 413,
     "FORM": "HOLONIAN",
     "CATEGORY": "Lightbulb",
     "TYPE1": "ELECTRIC",
@@ -24321,7 +24281,7 @@
   },
   {
     "NAME": "NUZLEAF",
-    "DEX": 415,
+    "DEX": 414,
     "FORM": "HOENNIAN",
     "CATEGORY": "Wily",
     "TYPE1": "GRASS",
@@ -24361,7 +24321,7 @@
   },
   {
     "NAME": "NUZLEAF",
-    "DEX": 415,
+    "DEX": 414,
     "FORM": "HOLONIAN",
     "CATEGORY": "Energetic",
     "TYPE1": "ELECTRIC",
@@ -24401,7 +24361,7 @@
   },
   {
     "NAME": "SHIFTRY",
-    "DEX": 416,
+    "DEX": 415,
     "FORM": "HOENNIAN",
     "CATEGORY": "Wicked",
     "TYPE1": "GRASS",
@@ -24441,7 +24401,7 @@
   },
   {
     "NAME": "SHIFTRY",
-    "DEX": 416,
+    "DEX": 415,
     "FORM": "HOLONIAN",
     "CATEGORY": "Discharge",
     "TYPE1": "ELECTRIC",
@@ -24481,7 +24441,7 @@
   },
   {
     "NAME": "TAILLOW",
-    "DEX": 417,
+    "DEX": 416,
     "FORM": "",
     "CATEGORY": "Tiny Swallow",
     "TYPE1": "FLYING",
@@ -24521,7 +24481,7 @@
   },
   {
     "NAME": "SWELLOW",
-    "DEX": 418,
+    "DEX": 417,
     "FORM": "",
     "CATEGORY": "Swallow",
     "TYPE1": "FLYING",
@@ -24561,7 +24521,7 @@
   },
   {
     "NAME": "WINGULL",
-    "DEX": 419,
+    "DEX": 418,
     "FORM": "",
     "CATEGORY": "Seagull",
     "TYPE1": "WATER",
@@ -24601,7 +24561,7 @@
   },
   {
     "NAME": "PELIPPER",
-    "DEX": 420,
+    "DEX": 419,
     "FORM": "",
     "CATEGORY": "Pelican",
     "TYPE1": "WATER",
@@ -24641,7 +24601,7 @@
   },
   {
     "NAME": "RALTS",
-    "DEX": 421,
+    "DEX": 420,
     "FORM": "HOENNIAN",
     "CATEGORY": "Feeling",
     "TYPE1": "PSYCHIC",
@@ -24681,7 +24641,7 @@
   },
   {
     "NAME": "RALTS",
-    "DEX": 421,
+    "DEX": 420,
     "FORM": "HOLONIAN",
     "CATEGORY": "Perception",
     "TYPE1": "ELECTRIC",
@@ -24721,7 +24681,7 @@
   },
   {
     "NAME": "RALTS",
-    "DEX": 421,
+    "DEX": 420,
     "FORM": "KASKADIAN",
     "CATEGORY": "Meyla",
     "TYPE1": "WATER",
@@ -24761,7 +24721,7 @@
   },
   {
     "NAME": "KIRLIA",
-    "DEX": 422,
+    "DEX": 421,
     "FORM": "HOENNIAN",
     "CATEGORY": "Emotion",
     "TYPE1": "PSYCHIC",
@@ -24801,7 +24761,7 @@
   },
   {
     "NAME": "KIRLIA",
-    "DEX": 422,
+    "DEX": 421,
     "FORM": "HOLONIAN",
     "CATEGORY": "Excitement",
     "TYPE1": "ELECTRIC",
@@ -24841,7 +24801,7 @@
   },
   {
     "NAME": "KIRLIA",
-    "DEX": 422,
+    "DEX": 421,
     "FORM": "KASKADIAN",
     "CATEGORY": "Sinni",
     "TYPE1": "WATER",
@@ -24881,7 +24841,7 @@
   },
   {
     "NAME": "GARDEVOIR",
-    "DEX": 423,
+    "DEX": 422,
     "FORM": "HOENNIAN",
     "CATEGORY": "Embrace",
     "TYPE1": "PSYCHIC",
@@ -24921,7 +24881,7 @@
   },
   {
     "NAME": "GARDEVOIR",
-    "DEX": 423,
+    "DEX": 422,
     "FORM": "HOLONIAN",
     "CATEGORY": "Nuzzle",
     "TYPE1": "ELECTRIC",
@@ -24961,7 +24921,7 @@
   },
   {
     "NAME": "GARDEVOIR",
-    "DEX": 423,
+    "DEX": 422,
     "FORM": "KASKADIAN",
     "CATEGORY": "Royal",
     "TYPE1": "WATER",
@@ -25001,7 +24961,7 @@
   },
   {
     "NAME": "SYRIGARDE",
-    "DEX": 424,
+    "DEX": 423,
     "FORM": "HOENNIAN",
     "CATEGORY": "Comfort",
     "TYPE1": "PSYCHIC",
@@ -25041,7 +25001,7 @@
   },
   {
     "NAME": "SYRIGARDE",
-    "DEX": 424,
+    "DEX": 423,
     "FORM": "HOLONIAN",
     "CATEGORY": "Dancer",
     "TYPE1": "ELECTRIC",
@@ -25081,7 +25041,7 @@
   },
   {
     "NAME": "SYRIGARDE",
-    "DEX": 424,
+    "DEX": 423,
     "FORM": "KASKADIAN",
     "CATEGORY": "Valkyrie",
     "TYPE1": "WATER",
@@ -25121,7 +25081,7 @@
   },
   {
     "NAME": "GALLADE",
-    "DEX": 425,
+    "DEX": 424,
     "FORM": "HOENNIAN",
     "CATEGORY": "Gallant",
     "TYPE1": "PSYCHIC",
@@ -25161,7 +25121,7 @@
   },
   {
     "NAME": "GALLADE",
-    "DEX": 425,
+    "DEX": 424,
     "FORM": "HOLONIAN",
     "CATEGORY": "Reaction",
     "TYPE1": "ELECTRIC",
@@ -25201,7 +25161,7 @@
   },
   {
     "NAME": "GALLADE",
-    "DEX": 425,
+    "DEX": 424,
     "FORM": "KASKADIAN",
     "CATEGORY": "Warrior",
     "TYPE1": "WATER",
@@ -25241,7 +25201,7 @@
   },
   {
     "NAME": "VALIABLADE",
-    "DEX": 426,
+    "DEX": 425,
     "FORM": "HOENNIAN",
     "CATEGORY": "Steadfast",
     "TYPE1": "PSYCHIC",
@@ -25281,7 +25241,7 @@
   },
   {
     "NAME": "VALIABLADE",
-    "DEX": 426,
+    "DEX": 425,
     "FORM": "HOLONIAN",
     "CATEGORY": "Reflex",
     "TYPE1": "ELECTRIC",
@@ -25321,7 +25281,7 @@
   },
   {
     "NAME": "VALIABLADE",
-    "DEX": 426,
+    "DEX": 425,
     "FORM": "KASKADIAN",
     "CATEGORY": "Einherjar",
     "TYPE1": "WATER",
@@ -25361,7 +25321,7 @@
   },
   {
     "NAME": "GARDEVADE",
-    "DEX": 427,
+    "DEX": 426,
     "FORM": "",
     "CATEGORY": "Iron Valiant",
     "TYPE1": "FAIRY",
@@ -25401,7 +25361,7 @@
   },
   {
     "NAME": "SURSKIT",
-    "DEX": 428,
+    "DEX": 427,
     "FORM": "",
     "CATEGORY": "Pond Skater",
     "TYPE1": "BUG",
@@ -25441,7 +25401,7 @@
   },
   {
     "NAME": "MASQUERAIN",
-    "DEX": 429,
+    "DEX": 428,
     "FORM": "",
     "CATEGORY": "Pond Moth",
     "TYPE1": "BUG",
@@ -25481,7 +25441,7 @@
   },
   {
     "NAME": "SHROOMISH",
-    "DEX": 430,
+    "DEX": 429,
     "FORM": "",
     "CATEGORY": "Mushroom",
     "TYPE1": "GRASS",
@@ -25521,7 +25481,7 @@
   },
   {
     "NAME": "BRELOOM",
-    "DEX": 431,
+    "DEX": 430,
     "FORM": "",
     "CATEGORY": "Mushroom",
     "TYPE1": "GRASS",
@@ -25561,7 +25521,7 @@
   },
   {
     "NAME": "CHAPIGNON",
-    "DEX": 432,
+    "DEX": 431,
     "FORM": "",
     "CATEGORY": "Mushroom",
     "TYPE1": "GRASS",
@@ -25601,7 +25561,7 @@
   },
   {
     "NAME": "SLAKOTH",
-    "DEX": 433,
+    "DEX": 432,
     "FORM": "",
     "CATEGORY": "Sloth",
     "TYPE1": "NORMAL",
@@ -25641,7 +25601,7 @@
   },
   {
     "NAME": "VIGOROTH",
-    "DEX": 434,
+    "DEX": 433,
     "FORM": "",
     "CATEGORY": "Wild Sloth",
     "TYPE1": "NORMAL",
@@ -25681,7 +25641,7 @@
   },
   {
     "NAME": "SLAKING",
-    "DEX": 435,
+    "DEX": 434,
     "FORM": "",
     "CATEGORY": "Giant Sloth",
     "TYPE1": "NORMAL",
@@ -25721,7 +25681,7 @@
   },
   {
     "NAME": "NINCADA",
-    "DEX": 436,
+    "DEX": 435,
     "FORM": "",
     "CATEGORY": "Trainee",
     "TYPE1": "BUG",
@@ -25761,7 +25721,7 @@
   },
   {
     "NAME": "NINJASK",
-    "DEX": 437,
+    "DEX": 436,
     "FORM": "",
     "CATEGORY": "Ninja",
     "TYPE1": "BUG",
@@ -25801,7 +25761,7 @@
   },
   {
     "NAME": "SHEDINJA",
-    "DEX": 438,
+    "DEX": 437,
     "FORM": "",
     "CATEGORY": "Shed",
     "TYPE1": "BUG",
@@ -25841,7 +25801,7 @@
   },
   {
     "NAME": "WHISMUR",
-    "DEX": 439,
+    "DEX": 438,
     "FORM": "HOENNIAN",
     "CATEGORY": "Whisper",
     "TYPE1": "NORMAL",
@@ -25881,7 +25841,7 @@
   },
   {
     "NAME": "WHISMUR",
-    "DEX": 439,
+    "DEX": 438,
     "FORM": "UNOVAN",
     "CATEGORY": "Headphone",
     "TYPE1": "ELECTRIC",
@@ -25921,7 +25881,7 @@
   },
   {
     "NAME": "LOUDRED",
-    "DEX": 440,
+    "DEX": 439,
     "FORM": "HOENNIAN",
     "CATEGORY": "Big Voice",
     "TYPE1": "NORMAL",
@@ -25961,7 +25921,7 @@
   },
   {
     "NAME": "LOUDRED",
-    "DEX": 440,
+    "DEX": 439,
     "FORM": "UNOVAN",
     "CATEGORY": "Metal",
     "TYPE1": "ELECTRIC",
@@ -26001,7 +25961,7 @@
   },
   {
     "NAME": "EXPLOUD",
-    "DEX": 441,
+    "DEX": 440,
     "FORM": "HOENNIAN",
     "CATEGORY": "Loud Noise",
     "TYPE1": "NORMAL",
@@ -26041,7 +26001,7 @@
   },
   {
     "NAME": "EXPLOUD",
-    "DEX": 441,
+    "DEX": 440,
     "FORM": "UNOVAN",
     "CATEGORY": "Death Metal",
     "TYPE1": "ELECTRIC",
@@ -26081,7 +26041,7 @@
   },
   {
     "NAME": "MAKUHITA",
-    "DEX": 442,
+    "DEX": 441,
     "FORM": "HOENNIAN",
     "CATEGORY": "Guts",
     "TYPE1": "FIGHTING",
@@ -26121,7 +26081,7 @@
   },
   {
     "NAME": "MAKUHITA",
-    "DEX": 442,
+    "DEX": 441,
     "FORM": "GALARIAN",
     "CATEGORY": "Guts",
     "TYPE1": "STEEL",
@@ -26161,7 +26121,7 @@
   },
   {
     "NAME": "HARIYAMA",
-    "DEX": 443,
+    "DEX": 442,
     "FORM": "HOENNIAN",
     "CATEGORY": "Sumo",
     "TYPE1": "FIGHTING",
@@ -26201,7 +26161,7 @@
   },
   {
     "NAME": "HARIYAMA",
-    "DEX": 443,
+    "DEX": 442,
     "FORM": "GALARIAN",
     "CATEGORY": "Sumo",
     "TYPE1": "STEEL",
@@ -26241,7 +26201,7 @@
   },
   {
     "NAME": "FUTUYAMA",
-    "DEX": 444,
+    "DEX": 443,
     "FORM": "HOENNIAN",
     "CATEGORY": "Iron Hands",
     "TYPE1": "FIGHTING",
@@ -26281,7 +26241,7 @@
   },
   {
     "NAME": "FUTUYAMA",
-    "DEX": 444,
+    "DEX": 443,
     "FORM": "GALARIAN",
     "CATEGORY": "Iron Hands",
     "TYPE1": "STEEL",
@@ -26321,7 +26281,7 @@
   },
   {
     "NAME": "NOSEPASS",
-    "DEX": 445,
+    "DEX": 444,
     "FORM": "",
     "CATEGORY": "Compass",
     "TYPE1": "ROCK",
@@ -26361,7 +26321,7 @@
   },
   {
     "NAME": "PROBOPASS",
-    "DEX": 446,
+    "DEX": 445,
     "FORM": "",
     "CATEGORY": "Compass",
     "TYPE1": "ROCK",
@@ -26401,7 +26361,7 @@
   },
   {
     "NAME": "SKITTY",
-    "DEX": 447,
+    "DEX": 446,
     "FORM": "",
     "CATEGORY": "Kitten",
     "TYPE1": "NORMAL",
@@ -26441,7 +26401,7 @@
   },
   {
     "NAME": "DELCATTY",
-    "DEX": 448,
+    "DEX": 447,
     "FORM": "",
     "CATEGORY": "Prim",
     "TYPE1": "NORMAL",
@@ -26481,7 +26441,7 @@
   },
   {
     "NAME": "SABLEYE",
-    "DEX": 449,
+    "DEX": 448,
     "FORM": "HOENNIAN",
     "CATEGORY": "Darkness",
     "TYPE1": "DARK",
@@ -26493,7 +26453,7 @@
     "SPDEF": 65,
     "SPD": 50,
     "BST": 380,
-    "ABILITY1": "MIRRORARMOR",
+    "ABILITY1": "STALL",
     "ABILITY2": "PRANKSTER",
     "EVOLUTIONS": "EBONEYE-HOENNIAN",
     "METHODS": "LV25",
@@ -26521,7 +26481,7 @@
   },
   {
     "NAME": "SABLEYE",
-    "DEX": 449,
+    "DEX": 448,
     "FORM": "KALOSIAN",
     "CATEGORY": "Brilliant",
     "TYPE1": "ROCK",
@@ -26561,7 +26521,7 @@
   },
   {
     "NAME": "SABLEYE",
-    "DEX": 449,
+    "DEX": 448,
     "FORM": "HOLONIAN",
     "CATEGORY": "Magma",
     "TYPE1": "FIRE",
@@ -26601,7 +26561,7 @@
   },
   {
     "NAME": "EBONEYE",
-    "DEX": 450,
+    "DEX": 449,
     "FORM": "HOENNIAN",
     "CATEGORY": "Darkness",
     "TYPE1": "DARK",
@@ -26613,7 +26573,7 @@
     "SPDEF": 115,
     "SPD": 20,
     "BST": 480,
-    "ABILITY1": "MIRRORARMOR",
+    "ABILITY1": "STALL",
     "ABILITY2": "PRANKSTER",
     "EVOLUTIONS": "",
     "METHODS": "",
@@ -26641,7 +26601,7 @@
   },
   {
     "NAME": "EBONEYE",
-    "DEX": 450,
+    "DEX": 449,
     "FORM": "KALOSIAN",
     "CATEGORY": "Brilliant",
     "TYPE1": "ROCK",
@@ -26681,7 +26641,7 @@
   },
   {
     "NAME": "EBONEYE",
-    "DEX": 450,
+    "DEX": 449,
     "FORM": "HOLONIAN",
     "CATEGORY": "Magma",
     "TYPE1": "FIRE",
@@ -26721,7 +26681,7 @@
   },
   {
     "NAME": "MAWILE",
-    "DEX": 451,
+    "DEX": 450,
     "FORM": "HOENNIAN",
     "CATEGORY": "Deceiver",
     "TYPE1": "STEEL",
@@ -26761,7 +26721,7 @@
   },
   {
     "NAME": "MAWILE",
-    "DEX": 451,
+    "DEX": 450,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Kimono",
     "TYPE1": "DARK",
@@ -26801,7 +26761,7 @@
   },
   {
     "NAME": "MAWILE",
-    "DEX": 451,
+    "DEX": 450,
     "FORM": "HOLONIAN",
     "CATEGORY": "Flower",
     "TYPE1": "GRASS",
@@ -26841,7 +26801,7 @@
   },
   {
     "NAME": "MYSDIBLE",
-    "DEX": 452,
+    "DEX": 451,
     "FORM": "HOENNIAN",
     "CATEGORY": "Deceiver",
     "TYPE1": "STEEL",
@@ -26881,7 +26841,7 @@
   },
   {
     "NAME": "MYSDIBLE",
-    "DEX": 452,
+    "DEX": 451,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Kimono",
     "TYPE1": "DARK",
@@ -26921,7 +26881,7 @@
   },
   {
     "NAME": "MYSDIBLE",
-    "DEX": 452,
+    "DEX": 451,
     "FORM": "HOLONIAN",
     "CATEGORY": "Flower",
     "TYPE1": "GRASS",
@@ -26961,7 +26921,7 @@
   },
   {
     "NAME": "ARON",
-    "DEX": 453,
+    "DEX": 452,
     "FORM": "HOENNIAN",
     "CATEGORY": "Iron Armor",
     "TYPE1": "STEEL",
@@ -27001,7 +26961,7 @@
   },
   {
     "NAME": "ARON",
-    "DEX": 453,
+    "DEX": 452,
     "FORM": "ALOLAN",
     "CATEGORY": "Destroyer",
     "TYPE1": "STEEL",
@@ -27041,7 +27001,7 @@
   },
   {
     "NAME": "LAIRON",
-    "DEX": 454,
+    "DEX": 453,
     "FORM": "HOENNIAN",
     "CATEGORY": "Iron Armor",
     "TYPE1": "STEEL",
@@ -27081,7 +27041,7 @@
   },
   {
     "NAME": "LAIRON",
-    "DEX": 454,
+    "DEX": 453,
     "FORM": "ALOLAN",
     "CATEGORY": "Cruiser",
     "TYPE1": "STEEL",
@@ -27121,7 +27081,7 @@
   },
   {
     "NAME": "AGGRON",
-    "DEX": 455,
+    "DEX": 454,
     "FORM": "HOENNIAN",
     "CATEGORY": "Iron Armor",
     "TYPE1": "STEEL",
@@ -27161,7 +27121,7 @@
   },
   {
     "NAME": "AGGRON",
-    "DEX": 455,
+    "DEX": 454,
     "FORM": "ALOLAN",
     "CATEGORY": "Battleship",
     "TYPE1": "STEEL",
@@ -27201,7 +27161,7 @@
   },
   {
     "NAME": "FORTRERON",
-    "DEX": 456,
+    "DEX": 455,
     "FORM": "HOENNIAN",
     "CATEGORY": "Iron Armor",
     "TYPE1": "STEEL",
@@ -27241,7 +27201,7 @@
   },
   {
     "NAME": "FORTRERON",
-    "DEX": 456,
+    "DEX": 455,
     "FORM": "ALOLAN",
     "CATEGORY": "Dreadnought",
     "TYPE1": "STEEL",
@@ -27281,7 +27241,7 @@
   },
   {
     "NAME": "MEDITITE",
-    "DEX": 457,
+    "DEX": 456,
     "FORM": "HOENNIAN",
     "CATEGORY": "Meditate",
     "TYPE1": "FIGHTING",
@@ -27321,7 +27281,7 @@
   },
   {
     "NAME": "MEDITITE",
-    "DEX": 457,
+    "DEX": 456,
     "FORM": "HOLONIAN",
     "CATEGORY": "Satyr",
     "TYPE1": "GROUND",
@@ -27361,7 +27321,7 @@
   },
   {
     "NAME": "MEDICHAM",
-    "DEX": 458,
+    "DEX": 457,
     "FORM": "HOENNIAN",
     "CATEGORY": "Meditate",
     "TYPE1": "FIGHTING",
@@ -27401,7 +27361,7 @@
   },
   {
     "NAME": "MEDICHAM",
-    "DEX": 458,
+    "DEX": 457,
     "FORM": "HOLONIAN",
     "CATEGORY": "Satyr",
     "TYPE1": "GROUND",
@@ -27441,7 +27401,7 @@
   },
   {
     "NAME": "MEDICHAKRA",
-    "DEX": 459,
+    "DEX": 458,
     "FORM": "HOENNIAN",
     "CATEGORY": "Meditate",
     "TYPE1": "FIGHTING",
@@ -27481,7 +27441,7 @@
   },
   {
     "NAME": "MEDICHAKRA",
-    "DEX": 459,
+    "DEX": 458,
     "FORM": "HOLONIAN",
     "CATEGORY": "Satyr",
     "TYPE1": "GROUND",
@@ -27521,7 +27481,7 @@
   },
   {
     "NAME": "ELECTRIKE",
-    "DEX": 460,
+    "DEX": 459,
     "FORM": "",
     "CATEGORY": "Lightning",
     "TYPE1": "ELECTRIC",
@@ -27561,7 +27521,7 @@
   },
   {
     "NAME": "MANECTRIC",
-    "DEX": 461,
+    "DEX": 460,
     "FORM": "",
     "CATEGORY": "Discharge",
     "TYPE1": "ELECTRIC",
@@ -27601,7 +27561,7 @@
   },
   {
     "NAME": "ELECTSPRINT",
-    "DEX": 462,
+    "DEX": 461,
     "FORM": "",
     "CATEGORY": "Discharge",
     "TYPE1": "ELECTRIC",
@@ -27641,7 +27601,7 @@
   },
   {
     "NAME": "PLUSLE",
-    "DEX": 463,
+    "DEX": 462,
     "FORM": "",
     "CATEGORY": "Cheering",
     "TYPE1": "ELECTRIC",
@@ -27681,7 +27641,7 @@
   },
   {
     "NAME": "POSIPI",
-    "DEX": 464,
+    "DEX": 463,
     "FORM": "",
     "CATEGORY": "Warming",
     "TYPE1": "ELECTRIC",
@@ -27721,7 +27681,7 @@
   },
   {
     "NAME": "MINUN",
-    "DEX": 465,
+    "DEX": 464,
     "FORM": "",
     "CATEGORY": "Cheering",
     "TYPE1": "ELECTRIC",
@@ -27761,7 +27721,7 @@
   },
   {
     "NAME": "NEGAPI",
-    "DEX": 466,
+    "DEX": 465,
     "FORM": "",
     "CATEGORY": "Cooling",
     "TYPE1": "ELECTRIC",
@@ -27801,7 +27761,7 @@
   },
   {
     "NAME": "VOLBEAT",
-    "DEX": 467,
+    "DEX": 466,
     "FORM": "",
     "CATEGORY": "Firefly",
     "TYPE1": "BUG",
@@ -27841,7 +27801,7 @@
   },
   {
     "NAME": "ILLUMISE",
-    "DEX": 468,
+    "DEX": 467,
     "FORM": "",
     "CATEGORY": "Lightning Bug",
     "TYPE1": "BUG",
@@ -27881,7 +27841,7 @@
   },
   {
     "NAME": "BUDEW",
-    "DEX": 469,
+    "DEX": 468,
     "FORM": "HOENNIAN",
     "CATEGORY": "Bud",
     "TYPE1": "GRASS",
@@ -27921,7 +27881,7 @@
   },
   {
     "NAME": "BUDEW",
-    "DEX": 469,
+    "DEX": 468,
     "FORM": "ORRAN",
     "CATEGORY": "Blanket",
     "TYPE1": "DARK",
@@ -27961,7 +27921,7 @@
   },
   {
     "NAME": "ROSELIA",
-    "DEX": 470,
+    "DEX": 469,
     "FORM": "HOENNIAN",
     "CATEGORY": "Thorn",
     "TYPE1": "GRASS",
@@ -28001,7 +27961,7 @@
   },
   {
     "NAME": "ROSELIA",
-    "DEX": 470,
+    "DEX": 469,
     "FORM": "ORRAN",
     "CATEGORY": "Hidden Thorn",
     "TYPE1": "DARK",
@@ -28041,7 +28001,7 @@
   },
   {
     "NAME": "ROSERADE",
-    "DEX": 471,
+    "DEX": 470,
     "FORM": "HOENNIAN",
     "CATEGORY": "Bouquet",
     "TYPE1": "GRASS",
@@ -28081,7 +28041,7 @@
   },
   {
     "NAME": "ROSERADE",
-    "DEX": 471,
+    "DEX": 470,
     "FORM": "ORRAN",
     "CATEGORY": "Night Bouquet",
     "TYPE1": "DARK",
@@ -28121,7 +28081,7 @@
   },
   {
     "NAME": "GULPIN",
-    "DEX": 472,
+    "DEX": 471,
     "FORM": "",
     "CATEGORY": "Stomach",
     "TYPE1": "POISON",
@@ -28161,7 +28121,7 @@
   },
   {
     "NAME": "SWALOT",
-    "DEX": 473,
+    "DEX": 472,
     "FORM": "",
     "CATEGORY": "Poison Bag",
     "TYPE1": "POISON",
@@ -28201,7 +28161,7 @@
   },
   {
     "NAME": "DEVORALL",
-    "DEX": 474,
+    "DEX": 473,
     "FORM": "",
     "CATEGORY": "Poison Bag",
     "TYPE1": "POISON",
@@ -28241,7 +28201,7 @@
   },
   {
     "NAME": "CARVANHA",
-    "DEX": 475,
+    "DEX": 474,
     "FORM": "",
     "CATEGORY": "Piranha",
     "TYPE1": "WATER",
@@ -28281,7 +28241,7 @@
   },
   {
     "NAME": "SHARPEDO",
-    "DEX": 476,
+    "DEX": 475,
     "FORM": "",
     "CATEGORY": "Shark",
     "TYPE1": "WATER",
@@ -28321,7 +28281,7 @@
   },
   {
     "NAME": "SHARMARINE",
-    "DEX": 477,
+    "DEX": 476,
     "FORM": "",
     "CATEGORY": "Shark",
     "TYPE1": "WATER",
@@ -28361,7 +28321,7 @@
   },
   {
     "NAME": "WAILMER",
-    "DEX": 478,
+    "DEX": 477,
     "FORM": "HOENNIAN",
     "CATEGORY": "Ball Whale",
     "TYPE1": "WATER",
@@ -28401,7 +28361,7 @@
   },
   {
     "NAME": "WAILMER",
-    "DEX": 478,
+    "DEX": 477,
     "FORM": "HOLONIAN",
     "CATEGORY": "Sky Whale",
     "TYPE1": "ICE",
@@ -28441,7 +28401,7 @@
   },
   {
     "NAME": "WAILORD",
-    "DEX": 479,
+    "DEX": 478,
     "FORM": "HOENNIAN",
     "CATEGORY": "Float Whale",
     "TYPE1": "WATER",
@@ -28481,7 +28441,7 @@
   },
   {
     "NAME": "WAILORD",
-    "DEX": 479,
+    "DEX": 478,
     "FORM": "HOLONIAN",
     "CATEGORY": "Blimp Whale",
     "TYPE1": "ICE",
@@ -28521,7 +28481,7 @@
   },
   {
     "NAME": "NUMEL",
-    "DEX": 480,
+    "DEX": 479,
     "FORM": "HOENNIAN",
     "CATEGORY": "Numb",
     "TYPE1": "FIRE",
@@ -28561,7 +28521,7 @@
   },
   {
     "NAME": "NUMEL",
-    "DEX": 480,
+    "DEX": 479,
     "FORM": "HOLONIAN",
     "CATEGORY": "Half-Life",
     "TYPE1": "POISON",
@@ -28601,7 +28561,7 @@
   },
   {
     "NAME": "CAMERUPT",
-    "DEX": 481,
+    "DEX": 480,
     "FORM": "HOENNIAN",
     "CATEGORY": "Eruption",
     "TYPE1": "FIRE",
@@ -28641,7 +28601,7 @@
   },
   {
     "NAME": "CAMERUPT",
-    "DEX": 481,
+    "DEX": 480,
     "FORM": "HOLONIAN",
     "CATEGORY": "Radiation",
     "TYPE1": "POISON",
@@ -28681,7 +28641,7 @@
   },
   {
     "NAME": "CAMELCANO",
-    "DEX": 482,
+    "DEX": 481,
     "FORM": "HOENNIAN",
     "CATEGORY": "Eruption",
     "TYPE1": "FIRE",
@@ -28721,7 +28681,7 @@
   },
   {
     "NAME": "CAMELCANO",
-    "DEX": 482,
+    "DEX": 481,
     "FORM": "HOLONIAN",
     "CATEGORY": "Radiation",
     "TYPE1": "POISON",
@@ -28761,7 +28721,7 @@
   },
   {
     "NAME": "TORKOAL",
-    "DEX": 483,
+    "DEX": 482,
     "FORM": "",
     "CATEGORY": "Coal",
     "TYPE1": "FIRE",
@@ -28801,7 +28761,7 @@
   },
   {
     "NAME": "TORTEMPLE",
-    "DEX": 484,
+    "DEX": 483,
     "FORM": "",
     "CATEGORY": "Coal",
     "TYPE1": "FIRE",
@@ -28841,7 +28801,7 @@
   },
   {
     "NAME": "SPOINK",
-    "DEX": 485,
+    "DEX": 484,
     "FORM": "",
     "CATEGORY": "Bounce",
     "TYPE1": "PSYCHIC",
@@ -28881,7 +28841,7 @@
   },
   {
     "NAME": "GRUMPIG",
-    "DEX": 486,
+    "DEX": 485,
     "FORM": "",
     "CATEGORY": "Manipulate",
     "TYPE1": "PSYCHIC",
@@ -28921,7 +28881,7 @@
   },
   {
     "NAME": "BOARLOCK",
-    "DEX": 487,
+    "DEX": 486,
     "FORM": "",
     "CATEGORY": "Warlock",
     "TYPE1": "PSYCHIC",
@@ -28961,7 +28921,7 @@
   },
   {
     "NAME": "SPINDA",
-    "DEX": 488,
+    "DEX": 487,
     "FORM": "",
     "CATEGORY": "Spot Panda",
     "TYPE1": "NORMAL",
@@ -29001,7 +28961,7 @@
   },
   {
     "NAME": "SPINDAZE",
-    "DEX": 489,
+    "DEX": 488,
     "FORM": "",
     "CATEGORY": "Spot Panda",
     "TYPE1": "NORMAL",
@@ -29041,7 +29001,7 @@
   },
   {
     "NAME": "TRAPINCH",
-    "DEX": 490,
+    "DEX": 489,
     "FORM": "HOENNIAN",
     "CATEGORY": "Ant Pit",
     "TYPE1": "BUG",
@@ -29081,7 +29041,7 @@
   },
   {
     "NAME": "TRAPINCH",
-    "DEX": 490,
+    "DEX": 489,
     "FORM": "SINNOHAN",
     "CATEGORY": "Ant Pit",
     "TYPE1": "BUG",
@@ -29121,7 +29081,7 @@
   },
   {
     "NAME": "VIBRAVA",
-    "DEX": 491,
+    "DEX": 490,
     "FORM": "HOENNIAN",
     "CATEGORY": "Vibration",
     "TYPE1": "BUG",
@@ -29161,7 +29121,7 @@
   },
   {
     "NAME": "VIBRAVA",
-    "DEX": 491,
+    "DEX": 490,
     "FORM": "SINNOHAN",
     "CATEGORY": "Ice Crystal",
     "TYPE1": "BUG",
@@ -29201,7 +29161,7 @@
   },
   {
     "NAME": "FLYGON",
-    "DEX": 492,
+    "DEX": 491,
     "FORM": "HOENNIAN",
     "CATEGORY": "Mystic",
     "TYPE1": "BUG",
@@ -29241,7 +29201,7 @@
   },
   {
     "NAME": "FLYGON",
-    "DEX": 492,
+    "DEX": 491,
     "FORM": "SINNOHAN",
     "CATEGORY": "Mystic",
     "TYPE1": "BUG",
@@ -29281,7 +29241,7 @@
   },
   {
     "NAME": "MYSTISTREAM",
-    "DEX": 493,
+    "DEX": 492,
     "FORM": "HOENNIAN",
     "CATEGORY": "Mystic",
     "TYPE1": "BUG",
@@ -29321,7 +29281,7 @@
   },
   {
     "NAME": "MYSTISTREAM",
-    "DEX": 493,
+    "DEX": 492,
     "FORM": "SINNOHAN",
     "CATEGORY": "Mystic",
     "TYPE1": "BUG",
@@ -29361,7 +29321,7 @@
   },
   {
     "NAME": "CACNEA",
-    "DEX": 494,
+    "DEX": 493,
     "FORM": "",
     "CATEGORY": "Cactus",
     "TYPE1": "GRASS",
@@ -29401,7 +29361,7 @@
   },
   {
     "NAME": "CACTURNE",
-    "DEX": 495,
+    "DEX": 494,
     "FORM": "",
     "CATEGORY": "Scarecrow",
     "TYPE1": "GRASS",
@@ -29441,7 +29401,7 @@
   },
   {
     "NAME": "SAGUARUTAL",
-    "DEX": 496,
+    "DEX": 495,
     "FORM": "",
     "CATEGORY": "Wanderer",
     "TYPE1": "GRASS",
@@ -29481,7 +29441,7 @@
   },
   {
     "NAME": "MARACTUS",
-    "DEX": 497,
+    "DEX": 496,
     "FORM": "",
     "CATEGORY": "Maraca",
     "TYPE1": "GRASS",
@@ -29521,7 +29481,7 @@
   },
   {
     "NAME": "SAGUARACAS",
-    "DEX": 498,
+    "DEX": 497,
     "FORM": "",
     "CATEGORY": "Maraca",
     "TYPE1": "GRASS",
@@ -29561,7 +29521,7 @@
   },
   {
     "NAME": "SWABLU",
-    "DEX": 499,
+    "DEX": 498,
     "FORM": "HOENNIAN",
     "CATEGORY": "Cotton Bird",
     "TYPE1": "FAIRY",
@@ -29601,7 +29561,7 @@
   },
   {
     "NAME": "SWABLU",
-    "DEX": 499,
+    "DEX": 498,
     "FORM": "PALDEAN",
     "CATEGORY": "Rainbow Bird",
     "TYPE1": "PSYCHIC",
@@ -29641,7 +29601,7 @@
   },
   {
     "NAME": "ALTARIA",
-    "DEX": 500,
+    "DEX": 499,
     "FORM": "HOENNIAN",
     "CATEGORY": "Humming",
     "TYPE1": "FAIRY",
@@ -29681,7 +29641,7 @@
   },
   {
     "NAME": "ALTARIA",
-    "DEX": 500,
+    "DEX": 499,
     "FORM": "PALDEAN",
     "CATEGORY": "Singing",
     "TYPE1": "PSYCHIC",
@@ -29721,7 +29681,7 @@
   },
   {
     "NAME": "SOPRARIA",
-    "DEX": 501,
+    "DEX": 500,
     "FORM": "HOENNIAN",
     "CATEGORY": "Aria",
     "TYPE1": "FAIRY",
@@ -29761,7 +29721,7 @@
   },
   {
     "NAME": "SOPRARIA",
-    "DEX": 501,
+    "DEX": 500,
     "FORM": "PALDEAN",
     "CATEGORY": "Pride",
     "TYPE1": "PSYCHIC",
@@ -29801,7 +29761,7 @@
   },
   {
     "NAME": "ZANGOOSE",
-    "DEX": 502,
+    "DEX": 501,
     "FORM": "",
     "CATEGORY": "Mongoose",
     "TYPE1": "NORMAL",
@@ -29841,7 +29801,7 @@
   },
   {
     "NAME": "MONSLASH",
-    "DEX": 503,
+    "DEX": 502,
     "FORM": "",
     "CATEGORY": "Mongoose",
     "TYPE1": "NORMAL",
@@ -29881,7 +29841,7 @@
   },
   {
     "NAME": "SEVIPER",
-    "DEX": 504,
+    "DEX": 503,
     "FORM": "",
     "CATEGORY": "Blade Snake",
     "TYPE1": "POISON",
@@ -29921,7 +29881,7 @@
   },
   {
     "NAME": "KATANAKE",
-    "DEX": 505,
+    "DEX": 504,
     "FORM": "",
     "CATEGORY": "Blade Snake",
     "TYPE1": "POISON",
@@ -29961,7 +29921,7 @@
   },
   {
     "NAME": "MINIOR",
-    "DEX": 506,
+    "DEX": 505,
     "FORM": "",
     "CATEGORY": "Meteor",
     "TYPE1": "ROCK",
@@ -30001,7 +29961,7 @@
   },
   {
     "NAME": "LUNATONE",
-    "DEX": 507,
+    "DEX": 506,
     "FORM": "",
     "CATEGORY": "Meteorite",
     "TYPE1": "ROCK",
@@ -30041,7 +30001,7 @@
   },
   {
     "NAME": "SOLROCK",
-    "DEX": 508,
+    "DEX": 507,
     "FORM": "",
     "CATEGORY": "Meteorite",
     "TYPE1": "ROCK",
@@ -30081,7 +30041,7 @@
   },
   {
     "NAME": "METEORBIT",
-    "DEX": 509,
+    "DEX": 508,
     "FORM": "",
     "CATEGORY": "Solar System",
     "TYPE1": "ROCK",
@@ -30121,7 +30081,7 @@
   },
   {
     "NAME": "BARBOACH",
-    "DEX": 510,
+    "DEX": 509,
     "FORM": "",
     "CATEGORY": "Loach",
     "TYPE1": "WATER",
@@ -30161,7 +30121,7 @@
   },
   {
     "NAME": "WHISCASH",
-    "DEX": 511,
+    "DEX": 510,
     "FORM": "",
     "CATEGORY": "Catfish",
     "TYPE1": "WATER",
@@ -30201,7 +30161,7 @@
   },
   {
     "NAME": "CORPHISH",
-    "DEX": 512,
+    "DEX": 511,
     "FORM": "",
     "CATEGORY": "Ruffian",
     "TYPE1": "WATER",
@@ -30241,7 +30201,7 @@
   },
   {
     "NAME": "CRAWDAUNT",
-    "DEX": 513,
+    "DEX": 512,
     "FORM": "",
     "CATEGORY": "Rogue",
     "TYPE1": "WATER",
@@ -30281,7 +30241,7 @@
   },
   {
     "NAME": "CRAWDAUNTLESS",
-    "DEX": 514,
+    "DEX": 513,
     "FORM": "",
     "CATEGORY": "Barbarian",
     "TYPE1": "WATER",
@@ -30321,7 +30281,7 @@
   },
   {
     "NAME": "BALTOY",
-    "DEX": 515,
+    "DEX": 514,
     "FORM": "",
     "CATEGORY": "Clay Doll",
     "TYPE1": "GROUND",
@@ -30361,7 +30321,7 @@
   },
   {
     "NAME": "CLAYDOL",
-    "DEX": 516,
+    "DEX": 515,
     "FORM": "",
     "CATEGORY": "Clay Doll",
     "TYPE1": "GROUND",
@@ -30401,7 +30361,7 @@
   },
   {
     "NAME": "LILEEP",
-    "DEX": 517,
+    "DEX": 516,
     "FORM": "",
     "CATEGORY": "Sea Lily",
     "TYPE1": "ROCK",
@@ -30441,7 +30401,7 @@
   },
   {
     "NAME": "CRADILY",
-    "DEX": 518,
+    "DEX": 517,
     "FORM": "",
     "CATEGORY": "Sea Lily",
     "TYPE1": "ROCK",
@@ -30481,7 +30441,7 @@
   },
   {
     "NAME": "ANORITH",
-    "DEX": 519,
+    "DEX": 518,
     "FORM": "",
     "CATEGORY": "Shrimp",
     "TYPE1": "ROCK",
@@ -30521,7 +30481,7 @@
   },
   {
     "NAME": "ARMALDO",
-    "DEX": 520,
+    "DEX": 519,
     "FORM": "",
     "CATEGORY": "Plate",
     "TYPE1": "ROCK",
@@ -30561,7 +30521,7 @@
   },
   {
     "NAME": "FEEBAS",
-    "DEX": 521,
+    "DEX": 520,
     "FORM": "HOENNIAN",
     "CATEGORY": "Fish",
     "TYPE1": "WATER",
@@ -30601,7 +30561,7 @@
   },
   {
     "NAME": "FEEBAS",
-    "DEX": 521,
+    "DEX": 520,
     "FORM": "HOLONIAN",
     "CATEGORY": "Bone Fish",
     "TYPE1": "GHOST",
@@ -30641,7 +30601,7 @@
   },
   {
     "NAME": "MILOTIC",
-    "DEX": 522,
+    "DEX": 521,
     "FORM": "HOENNIAN",
     "CATEGORY": "Tender",
     "TYPE1": "WATER",
@@ -30681,7 +30641,7 @@
   },
   {
     "NAME": "MILOTIC",
-    "DEX": 522,
+    "DEX": 521,
     "FORM": "HOLONIAN",
     "CATEGORY": "Haunting",
     "TYPE1": "GHOST",
@@ -30721,7 +30681,7 @@
   },
   {
     "NAME": "MILOKAROSS",
-    "DEX": 523,
+    "DEX": 522,
     "FORM": "HOENNIAN",
     "CATEGORY": "Tender",
     "TYPE1": "WATER",
@@ -30761,7 +30721,7 @@
   },
   {
     "NAME": "MILOKAROSS",
-    "DEX": 523,
+    "DEX": 522,
     "FORM": "HOLONIAN",
     "CATEGORY": "Absolution",
     "TYPE1": "GHOST",
@@ -30801,7 +30761,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 524,
+    "DEX": 523,
     "FORM": "NORMAL",
     "CATEGORY": "Weather",
     "TYPE1": "FLYING",
@@ -30841,7 +30801,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 524,
+    "DEX": 523,
     "FORM": "RAINY",
     "CATEGORY": "Weather",
     "TYPE1": "WATER",
@@ -30881,7 +30841,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 524,
+    "DEX": 523,
     "FORM": "SANDY",
     "CATEGORY": "Weather",
     "TYPE1": "GROUND",
@@ -30921,7 +30881,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 524,
+    "DEX": 523,
     "FORM": "SNOWY",
     "CATEGORY": "Weather",
     "TYPE1": "ICE",
@@ -30961,7 +30921,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 524,
+    "DEX": 523,
     "FORM": "SUNNY",
     "CATEGORY": "Weather",
     "TYPE1": "FIRE",
@@ -31001,7 +30961,7 @@
   },
   {
     "NAME": "KECLEON",
-    "DEX": 525,
+    "DEX": 524,
     "FORM": "",
     "CATEGORY": "Color Swap",
     "TYPE1": "NORMAL",
@@ -31041,7 +31001,7 @@
   },
   {
     "NAME": "SHUPPET",
-    "DEX": 526,
+    "DEX": 525,
     "FORM": "",
     "CATEGORY": "Puppet",
     "TYPE1": "GHOST",
@@ -31053,7 +31013,7 @@
     "SPDEF": 33,
     "SPD": 45,
     "BST": 295,
-    "ABILITY1": "ILLUSION",
+    "ABILITY1": "INSOMNIA",
     "ABILITY2": "CURSEDBODY",
     "EVOLUTIONS": "BANETTE",
     "METHODS": "LV27",
@@ -31081,7 +31041,7 @@
   },
   {
     "NAME": "BANETTE",
-    "DEX": 527,
+    "DEX": 526,
     "FORM": "",
     "CATEGORY": "Marionette",
     "TYPE1": "GHOST",
@@ -31093,7 +31053,7 @@
     "SPDEF": 63,
     "SPD": 65,
     "BST": 455,
-    "ABILITY1": "ILLUSION",
+    "ABILITY1": "DISGUISE",
     "ABILITY2": "CURSEDBODY",
     "EVOLUTIONS": "VOODOLL",
     "METHODS": "REAPERCLOTH",
@@ -31121,7 +31081,7 @@
   },
   {
     "NAME": "VOODOLL",
-    "DEX": 528,
+    "DEX": 527,
     "FORM": "",
     "CATEGORY": "Marionette",
     "TYPE1": "GHOST",
@@ -31133,7 +31093,7 @@
     "SPDEF": 83,
     "SPD": 75,
     "BST": 555,
-    "ABILITY1": "ILLUSION",
+    "ABILITY1": "DISGUISE",
     "ABILITY2": "CURSEDBODY",
     "EVOLUTIONS": "",
     "METHODS": "",
@@ -31161,7 +31121,7 @@
   },
   {
     "NAME": "DUSKULL",
-    "DEX": 529,
+    "DEX": 528,
     "FORM": "",
     "CATEGORY": "Requiem",
     "TYPE1": "GHOST",
@@ -31201,7 +31161,7 @@
   },
   {
     "NAME": "DUSCLOPS",
-    "DEX": 530,
+    "DEX": 529,
     "FORM": "",
     "CATEGORY": "Beckon",
     "TYPE1": "GHOST",
@@ -31241,7 +31201,7 @@
   },
   {
     "NAME": "DUSKNOIR",
-    "DEX": 531,
+    "DEX": 530,
     "FORM": "",
     "CATEGORY": "Reaper",
     "TYPE1": "GHOST",
@@ -31281,7 +31241,7 @@
   },
   {
     "NAME": "TROPIUS",
-    "DEX": 532,
+    "DEX": 531,
     "FORM": "",
     "CATEGORY": "Fruit",
     "TYPE1": "GRASS",
@@ -31321,7 +31281,7 @@
   },
   {
     "NAME": "BRONTONANA",
-    "DEX": 533,
+    "DEX": 532,
     "FORM": "",
     "CATEGORY": "Fruit",
     "TYPE1": "GRASS",
@@ -31361,7 +31321,7 @@
   },
   {
     "NAME": "CHINGLING",
-    "DEX": 534,
+    "DEX": 533,
     "FORM": "",
     "CATEGORY": "Bell",
     "TYPE1": "PSYCHIC",
@@ -31401,7 +31361,7 @@
   },
   {
     "NAME": "CHIMECHO",
-    "DEX": 535,
+    "DEX": 534,
     "FORM": "",
     "CATEGORY": "Wind Chime",
     "TYPE1": "PSYCHIC",
@@ -31441,7 +31401,7 @@
   },
   {
     "NAME": "HARMONSIDHE",
-    "DEX": 536,
+    "DEX": 535,
     "FORM": "",
     "CATEGORY": "Wind Chime",
     "TYPE1": "PSYCHIC",
@@ -31481,7 +31441,7 @@
   },
   {
     "NAME": "ABSOL",
-    "DEX": 537,
+    "DEX": 536,
     "FORM": "",
     "CATEGORY": "Disaster",
     "TYPE1": "DARK",
@@ -31521,7 +31481,7 @@
   },
   {
     "NAME": "OMENGEL",
-    "DEX": 538,
+    "DEX": 537,
     "FORM": "",
     "CATEGORY": "Omen",
     "TYPE1": "DARK",
@@ -31561,7 +31521,7 @@
   },
   {
     "NAME": "TAISORU",
-    "DEX": 539,
+    "DEX": 538,
     "FORM": "",
     "CATEGORY": "Reaper",
     "TYPE1": "DARK",
@@ -31601,7 +31561,7 @@
   },
   {
     "NAME": "SNORUNT",
-    "DEX": 540,
+    "DEX": 539,
     "FORM": "HOENNIAN",
     "CATEGORY": "Snow Hat",
     "TYPE1": "ICE",
@@ -31641,7 +31601,7 @@
   },
   {
     "NAME": "SNORUNT",
-    "DEX": 540,
+    "DEX": 539,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Dark Hat",
     "TYPE1": "DARK",
@@ -31681,7 +31641,7 @@
   },
   {
     "NAME": "SNORUNT",
-    "DEX": 540,
+    "DEX": 539,
     "FORM": "HOLONIAN",
     "CATEGORY": "Fire Hat",
     "TYPE1": "FIRE",
@@ -31721,7 +31681,7 @@
   },
   {
     "NAME": "GLALIE",
-    "DEX": 541,
+    "DEX": 540,
     "FORM": "HOENNIAN",
     "CATEGORY": "Snow Face",
     "TYPE1": "ICE",
@@ -31761,7 +31721,7 @@
   },
   {
     "NAME": "GLALIE",
-    "DEX": 541,
+    "DEX": 540,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Helmet",
     "TYPE1": "DARK",
@@ -31801,7 +31761,7 @@
   },
   {
     "NAME": "GLALIE",
-    "DEX": 541,
+    "DEX": 540,
     "FORM": "HOLONIAN",
     "CATEGORY": "Flaming Face",
     "TYPE1": "FIRE",
@@ -31841,7 +31801,7 @@
   },
   {
     "NAME": "ONIGLACIER",
-    "DEX": 542,
+    "DEX": 541,
     "FORM": "HOENNIAN",
     "CATEGORY": "Oni",
     "TYPE1": "ICE",
@@ -31881,7 +31841,7 @@
   },
   {
     "NAME": "ONIGLACIER",
-    "DEX": 542,
+    "DEX": 541,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Demon",
     "TYPE1": "DARK",
@@ -31921,7 +31881,7 @@
   },
   {
     "NAME": "ONIGLACIER",
-    "DEX": 542,
+    "DEX": 541,
     "FORM": "HOLONIAN",
     "CATEGORY": "Devil",
     "TYPE1": "FIRE",
@@ -31961,7 +31921,7 @@
   },
   {
     "NAME": "FROSLASS",
-    "DEX": 543,
+    "DEX": 542,
     "FORM": "HOENNIAN",
     "CATEGORY": "Snow Cloak",
     "TYPE1": "ICE",
@@ -32001,7 +31961,7 @@
   },
   {
     "NAME": "FROSLASS",
-    "DEX": 543,
+    "DEX": 542,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Cloak",
     "TYPE1": "DARK",
@@ -32041,7 +32001,7 @@
   },
   {
     "NAME": "FROSLASS",
-    "DEX": 543,
+    "DEX": 542,
     "FORM": "HOLONIAN",
     "CATEGORY": "Magma Cloak",
     "TYPE1": "FIRE",
@@ -32081,7 +32041,7 @@
   },
   {
     "NAME": "YUKIMONO",
-    "DEX": 544,
+    "DEX": 543,
     "FORM": "HOENNIAN",
     "CATEGORY": "Banshee",
     "TYPE1": "ICE",
@@ -32121,7 +32081,7 @@
   },
   {
     "NAME": "YUKIMONO",
-    "DEX": 544,
+    "DEX": 543,
     "FORM": "JOHTONIAN",
     "CATEGORY": "Wraith",
     "TYPE1": "DARK",
@@ -32161,7 +32121,7 @@
   },
   {
     "NAME": "YUKIMONO",
-    "DEX": 544,
+    "DEX": 543,
     "FORM": "HOLONIAN",
     "CATEGORY": "Witch",
     "TYPE1": "FIRE",
@@ -32201,7 +32161,7 @@
   },
   {
     "NAME": "SPHEAL",
-    "DEX": 545,
+    "DEX": 544,
     "FORM": "",
     "CATEGORY": "Ball Roll",
     "TYPE1": "ICE",
@@ -32241,7 +32201,7 @@
   },
   {
     "NAME": "SEALEO",
-    "DEX": 546,
+    "DEX": 545,
     "FORM": "",
     "CATEGORY": "Seal",
     "TYPE1": "ICE",
@@ -32281,7 +32241,7 @@
   },
   {
     "NAME": "WALREIN",
-    "DEX": 547,
+    "DEX": 546,
     "FORM": "",
     "CATEGORY": "Walrus",
     "TYPE1": "ICE",
@@ -32321,7 +32281,7 @@
   },
   {
     "NAME": "CLAMPERL",
-    "DEX": 548,
+    "DEX": 547,
     "FORM": "HOENNIAN",
     "CATEGORY": "Clam",
     "TYPE1": "WATER",
@@ -32361,7 +32321,7 @@
   },
   {
     "NAME": "CLAMPERL",
-    "DEX": 548,
+    "DEX": 547,
     "FORM": "HOLONIAN",
     "CATEGORY": "Dragon Clam",
     "TYPE1": "DRAGON",
@@ -32401,7 +32361,7 @@
   },
   {
     "NAME": "HUNTAIL",
-    "DEX": 549,
+    "DEX": 548,
     "FORM": "HOENNIAN",
     "CATEGORY": "Gulper",
     "TYPE1": "WATER",
@@ -32441,7 +32401,7 @@
   },
   {
     "NAME": "HUNTAIL",
-    "DEX": 549,
+    "DEX": 548,
     "FORM": "HOLONIAN",
     "CATEGORY": "Dragon Eel",
     "TYPE1": "DRAGON",
@@ -32481,7 +32441,7 @@
   },
   {
     "NAME": "GOREBYSS",
-    "DEX": 550,
+    "DEX": 549,
     "FORM": "HOENNIAN",
     "CATEGORY": "Pipefish",
     "TYPE1": "WATER",
@@ -32521,7 +32481,7 @@
   },
   {
     "NAME": "GOREBYSS",
-    "DEX": 550,
+    "DEX": 549,
     "FORM": "HOLONIAN",
     "CATEGORY": "Dragon Fish",
     "TYPE1": "DRAGON",
@@ -32561,7 +32521,7 @@
   },
   {
     "NAME": "RELICANTH",
-    "DEX": 551,
+    "DEX": 550,
     "FORM": "",
     "CATEGORY": "Coelacanth",
     "TYPE1": "WATER",
@@ -32601,7 +32561,7 @@
   },
   {
     "NAME": "FOSSILOSTEUS",
-    "DEX": 552,
+    "DEX": 551,
     "FORM": "",
     "CATEGORY": "Dunkleosteus",
     "TYPE1": "WATER",
@@ -32641,7 +32601,7 @@
   },
   {
     "NAME": "LUVDISC",
-    "DEX": 553,
+    "DEX": 552,
     "FORM": "",
     "CATEGORY": "Heart",
     "TYPE1": "WATER",
@@ -32681,7 +32641,7 @@
   },
   {
     "NAME": "ALOMOMOLA",
-    "DEX": 554,
+    "DEX": 553,
     "FORM": "",
     "CATEGORY": "Caring",
     "TYPE1": "WATER",
@@ -32721,7 +32681,7 @@
   },
   {
     "NAME": "BAGON",
-    "DEX": 555,
+    "DEX": 554,
     "FORM": "",
     "CATEGORY": "Rock Head",
     "TYPE1": "DRAGON",
@@ -32761,7 +32721,7 @@
   },
   {
     "NAME": "SHELGON",
-    "DEX": 556,
+    "DEX": 555,
     "FORM": "",
     "CATEGORY": "Endurance",
     "TYPE1": "DRAGON",
@@ -32801,7 +32761,7 @@
   },
   {
     "NAME": "SALAMENCE",
-    "DEX": 557,
+    "DEX": 556,
     "FORM": "",
     "CATEGORY": "Dragon",
     "TYPE1": "DRAGON",
@@ -32841,7 +32801,7 @@
   },
   {
     "NAME": "MEGAMENCE",
-    "DEX": 558,
+    "DEX": 557,
     "FORM": "",
     "CATEGORY": "Dragon",
     "TYPE1": "DRAGON",
@@ -32881,7 +32841,7 @@
   },
   {
     "NAME": "LUNAMENCE",
-    "DEX": 559,
+    "DEX": 558,
     "FORM": "",
     "CATEGORY": "Dragon",
     "TYPE1": "DRAGON",
@@ -32921,7 +32881,7 @@
   },
   {
     "NAME": "BELDUM",
-    "DEX": 560,
+    "DEX": 559,
     "FORM": "METALLIC",
     "CATEGORY": "Iron Claw",
     "TYPE1": "STEEL",
@@ -32961,7 +32921,7 @@
   },
   {
     "NAME": "BELDUM",
-    "DEX": 560,
+    "DEX": 559,
     "FORM": "RUINED",
     "CATEGORY": "Ruined",
     "TYPE1": "GRASS",
@@ -33001,7 +32961,7 @@
   },
   {
     "NAME": "BELDUM",
-    "DEX": 560,
+    "DEX": 559,
     "FORM": "SPIDER",
     "CATEGORY": "Spiderling",
     "TYPE1": "GROUND",
@@ -33041,7 +33001,7 @@
   },
   {
     "NAME": "METANG",
-    "DEX": 561,
+    "DEX": 560,
     "FORM": "METALLIC",
     "CATEGORY": "Iron Leg",
     "TYPE1": "STEEL",
@@ -33081,7 +33041,7 @@
   },
   {
     "NAME": "METANG",
-    "DEX": 561,
+    "DEX": 560,
     "FORM": "RUINED",
     "CATEGORY": "Ruined",
     "TYPE1": "GRASS",
@@ -33121,7 +33081,7 @@
   },
   {
     "NAME": "METANG",
-    "DEX": 561,
+    "DEX": 560,
     "FORM": "SPIDER",
     "CATEGORY": "Orb Spider",
     "TYPE1": "GROUND",
@@ -33161,7 +33121,7 @@
   },
   {
     "NAME": "METAGROSS",
-    "DEX": 562,
+    "DEX": 561,
     "FORM": "METALLIC",
     "CATEGORY": "Iron Spider",
     "TYPE1": "STEEL",
@@ -33201,7 +33161,7 @@
   },
   {
     "NAME": "METAGROSS",
-    "DEX": 562,
+    "DEX": 561,
     "FORM": "RUINED",
     "CATEGORY": "Ruined",
     "TYPE1": "GRASS",
@@ -33241,7 +33201,7 @@
   },
   {
     "NAME": "METAGROSS",
-    "DEX": 562,
+    "DEX": 561,
     "FORM": "SPIDER",
     "CATEGORY": "Giant Spider",
     "TYPE1": "GROUND",
@@ -33281,7 +33241,7 @@
   },
   {
     "NAME": "ANTIKYTHERA",
-    "DEX": 563,
+    "DEX": 562,
     "FORM": "METALLIC",
     "CATEGORY": "Iron Titan",
     "TYPE1": "STEEL",
@@ -33321,7 +33281,7 @@
   },
   {
     "NAME": "ANTIKYTHERA",
-    "DEX": 563,
+    "DEX": 562,
     "FORM": "RUINED",
     "CATEGORY": "Ancient",
     "TYPE1": "GRASS",
@@ -33361,7 +33321,7 @@
   },
   {
     "NAME": "ANTIKYTHERA",
-    "DEX": 563,
+    "DEX": 562,
     "FORM": "CRYSTAL",
     "CATEGORY": "Crystallized",
     "TYPE1": "GRASS",
@@ -33401,7 +33361,7 @@
   },
   {
     "NAME": "ANTIKYTHERA",
-    "DEX": 563,
+    "DEX": 562,
     "FORM": "SPIDER",
     "CATEGORY": "Terror Spider",
     "TYPE1": "GROUND",
@@ -33441,7 +33401,7 @@
   },
   {
     "NAME": "REGIROCK",
-    "DEX": 564,
+    "DEX": 563,
     "FORM": "",
     "CATEGORY": "Rock Peak",
     "TYPE1": "ROCK",
@@ -33481,7 +33441,7 @@
   },
   {
     "NAME": "REGICE",
-    "DEX": 565,
+    "DEX": 564,
     "FORM": "",
     "CATEGORY": "Iceberg",
     "TYPE1": "ICE",
@@ -33521,7 +33481,7 @@
   },
   {
     "NAME": "REGISTEEL",
-    "DEX": 566,
+    "DEX": 565,
     "FORM": "",
     "CATEGORY": "Adamant",
     "TYPE1": "STEEL",
@@ -33561,7 +33521,7 @@
   },
   {
     "NAME": "REGILEKI",
-    "DEX": 567,
+    "DEX": 566,
     "FORM": "",
     "CATEGORY": "Electron",
     "TYPE1": "ELECTRIC",
@@ -33601,7 +33561,7 @@
   },
   {
     "NAME": "REGIDRAGO",
-    "DEX": 568,
+    "DEX": 567,
     "FORM": "",
     "CATEGORY": "Dragon Orb",
     "TYPE1": "DRAGON",
@@ -33641,7 +33601,7 @@
   },
   {
     "NAME": "REGIDUNE",
-    "DEX": 569,
+    "DEX": 568,
     "FORM": "",
     "CATEGORY": "Desert",
     "TYPE1": "GROUND",
@@ -33681,7 +33641,7 @@
   },
   {
     "NAME": "REGIWAVE",
-    "DEX": 570,
+    "DEX": 569,
     "FORM": "",
     "CATEGORY": "Ocean",
     "TYPE1": "WATER",
@@ -33721,7 +33681,7 @@
   },
   {
     "NAME": "REGIFORGE",
-    "DEX": 571,
+    "DEX": 570,
     "FORM": "",
     "CATEGORY": "Forgefire",
     "TYPE1": "FIRE",
@@ -33761,7 +33721,7 @@
   },
   {
     "NAME": "REGIGIGAS",
-    "DEX": 572,
+    "DEX": 571,
     "FORM": "",
     "CATEGORY": "Colossal",
     "TYPE1": "NORMAL",
@@ -33801,7 +33761,7 @@
   },
   {
     "NAME": "LATIAS",
-    "DEX": 573,
+    "DEX": 572,
     "FORM": "",
     "CATEGORY": "Eon",
     "TYPE1": "DRAGON",
@@ -33841,7 +33801,7 @@
   },
   {
     "NAME": "LATIOS",
-    "DEX": 574,
+    "DEX": 573,
     "FORM": "",
     "CATEGORY": "Eon",
     "TYPE1": "DRAGON",
@@ -33881,7 +33841,7 @@
   },
   {
     "NAME": "GROUDON",
-    "DEX": 575,
+    "DEX": 574,
     "FORM": "",
     "CATEGORY": "Continent",
     "TYPE1": "GROUND",
@@ -33921,7 +33881,7 @@
   },
   {
     "NAME": "KYOGRE",
-    "DEX": 576,
+    "DEX": 575,
     "FORM": "",
     "CATEGORY": "Sea Basin",
     "TYPE1": "WATER",
@@ -33961,7 +33921,7 @@
   },
   {
     "NAME": "RAYQUAZA",
-    "DEX": 577,
+    "DEX": 576,
     "FORM": "",
     "CATEGORY": "Sky High",
     "TYPE1": "DRAGON",
@@ -34001,7 +33961,7 @@
   },
   {
     "NAME": "JIRACHI",
-    "DEX": 578,
+    "DEX": 577,
     "FORM": "",
     "CATEGORY": "Wish",
     "TYPE1": "STEEL",
@@ -34041,7 +34001,7 @@
   },
   {
     "NAME": "DEOXYS",
-    "DEX": 579,
+    "DEX": 578,
     "FORM": "NORMAL",
     "CATEGORY": "DNA",
     "TYPE1": "PSYCHIC",
@@ -34081,7 +34041,7 @@
   },
   {
     "NAME": "DEOXYS",
-    "DEX": 579,
+    "DEX": 578,
     "FORM": "ATTACK",
     "CATEGORY": "DNA",
     "TYPE1": "PSYCHIC",
@@ -34121,7 +34081,7 @@
   },
   {
     "NAME": "DEOXYS",
-    "DEX": 579,
+    "DEX": 578,
     "FORM": "DEFENSE",
     "CATEGORY": "DNA",
     "TYPE1": "PSYCHIC",
@@ -34161,7 +34121,7 @@
   },
   {
     "NAME": "DEOXYS",
-    "DEX": 579,
+    "DEX": 578,
     "FORM": "SPEED",
     "CATEGORY": "DNA",
     "TYPE1": "PSYCHIC",
@@ -34201,7 +34161,7 @@
   },
   {
     "NAME": "MISSINGNO",
-    "DEX": 580,
+    "DEX": 579,
     "FORM": "",
     "CATEGORY": "Glitch",
     "TYPE1": "FLYING",

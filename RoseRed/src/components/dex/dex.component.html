@@ -20,7 +20,7 @@
         {{ p.dexNo.toString().padStart(3, '0') }}
       </td>
       <td class="name-cell">
-        <div>
+        <div style="display: flex; flex-direction: row;">
           <img
             src="assets/images/{{ p.name }}.png"
             width="100px"
@@ -31,6 +31,21 @@
             width="100px"
             *ngIf="p.form"
           />
+
+          <div class="box-icon">
+            <img
+              src="assets/icons/{{ p.name }}.png"
+              height="50px"
+              width="100px"
+              *ngIf="!p.form"
+            />
+            <img
+              src="assets/icons/{{ p.name }}-{{ p.form }}.png"
+              height="50px"
+              width="100px"
+              *ngIf="p.form"
+            />
+          </div>
         </div>
         <div *ngIf="p.form">
           <div>

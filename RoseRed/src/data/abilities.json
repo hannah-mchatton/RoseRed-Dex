@@ -57,7 +57,7 @@
   {
     "Key": "OBLIVIOUS",
     "Name": "Oblivious",
-    "Description": "Prevents it from becoming infatuated."
+    "Description": "Prevents it from becoming infatuated, intimidated, or tauned."
   },
   {
     "Key": "CLOUDNINE",
@@ -97,7 +97,7 @@
   {
     "Key": "OWNTEMPO",
     "Name": "Own Tempo",
-    "Description": "Prevents the Pokémon from becoming confused."
+    "Description": "Prevents the Pokémon from becoming confused or intimidated."
   },
   {
     "Key": "SUCTIONCUPS",
@@ -172,7 +172,7 @@
   {
     "Key": "ILLUMINATE",
     "Name": "Illuminate",
-    "Description": "Raises the likelihood of meeting wild Pokémon."
+    "Description": "The Pokémon's accuracy is boosted."
   },
   {
     "Key": "TRACE",
@@ -192,22 +192,22 @@
   {
     "Key": "INNERFOCUS",
     "Name": "Inner Focus",
-    "Description": "The Pokémon is protected from flinching."
+    "Description": "The Pokémon is protected from flinching or being intimidated."
   },
   {
     "Key": "MAGMAARMOR",
     "Name": "Magma Armor",
-    "Description": "Prevents the Pokémon from becoming frozen."
+    "Description": "Reduces damage from super-effective attacks. Prevents the Pokémon from becoming frozen."
   },
   {
     "Key": "WATERVEIL",
     "Name": "Water Veil",
-    "Description": "Prevents the Pokémon from getting a burn."
+    "Description": "Boosts the Pokémon's evasion in rain."
   },
   {
     "Key": "MAGNETPULL",
     "Name": "Magnet Pull",
-    "Description": "Prevents Steel-type Pokémon from escaping."
+    "Description": "Prevents the foe from escaping."
   },
   {
     "Key": "SOUNDPROOF",
@@ -297,7 +297,7 @@
   {
     "Key": "STICKYHOLD",
     "Name": "Sticky Hold",
-    "Description": "Protects the Pokémon from item theft."
+    "Description": "Protects the Pokémon from item theft. Contact with it lowers the attacker's Speed stat."
   },
   {
     "Key": "SHEDSKIN",
@@ -352,7 +352,7 @@
   {
     "Key": "ARENATRAP",
     "Name": "Arena Trap",
-    "Description": "Prevents the foe from fleeing."
+    "Description": "Prevents the foe from fleeing if they are grounded."
   },
   {
     "Key": "VITALSPIRIT",
@@ -497,7 +497,7 @@
   {
     "Key": "STALL",
     "Name": "Stall",
-    "Description": "The Pokémon moves after all other Pokémon do."
+    "Description": "The Pokémon moves after all other Pokémon do, but its moves can't miss."
   },
   {
     "Key": "TECHNICIAN",
@@ -792,7 +792,7 @@
   {
     "Key": "PRANKSTER",
     "Name": "Prankster",
-    "Description": "Gives priority to a status move."
+    "Description": "Gives priority to status moves, but they don't work on Dark-types."
   },
   {
     "Key": "SANDFORCE",
@@ -917,7 +917,7 @@
   {
     "Key": "GOOEY",
     "Name": "Gooey",
-    "Description": "Contact with it lowers the attacker's Speed stat."
+    "Description": "Protects the Pokémon from item theft. Contact with it lowers the attacker's Speed stat."
   },
   {
     "Key": "AERILATE",
@@ -1052,7 +1052,7 @@
   {
     "Key": "LIBRARIAN",
     "Name": "Librarian",
-    "Description": "Forms a powerful group while it has a lot of HP."
+    "Description": "Forms a powerful collective while it has a lot of HP."
   },
   {
     "Key": "DISGUISE",

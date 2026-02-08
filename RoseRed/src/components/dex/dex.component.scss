@@ -31,3 +31,18 @@ tr:hover {
     width: 100px;
     height: 106px;
 }
+
+.box-icon {
+    width: 50px; 
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    &.other-frame {
+        justify-content: flex-end;
+    }
+}
