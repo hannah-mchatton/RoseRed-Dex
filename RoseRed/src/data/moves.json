@@ -765,6 +765,23 @@
     "spread": ""
   },
   {
+    "key": "IRONFANGS",
+    "name": "Iron Fangs",
+    "type": "STEEL",
+    "description": "The user chomps the target with metal fangs. It may also lower the target's Defense stat.",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "totalPP": 15,
+    "flags": ["Biting"],
+    "contact": true,
+    "highCrit": "",
+    "effectChance": 20,
+    "functionCode": "LowerTargetDefense1",
+    "priority": "",
+    "spread": ""
+  },
+  {
     "key": "FALSESURRENDER",
     "name": "False Surrender",
     "type": "DARK",

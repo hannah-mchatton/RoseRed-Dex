@@ -64,15 +64,123 @@
         </td>
       </tr>
       <tr>
-        <td>&times; {{ typeMatchup("NORMAL") }}</td>
-        <td>&times; {{ typeMatchup("FIRE") }}</td>
-        <td>&times; {{ typeMatchup("WATER") }}</td>
-        <td>&times; {{ typeMatchup("ELECTRIC") }}</td>
-        <td>&times; {{ typeMatchup("GRASS") }}</td>
-        <td>&times; {{ typeMatchup("ICE") }}</td>
-        <td>&times; {{ typeMatchup("FIGHTING") }}</td>
-        <td>&times; {{ typeMatchup("POISON") }}</td>
-        <td>&times; {{ typeMatchup("GROUND") }}</td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("NORMAL") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('NORMAL') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('NORMAL') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("FIRE") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('FIRE') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('FIRE') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("WATER") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('WATER') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('WATER') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("ELECTRIC") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('ELECTRIC') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('ELECTRIC') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("GRASS") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('GRASS') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('GRASS') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("ICE") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('ICE') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('ICE') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("FIGHTING") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('FIGHTING') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('FIGHTING') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("POISON") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('POISON') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('POISON') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("GROUND") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('GROUND') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('GROUND') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
       </tr>
       <tr>
         <td>
@@ -104,15 +212,123 @@
         </td>
       </tr>
       <tr>
-        <td>&times; {{ typeMatchup("FLYING") }}</td>
-        <td>&times; {{ typeMatchup("PSYCHIC") }}</td>
-        <td>&times; {{ typeMatchup("BUG") }}</td>
-        <td>&times; {{ typeMatchup("ROCK") }}</td>
-        <td>&times; {{ typeMatchup("GHOST") }}</td>
-        <td>&times; {{ typeMatchup("DRAGON") }}</td>
-        <td>&times; {{ typeMatchup("DARK") }}</td>
-        <td>&times; {{ typeMatchup("STEEL") }}</td>
-        <td>&times; {{ typeMatchup("FAIRY") }}</td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("FLYING") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('FLYING') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('FLYING') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("PSYCHIC") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('PSYCHIC') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('PSYCHIC') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("BUG") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('BUG') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('BUG') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("ROCK") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('ROCK') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('ROCK') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("GHOST") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('GHOST') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('GHOST') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("DRAGON") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('DRAGON') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('DRAGON') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("DARK") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('DARK') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('DARK') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("STEEL") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('STEEL') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('STEEL') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
+        <td>
+          <span *ngIf="pokemon.name != 'SHEDINJA'"
+            >&times; {{ typeMatchup("FAIRY") }}</span
+          >
+          <span *ngIf="pokemon.name == 'SHEDINJA'">
+            <span *ngIf="typeMatchup('FAIRY') > 1">
+              <span class="mdi mdi-check"></span>
+            </span>
+            <span *ngIf="typeMatchup('FAIRY') <= 1">
+              <span class="mdi mdi-close"></span>
+            </span>
+          </span>
+        </td>
       </tr>
     </table>
   </div>
