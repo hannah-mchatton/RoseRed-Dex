@@ -1,3 +1,7 @@
+<div class="shiny-button-container">
+  <img src="../../assets/SHINYCHARM.png" (click)="shiny = !shiny" class="shiny-button">
+</div>
+
 <table>
   <thead>
     <tr class="header-row">
@@ -21,16 +25,30 @@
       </td>
       <td class="name-cell">
         <div style="display: flex; flex-direction: row;">
-          <img
-            src="assets/images/{{ p.name }}.png"
-            width="100px"
-            *ngIf="!p.form"
-          />
-          <img
-            src="assets/images/{{ p.name }}-{{ p.form }}.png"
-            width="100px"
-            *ngIf="p.form"
-          />
+          <ng-container *ngIf="!shiny">
+            <img
+              src="assets/images/{{ p.name }}.png"
+              width="100px"
+              *ngIf="!p.form"
+            />
+            <img
+              src="assets/images/{{ p.name }}-{{ p.form }}.png"
+              width="100px"
+              *ngIf="p.form"
+            />
+          </ng-container>
+          <ng-container *ngIf="shiny">
+            <img
+              src="assets/shiny/{{ p.name }}.png"
+              width="100px"
+              *ngIf="!p.form"
+            />
+            <img
+              src="assets/shiny/{{ p.name }}-{{ p.form }}.png"
+              width="100px"
+              *ngIf="p.form"
+            />
+          </ng-container>
 
           <div class="box-icon">
             <img

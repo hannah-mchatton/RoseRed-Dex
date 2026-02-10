@@ -130,6 +130,11 @@
     "Description": "Gives full immunity to all Ground-type moves."
   },
   {
+    "Key": "INTERSTELLAR",
+    "Name": "Interstellar",
+    "Description": "Gives full immunity to all Ground-type moves and indirect damage. Turns the sunlight harsh if it is in battle."
+  },
+  {
     "Key": "EFFECTSPORE",
     "Name": "Effect Spore",
     "Description": "Contact may poison or cause paralysis or sleep."

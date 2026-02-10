@@ -46,3 +46,11 @@ tr:hover {
         justify-content: flex-end;
     }
 }
+
+.shiny-button-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    cursor: pointer;
+}

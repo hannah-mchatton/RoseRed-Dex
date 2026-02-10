@@ -9,6 +9,7 @@ import { Pokemon } from 'src/services/models';
 })
 export class DexComponent implements OnInit {
   public dex: Pokemon[] = [];
+  public shiny: boolean = false;
 
   constructor(private dataService: DataService) {}
 
