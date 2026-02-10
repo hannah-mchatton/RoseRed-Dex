@@ -1487,7 +1487,7 @@
   {
     "Key": "TOXINSURGE",
     "Name": "Toxin Surge",
-    "Description": "Boosts the Pokémon's Speed in rain. Contact with the Pokémon may poison the attacker. Restores HP if the Pokémon is poisoned."
+    "Description": "Boosts the Pokémon's Speed in rain. Contact with the Pokémon may poison the attacker. May poison targets when a Pokémon makes contact."
   },
   {
     "Key": "WILDGRACE",
