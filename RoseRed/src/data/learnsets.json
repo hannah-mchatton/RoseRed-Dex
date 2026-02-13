@@ -20437,7 +20437,23 @@
     "DEX": 479,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
-    "levelUp": { "1": [] },
+    "levelUp": {
+      "1": ["EMBER", "YAWN"],
+      "5": ["MUDSLAP"],
+      "8": ["SMOG"],
+      "12": ["FOCUSENERGY"],
+      "15": ["FLAMEBURST"],
+      "19": ["AMNESIA"],
+      "22": ["SCORCHINGSANDS"],
+      "26": ["CURSE"],
+      "29": ["LAVAPLUME"],
+      "31": ["CORROSIVEGAS"],
+      "36": ["POWERGEM"],
+      "40": ["EARTHPOWER"],
+      "43": ["ERUPTION"],
+      "47": ["EXPLOSION"],
+      "54": ["SANDSEARSTORM"]
+    },
     "tms": [],
     "eggMoves": []
   },
@@ -20446,7 +20462,23 @@
     "DEX": 479,
     "FORM": "HOLONIAN",
     "FORMINDEX": 2,
-    "levelUp": { "1": [] },
+    "levelUp": {
+      "1": ["ACID", "YAWN"],
+      "5": ["CASTSHOT"],
+      "8": ["MUDSLAP"],
+      "12": ["SPITE"],
+      "15": ["SLUDGE"],
+      "19": ["TOXIC"],
+      "22": ["HEX"],
+      "26": ["CURSE"],
+      "29": ["SLUDGEBOMB"],
+      "31": ["FOUNDRYFLAME"],
+      "36": ["DESTINYBOND"],
+      "40": ["SHADOWBALL"],
+      "43": ["ACIDDOWNPOUR"],
+      "47": ["GASEOUSEXPLOSION"],
+      "54": ["MELTDOWN"]
+    },
     "tms": [],
     "eggMoves": []
   },
@@ -20455,7 +20487,23 @@
     "DEX": 480,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
-    "levelUp": { "1": [] },
+    "levelUp": {
+      "1": ["EMBER", "YAWN"],
+      "5": ["MUDSLAP"],
+      "8": ["SMOG"],
+      "12": ["FOCUSENERGY"],
+      "15": ["FLAMEBURST"],
+      "19": ["AMNESIA"],
+      "22": ["SCORCHINGSANDS"],
+      "26": ["CURSE"],
+      "29": ["LAVAPLUME"],
+      "31": ["CORROSIVEGAS"],
+      "39": ["POWERGEM"],
+      "46": ["EARTHPOWER"],
+      "52": ["ERUPTION"],
+      "59": ["EXPLOSION"],
+      "67": ["SANDSEARSTORM"]
+    },
     "tms": [],
     "eggMoves": []
   },
@@ -20464,7 +20512,23 @@
     "DEX": 480,
     "FORM": "HOLONIAN",
     "FORMINDEX": 2,
-    "levelUp": { "1": [] },
+    "levelUp": {
+      "1": ["ACID", "YAWN"],
+      "5": ["CASTSHOT"],
+      "8": ["MUDSLAP"],
+      "12": ["SPITE"],
+      "15": ["SLUDGE"],
+      "19": ["TOXIC"],
+      "22": ["HEX"],
+      "26": ["CURSE"],
+      "29": ["SLUDGEBOMB"],
+      "31": ["FOUNDRYFLAME"],
+      "39": ["DESTINYBOND"],
+      "46": ["SHADOWBALL"],
+      "52": ["ACIDDOWNPOUR"],
+      "59": ["GASEOUSEXPLOSION"],
+      "67": ["MELTDOWN"]
+    },
     "tms": [],
     "eggMoves": []
   },
@@ -20473,7 +20537,24 @@
     "DEX": 481,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
-    "levelUp": { "1": [] },
+    "levelUp": {
+      "1": ["EMBER", "YAWN"],
+      "5": ["MUDSLAP"],
+      "8": ["SMOG"],
+      "12": ["FOCUSENERGY"],
+      "15": ["FLAMEBURST"],
+      "19": ["AMNESIA"],
+      "22": ["SCORCHINGSANDS"],
+      "26": ["CURSE"],
+      "29": ["LAVAPLUME"],
+      "31": ["CORROSIVEGAS"],
+      "39": ["POWERGEM"],
+      "45": ["FLASHCANNON"],
+      "48": ["EARTHPOWER"],
+      "55": ["ERUPTION"],
+      "63": ["EXPLOSION"],
+      "72": ["SANDSEARSTORM"]
+    },
     "tms": [],
     "eggMoves": []
   },
@@ -20482,7 +20563,24 @@
     "DEX": 481,
     "FORM": "HOLONIAN",
     "FORMINDEX": 2,
-    "levelUp": { "1": [] },
+    "levelUp": {
+      "1": ["ACID", "YAWN"],
+      "5": ["CASTSHOT"],
+      "8": ["MUDSLAP"],
+      "12": ["SPITE"],
+      "15": ["SLUDGE"],
+      "19": ["TOXIC"],
+      "22": ["HEX"],
+      "26": ["CURSE"],
+      "29": ["SLUDGEBOMB"],
+      "31": ["FOUNDRYFLAME"],
+      "39": ["DESTINYBOND"],
+      "45": ["SCORCHINGSANDS"],
+      "48": ["SHADOWBALL"],
+      "55": ["ACIDDOWNPOUR"],
+      "63": ["GASEOUSEXPLOSION"],
+      "72": ["MELTDOWN"]
+    },
     "tms": [],
     "eggMoves": []
   },
@@ -20491,7 +20589,25 @@
     "DEX": 482,
     "FORM": "",
     "FORMINDEX": "",
-    "levelUp": { "1": [] },
+    "levelUp": {
+      "1": ["FIRESPIN", "SMOKESCREEN"],
+      "4": ["SMOG"],
+      "7": ["TARSHOT"],
+      "10": ["RAPIDSPIN"],
+      "13": ["ROCKPOLISH"],
+      "15": ["PROTECT"],
+      "18": ["INCINERATE"],
+      "22": ["CURSE"],
+      "25": ["TARSPRAY"],
+      "27": ["SHELLTRAP"],
+      "30": ["CORROSIVEGAS"],
+      "34": ["LAVAPLUME"],
+      "38": ["IRONDEFENSE"],
+      "42": ["POWERGEM"],
+      "45": ["HEATWAVE"],
+      "47": ["SHELLSMASH"],
+      "50": ["ERUPTION"]
+    },
     "tms": [],
     "eggMoves": []
   },
@@ -20500,7 +20616,25 @@
     "DEX": 483,
     "FORM": "",
     "FORMINDEX": "",
-    "levelUp": { "1": [] },
+    "levelUp": {
+      "1": ["FIRESPIN", "SMOKESCREEN"],
+      "4": ["SMOG"],
+      "7": ["TARSHOT"],
+      "10": ["RAPIDSPIN"],
+      "13": ["ROCKPOLISH"],
+      "15": ["PROTECT"],
+      "18": ["INCINERATE"],
+      "22": ["CURSE"],
+      "25": ["TARSPRAY"],
+      "27": ["SHELLTRAP"],
+      "30": ["CORROSIVEGAS"],
+      "34": ["LAVAPLUME"],
+      "41": ["IRONDEFENSE"],
+      "47": ["POWERGEM"],
+      "52": ["HEATWAVE"],
+      "58": ["SHELLSMASH"],
+      "63": ["ERUPTION"]
+    },
     "tms": [],
     "eggMoves": []
   },
@@ -20811,7 +20945,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "CORPHISH",
+    "NAME": "DONDOZO",
     "DEX": 511,
     "FORM": "",
     "FORMINDEX": "",
@@ -20820,7 +20954,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "CRAWDAUNT",
+    "NAME": "CORPHISH",
     "DEX": 512,
     "FORM": "",
     "FORMINDEX": "",
@@ -20829,7 +20963,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "CRAWDAUNTLESS",
+    "NAME": "CRAWDAUNT",
     "DEX": 513,
     "FORM": "",
     "FORMINDEX": "",
@@ -20838,7 +20972,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "BALTOY",
+    "NAME": "CRAWDAUNTLESS",
     "DEX": 514,
     "FORM": "",
     "FORMINDEX": "",
@@ -20847,7 +20981,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "CLAYDOL",
+    "NAME": "BALTOY",
     "DEX": 515,
     "FORM": "",
     "FORMINDEX": "",
@@ -20856,7 +20990,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "LILEEP",
+    "NAME": "CLAYDOL",
     "DEX": 516,
     "FORM": "",
     "FORMINDEX": "",
@@ -20865,7 +20999,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "CRADILY",
+    "NAME": "LILEEP",
     "DEX": 517,
     "FORM": "",
     "FORMINDEX": "",
@@ -20874,7 +21008,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ANORITH",
+    "NAME": "CRADILY",
     "DEX": 518,
     "FORM": "",
     "FORMINDEX": "",
@@ -20883,7 +21017,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ARMALDO",
+    "NAME": "ANORITH",
     "DEX": 519,
     "FORM": "",
     "FORMINDEX": "",
@@ -20892,8 +21026,17 @@
     "eggMoves": []
   },
   {
-    "NAME": "FEEBAS",
+    "NAME": "ARMALDO",
     "DEX": 520,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "FEEBAS",
+    "DEX": 521,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
     "levelUp": {
@@ -20908,7 +21051,7 @@
   },
   {
     "NAME": "FEEBAS",
-    "DEX": 520,
+    "DEX": 521,
     "FORM": "HOLONIAN",
     "FORMINDEX": 2,
     "levelUp": {
@@ -20923,7 +21066,7 @@
   },
   {
     "NAME": "MILOTIC",
-    "DEX": 521,
+    "DEX": 522,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
     "levelUp": { "1": [] },
@@ -20932,7 +21075,7 @@
   },
   {
     "NAME": "MILOTIC",
-    "DEX": 521,
+    "DEX": 522,
     "FORM": "HOLONIAN",
     "FORMINDEX": 2,
     "levelUp": { "1": [] },
@@ -20941,7 +21084,7 @@
   },
   {
     "NAME": "MILOKAROSS",
-    "DEX": 522,
+    "DEX": 523,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
     "levelUp": { "1": [] },
@@ -20950,7 +21093,7 @@
   },
   {
     "NAME": "MILOKAROSS",
-    "DEX": 522,
+    "DEX": 523,
     "FORM": "HOLONIAN",
     "FORMINDEX": 2,
     "levelUp": { "1": [] },
@@ -20959,7 +21102,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 523,
+    "DEX": 524,
     "FORM": "NORMAL",
     "FORMINDEX": 1,
     "levelUp": { "1": [] },
@@ -20968,7 +21111,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 523,
+    "DEX": 524,
     "FORM": "RAINY",
     "FORMINDEX": 2,
     "levelUp": { "1": [] },
@@ -20977,7 +21120,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 523,
+    "DEX": 524,
     "FORM": "SANDY",
     "FORMINDEX": 3,
     "levelUp": { "1": [] },
@@ -20986,7 +21129,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 523,
+    "DEX": 524,
     "FORM": "SNOWY",
     "FORMINDEX": 4,
     "levelUp": { "1": [] },
@@ -20995,7 +21138,7 @@
   },
   {
     "NAME": "CASTFORM",
-    "DEX": 523,
+    "DEX": 524,
     "FORM": "SUNNY",
     "FORMINDEX": 5,
     "levelUp": { "1": [] },
@@ -21004,15 +21147,6 @@
   },
   {
     "NAME": "KECLEON",
-    "DEX": 524,
-    "FORM": "",
-    "FORMINDEX": "",
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "SHUPPET",
     "DEX": 525,
     "FORM": "",
     "FORMINDEX": "",
@@ -21021,7 +21155,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "BANETTE",
+    "NAME": "SHUPPET",
     "DEX": 526,
     "FORM": "",
     "FORMINDEX": "",
@@ -21030,7 +21164,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "VOODOLL",
+    "NAME": "BANETTE",
     "DEX": 527,
     "FORM": "",
     "FORMINDEX": "",
@@ -21039,7 +21173,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "DUSKULL",
+    "NAME": "VOODOLL",
     "DEX": 528,
     "FORM": "",
     "FORMINDEX": "",
@@ -21048,7 +21182,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "DUSCLOPS",
+    "NAME": "DUSKULL",
     "DEX": 529,
     "FORM": "",
     "FORMINDEX": "",
@@ -21057,7 +21191,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "DUSKNOIR",
+    "NAME": "DUSCLOPS",
     "DEX": 530,
     "FORM": "",
     "FORMINDEX": "",
@@ -21066,7 +21200,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "TROPIUS",
+    "NAME": "DUSKNOIR",
     "DEX": 531,
     "FORM": "",
     "FORMINDEX": "",
@@ -21075,7 +21209,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "BRONTONANA",
+    "NAME": "TROPIUS",
     "DEX": 532,
     "FORM": "",
     "FORMINDEX": "",
@@ -21084,7 +21218,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "CHINGLING",
+    "NAME": "BRONTONANA",
     "DEX": 533,
     "FORM": "",
     "FORMINDEX": "",
@@ -21093,7 +21227,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "CHIMECHO",
+    "NAME": "CHINGLING",
     "DEX": 534,
     "FORM": "",
     "FORMINDEX": "",
@@ -21102,7 +21236,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "HARMONSIDHE",
+    "NAME": "CHIMECHO",
     "DEX": 535,
     "FORM": "",
     "FORMINDEX": "",
@@ -21111,7 +21245,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ABSOL",
+    "NAME": "HARMONSIDHE",
     "DEX": 536,
     "FORM": "",
     "FORMINDEX": "",
@@ -21120,7 +21254,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "OMENGEL",
+    "NAME": "ABSOL",
     "DEX": 537,
     "FORM": "",
     "FORMINDEX": "",
@@ -21129,7 +21263,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "TAISORU",
+    "NAME": "OMENGEL",
     "DEX": 538,
     "FORM": "",
     "FORMINDEX": "",
@@ -21138,34 +21272,16 @@
     "eggMoves": []
   },
   {
-    "NAME": "SNORUNT",
+    "NAME": "TAISORU",
     "DEX": 539,
-    "FORM": "HOENNIAN",
-    "FORMINDEX": 1,
+    "FORM": "",
+    "FORMINDEX": "",
     "levelUp": { "1": [] },
     "tms": [],
     "eggMoves": []
   },
   {
     "NAME": "SNORUNT",
-    "DEX": 539,
-    "FORM": "JOHTONIAN",
-    "FORMINDEX": 2,
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "SNORUNT",
-    "DEX": 539,
-    "FORM": "HOLONIAN",
-    "FORMINDEX": 3,
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "GLALIE",
     "DEX": 540,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
@@ -21174,7 +21290,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "GLALIE",
+    "NAME": "SNORUNT",
     "DEX": 540,
     "FORM": "JOHTONIAN",
     "FORMINDEX": 2,
@@ -21183,7 +21299,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "GLALIE",
+    "NAME": "SNORUNT",
     "DEX": 540,
     "FORM": "HOLONIAN",
     "FORMINDEX": 3,
@@ -21192,7 +21308,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ONIGLACIER",
+    "NAME": "GLALIE",
     "DEX": 541,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
@@ -21201,7 +21317,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ONIGLACIER",
+    "NAME": "GLALIE",
     "DEX": 541,
     "FORM": "JOHTONIAN",
     "FORMINDEX": 2,
@@ -21210,7 +21326,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ONIGLACIER",
+    "NAME": "GLALIE",
     "DEX": 541,
     "FORM": "HOLONIAN",
     "FORMINDEX": 3,
@@ -21219,7 +21335,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "FROSLASS",
+    "NAME": "ONIGLACIER",
     "DEX": 542,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
@@ -21228,7 +21344,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "FROSLASS",
+    "NAME": "ONIGLACIER",
     "DEX": 542,
     "FORM": "JOHTONIAN",
     "FORMINDEX": 2,
@@ -21237,7 +21353,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "FROSLASS",
+    "NAME": "ONIGLACIER",
     "DEX": 542,
     "FORM": "HOLONIAN",
     "FORMINDEX": 3,
@@ -21246,7 +21362,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "YUKIMONO",
+    "NAME": "FROSLASS",
     "DEX": 543,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
@@ -21255,7 +21371,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "YUKIMONO",
+    "NAME": "FROSLASS",
     "DEX": 543,
     "FORM": "JOHTONIAN",
     "FORMINDEX": 2,
@@ -21264,8 +21380,35 @@
     "eggMoves": []
   },
   {
-    "NAME": "YUKIMONO",
+    "NAME": "FROSLASS",
     "DEX": 543,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 3,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YUKIMONO",
+    "DEX": 544,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YUKIMONO",
+    "DEX": 544,
+    "FORM": "JOHTONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "YUKIMONO",
+    "DEX": 544,
     "FORM": "HOLONIAN",
     "FORMINDEX": 3,
     "levelUp": { "1": [] },
@@ -21274,15 +21417,6 @@
   },
   {
     "NAME": "SPHEAL",
-    "DEX": 544,
-    "FORM": "",
-    "FORMINDEX": "",
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "SEALEO",
     "DEX": 545,
     "FORM": "",
     "FORMINDEX": "",
@@ -21291,7 +21425,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "WALREIN",
+    "NAME": "SEALEO",
     "DEX": 546,
     "FORM": "",
     "FORMINDEX": "",
@@ -21300,25 +21434,16 @@
     "eggMoves": []
   },
   {
-    "NAME": "CLAMPERL",
+    "NAME": "WALREIN",
     "DEX": 547,
-    "FORM": "HOENNIAN",
-    "FORMINDEX": 1,
+    "FORM": "",
+    "FORMINDEX": "",
     "levelUp": { "1": [] },
     "tms": [],
     "eggMoves": []
   },
   {
     "NAME": "CLAMPERL",
-    "DEX": 547,
-    "FORM": "HOLONIAN",
-    "FORMINDEX": 2,
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "HUNTAIL",
     "DEX": 548,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
@@ -21327,7 +21452,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "HUNTAIL",
+    "NAME": "CLAMPERL",
     "DEX": 548,
     "FORM": "HOLONIAN",
     "FORMINDEX": 2,
@@ -21336,7 +21461,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "GOREBYSS",
+    "NAME": "HUNTAIL",
     "DEX": 549,
     "FORM": "HOENNIAN",
     "FORMINDEX": 1,
@@ -21345,8 +21470,26 @@
     "eggMoves": []
   },
   {
-    "NAME": "GOREBYSS",
+    "NAME": "HUNTAIL",
     "DEX": 549,
+    "FORM": "HOLONIAN",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOREBYSS",
+    "DEX": 550,
+    "FORM": "HOENNIAN",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "GOREBYSS",
+    "DEX": 550,
     "FORM": "HOLONIAN",
     "FORMINDEX": 2,
     "levelUp": { "1": [] },
@@ -21355,15 +21498,6 @@
   },
   {
     "NAME": "RELICANTH",
-    "DEX": 550,
-    "FORM": "",
-    "FORMINDEX": "",
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "FOSSILOSTEUS",
     "DEX": 551,
     "FORM": "",
     "FORMINDEX": "",
@@ -21372,7 +21506,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "LUVDISC",
+    "NAME": "FOSSILOSTEUS",
     "DEX": 552,
     "FORM": "",
     "FORMINDEX": "",
@@ -21381,7 +21515,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ALOMOMOLA",
+    "NAME": "LUVDISC",
     "DEX": 553,
     "FORM": "",
     "FORMINDEX": "",
@@ -21390,7 +21524,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "BAGON",
+    "NAME": "ALOMOMOLA",
     "DEX": 554,
     "FORM": "",
     "FORMINDEX": "",
@@ -21399,7 +21533,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "SHELGON",
+    "NAME": "BAGON",
     "DEX": 555,
     "FORM": "",
     "FORMINDEX": "",
@@ -21408,7 +21542,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "SALAMENCE",
+    "NAME": "SHELGON",
     "DEX": 556,
     "FORM": "",
     "FORMINDEX": "",
@@ -21417,7 +21551,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "MEGAMENCE",
+    "NAME": "SALAMENCE",
     "DEX": 557,
     "FORM": "",
     "FORMINDEX": "",
@@ -21426,7 +21560,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "LUNAMENCE",
+    "NAME": "MEGAMENCE",
     "DEX": 558,
     "FORM": "",
     "FORMINDEX": "",
@@ -21435,34 +21569,16 @@
     "eggMoves": []
   },
   {
-    "NAME": "BELDUM",
+    "NAME": "LUNAMENCE",
     "DEX": 559,
-    "FORM": "METALLIC",
-    "FORMINDEX": 1,
+    "FORM": "",
+    "FORMINDEX": "",
     "levelUp": { "1": [] },
     "tms": [],
     "eggMoves": []
   },
   {
     "NAME": "BELDUM",
-    "DEX": 559,
-    "FORM": "RUINED",
-    "FORMINDEX": 2,
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "BELDUM",
-    "DEX": 559,
-    "FORM": "SPIDER",
-    "FORMINDEX": 4,
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "METANG",
     "DEX": 560,
     "FORM": "METALLIC",
     "FORMINDEX": 1,
@@ -21471,7 +21587,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "METANG",
+    "NAME": "BELDUM",
     "DEX": 560,
     "FORM": "RUINED",
     "FORMINDEX": 2,
@@ -21480,7 +21596,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "METANG",
+    "NAME": "BELDUM",
     "DEX": 560,
     "FORM": "SPIDER",
     "FORMINDEX": 4,
@@ -21489,7 +21605,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "METAGROSS",
+    "NAME": "METANG",
     "DEX": 561,
     "FORM": "METALLIC",
     "FORMINDEX": 1,
@@ -21498,7 +21614,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "METAGROSS",
+    "NAME": "METANG",
     "DEX": 561,
     "FORM": "RUINED",
     "FORMINDEX": 2,
@@ -21507,7 +21623,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "METAGROSS",
+    "NAME": "METANG",
     "DEX": 561,
     "FORM": "SPIDER",
     "FORMINDEX": 4,
@@ -21516,7 +21632,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ANTIKYTHERA",
+    "NAME": "METAGROSS",
     "DEX": 562,
     "FORM": "METALLIC",
     "FORMINDEX": 1,
@@ -21525,7 +21641,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "ANTIKYTHERA",
+    "NAME": "METAGROSS",
     "DEX": 562,
     "FORM": "RUINED",
     "FORMINDEX": 2,
@@ -21534,8 +21650,35 @@
     "eggMoves": []
   },
   {
-    "NAME": "ANTIKYTHERA",
+    "NAME": "METAGROSS",
     "DEX": 562,
+    "FORM": "SPIDER",
+    "FORMINDEX": 4,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANTIKYTHERA",
+    "DEX": 563,
+    "FORM": "METALLIC",
+    "FORMINDEX": 1,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANTIKYTHERA",
+    "DEX": 563,
+    "FORM": "RUINED",
+    "FORMINDEX": 2,
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "ANTIKYTHERA",
+    "DEX": 563,
     "FORM": "CRYSTAL",
     "FORMINDEX": 3,
     "levelUp": { "1": [] },
@@ -21544,7 +21687,7 @@
   },
   {
     "NAME": "ANTIKYTHERA",
-    "DEX": 562,
+    "DEX": 563,
     "FORM": "SPIDER",
     "FORMINDEX": 4,
     "levelUp": { "1": [] },
@@ -21553,15 +21696,6 @@
   },
   {
     "NAME": "REGIROCK",
-    "DEX": 563,
-    "FORM": "",
-    "FORMINDEX": "",
-    "levelUp": { "1": [] },
-    "tms": [],
-    "eggMoves": []
-  },
-  {
-    "NAME": "REGICE",
     "DEX": 564,
     "FORM": "",
     "FORMINDEX": "",
@@ -21570,7 +21704,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "REGISTEEL",
+    "NAME": "REGICE",
     "DEX": 565,
     "FORM": "",
     "FORMINDEX": "",
@@ -21579,7 +21713,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "REGILEKI",
+    "NAME": "REGISTEEL",
     "DEX": 566,
     "FORM": "",
     "FORMINDEX": "",
@@ -21588,7 +21722,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "REGIDRAGO",
+    "NAME": "REGILEKI",
     "DEX": 567,
     "FORM": "",
     "FORMINDEX": "",
@@ -21597,7 +21731,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "REGIDUNE",
+    "NAME": "REGIDRAGO",
     "DEX": 568,
     "FORM": "",
     "FORMINDEX": "",
@@ -21606,7 +21740,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "REGIWAVE",
+    "NAME": "REGIDUNE",
     "DEX": 569,
     "FORM": "",
     "FORMINDEX": "",
@@ -21615,7 +21749,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "REGIFORGE",
+    "NAME": "REGIWAVE",
     "DEX": 570,
     "FORM": "",
     "FORMINDEX": "",
@@ -21624,7 +21758,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "REGIGIGAS",
+    "NAME": "REGIFORGE",
     "DEX": 571,
     "FORM": "",
     "FORMINDEX": "",
@@ -21633,7 +21767,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "LATIAS",
+    "NAME": "REGIGIGAS",
     "DEX": 572,
     "FORM": "",
     "FORMINDEX": "",
@@ -21642,7 +21776,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "LATIOS",
+    "NAME": "LATIAS",
     "DEX": 573,
     "FORM": "",
     "FORMINDEX": "",
@@ -21651,7 +21785,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "GROUDON",
+    "NAME": "LATIOS",
     "DEX": 574,
     "FORM": "",
     "FORMINDEX": "",
@@ -21660,7 +21794,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "KYOGRE",
+    "NAME": "GROUDON",
     "DEX": 575,
     "FORM": "",
     "FORMINDEX": "",
@@ -21669,7 +21803,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "RAYQUAZA",
+    "NAME": "KYOGRE",
     "DEX": 576,
     "FORM": "",
     "FORMINDEX": "",
@@ -21678,7 +21812,7 @@
     "eggMoves": []
   },
   {
-    "NAME": "JIRACHI",
+    "NAME": "RAYQUAZA",
     "DEX": 577,
     "FORM": "",
     "FORMINDEX": "",
@@ -21687,8 +21821,17 @@
     "eggMoves": []
   },
   {
-    "NAME": "DEOXYS",
+    "NAME": "JIRACHI",
     "DEX": 578,
+    "FORM": "",
+    "FORMINDEX": "",
+    "levelUp": { "1": [] },
+    "tms": [],
+    "eggMoves": []
+  },
+  {
+    "NAME": "DEOXYS",
+    "DEX": 579,
     "FORM": "NORMAL",
     "FORMINDEX": 1,
     "levelUp": { "1": [] },
@@ -21697,7 +21840,7 @@
   },
   {
     "NAME": "DEOXYS",
-    "DEX": 578,
+    "DEX": 579,
     "FORM": "ATTACK",
     "FORMINDEX": 2,
     "levelUp": { "1": [] },
@@ -21706,7 +21849,7 @@
   },
   {
     "NAME": "DEOXYS",
-    "DEX": 578,
+    "DEX": 579,
     "FORM": "DEFENSE",
     "FORMINDEX": 3,
     "levelUp": { "1": [] },
@@ -21715,7 +21858,7 @@
   },
   {
     "NAME": "DEOXYS",
-    "DEX": 578,
+    "DEX": 579,
     "FORM": "SPEED",
     "FORMINDEX": 4,
     "levelUp": { "1": [] },
@@ -21724,7 +21867,7 @@
   },
   {
     "NAME": "MISSINGNO",
-    "DEX": 579,
+    "DEX": 580,
     "FORM": "",
     "FORMINDEX": "",
     "levelUp": { "1": [] },
