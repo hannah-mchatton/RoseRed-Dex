@@ -22,6 +22,7 @@ export class Pokemon {
   type1: string;
   type2: string;
   abilities: string[];
+  hiddenAbility: string;
 
   height: number;
   weight: number;
@@ -48,6 +49,7 @@ export class Pokemon {
     this.type1 = dataPokemon.TYPE1;
     this.type2 = dataPokemon.TYPE2;
     this.abilities = [dataPokemon.ABILITY1, dataPokemon.ABILITY2];
+    this.hiddenAbility = dataPokemon.HIDDENABILITY;
 
     this.hp = dataPokemon.HP;
     this.atk = dataPokemon.ATK;

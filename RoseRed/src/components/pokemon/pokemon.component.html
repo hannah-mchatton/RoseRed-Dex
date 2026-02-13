@@ -450,6 +450,14 @@
         {{ getAbilityDesc(ability) }}
       </div>
     </div>
+    <div *ngIf="pokemon.hiddenAbility">
+      <div class="ability-header">
+        {{ getAbilityName(pokemon.hiddenAbility) }} <sup>(Hidden)</sup>
+      </div>
+      <div class="ability-body">
+        {{ getAbilityDesc(pokemon.hiddenAbility) }}
+      </div>
+    </div>
   </div>
   <div class="evolutions" *ngIf="loaded">
     <div class="section-header">Evolutions</div>

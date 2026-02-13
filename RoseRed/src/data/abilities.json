@@ -130,6 +130,11 @@
     "Description": "Gives full immunity to all Ground-type moves."
   },
   {
+    "Key": "SUPREMEOVERLORD",
+    "Name": "Supreme Overlord",
+    "Description": "When the pokemon enters a battle, it gains strength from its fallen allies."
+  },
+  {
     "Key": "INTERSTELLAR",
     "Name": "Interstellar",
     "Description": "Gives full immunity to all Ground-type moves and indirect damage. Turns the sunlight harsh if it is in battle."

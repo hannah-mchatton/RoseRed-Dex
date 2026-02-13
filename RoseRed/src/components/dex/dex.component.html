@@ -98,6 +98,9 @@
         <div *ngFor="let ability of p.abilities">
           {{ getAbilityName(ability) }}
         </div>
+        <div *ngIf="p.hiddenAbility">
+          <i>{{ getAbilityName(p.hiddenAbility) }}</i>
+        </div>
       </td>
       <td style="text-align: center; width: 50px">
         {{ p.hp }}
