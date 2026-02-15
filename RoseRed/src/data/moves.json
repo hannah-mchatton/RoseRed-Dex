@@ -3417,6 +3417,23 @@
     "spread": true
   },
   {
+    "key": "HEALBELL",
+    "name": "Heal Bell",
+    "type": "NORMAL",
+    "description": "The user makes a soothing bell chime to cure the status conditions of all its fellow party Pokémon and allies.",
+    "category": "Status",
+    "power": "",
+    "accuracy": 0,
+    "totalPP": 15,
+    "flags": ["Sound"],
+    "contact": "",
+    "highCrit": "",
+    "effectChance": "",
+    "functionCode": "CureUserPartyStatus",
+    "priority": "",
+    "spread": true
+  },
+  {
     "key": "AROMATICMIST",
     "name": "Aromatic Mist",
     "type": "FAIRY",
@@ -12746,6 +12763,23 @@
     "highCrit": "",
     "effectChance": "",
     "functionCode": "AttackTwoTurnsLater",
+    "priority": "",
+    "spread": ""
+  },
+  {
+    "key": "SYNCHRONOISE",
+    "name": "Future Sight",
+    "type": "PSYCHIC",
+    "description": "The user attacks with an odd psychic sound wave. This may also lower the target's Sp. Defense.",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 80,
+    "totalPP": 10,
+    "flags": ["Sound"],
+    "contact": "",
+    "highCrit": "",
+    "effectChance": 10,
+    "functionCode": "LowerTargetSpDef1",
     "priority": "",
     "spread": ""
   },
