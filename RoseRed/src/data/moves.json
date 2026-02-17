@@ -6562,6 +6562,23 @@
     "spread": ""
   },
   {
+    "key": "BLUEMOON",
+    "name": "Blue Moon",
+    "type": "FAIRY",
+    "description": "The user unleashes the full brunt of its spirit from a full moon that shines as blue as the ocean. The user must rest on the next turn to regain its energy.",
+    "category": "Special",
+    "power": 140,
+    "accuracy": 100,
+    "totalPP": 5,
+    "flags": [],
+    "contact": "",
+    "highCrit": "",
+    "effectChance": "",
+    "functionCode": "AttackAndSkipNextTurn",
+    "priority": "",
+    "spread": ""
+  },
+  {
     "key": "ASTRALBARRAGE",
     "name": "Astral Barrage",
     "type": "GHOST",

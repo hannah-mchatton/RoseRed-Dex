@@ -151,7 +151,18 @@ export class Pokemon {
   }
 
   public getFormName() {
-    return this.toTitleCase(this.form);
+    switch (this.form) {
+      case 'FULLMOON':
+        return 'Full Moon';
+      case 'BLOODMOON':
+        return 'Blood Moon';
+      case 'NEWMOON':
+        return 'New Moon';
+      case 'BLUEMOON':
+        return 'Blue Moon';
+      default:
+        return this.toTitleCase(this.form);
+    }
   }
 
   public hasMove(key: string): boolean {
