@@ -51,6 +51,9 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
     'ROAR',
     'TOXIC',
     'ENDEAVOR',
+    'SWIFT',
+    'RETURN',
+    'METRONOME'
   ];
   // Pokemon that generally can't learn TMs at all, so ignore the universal ones
   public ignoreUniversal: string[] = [
@@ -365,8 +368,6 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
             return 'Level up w/ Remoraid in Party';
           case 'SHEDINJA':
             return 'Special';
-          case 'METEORBIT':
-            return 'Level 50 Fusion';
           case 'DEEPSEATOOTH':
             return 'Use Deep Sea Tooth';
           case 'DEEPSEASCALE':
@@ -383,10 +384,6 @@ export class PokemonComponent implements OnInit, AfterViewInit, OnDestroy {
   public evoNote() {
     if (['NINCADA', 'NINJASK', 'SHEDINJA'].includes(this.pokemon.name)) {
       return "Upon a Nincada's evolution into Ninjask, if you have a free slot in your party and an extra Pokeball in your bag, a Shedinja will be created.";
-    } else if (
-      ['MINIOR', 'SOLROCK', 'LUNATONE', 'METEORBIT'].includes(this.pokemon.name)
-    ) {
-      return 'Upon a Solrock or Lunatone reaching level 50, if you also have the other evolved form as well as three Minior in your party, they will fuse and evolve into Meteorbit.';
     }
   }
 

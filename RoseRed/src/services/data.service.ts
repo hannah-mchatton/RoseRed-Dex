@@ -84,6 +84,7 @@ export class DataService {
     PSYCHIC: { FIGHTING: 0.5, PSYCHIC: 0.5, BUG: 2, GHOST: 2, DARK: 2 },
     BUG: {
       GRASS: 0.5,
+      FAIRY: 0.5,
       FIGHTING: 0.5,
       GROUND: 0.5,
       FIRE: 2,
@@ -131,8 +132,8 @@ export class DataService {
     FAIRY: {
       DRAGON: 0,
       FIGHTING: 0.5,
-      BUG: 0.5,
       DARK: 0.5,
+      BUG: 2,
       POISON: 2,
       STEEL: 2,
     },

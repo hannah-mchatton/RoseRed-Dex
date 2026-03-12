@@ -10950,7 +10950,7 @@
   {
     "key": "FOCUSENERGY",
     "name": "Focus Energy",
-    "type": "NORMAL",
+    "type": "FIGHTING",
     "description": "The user takes a deep breath and focuses so that critical hits land more easily.",
     "category": "Status",
     "power": "",

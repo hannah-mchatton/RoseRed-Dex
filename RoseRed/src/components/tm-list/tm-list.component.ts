@@ -8,6 +8,27 @@ import { DataService } from 'src/services/data.service';
 })
 export class TmListComponent {
   public tmList = [];
+  public universalTms: string[] = [
+    'Charm',
+    'Agility',
+    'Protect',
+    'Facade',
+    'Endure',
+    'Sleep Talk',
+    'Rest',
+    'Substitute',
+    'Encore',
+    'Helping Hand',
+    'Baton Pass',
+    'Giga Impact',
+    'Hyper Beam',
+    'Roar',
+    'Toxic',
+    'Endeavor',
+    'Swift',
+    'Return',
+    'Metronome'
+  ];
 
   constructor(private dataService: DataService) {}
 

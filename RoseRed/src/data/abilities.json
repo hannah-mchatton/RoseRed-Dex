@@ -1335,6 +1335,11 @@
     "Description": "Powers up Electric-type moves."
   },
   {
+    "Key": "MOODY",
+    "Name": "Moody",
+    "Description": "Raises one stat sharply and lowers another every turn."
+  },
+  {
     "Key": "DRAGONSMAW",
     "Name": "Dragon's Maw",
     "Description": "Powers up Dragon-type moves."

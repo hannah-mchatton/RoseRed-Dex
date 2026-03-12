@@ -7,26 +7,28 @@
         <th>Description</th>
         <th>Location</th>
     </tr>
-    <tr *ngFor="let tm of tmList">
-        <td style="text-align: center">TM{{ tm.number | number: '3.0' }}</td>
-        <td class="name">{{ tm.move?.name }}</td>
-        <td class="type">
-            <div [class]="'type-' + tm.move?.type">
-                <ng-container *ngIf="tm.move?.type != 'ZZZ'">
-                    {{ tm.move?.type }}
-                </ng-container>
-                <ng-container *ngIf="tm.move?.type == 'ZZZ'">
-                    ???
-                </ng-container>
-            </div>
-        </td>
-        <td style="text-align: center;">
-            <img
-                src="assets/{{ tm.move?.category }}.png"
-                width="50px"
-            />
-        </td>
-        <td>{{ tm.move?.description }}</td>
-        <td>{{ tm.location }}</td>
-    </tr>
+    <ng-container *ngFor="let tm of tmList">
+        <tr *ngIf="!universalTms.includes(tm.move.name)">
+            <td style="text-align: center">TM{{ tm.number | number: '3.0' }}</td>
+            <td class="name">{{ tm.move?.name }}</td>
+            <td class="type">
+                <div [class]="'type-' + tm.move?.type">
+                    <ng-container *ngIf="tm.move?.type != 'ZZZ'">
+                        {{ tm.move?.type }}
+                    </ng-container>
+                    <ng-container *ngIf="tm.move?.type == 'ZZZ'">
+                        ???
+                    </ng-container>
+                </div>
+            </td>
+            <td style="text-align: center;">
+                <img
+                    src="assets/{{ tm.move?.category }}.png"
+                    width="50px"
+                />
+            </td>
+            <td>{{ tm.move?.description }}</td>
+            <td>{{ tm.location }}</td>
+        </tr>
+    </ng-container>
 </table>
