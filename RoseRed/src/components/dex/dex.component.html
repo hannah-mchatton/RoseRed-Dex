@@ -49,21 +49,6 @@
               *ngIf="p.form"
             />
           </ng-container>
-
-          <div class="box-icon">
-            <img
-              src="assets/icons/{{ p.name }}.png"
-              height="50px"
-              width="100px"
-              *ngIf="!p.form"
-            />
-            <img
-              src="assets/icons/{{ p.name }}-{{ p.form }}.png"
-              height="50px"
-              width="100px"
-              *ngIf="p.form"
-            />
-          </div>
         </div>
         <div *ngIf="p.form">
           <div>
