@@ -597,7 +597,7 @@
   {
     "Key": "SNOWWARNING",
     "Name": "Snow Warning",
-    "Description": "The Pokémon summons a hailstorm in battle."
+    "Description": "The Pokémon summons a snowstorm in battle."
   },
   {
     "Key": "HONEYGATHER",
@@ -1437,12 +1437,12 @@
   {
     "Key": "WINDRIDER",
     "Name": "Wind Rider",
-    "Description": "Raises Speed if hit by a Flying-type move."
+    "Description": "Raises Attack if hit by a Flying-type move."
   },
   {
     "Key": "VAPORIZATION",
     "Name": "Vaporization",
-    "Description": "Raises Speed if hit by a Water-type move."
+    "Description": "Sets up Mist if hit by a Water-type move."
   },
   {
     "Key": "IRRELEPHANT",
@@ -1462,7 +1462,7 @@
   {
     "Key": "SPIRITCALL",
     "Name": "Spirit Call",
-    "Description": "Powers up each Pokémon's Dark-type moves. Ignores type immunities."
+    "Description": "Powers up each Pokémon's Dark-type moves. Enables moves to hit Normal-type Pokémon."
   },
   {
     "Key": "SHADOWDANCE",
