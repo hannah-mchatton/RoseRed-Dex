@@ -22599,9 +22599,9 @@
     "FORM": "CRAB",
     "FORMINDEX": 1,
     "levelUp": {
-      "1": ["FURYCUTTER"], 
+      "1": ["SCRATCH"], 
       "3": ["SMACKDOWN"],
-      "7": ["LEECHSEED"],
+      "7": ["ROCKPOLISH"],
       "11": ["FURYCUTTER"],
       "13": ["STEALTHROCK"],
       "15": ["ROCKTOMB"],
@@ -22614,7 +22614,7 @@
       "34": ["SANDSTORM"],
       "38": ["STONEEDGE"],
       "43": ["SHELLSMASH"],
-      "50": ["BEETLEBASH"],
+      "50": ["GUILLOTINE"],
       "55": ["EARTHQUAKE"]
     },
     "tms": [],
@@ -22627,8 +22627,8 @@
     "FORM": "BERRY",
     "FORMINDEX": 2,
     "levelUp": {
-      "1": ["POUND"], 
-      "3": ["TWINKLETACKLE"],
+      "1": ["TACKLE"], 
+      "3": ["BRANCHPOKE"],
       "7": ["LEECHSEED"],
       "11": ["FURYCUTTER"],
       "13": ["STUNSPORE", "SLEEPPOWDER"],
@@ -22640,10 +22640,10 @@
       "29": ["SLASH"],
       "31": ["XSCISSOR"],
       "34": ["INGRAIN"],
-      "38": ["POISONJAB"],
+      "38": ["CROSSPOISON"],
       "43": ["SHELLSMASH"],
       "50": ["WOODHAMMER"],
-      "55": ["GIGAIMPACT"]
+      "55": ["GUNKSHOT"]
     },
     "tms": [],
     "eggMoves": [],
