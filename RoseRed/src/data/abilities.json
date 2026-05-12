@@ -1397,7 +1397,12 @@
   {
     "Key": "BLAZINGSOUL",
     "Name": "Blazing Soul",
-    "Description": "Boosts Sp. Attack after knocking out any Pokémon. Contact with the Pokémon may burn the attacker. Fire-type moves gain priority when its HP is full."
+    "Description": "Fire-type moves gain priority when its HP is full."
+  },
+  {
+    "Key": "BLITZBOXER",
+    "Name": "Blitz Boxer",
+    "Description": "Fighting-type moves gain priority when its HP is full."
   },
   {
     "Key": "CURSEDFLAME",
